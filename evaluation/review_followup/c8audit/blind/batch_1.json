@@ -1,0 +1,102 @@
+[
+ {
+  "aid": "S001",
+  "entry": "H. Wen, W. Tang, X. Dai, J. Xiao, and J. Yang. CellPLM: Pre-training of Cell Language Model Beyond Single Cells. In ICLR, 2024. arXiv: 2310.00256."
+ },
+ {
+  "aid": "S004",
+  "entry": "Cristian Bodnar, Wessel P. Bruinsma, Ana Lucic, Megan Stanley, Anna Allen, et al. A Foundation Model for the Earth System (Aurora). Nature, 2025. https://www.nature.com/articles/s41586-025-09005-y."
+ },
+ {
+  "aid": "S007",
+  "entry": "Z. Piran, N. Cohen, Y. Sheinin, et al. Disentanglement of single-cell data with biolord. Nature Methods, 2024. DOI: 10.1038/s41592-024-02498-x."
+ },
+ {
+  "aid": "S010",
+  "entry": "R.-M. Karampatsis and C. Sutton. How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset. In Proceedings of the 17th International Conference on Mining Software Repositories (MSR), 2020. DOI: 10.1145/3379597.3387491."
+ },
+ {
+  "aid": "S013",
+  "entry": "Y. Wu, et al. Reward-model-based evaluation of perturbation predictors. 2025."
+ },
+ {
+  "aid": "S016",
+  "entry": "H. Yu, J. Julin, Z. A. Milacski, K. Niinuma, A. Ferrer, et al. DyLiN: Making Light Field Networks Dynamic. ICCV, 2023. arXiv:2303.14243. https://arxiv.org/abs/2303.14243"
+ },
+ {
+  "aid": "S019",
+  "entry": "R. Rafailov, T. Yu, A. Rajeswaran, and C. Finn. Offline Reinforcement Learning from Images with Latent Space Models (LOMPO). CoRL, 2021. https://proceedings.mlr.press/v144/rafailov21a.html"
+ },
+ {
+  "aid": "S022",
+  "entry": "Aapo Hyvarinen, Hiroshi Sasaki, and Richard E. Turner. Nonlinear ICA using auxiliary variables and generalized contrastive learning. AISTATS, 2019. arXiv: 1805.05218."
+ },
+ {
+  "aid": "S025",
+  "entry": "H. Awijen, S. Ben Jabeur, and J. Pillot. Interpretable machine learning models for ESG stock prices under transition and physical climate risk. Annals of Operations Research, 2026. DOI: 10.1007/s10479-024-06231-x"
+ },
+ {
+  "aid": "S028",
+  "entry": "L. Ma, R. Zhang, Y. Han, S. Yu, Z. Wang. A Comprehensive Survey on Vector Database: Storage and Retrieval Techniques. Journal of Frontiers of Data and Computing, 2023. https://www.sciengine.com/doi/10.11871/jfdc.issn.2096-742X.2026.04.004"
+ },
+ {
+  "aid": "S031",
+  "entry": "Jason Hartford, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. Deep IV: A flexible approach for counterfactual prediction. ICML, 2017. arXiv: 1702.05068."
+ },
+ {
+  "aid": "S034",
+  "entry": "A. Adduri, et al. State: a large-scale model of cellular perturbation. Cell, 2026. URL: https://www.cell.com/cell/fulltext/S0092-8674(26)00921-9."
+ },
+ {
+  "aid": "S037",
+  "entry": "Shruthi Prabha, Carlos A. Gomez-Cabello, Syed Ali Haider, et al. Enhancing Clinical Decision Support with Adaptive Iterative Self-Query Retrieval. Bioengineering, 2025. DOI: 10.3390/bioengineering12080895."
+ },
+ {
+  "aid": "S040",
+  "entry": "Biwei Huang, Kun Zhang, Jiji Zhang, Joseph Ramsey, Ruben Sanchez-Romero, Clark Glymour, and Bernhard Schoelkopf. Causal discovery from heterogeneous/nonstationary data. Journal of Machine Learning Research, 2020. arXiv: 1903.01672."
+ },
+ {
+  "aid": "S043",
+  "entry": "J. Gu, et al. VLKEB: A Large Vision-Language Knowledge Editing Benchmark. Advances in Neural Information Processing Systems (NeurIPS), 2024. arXiv:2403.07350"
+ },
+ {
+  "aid": "S046",
+  "entry": "S. Sun, G. Zhang, J. Shi, and R. Grosse. Functional Variational Bayesian Neural Networks. ICLR, 2019. arXiv:1903.05779"
+ },
+ {
+  "aid": "S049",
+  "entry": "C. Gershman. Improved Safety with 3D Thermal Ranging for ADAS/AV Applications. SPIE Infrared Technology and Applications XLVIII, 2022. https://doi.org/10.1117/12.2636711"
+ },
+ {
+  "aid": "S052",
+  "entry": "A. Lesniewski and G. Trigila. Diffusion models for market simulation and risk management. arXiv, 2024. arXiv:2412.00036"
+ },
+ {
+  "aid": "S055",
+  "entry": "H. Yu, et al. PerturbNet: predicting single-cell perturbation responses with deep generative models. Molecular Systems Biology, 2025. DOI: 10.1038/s44320-025-00131-3."
+ },
+ {
+  "aid": "S058",
+  "entry": "G. Andrew, O. Thakkar, H. B. McMahan, and S. Ramaswamy. Differentially Private Learning with Adaptive Clipping. NeurIPS, 2021. arXiv:1905.03871. https://arxiv.org/abs/1905.03871"
+ },
+ {
+  "aid": "S061",
+  "entry": "Y.-X. Wang, B. Balle, and S. P. Kasiviswanathan. Subsampled Rényi Differential Privacy and Analytical Moments Accountant. AISTATS, 2019. arXiv:1808.00087. https://arxiv.org/abs/1808.00087"
+ },
+ {
+  "aid": "S064",
+  "entry": "Z. Luo, Z. Yang, Z. Xu, W. Yang, X. Du. LLM4SR: A Survey on Large Language Models for Scientific Research. arXiv, 2025. https://arxiv.org/abs/2501.04306"
+ },
+ {
+  "aid": "S067",
+  "entry": "Yi Dong et al. Position: building guardrails for large language models requires systematic design. ICML, 2024. https://openreview.net/forum?id=JvMLkGF2Ms."
+ },
+ {
+  "aid": "S070",
+  "entry": "S. Wu, et al. Biology-driven insights from single-cell foundation models. Genome Biology, 2025. DOI: 10.1186/s13059-025-03781-6."
+ },
+ {
+  "aid": "S073",
+  "entry": "L. Gazzola, L. Micucci, and L. Mariani. A Survey of Automated Program Repair Techniques. IEEE Transactions on Software Engineering, 2019. DOI: 10.1109/TSE.2018.2873667."
+ }
+]

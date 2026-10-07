@@ -1,0 +1,452 @@
+[
+  {
+    "aid": "S002",
+    "exists": "yes",
+    "record": {
+      "title": "RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for Approximate Nearest Neighbor Search",
+      "first_author": "Jianyang Gao",
+      "year": 2024,
+      "doi": "10.1145/3654970",
+      "arxiv_id": null,
+      "url": "https://dl.acm.org/doi/10.1145/3654970"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3654970",
+    "note": "CrossRef: Gao & Long, Proceedings of the ACM on Management of Data (PACMMOD, SIGMOD 2024 track), 2024; DOI in URL resolves to this work."
+  },
+  {
+    "aid": "S005",
+    "exists": "yes",
+    "record": {
+      "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+      "first_author": "Jiaxiang Tang",
+      "year": 2023,
+      "doi": null,
+      "arxiv_id": "2309.16653",
+      "url": "https://arxiv.org/abs/2309.16653"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2309.16653",
+    "note": "arXiv 2309.16653 (Tang, Ren, Zhou, Liu, Zeng; Sep 2023, v2 marked camera-ready); id resolves to this work."
+  },
+  {
+    "aid": "S008",
+    "exists": "yes",
+    "record": {
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "first_author": "Yujia Qin",
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": "2307.16789",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/28e50ee5b72e90b50e7196fde8ea260e-Abstract-Conference.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2307.16789",
+    "note": "arXiv 2307.16789 by Yujia Qin et al. (2023); published at ICLR 2024 per proceedings.iclr.cc; id resolves to this work."
+  },
+  {
+    "aid": "S011",
+    "exists": "yes",
+    "record": {
+      "title": "RemoteCLIP: A Vision Language Foundation Model for Remote Sensing",
+      "first_author": "Fan Liu",
+      "year": 2024,
+      "doi": "10.1109/TGRS.2024.3390838",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/tgrs.2024.3390838"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1109/tgrs.2024.3390838",
+    "note": "CrossRef: IEEE TGRS 2024, eight authors in the listed order; DOI resolves to this work."
+  },
+  {
+    "aid": "S014",
+    "exists": "yes",
+    "record": {
+      "title": "DAFNet: Dynamic Auxiliary Fusion for Sequential Model Editing in Large Language Models",
+      "first_author": "Taolin Zhang",
+      "year": 2024,
+      "doi": "10.18653/v1/2024.findings-acl.92",
+      "arxiv_id": "2405.20588",
+      "url": "https://arxiv.org/abs/2405.20588"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "no",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://api.crossref.org/works?query.bibliographic=DAFNet%20Dynamic%20Auxiliary%20Fusion%20for%20Sequential%20Model%20Editing",
+    "note": "Real work is by Taolin Zhang, Qizhou Chen, Dongyang Li, Chengyu Wang et al. (Findings of ACL 2024, arXiv 2405.20588); arXiv:2311.08151 is 'Rethink Cross-Modal Fusion in Weakly-Supervised Audio-Visual Video Parsing' (Xu, Hu, Lee)."
+  },
+  {
+    "aid": "S017",
+    "exists": "yes",
+    "record": {
+      "title": "Graph neural networks: A review of methods and applications",
+      "first_author": "Jie Zhou",
+      "year": 2020,
+      "doi": "10.1016/j.aiopen.2021.01.001",
+      "arxiv_id": "1812.08434",
+      "url": "https://doi.org/10.1016/j.aiopen.2021.01.001"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1016/j.aiopen.2021.01.001",
+    "note": "CrossRef: AI Open vol. 1, pp. 57-81, 2020, Zhou, Cui, Hu, Zhang et al.; arXiv 1812.08434 resolves to the same title and author list."
+  },
+  {
+    "aid": "S020",
+    "exists": "yes",
+    "record": {
+      "title": "Nonparametric Identifiability of Causal Representations from Unknown Interventions",
+      "first_author": "Julius von Kügelgen",
+      "year": 2023,
+      "doi": null,
+      "arxiv_id": "2306.00542",
+      "url": "https://arxiv.org/abs/2306.00542"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2306.00542",
+    "note": "arXiv 2306.00542 (NeurIPS 2023 camera-ready); first author and title match, but the entry's co-author list is partly wrong: arXiv lists Besserve, Liang Wendong, Gresele, Kekic, Bareinboim, Blei, Schoelkopf, not Traeuble or Weller."
+  },
+  {
+    "aid": "S023",
+    "exists": "yes",
+    "record": {
+      "title": "BadEdit: Backdooring large language models by model editing",
+      "first_author": "Yanzhou Li",
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": "2403.13355",
+      "url": "https://arxiv.org/abs/2403.13355"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2403.13355,2403.02644",
+    "note": "Work is arXiv 2403.13355 (Yanzhou Li et al., ICLR 2024); the entry's arXiv:2403.02644 is 'Exact Nonclassical Symmetry Solutions of Lotka-Volterra Type Population Systems' (Broadbridge et al.)."
+  },
+  {
+    "aid": "S026",
+    "exists": "yes",
+    "record": {
+      "title": "On the Planning Abilities of Large Language Models (A Critical Investigation with a Proposed Benchmark)",
+      "first_author": "Karthik Valmeekam",
+      "year": 2023,
+      "doi": null,
+      "arxiv_id": "2302.06706",
+      "url": "https://arxiv.org/abs/2302.06706"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2302.06706,2305.15771",
+    "note": "arXiv 2302.06706 is the Feb 2023 preprint by Valmeekam, Sreedharan, Marquez, Olmo, Kambhampati (author order as in the entry); the NeurIPS 2023 version 'On the Planning Abilities of Large Language Models - A Critical Investigation' is a separate arXiv record, 2305.15771."
+  },
+  {
+    "aid": "S029",
+    "exists": "yes",
+    "record": {
+      "title": "De novo design of protein structure and function with RFdiffusion",
+      "first_author": "Joseph L. Watson",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06415-8",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1038/s41586-023-06415-8"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1038/s41586-023-06415-8",
+    "note": "CrossRef: Nature 2023, Watson, Juergens, Bennett, Trippe, Yim, Eisenach, Ahern, Borst, Ragotte, Milles in the listed order; DOI resolves to this work."
+  },
+  {
+    "aid": "S032",
+    "exists": "yes",
+    "record": {
+      "title": "SpaText: Spatio-Textual Representation for Controllable Image Generation",
+      "first_author": "Omri Avrahami",
+      "year": 2023,
+      "doi": "10.1109/CVPR52729.2023.01762",
+      "arxiv_id": "2211.14305",
+      "url": "https://arxiv.org/abs/2211.14305"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://export.arxiv.org/api/query?search_query=ti:SpaText",
+    "note": "Work is arXiv 2211.14305 / CVPR 2023 (DOI 10.1109/CVPR52729.2023.01762); the entry's arXiv:2211.13081 is 'Robust Mean Teacher for Continual and Gradual Test-Time Adaptation' (Doebler et al.)."
+  },
+  {
+    "aid": "S035",
+    "exists": "yes",
+    "record": {
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "first_author": "Abby O'Neill",
+      "year": 2024,
+      "doi": "10.1109/ICRA57147.2024.10611477",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/icra57147.2024.10611477"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1109/icra57147.2024.10611477",
+    "note": "CrossRef: ICRA 2024 proceedings article, first authors O'Neill, Rehman, Maddukuri; DOI resolves to this work."
+  },
+  {
+    "aid": "S038",
+    "exists": "yes",
+    "record": {
+      "title": "On the Identifiability of the Post-Nonlinear Causal Model",
+      "first_author": "Kun Zhang",
+      "year": 2009,
+      "doi": null,
+      "arxiv_id": "1205.2599",
+      "url": "https://arxiv.org/abs/1205.2599"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=1205.2599",
+    "note": "arXiv 1205.2599 by Kun Zhang and Aapo Hyvarinen, comment 'Appears in Proceedings of the Twenty-Fifth Conference on Uncertainty in Artificial Intelligence (UAI2009)'."
+  },
+  {
+    "aid": "S041",
+    "exists": "yes",
+    "record": {
+      "title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "first_author": "Zhengqi Li",
+      "year": 2021,
+      "doi": "10.1109/CVPR46437.2021.00643",
+      "arxiv_id": "2011.13084",
+      "url": "https://arxiv.org/abs/2011.13084"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2011.12950,2011.13084",
+    "note": "Work is arXiv 2011.13084 / CVPR 2021 (DOI 10.1109/CVPR46437.2021.00643); the entry's arXiv:2011.12950 (also in its URL) is 'Space-time Neural Irradiance Fields for Free-Viewpoint Video' (Xian et al.)."
+  },
+  {
+    "aid": "S044",
+    "exists": "yes",
+    "record": {
+      "title": "Large Language Models for Software Engineering: Survey and Open Problems",
+      "first_author": "Angela Fan",
+      "year": 2023,
+      "doi": "10.1109/ICSE-FoSE59343.2023.00008",
+      "arxiv_id": "2310.03533",
+      "url": "https://arxiv.org/abs/2310.03533"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2310.03533",
+    "note": "arXiv 2310.03533 by Fan, Gokkaya, Harman, Lyubarskiy, Sengupta, Yoo, Zhang (2023); also ICSE-FoSE 2023 per CrossRef; id resolves to this work."
+  },
+  {
+    "aid": "S047",
+    "exists": "yes",
+    "record": {
+      "title": "ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data",
+      "first_author": "Yifeng Jiao",
+      "year": 2025,
+      "doi": "10.52202/085713-2584",
+      "arxiv_id": "2505.12638",
+      "url": "https://arxiv.org/abs/2505.12638"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2505.12638",
+    "note": "arXiv 2505.12638 by Yifeng Jiao et al.; CrossRef lists it in Advances in Neural Information Processing Systems 38 (NeurIPS 2025); the entry's subtitle drifts from the real one."
+  },
+  {
+    "aid": "S050",
+    "exists": "yes",
+    "record": {
+      "title": "An Efficient Memory-Augmented Transformer for Knowledge-Intensive NLP Tasks",
+      "first_author": "Yuxiang Wu",
+      "year": 2022,
+      "doi": "10.18653/v1/2022.emnlp-main.346",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2022.emnlp-main.346"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.18653/v1/2022.emnlp-main.346",
+    "note": "CrossRef: EMNLP 2022 main, Wu, Zhao, Hu, Minervini, Stenetorp, Riedel; DOI resolves to this work."
+  },
+  {
+    "aid": "S053",
+    "exists": "yes",
+    "record": {
+      "title": "Automated versus Do-It-Yourself Methods for Causal Inference: Lessons Learned from a Data Analysis Competition",
+      "first_author": "Vincent Dorie",
+      "year": 2019,
+      "doi": "10.1214/18-STS667",
+      "arxiv_id": "1707.02641",
+      "url": "https://arxiv.org/abs/1707.02641"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=1707.02641",
+    "note": "arXiv 1707.02641 by Dorie, Hill, Shalit, Scott, Cervone; published in Statistical Science 2019 (DOI 10.1214/18-STS667 per CrossRef); id resolves to this work."
+  },
+  {
+    "aid": "S056",
+    "exists": "yes",
+    "record": {
+      "title": "Robust Multiobject Tracking Using Mmwave Radar-Camera Sensor Fusion",
+      "first_author": "Arindam Sengupta",
+      "year": 2022,
+      "doi": "10.1109/LSENS.2022.3213529",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/LSENS.2022.3213529"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1109/LSENS.2022.3213529",
+    "note": "CrossRef: IEEE Sensors Letters, Oct 2022, Sengupta, Cheng, Cao; DOI resolves to this work."
+  },
+  {
+    "aid": "S059",
+    "exists": "yes",
+    "record": {
+      "title": "GenoPPML – a framework for genomic privacy-preserving machine learning",
+      "first_author": "Sergiu Carpov",
+      "year": 2022,
+      "doi": "10.1109/CLOUD55607.2022.00076",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/CLOUD55607.2022.00076"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1109/CLOUD55607.2022.00076",
+    "note": "CrossRef: 2022 IEEE 15th International Conference on Cloud Computing (CLOUD), Carpov, Gama, Georgieva, Jetchev; DOI resolves to this work."
+  },
+  {
+    "aid": "S062",
+    "exists": "yes",
+    "record": {
+      "title": "History Driven Program Repair",
+      "first_author": "Xuan Bach D. Le",
+      "year": 2016,
+      "doi": "10.1109/SANER.2016.76",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/SANER.2016.76"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://api.crossref.org/works/10.1109/saner.2016.76",
+    "note": "Work is SANER 2016 by Le, Lo, Le Goues with DOI 10.1109/SANER.2016.76 (CrossRef search); the entry's DOI 10.1109/SANER.2016.45 is 'Understanding the Evolution of Code Smells by Observing Code Smell Clusters' (Tahmid et al.)."
+  },
+  {
+    "aid": "S065",
+    "exists": "yes",
+    "record": {
+      "title": "Inductive Representation Learning on Large Graphs",
+      "first_author": "William L. Hamilton",
+      "year": 2017,
+      "doi": null,
+      "arxiv_id": "1706.02216",
+      "url": "https://arxiv.org/abs/1706.02216"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=1706.02216",
+    "note": "arXiv 1706.02216 by Hamilton, Ying, Leskovec (June 2017); id resolves to this work."
+  },
+  {
+    "aid": "S068",
+    "exists": "yes",
+    "record": {
+      "title": "Fixing Security Vulnerabilities with AI in OSS-Fuzz",
+      "first_author": "Yuntong Zhang",
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": "2411.03346",
+      "url": "https://arxiv.org/abs/2411.03346"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2411.03346",
+    "note": "arXiv 2411.03346 (Nov 2024) with the same eight authors in the listed order; id resolves to this work."
+  },
+  {
+    "aid": "S071",
+    "exists": "yes",
+    "record": {
+      "title": "Use of AI Language Engine ChatGPT 4.0 to Write a Scientific Review Article Examining the Intersection of Alzheimer's Disease and Bone",
+      "first_author": "Tyler J. Margetts",
+      "year": 2024,
+      "doi": "10.1007/s11914-023-00853-z",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/s11914-023-00853-z"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "no",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1007/s11914-023-00853-z",
+    "note": "CrossRef: Current Osteoporosis Reports 2024 with eight authors led by Margetts, Karnik, Wang, Plotkin; Oblak, Fehrenbacher, Kacena are authors 5-7, so the entry's first author is wrong; DOI resolves to this work."
+  },
+  {
+    "aid": "S074",
+    "exists": "yes",
+    "record": {
+      "title": "Estimating value at risk: LSTM vs. GARCH",
+      "first_author": "Weronika Ormaniec",
+      "year": 2022,
+      "doi": "10.1515/strm-2024-0019",
+      "arxiv_id": "2207.10539",
+      "url": "https://arxiv.org/abs/2207.10539"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2207.10539",
+    "note": "arXiv:2207.10539 is 'Estimating value at risk: LSTM vs. GARCH' by Weronika Ormaniec, Pitera, Safarveisi, Schmidt (2022; journal version Statistics & Risk Modeling, DOI 10.1515/strm-2024-0019); no work titled 'A comparison of LSTM and GARCH models for financial volatility forecasting' turned up in CrossRef, arXiv or web search, so the entry's title is wrong."
+  }
+]

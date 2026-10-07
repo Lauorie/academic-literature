@@ -76,3 +76,36 @@ Skill - Pool error share +12 pp [3, 22] (topics bootstrap); the samples differ i
   verified labels as right.
 - C4 density over all prose, whatever the citation style: claim numbers per 1,000 words, skill 35.8, NaiveRAG-Pool 0.8
   (c4_density.py).
+
+# C6 (2026-10-07; plan in PLAN_C6_C8.md; c6_prepare.py, c6_analyze.py -> c6_result.json)
+
+Outline score, paired over the 20 held-out SurveyLens topics, bootstrap 95% CI:
+
+| configuration | v1-split - v1 | v3 - v1 | v3-flat - v3 |
+|---|---|---|---|
+| benchmark judge (generic) | +0.33 [-0.03, 0.70] | +1.48 [1.15, 1.80] | +0.03 [0.00, 0.08] |
+| cross judge (generic) | -0.50 [-0.90, -0.10] | +0.80 [0.45, 1.10] | -0.15 [-0.45, 0.15] |
+| discipline rubric | +0.40 [0.15, 0.64] | +1.62 [1.28, 1.92] | -1.26 [-1.55, -0.99] |
+
+Third-level headings per survey: v1 1.9, v1-split 44.1, v3 18.0, v3-flat 0. Reading per plan: the benchmark-judge CI
+of v1-split - v1 contains 0, so mechanical heading depth does not earn the gain under that judge; under the
+discipline rubric it reaches 25% of v3's gain. v3's gain survives flattening under both generic configurations.
+
+# C8 (2026-10-07; plan in PLAN_C6_C8.md; gen_noskill.sh, queue_noskill.sh, c8_sync.sh, c8_analyze.py -> c8_result.json)
+
+NoSkill-Agent: the Skill-Full harness without the skill, WisPaper as MCP tools, 30 DAS-Bench topics (014 rerun once
+after a gateway 502). Skill-Full (mean of 3 runs) minus NoSkill-Agent, 30 topics:
+
+| judge | total | without figure/table | TSQ | HDQ |
+|---|---|---|---|---|
+| main | +0.01 [-0.07, 0.10] | -0.15 [-0.23, -0.05] | -0.19 [-0.32, -0.05] | -0.03 [-0.21, 0.18] |
+| cross | +0.07 [0.01, 0.15] | -0.04 [-0.11, 0.04] | +0.05 [-0.08, 0.18] | +0.20 [0.07, 0.35] |
+
+Reading per plan: the main-judge CI contains 0, so no measurable difference under that judge; the skill's lead over
+the single-call baselines does not separate from what the agent does by itself. Median body words: NoSkill 6,384,
+Skill-Full 7,678.
+
+Reference integrity (verifier v3 rules on all 30 NoSkill surveys; audit of 75 NoSkill labels as in C3):
+verifier 8.0% (skill) vs 12.3% (NoSkill), -4.3 [-9.9, 0.9]; corrected 1.4% vs 5.4%, -4.1 [-7.2, -1.5].
+2 of 25 audited NoSkill not-found entries do not exist and are absent from the WisPaper results the agent received
+(S003, topic 020; S013, topic 023): invented references, about 0.6% of NoSkill entries.

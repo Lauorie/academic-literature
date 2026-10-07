@@ -14,9 +14,10 @@ from pathlib import Path
 FAMS = ["BSC", "TSQ", "HDQ", "MAR", "Total"]
 BENCH = {"DAS-Bench": "M", "DAS-Bench-xjudge": "X"}
 COND = {"Skill-Full": "SkillFull", "Skill-Abs": "SkillAbs", "NaiveRAG-Pool": "NaivePool", "NaiveRAG-Own": "NaiveOwn",
-        "Skill-Full-Opus": "SkillOpus"}
+        "Skill-Full-Opus": "SkillOpus", "NaiveRAG-Pool-Long": "NaivePoolLong", "NoSkill-Agent": "NoSkill"}
 COND_TEX = {"Skill-Full": r"\textsc{Skill-Full}", "Skill-Abs": r"\textsc{Skill-Abs}",
-            "NaiveRAG-Pool": r"\textsc{NaiveRAG-Pool}", "NaiveRAG-Own": r"\textsc{NaiveRAG-Own}"}
+            "NaiveRAG-Pool": r"\textsc{NaiveRAG-Pool}", "NaiveRAG-Own": r"\textsc{NaiveRAG-Own}",
+            "NoSkill-Agent": r"\textsc{NoSkill-Agent}"}
 LEADER = [("DAS", [3.85, 4.22, 4.28, 5.00, 4.34]), ("Human", [3.84, 4.29, 4.24, 5.00, 4.34]),
           ("Naive RAG", [3.73, 4.06, 4.22, 4.09, 4.03])]  # DAS-Bench leaderboard, 30 topics (README)
 
@@ -177,23 +178,25 @@ def main() -> int:
 
     # Main table
     rows = []
-    for c in ("Skill-Full", "Skill-Abs", "NaiveRAG-Pool", "NaiveRAG-Own"):
+    conds = [c for c in ("Skill-Full", "Skill-Abs", "NoSkill-Agent", "NaiveRAG-Pool", "NaiveRAG-Own")
+             if all(c in res["condition"][b] for b in BENCH)]
+    best = {b: max(res["condition"][b][c]["Total"] for c in conds) for b in BENCH}  # bold marks the top total
+    for c in conds:
         cells = []
         for b in BENCH:
             e = res["condition"][b][c]
             for f in FAMS:
                 sd = e.get(f"{f}_sd_runs")
-                val = f2(e[f]) + (f"$_{{\\pm{sd:.2f}}}$" if sd is not None else "")
-                cells.append(f"\\textbf{{{val}}}" if f == "Total" else val)
+                val = f2(e[f]) + (f"$_{{\\pm{sd:.2f}}}$" if sd is not None and f == "Total" else "")
+                cells.append(f"\\textbf{{{val}}}" if f == "Total" and e[f] == best[b] else val)
         rows.append(COND_TEX[c] + " & " + " & ".join(cells) + r" \\")
     lead = [f"{name} & " + " & ".join(f2(v) for v in vals) + r" & \multicolumn{5}{c}{---} \\" for name, vals in LEADER]
     tab = (r"""\begin{table}[t]
   \centering
-  \caption{\textbf{Main results on DAS-Bench (30 topics).} Family scores on a 1--5 scale under the main judge (\mainjudge{}) and the cross judge (\xjudge{}). \textsc{Skill-Full} is the mean over runs $r_1$--$r_3$ on the topics scored in every run, with the standard deviation of the run means as subscript. Leaderboard rows use the original judge deployment and the frozen candidate pools; they are shown for scale only and are not comparable (\cref{sec:bench}). The leaderboard's Naive RAG is the original authors' system, not our \textsc{NaiveRAG} baselines.}
+  \caption{\textbf{Main results on DAS-Bench (30 topics).} Family scores on a 1--5 scale under the main judge (\mainjudge{}) and the cross judge (\xjudge{}). \textsc{Skill-Full} is the mean over runs $r_1$--$r_3$ on the topics scored in every run, with the standard deviation of the three run means on the total as subscript (family-level standard deviations are at most """ + f2(max(res['condition'][b]['Skill-Full'][f + '_sd_runs'] for b in BENCH for f in FAMS[:4])) + r"""). \textsc{NoSkill-Agent} is the same agent session without the skill (\cref{sec:noskill}). Leaderboard rows use the original judge deployment and the frozen candidate pools; they are shown for scale only and are not comparable (\cref{sec:bench}). The leaderboard's Naive RAG is the original authors' system, not our \textsc{NaiveRAG} baselines.}
   \label{tab:main}
-  \small
-  \setlength{\tabcolsep}{3.2pt}
-  \resizebox{\linewidth}{!}{%
+  \footnotesize
+  \setlength{\tabcolsep}{2.4pt}
   \begin{tabular}{@{}l ccccc ccccc@{}}
     \toprule
     & \multicolumn{5}{c}{Main judge} & \multicolumn{5}{c}{Cross judge} \\
@@ -205,17 +208,19 @@ def main() -> int:
     \multicolumn{11}{@{}l}{\emph{DAS-Bench leaderboard (reference scale only)}} \\
 """ + "\n".join("    " + r for r in lead) + r"""
     \bottomrule
-  \end{tabular}}
+  \end{tabular}
 \end{table}
 """)
     (out / "tab_main.tex").write_text(tab)
 
     # Paired table: one row per comparison and judge, no scaling
     prow = []
-    for other in ("NaiveRAG-Own", "NaiveRAG-Pool", "Skill-Abs"):
+    for other in ("NaiveRAG-Own", "NaiveRAG-Pool", "Skill-Abs", "NoSkill-Agent"):
+        if f"Skill-Full_vs_{other}" not in res["paired"]["DAS-Bench"]:
+            continue
         for k, (b, jname) in enumerate((("DAS-Bench", "main"), ("DAS-Bench-xjudge", "cross"))):
             p = res["paired"][b][f"Skill-Full_vs_{other}"]
-            head = (r"\multirow{2}{*}{\textsc{Skill-Full} $-$ " + COND_TEX[other] + "}") if k == 0 else ""
+            head = (r"\multirow{2}{*}{$-$ " + COND_TEX[other] + "}") if k == 0 else ""
             cells = [jname, s2(p["mean_diff_total"]), f"[{s2(p['ci95'][0])}, {s2(p['ci95'][1])}]",
                      f"{p['wins']}/{p['n']}"] + [s2(p["family_diffs"][f]) for f in FAMS[:4]]
             prow.append(head + " & " + " & ".join(cells) + r" \\" + (r" \addlinespace" if k == 1 else ""))
@@ -224,14 +229,14 @@ def main() -> int:
   \caption{\textbf{Paired differences over topics.} $\Delta$ is the mean difference in total score between \textsc{Skill-Full} (averaged over its runs) and the other condition on the same topic, with a 95\% bootstrap confidence interval (10{,}000 resamples of topics) and the number of topics on which \textsc{Skill-Full} scores higher. Family columns give the mean difference per family.}
   \label{tab:paired}
   \small
-  \resizebox{\linewidth}{!}{%
+  \setlength{\tabcolsep}{3.5pt}
   \begin{tabular}{@{}l l c c c cccc@{}}
     \toprule
-    Comparison & Judge & $\Delta$ Total & 95\% CI & Wins & \BSC{} & \TSQ{} & \HDQ{} & \MAR{} \\
+    \textsc{Skill-Full} & Judge & $\Delta$ Total & 95\% CI & Wins & \BSC{} & \TSQ{} & \HDQ{} & \MAR{} \\
     \midrule
 """ + "\n".join("    " + r for r in prow) + r"""
     \bottomrule
-  \end{tabular}}
+  \end{tabular}
 \end{table}
 """)
     (out / "tab_paired.tex").write_text(ptab)

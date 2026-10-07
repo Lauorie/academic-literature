@@ -1,0 +1,445 @@
+[
+  {
+    "aid": "S003",
+    "exists": "no",
+    "record": null,
+    "title_ok": "na",
+    "first_author_ok": "na",
+    "year_ok": "na",
+    "identifier": "none",
+    "evidence_url": "https://api.crossref.org/works?query.author=Karimi+Madahi&query.bibliographic=causal+discovery+language+models",
+    "note": "No work with this title or by a 'Mohammad Reza Karimi Madahi' on LLM causal discovery found in CrossRef (title and author queries), arXiv API (title phrase, author Madahi, author Karimi + abstract) or three web searches; the arXiv author Madahi (Seyed Soroush Karimi Madahi) works on energy RL; closest real titles are Long et al. 'Causal Discovery with Language Models as Imperfect Experts' (2023); OpenAlex and Semantic Scholar returned HTTP 429."
+  },
+  {
+    "aid": "S006",
+    "exists": "yes",
+    "record": {
+      "title": "Deep Kernel Learning",
+      "first_author": "Andrew Gordon Wilson",
+      "year": 2016,
+      "doi": null,
+      "arxiv_id": "1511.02222",
+      "url": "https://proceedings.mlr.press/v51/wilson16.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://proceedings.mlr.press/v51/wilson16.html",
+    "note": "PMLR v51 (AISTATS 2016, pp. 370-378) lists Wilson, Hu, Salakhutdinov, Xing; the given PMLR PDF URL returns the PDF (HTTP 200); arXiv 1511.02222 is the preprint."
+  },
+  {
+    "aid": "S009",
+    "exists": "yes",
+    "record": {
+      "title": "SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular landscapes",
+      "first_author": "Jun Wang",
+      "year": 2026,
+      "doi": "10.1038/s43588-026-01016-7",
+      "arxiv_id": null,
+      "url": "https://www.nature.com/articles/s43588-026-01016-7"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1038/s43588-026-01016-7",
+    "note": "DOI resolves to Wang (Jun), Huang, Winther, Nat. Comput. Sci. 6(9):971-987, 2026 (bioRxiv 10.1101/2025.01.18.633701, 2025); the name 'SpatialFormer' matches but the entry's subtitle 'a foundation model for spatial transcriptomics' is invented, and the entry's first initial X. differs from Jun."
+  },
+  {
+    "aid": "S012",
+    "exists": "yes",
+    "record": {
+      "title": "Harnessing Large Language Models for Text-Rich Sequential Recommendation",
+      "first_author": "Zhi Zheng",
+      "year": 2024,
+      "doi": "10.1145/3589334.3645358",
+      "arxiv_id": "2403.13325",
+      "url": "https://doi.org/10.1145/3589334.3645358"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "no",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3589334.3645358",
+    "note": "DOI resolves to the WWW 2024 paper by Zhi Zheng, Wenshuo Chao, Zhaopeng Qiu, Hengshu Zhu, Hui Xiong (also arXiv 2403.13325); the entry's author list (Z. Wang, W. Fan, J. Wang, H. Chen) is wrong."
+  },
+  {
+    "aid": "S015",
+    "exists": "yes",
+    "record": {
+      "title": "scExtract: leveraging large language models for fully automated single-cell RNA-seq data annotation and prior-informed multi-dataset integration",
+      "first_author": "Yuxuan Wu",
+      "year": 2025,
+      "doi": "10.1186/s13059-025-03639-x",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1186/s13059-025-03639-x"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1186/s13059-025-03639-x",
+    "note": "DOI resolves to Wu (Yuxuan) and Tang (Fuchou), Genome Biology 26, 2025; the tool name 'scExtract' matches but the entry's subtitle 'extracting structured cell type annotations from literature' is not the published subtitle."
+  },
+  {
+    "aid": "S018",
+    "exists": "yes",
+    "record": {
+      "title": "Overfitting in semantics-based automated program repair",
+      "first_author": "Xuan Bach D. Le",
+      "year": 2018,
+      "doi": "10.1007/s10664-017-9577-2",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/s10664-017-9577-2"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1007/s10664-017-9577-2",
+    "note": "DOI resolves to Le, Thung, Lo, Le Goues, Empirical Software Engineering 23(5):3007-3033, 2018; the entry's second author 'F. Thongtanunam' should be Ferdian Thung."
+  },
+  {
+    "aid": "S021",
+    "exists": "yes",
+    "record": {
+      "title": "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents",
+      "first_author": "Yongbi Son",
+      "year": 2026,
+      "doi": "10.1145/3832165",
+      "arxiv_id": null,
+      "url": "https://dl.acm.org/doi/10.1145/3832165"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3832165",
+    "note": "DOI resolves (doi.org 302 to dl.acm.org) to Son, Lee, Shin, Lee, Hong, Son, Proc. ACM Softw. Eng. 3(ISSTA):1696-1717, 2026."
+  },
+  {
+    "aid": "S024",
+    "exists": "yes",
+    "record": {
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "first_author": "Guangzhi Xiong",
+      "year": 2024,
+      "doi": "10.18653/v1/2024.findings-acl.372",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2024.findings-acl.372"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.18653/v1/2024.findings-acl.372",
+    "note": "DOI resolves to Xiong, Jin, Lu, Zhang, Findings of ACL 2024, pp. 6233-6251; the parenthetical '(MIRAGE/MedRAG)' is an added label, not part of the title."
+  },
+  {
+    "aid": "S027",
+    "exists": "yes",
+    "record": {
+      "title": "Multimodal misinformation detection across diverse languages using RAG and LLMs",
+      "first_author": "Sheetal Harris",
+      "year": 2026,
+      "doi": "10.1007/s10844-026-01042-x",
+      "arxiv_id": null,
+      "url": "https://link.springer.com/10.1007/s10844-026-01042-x"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1007/s10844-026-01042-x",
+    "note": "DOI resolves to Harris, Thong Ta, Trovati, Nakhla, Latif, Korkontzelos, J. Intell. Inf. Syst. 64(4):1719-1746, 2026; the entry spells out 'RAG' and gives the second author's name order as 'Ta Vinh Thong'."
+  },
+  {
+    "aid": "S030",
+    "exists": "yes",
+    "record": {
+      "title": "Long Context vs. RAG for LLMs: An Evaluation and Revisits",
+      "first_author": "Xinze Li",
+      "year": 2024,
+      "doi": "10.48550/arXiv.2501.01880",
+      "arxiv_id": "2501.01880",
+      "url": "https://arxiv.org/abs/2501.01880"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2501.01880",
+    "note": "arXiv API and DataCite list Li, Cao, Ma, Sun; v1 submitted 2024-12-27 (DataCite year 2025), so 2024 is right."
+  },
+  {
+    "aid": "S033",
+    "exists": "yes",
+    "record": {
+      "title": "GPR: Towards a Generative Pre-trained One-Model Paradigm for Large-Scale Advertising Recommendation",
+      "first_author": "Jie Jiang",
+      "year": 2026,
+      "doi": "10.1145/3770855.3818425",
+      "arxiv_id": null,
+      "url": "https://dl.acm.org/doi/10.1145/3770855.3818425"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3770855.3818425",
+    "note": "DOI resolves to Jiang, Zhang, Li, Liu, Wang, Wang et al., KDD 2026 (32nd SIGKDD, V.2), pp. 7477-7488."
+  },
+  {
+    "aid": "S036",
+    "exists": "yes",
+    "record": {
+      "title": "Can you trust your model's uncertainty? Evaluating predictive uncertainty under dataset shift",
+      "first_author": "Yaniv Ovadia",
+      "year": 2019,
+      "doi": null,
+      "arxiv_id": "1906.02530",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html",
+    "note": "The given NeurIPS 2019 proceedings URL lands on this paper with the same nine authors in order; arXiv 1906.02530 is the preprint."
+  },
+  {
+    "aid": "S039",
+    "exists": "yes",
+    "record": {
+      "title": "From Foundation Embeddings to Cropland Maps: Label Efficiency, Temporal Transferability and Independent Human Validation",
+      "first_author": "Mohammad Ammar Mughees",
+      "year": 2026,
+      "doi": "10.48550/arXiv.2609.17138",
+      "arxiv_id": "2609.17138",
+      "url": "https://arxiv.org/abs/2609.17138"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2609.17138",
+    "note": "arXiv 2609.17138 (2026-09-15) lists Mohammad Ammar Mughees, Giovanni Montefoschi, Zhongxin Chen, Maria Antonia Brovelli; the entry's given names for the first three authors (Muhammad A., Gianluca, Zhe) are wrong."
+  },
+  {
+    "aid": "S042",
+    "exists": "yes",
+    "record": {
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "first_author": "Aman Madaan",
+      "year": 2023,
+      "doi": "10.52202/075280-2019",
+      "arxiv_id": "2303.17651",
+      "url": "https://arxiv.org/abs/2303.17651"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2303.17651",
+    "note": "arXiv 2303.17651 (2023) by Madaan, Tandon, Gupta et al.; CrossRef lists the NeurIPS 36 (2023) version under DOI 10.52202/075280-2019."
+  },
+  {
+    "aid": "S045",
+    "exists": "yes",
+    "record": {
+      "title": "Federated and continual learning for classification tasks in a society of devices",
+      "first_author": "Fernando E. Casado",
+      "year": 2020,
+      "doi": "10.48550/arXiv.2006.07129",
+      "arxiv_id": "2006.07129",
+      "url": "https://arxiv.org/abs/2006.07129"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2202.00275",
+    "note": "The work is arXiv 2006.07129 (v1 June 2020, v2 Jan 2021) by Casado, Lema, Iglesias, Regueiro, Barro; the entry's arXiv:2202.00275 resolves (arXiv API and DataCite) to 'Architecture Matters in Continual Learning' by Mirzadeh et al., and 'M. F. Criado' is not an author of this work."
+  },
+  {
+    "aid": "S048",
+    "exists": "yes",
+    "record": {
+      "title": "Exact Bayesian structure learning from uncertain interventions",
+      "first_author": "Daniel Eaton",
+      "year": 2007,
+      "doi": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.mlr.press/v2/eaton07a.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://proceedings.mlr.press/v2/eaton07a.html",
+    "note": "PMLR v2 (AISTATS 2007, pp. 107-114) lists Daniel Eaton and Kevin Murphy; CrossRef holds no record for it."
+  },
+  {
+    "aid": "S051",
+    "exists": "yes",
+    "record": {
+      "title": "scPerb: Predict single-cell perturbation via style transfer-based variational autoencoder",
+      "first_author": "Zijia Tang",
+      "year": 2025,
+      "doi": "10.1016/j.jare.2024.10.035",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1016/j.jare.2024.10.035"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://api.crossref.org/works/10.1016/j.jare.2024.11.006",
+    "note": "The work is Tang, Zhou, Zhang, Song, J. Adv. Res. 75:189-198 (issue 2025-09), DOI 10.1016/j.jare.2024.10.035; the entry's DOI 10.1016/j.jare.2024.11.006 resolves to 'Akt-FoxO signaling drives co-adaptation to insecticide and host plant stresses in an herbivorous insect' (Zhang et al.)."
+  },
+  {
+    "aid": "S054",
+    "exists": "yes",
+    "record": {
+      "title": "Generation and human-expert evaluation of interesting research ideas using knowledge graphs and large language models",
+      "first_author": "Xuemei Gu",
+      "year": 2024,
+      "doi": "10.48550/arXiv.2405.17044",
+      "arxiv_id": "2405.17044",
+      "url": "https://openreview.net/forum?id=XPGhLxUrH7"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://arxiv.org/abs/2405.17044v1",
+    "note": "Title matches arXiv 2405.17044 v1 (2024-05-27, Gu and Krenn; later versions retitled 'Interesting Scientific Idea Generation ...'); ML Anthology lists it as an ICML 2024 AI4Science workshop paper linked to openreview.net/forum?id=XPGhLxUrH7, while OpenReview itself returned a challenge page."
+  },
+  {
+    "aid": "S057",
+    "exists": "yes",
+    "record": {
+      "title": "AI-Assisted Writing Is Growing Fastest Among Non-English-Speaking and Less Established Scientists",
+      "first_author": "Jialin Liu",
+      "year": 2025,
+      "doi": "10.48550/arXiv.2511.15872",
+      "arxiv_id": "2511.15872",
+      "url": "https://arxiv.org/abs/2511.15872"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://arxiv.org/abs/2511.15872v1",
+    "note": "arXiv 2511.15872 v1 (2025-11-19) by Liu, He, Zheng, Bu, Ni carries the entry's exact title; v2 (2026-09) is retitled '... Among Less Established Scientists in Non-English-Speaking Countries'."
+  },
+  {
+    "aid": "S060",
+    "exists": "yes",
+    "record": {
+      "title": "Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation",
+      "first_author": "Dennis Ulmer",
+      "year": 2023,
+      "doi": "10.48550/arXiv.2110.03051",
+      "arxiv_id": "2110.03051",
+      "url": "https://arxiv.org/abs/2110.03051"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2110.03051",
+    "note": "arXiv 2110.03051 (2021) and DataCite list Ulmer, Hardmeier, Frellsen; the ITU research portal (via web search) gives the TMLR publication of April 2023."
+  },
+  {
+    "aid": "S063",
+    "exists": "yes",
+    "record": {
+      "title": "Open Catalyst 2020 (OC20) Dataset and Community Challenges",
+      "first_author": "Lowik Chanussot",
+      "year": 2021,
+      "doi": "10.1021/acscatal.0c04525",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1021/acscatal.0c04525"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1021/acscatal.0c04525",
+    "note": "DOI resolves to Chanussot, Das, Goyal, Lavril, Shuaibi, Riviere et al., ACS Catalysis 11(10):6059-6072, 2021; the entry's volume, issue and pages match."
+  },
+  {
+    "aid": "S066",
+    "exists": "yes",
+    "record": {
+      "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+      "first_author": "Rui Yang",
+      "year": 2025,
+      "doi": "10.48550/arXiv.2502.09560",
+      "arxiv_id": "2502.09560",
+      "url": "https://arxiv.org/abs/2502.09560"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2502.09560",
+    "note": "arXiv 2502.09560 (2025-02-13) and DataCite list Yang, Chen, Zhang, Zhao, Qian, Wang in the entry's order."
+  },
+  {
+    "aid": "S069",
+    "exists": "yes",
+    "record": {
+      "title": "Learning the Structure of Linear Latent Variable Models",
+      "first_author": "Ricardo Silva",
+      "year": 2006,
+      "doi": null,
+      "arxiv_id": null,
+      "url": "https://www.jmlr.org/papers/v7/silva06a.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://www.jmlr.org/papers/v7/silva06a.html",
+    "note": "JMLR 7(8):191-246, 2006, by Silva, Scheines, Glymour, Spirtes; CrossRef holds no record for it."
+  },
+  {
+    "aid": "S072",
+    "exists": "yes",
+    "record": {
+      "title": "DeepSD: Generating High Resolution Climate Change Projections through Single Image Super-Resolution",
+      "first_author": "Thomas Vandal",
+      "year": 2017,
+      "doi": "10.1145/3097983.3098004",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3097983.3098004"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3097983.3098004",
+    "note": "DOI resolves to Vandal, Kodra, Ganguly, Michaelis, Nemani, Ganguly, KDD 2017 (23rd SIGKDD), pp. 1663-1672."
+  },
+  {
+    "aid": "S075",
+    "exists": "yes",
+    "record": {
+      "title": "DualPrompt: Complementary Prompting for Rehearsal-Free Continual Learning",
+      "first_author": "Zifeng Wang",
+      "year": 2022,
+      "doi": "10.1007/978-3-031-19809-0_36",
+      "arxiv_id": "2204.04799",
+      "url": "https://arxiv.org/abs/2204.04799"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2204.13317",
+    "note": "The work is arXiv 2204.04799 / ECCV 2022 (LNCS, DOI 10.1007/978-3-031-19809-0_36) by Zifeng Wang et al.; the entry's arXiv:2204.13317 resolves (arXiv API and DataCite) to 'MMRotate: A Rotated Object Detection Benchmark using PyTorch' (Zhou et al.), and the entry drops co-author Han Zhang."
+  }
+]

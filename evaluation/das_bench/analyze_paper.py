@@ -31,6 +31,7 @@ CONDITIONS = {  # condition -> list of run methods (repetitions)
     "NaiveRAG-Pool": ["naiverag-deepseek-v4.1-flash_pool_r1"],
     "NaiveRAG-Pool-Long": ["naiverag-deepseek-v4.1-flash_poollong_r1"],  # length_matched/PROTOCOL.md
     "Skill-Full-Opus": ["skill_claude-opus-5.5"],
+    "NoSkill-Agent": ["noskill_deepseek-v4.1-flash_r1"],  # review_followup/PLAN_C6_C8.md, C8
 }
 CS = {f"{i:03d}" for i in range(1, 22)}
 
@@ -122,7 +123,7 @@ def main() -> int:
     ref = CONDITIONS["Skill-Full"]
     for b in BENCHES:
         paired[b] = {}
-        for other in ("Skill-Abs", "NaiveRAG-Own", "NaiveRAG-Pool", "NaiveRAG-Pool-Long"):
+        for other in ("Skill-Abs", "NaiveRAG-Own", "NaiveRAG-Pool", "NaiveRAG-Pool-Long", "NoSkill-Agent"):
             om = CONDITIONS[other][0]
             if om not in per[b]:
                 continue

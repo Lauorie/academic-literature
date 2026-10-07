@@ -1,0 +1,452 @@
+{
+ "S001": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "023",
+  "i": 13
+ },
+ "S002": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "016",
+  "i": 22
+ },
+ "S003": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "020",
+  "i": 168
+ },
+ "S004": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "028",
+  "i": 77
+ },
+ "S005": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "010",
+  "i": 83
+ },
+ "S006": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "030",
+  "i": 76
+ },
+ "S007": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "023",
+  "i": 54
+ },
+ "S008": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "001",
+  "i": 16
+ },
+ "S009": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "023",
+  "i": 24
+ },
+ "S010": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "006",
+  "i": 25
+ },
+ "S011": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "028",
+  "i": 50
+ },
+ "S012": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "021",
+  "i": 60
+ },
+ "S013": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 79
+ },
+ "S014": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 65
+ },
+ "S015": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 47
+ },
+ "S016": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "010",
+  "i": 35
+ },
+ "S017": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "014",
+  "i": 8
+ },
+ "S018": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "006",
+  "i": 73
+ },
+ "S019": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "013",
+  "i": 35
+ },
+ "S020": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 23
+ },
+ "S021": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "005",
+  "i": 40
+ },
+ "S022": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 115
+ },
+ "S023": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 89
+ },
+ "S024": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "003",
+  "i": 113
+ },
+ "S025": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "029",
+  "i": 57
+ },
+ "S026": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "004",
+  "i": 34
+ },
+ "S027": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "003",
+  "i": 156
+ },
+ "S028": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "016",
+  "i": 1
+ },
+ "S029": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "022",
+  "i": 3
+ },
+ "S030": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "007",
+  "i": 98
+ },
+ "S031": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "020",
+  "i": 103
+ },
+ "S032": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "009",
+  "i": 30
+ },
+ "S033": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "021",
+  "i": 109
+ },
+ "S034": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 63
+ },
+ "S035": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "008",
+  "i": 12
+ },
+ "S036": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "030",
+  "i": 67
+ },
+ "S037": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "003",
+  "i": 147
+ },
+ "S038": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 43
+ },
+ "S039": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "028",
+  "i": 123
+ },
+ "S040": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "020",
+  "i": 51
+ },
+ "S041": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "010",
+  "i": 22
+ },
+ "S042": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "001",
+  "i": 56
+ },
+ "S043": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 71
+ },
+ "S044": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "006",
+  "i": 75
+ },
+ "S045": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 47
+ },
+ "S046": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "030",
+  "i": 34
+ },
+ "S047": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 22
+ },
+ "S048": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "020",
+  "i": 52
+ },
+ "S049": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "011",
+  "i": 106
+ },
+ "S050": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "007",
+  "i": 19
+ },
+ "S051": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "023",
+  "i": 55
+ },
+ "S052": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "029",
+  "i": 45
+ },
+ "S053": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "020",
+  "i": 81
+ },
+ "S054": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "019",
+  "i": 18
+ },
+ "S055": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 65
+ },
+ "S056": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "011",
+  "i": 75
+ },
+ "S057": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "019",
+  "i": 92
+ },
+ "S058": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 25
+ },
+ "S059": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "017",
+  "i": 93
+ },
+ "S060": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 74
+ },
+ "S061": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "017",
+  "i": 15
+ },
+ "S062": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "006",
+  "i": 10
+ },
+ "S063": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "014",
+  "i": 63
+ },
+ "S064": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "019",
+  "i": 2
+ },
+ "S065": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "014",
+  "i": 1
+ },
+ "S066": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "008",
+  "i": 16
+ },
+ "S067": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "005",
+  "i": 98
+ },
+ "S068": {
+  "cond": "noskill",
+  "class": "verified",
+  "tid": "006",
+  "i": 83
+ },
+ "S069": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "020",
+  "i": 62
+ },
+ "S070": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "023",
+  "i": 36
+ },
+ "S071": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "019",
+  "i": 50
+ },
+ "S072": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "027",
+  "i": 104
+ },
+ "S073": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "006",
+  "i": 0
+ },
+ "S074": {
+  "cond": "noskill",
+  "class": "not_found",
+  "tid": "029",
+  "i": 21
+ },
+ "S075": {
+  "cond": "noskill",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 35
+ }
+}

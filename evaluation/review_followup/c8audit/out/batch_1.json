@@ -1,0 +1,445 @@
+[
+  {
+    "aid": "S001",
+    "exists": "yes",
+    "record": {
+      "title": "CellPLM: Pre-training of Cell Language Model Beyond Single Cells",
+      "first_author": "Hongzhi Wen",
+      "year": 2024,
+      "doi": "10.1101/2023.10.03.560734",
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=BKXvPDekud"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://api2.openreview.net/notes/search?term=CellPLM",
+    "note": "OpenReview lists it as ICLR 2024 poster (bioRxiv preprint 2023, DOI 10.1101/2023.10.03.560734); arXiv 2310.00256 resolves (DataCite) to an unrelated Graphcore IPU matrix-multiplication paper by Shekofteh et al."
+  },
+  {
+    "aid": "S004",
+    "exists": "yes",
+    "record": {
+      "title": "A foundation model for the Earth system",
+      "first_author": "Cristian Bodnar",
+      "year": 2025,
+      "doi": "10.1038/s41586-025-09005-y",
+      "arxiv_id": null,
+      "url": "https://www.nature.com/articles/s41586-025-09005-y"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1038/s41586-025-09005-y",
+    "note": "CrossRef confirms Bodnar et al., Nature 641:1180-1187 (2025); the DOI embedded in the nature.com URL resolves to this work; listed authors match."
+  },
+  {
+    "aid": "S007",
+    "exists": "yes",
+    "record": {
+      "title": "Disentanglement of single-cell data with biolord",
+      "first_author": "Zoe Piran",
+      "year": 2024,
+      "doi": "10.1038/s41587-023-02079-x",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1038/s41587-023-02079-x"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://api.crossref.org/works/10.1038/s41587-023-02079-x",
+    "note": "The work appeared in Nature Biotechnology (2024, DOI 10.1038/s41587-023-02079-x), not Nature Methods; the given DOI 10.1038/s41592-024-02498-x resolves to Szalai et al., a DNA-origami single-molecule paper; the third author is Hoshen, not Sheinin."
+  },
+  {
+    "aid": "S010",
+    "exists": "yes",
+    "record": {
+      "title": "How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset",
+      "first_author": "Rafael-Michael Karampatsis",
+      "year": 2020,
+      "doi": "10.1145/3379597.3387491",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3379597.3387491"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1145/3379597.3387491",
+    "note": "CrossRef confirms Karampatsis and Sutton, MSR 2020, pp. 573-577; CrossRef stores 'The ManySStuBs4J Dataset' in its subtitle field."
+  },
+  {
+    "aid": "S013",
+    "exists": "no",
+    "record": null,
+    "title_ok": "na",
+    "first_author_ok": "na",
+    "year_ok": "na",
+    "identifier": "none",
+    "evidence_url": "https://export.arxiv.org/api/query?search_query=all:%22reward%20model%22%20AND%20all:perturbation%20AND%20all:evaluation&max_results=10",
+    "note": "No work with this title or theme found in CrossRef, arXiv API, WisScholar, or three web searches (Semantic Scholar and OpenAlex were rate-limited); near misses PerturBench (Yan Wu et al., NeurIPS 2025, a benchmark, not reward-model evaluation) and PerturbCellRL (Dongxia Wu et al., arXiv 2606.27752, 2026, RL post-training) do not match the title."
+  },
+  {
+    "aid": "S016",
+    "exists": "yes",
+    "record": {
+      "title": "DyLiN: Making Light Field Networks Dynamic",
+      "first_author": "Heng Yu",
+      "year": 2023,
+      "doi": "10.1109/cvpr52729.2023.01193",
+      "arxiv_id": "2303.14243",
+      "url": "https://arxiv.org/abs/2303.14243"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2303.14243",
+    "note": "arXiv 2303.14243 resolves to this work by Yu, Julin, Milacski, Niinuma, Jeni; CrossRef shows it appeared at CVPR 2023, not ICCV, and the listed fifth author 'A. Ferrer' is not on the paper."
+  },
+  {
+    "aid": "S019",
+    "exists": "yes",
+    "record": {
+      "title": "Offline Reinforcement Learning from Images with Latent Space Models",
+      "first_author": "Rafael Rafailov",
+      "year": 2021,
+      "doi": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.mlr.press/v144/rafailov21a.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://proceedings.mlr.press/v144/rafailov21a.html",
+    "note": "The PMLR URL resolves to this work (Rafailov, Yu, Rajeswaran, Finn), but PMLR v144 is Learning for Dynamics and Control (L4DC) 2021, not CoRL."
+  },
+  {
+    "aid": "S022",
+    "exists": "yes",
+    "record": {
+      "title": "Nonlinear ICA Using Auxiliary Variables and Generalized Contrastive Learning",
+      "first_author": "Aapo Hyvarinen",
+      "year": 2019,
+      "doi": null,
+      "arxiv_id": "1805.08651",
+      "url": "https://proceedings.mlr.press/v89/hyvarinen19a.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://proceedings.mlr.press/v89/hyvarinen19a.html",
+    "note": "PMLR v89 (AISTATS 2019) and arXiv 1805.08651 confirm the work; the given arXiv 1805.05218 resolves (https://api.datacite.org/dois/10.48550/arXiv.1805.05218) to an astrophysics paper on SiS masers in IRC+10216; second author is Hiroaki, not Hiroshi, Sasaki."
+  },
+  {
+    "aid": "S025",
+    "exists": "yes",
+    "record": {
+      "title": "Interpretable machine learning models for ESG stock prices under transition and physical climate risk",
+      "first_author": "Haithem Awijen",
+      "year": 2024,
+      "doi": "10.1007/s10479-024-06231-x",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/s10479-024-06231-x"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1007/s10479-024-06231-x",
+    "note": "CrossRef confirms Awijen, Ben Jabeur, Pillot, Annals of Operations Research 357(1):191-221, online 2024, print issue February 2026."
+  },
+  {
+    "aid": "S028",
+    "exists": "yes",
+    "record": {
+      "title": "A Comprehensive Survey on Vector Database: Storage and Retrieval Techniques",
+      "first_author": "Le Ma",
+      "year": 2026,
+      "doi": "10.11871/jfdc.issn.2096-742X.2026.04.004",
+      "arxiv_id": "2310.11703",
+      "url": "http://www.jfdc.cnic.cn/CN/10.11871/jfdc.issn.2096-742X.2026.04.004"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "http://www.jfdc.cnic.cn/CN/10.11871/jfdc.issn.2096-742X.2026.04.004",
+    "note": "The ISTIC DOI resolves (doi.org handle API, after two timeouts) to the JFDC page: Journal of Frontiers of Data and Computing 8(4):42-71, published 2026-08, MA Le et al.; year 2023 matches only the arXiv preprint 2310.11703 (title '...Storage and Retrieval Technique, Challenge'), not the journal version."
+  },
+  {
+    "aid": "S031",
+    "exists": "yes",
+    "record": {
+      "title": "Deep IV: A Flexible Approach for Counterfactual Prediction",
+      "first_author": "Jason Hartford",
+      "year": 2017,
+      "doi": null,
+      "arxiv_id": "1612.09596",
+      "url": "https://proceedings.mlr.press/v70/hartford17a.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "another_work",
+    "evidence_url": "https://proceedings.mlr.press/v70/hartford17a.html",
+    "note": "PMLR v70 (ICML 2017) confirms the work and authors; the given arXiv 1702.05068 resolves (DataCite) to Raposo et al., 'Discovering objects and their relations from entangled scene representations'; the related preprint is arXiv 1612.09596 under the title 'Counterfactual Prediction with Deep Instrumental Variables Networks'."
+  },
+  {
+    "aid": "S034",
+    "exists": "yes",
+    "record": {
+      "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+      "first_author": "Abhinav K. Adduri",
+      "year": 2026,
+      "doi": "10.1016/j.cell.2026.07.052",
+      "arxiv_id": null,
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867426009219"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://api.crossref.org/works/10.1016/j.cell.2026.07.052",
+    "note": "CrossRef shows Adduri et al., Cell 189:5914-5931 (2026), PII S0092-8674(26)00921-9, which matches the entry URL (cell.com returned 403 to direct fetch); the entry title 'State: a large-scale model of cellular perturbation' is a paraphrase, not the title of the Cell paper or the 2025 bioRxiv preprint (10.1101/2025.06.26.661135)."
+  },
+  {
+    "aid": "S037",
+    "exists": "yes",
+    "record": {
+      "title": "Enhancing Clinical Decision Support with Adaptive Iterative Self-Query Retrieval for Retrieval-Augmented Large Language Models",
+      "first_author": "Srinivasagam Prabha",
+      "year": 2025,
+      "doi": "10.3390/bioengineering12080895",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.3390/bioengineering12080895"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.3390/bioengineering12080895",
+    "note": "CrossRef confirms Bioengineering 12(8):895 (2025); the entry drops the subtitle, gives the first author's given name as Shruthi instead of Srinivasagam, and the second as Carlos instead of Cesar A. Gomez-Cabello."
+  },
+  {
+    "aid": "S040",
+    "exists": "yes",
+    "record": {
+      "title": "Causal Discovery from Heterogeneous/Nonstationary Data",
+      "first_author": "Biwei Huang",
+      "year": 2020,
+      "doi": null,
+      "arxiv_id": "1903.01672",
+      "url": "https://www.jmlr.org/papers/v21/19-232.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://www.jmlr.org/papers/v21/19-232.html",
+    "note": "JMLR 21 (2020) page and arXiv 1903.01672 (journal_ref JMLR 21, 2020, 1-53; arXiv title adds 'with Independent Changes') confirm the work and all seven authors."
+  },
+  {
+    "aid": "S043",
+    "exists": "yes",
+    "record": {
+      "title": "VLKEB: A Large Vision-Language Model Knowledge Editing Benchmark",
+      "first_author": "Han Huang",
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": "2403.07350",
+      "url": "https://arxiv.org/abs/2403.07350"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "no",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2403.07350",
+    "note": "arXiv 2403.07350 resolves to VLKEB by Han Huang, Haitian Zhong, Tao Yu, Qiang Liu, Shu Wu, Liang Wang, Tieniu Tan; no author named Gu is listed, so the entry's first author is wrong."
+  },
+  {
+    "aid": "S046",
+    "exists": "yes",
+    "record": {
+      "title": "Functional Variational Bayesian Neural Networks",
+      "first_author": "Shengyang Sun",
+      "year": 2019,
+      "doi": null,
+      "arxiv_id": "1903.05779",
+      "url": "https://openreview.net/forum?id=rkxacs0qY7"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1903.05779",
+    "note": "arXiv 1903.05779 resolves to this work by Sun, Zhang, Shi, Grosse; OpenReview rkxacs0qY7 is the ICLR 2019 submission."
+  },
+  {
+    "aid": "S049",
+    "exists": "yes",
+    "record": {
+      "title": "Improved safety with 3D thermal ranging for ADAS/AV applications",
+      "first_author": "Chuck Gershman",
+      "year": 2022,
+      "doi": "10.1117/12.2636711",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1117/12.2636711"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1117/12.2636711",
+    "note": "CrossRef confirms Chuck Gershman, Infrared Technology and Applications XLVIII (SPIE), 2022."
+  },
+  {
+    "aid": "S052",
+    "exists": "yes",
+    "record": {
+      "title": "Beyond Monte Carlo: Harnessing Diffusion Models to Simulate Financial Market Dynamics",
+      "first_author": "Andrew Lesniewski",
+      "year": 2024,
+      "doi": "10.2139/ssrn.5039644",
+      "arxiv_id": "2412.00036",
+      "url": "https://arxiv.org/abs/2412.00036"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://arxiv.org/abs/2412.00036",
+    "note": "arXiv 2412.00036 (Lesniewski and Trigila, v1-v3) and the SSRN copy all carry the title 'Beyond Monte Carlo: Harnessing Diffusion Models to Simulate Financial Market Dynamics'; the entry's title is a paraphrase that no version bears."
+  },
+  {
+    "aid": "S055",
+    "exists": "yes",
+    "record": {
+      "title": "PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations",
+      "first_author": "Hengshi Yu",
+      "year": 2025,
+      "doi": "10.1038/s44320-025-00131-3",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1038/s44320-025-00131-3"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1038/s44320-025-00131-3",
+    "note": "The DOI resolves to Yu, Qian, Song, Welch, Molecular Systems Biology 21(8), 2025; both this and the 2022 bioRxiv version (10.1101/2022.07.20.500854) are titled 'PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations', so the entry's title is a paraphrase."
+  },
+  {
+    "aid": "S058",
+    "exists": "yes",
+    "record": {
+      "title": "Differentially Private Learning with Adaptive Clipping",
+      "first_author": "Galen Andrew",
+      "year": 2021,
+      "doi": null,
+      "arxiv_id": "1905.03871",
+      "url": "https://papers.nips.cc/paper/2021/hash/91cff01af640a24e7f9f7a5ab407889f-Abstract.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://papers.nips.cc/paper/2021/hash/91cff01af640a24e7f9f7a5ab407889f-Abstract.html",
+    "note": "NeurIPS 2021 proceedings page and arXiv 1905.03871 (DataCite) confirm the title and all four authors."
+  },
+  {
+    "aid": "S061",
+    "exists": "yes",
+    "record": {
+      "title": "Subsampled Renyi Differential Privacy and Analytical Moments Accountant",
+      "first_author": "Yu-Xiang Wang",
+      "year": 2019,
+      "doi": null,
+      "arxiv_id": "1808.00087",
+      "url": "https://proceedings.mlr.press/v89/wang19b.html"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://proceedings.mlr.press/v89/wang19b.html",
+    "note": "PMLR v89 (AISTATS 2019) and arXiv 1808.00087 (2018) confirm the title and authors Wang, Balle, Kasiviswanathan."
+  },
+  {
+    "aid": "S064",
+    "exists": "yes",
+    "record": {
+      "title": "LLM4SR: A Survey on Large Language Models for Scientific Research",
+      "first_author": "Ziming Luo",
+      "year": 2025,
+      "doi": null,
+      "arxiv_id": "2501.04306",
+      "url": "https://arxiv.org/abs/2501.04306"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://export.arxiv.org/api/query?id_list=2501.04306",
+    "note": "arXiv 2501.04306 resolves to this survey by Luo, Yang, Xu, Yang, Du (January 2025)."
+  },
+  {
+    "aid": "S067",
+    "exists": "yes",
+    "record": {
+      "title": "Position: Building Guardrails for Large Language Models Requires Systematic Design",
+      "first_author": "Yi Dong",
+      "year": 2024,
+      "doi": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=JvMLkGF2Ms"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "none",
+    "evidence_url": "https://api2.openreview.net/notes/search?term=building%20guardrails%20for%20large%20language%20models&limit=5",
+    "note": "OpenReview note JvMLkGF2Ms is this paper by Yi Dong, Ronghui Mu, Gaojie Jin et al., venue ICML 2024 Poster, so the given OpenReview URL points to the right work."
+  },
+  {
+    "aid": "S070",
+    "exists": "yes",
+    "record": {
+      "title": "Biology-driven insights into the power of single-cell foundation models",
+      "first_author": "Jialu Wu",
+      "year": 2025,
+      "doi": "10.1186/s13059-025-03781-6",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1186/s13059-025-03781-6"
+    },
+    "title_ok": "yes",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "correct",
+    "evidence_url": "https://api.crossref.org/works/10.1186/s13059-025-03781-6",
+    "note": "The DOI resolves to Jialu Wu et al., Genome Biology 26:334 (2025); the entry drops 'the power of' from the title and abbreviates the first author's given name as 'S.' rather than 'J.'."
+  },
+  {
+    "aid": "S073",
+    "exists": "yes",
+    "record": {
+      "title": "Automatic Software Repair: A Survey",
+      "first_author": "Luca Gazzola",
+      "year": 2019,
+      "doi": "10.1109/tse.2017.2755013",
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/TSE.2017.2755013"
+    },
+    "title_ok": "no",
+    "first_author_ok": "yes",
+    "year_ok": "yes",
+    "identifier": "does_not_resolve",
+    "evidence_url": "https://api.crossref.org/works/10.1109/tse.2017.2755013",
+    "note": "Gazzola, Micucci, Mariani published 'Automatic Software Repair: A Survey' in IEEE TSE 45(1):34-67, 2019 (DOI 10.1109/TSE.2017.2755013); the entry gives a different title, and its DOI 10.1109/TSE.2018.2873667 is reported by doi.org as 'DOI does not exist'."
+  }
+]

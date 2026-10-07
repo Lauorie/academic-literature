@@ -157,7 +157,7 @@ lt = r"""\begin{table}[t]
     \textsc{Skill-Full} $-$ \textsc{Pool-Long} & \lmDiffM{} [\lmLoM, \lmHiM] & \lmDiffX{} [\lmLoX, \lmHiX] \\
     \quad topics won & \lmWinsM{}/\lmNM{} & \lmWinsX{}/\lmNX{} \\
     \quad \BSC{} / \TSQ{} / \HDQ{} / \MAR{} & \lmBscM{} / \lmTsqM{} / \lmHdqM{} / \lmMarM{} & \lmBscX{} / \lmTsqX{} / \lmHdqX{} / \lmMarX{} \\
-    Share of the \textsc{Pool} gap closed by length & \lmCloseM\% & \lmCloseX\% \\
+    \textsc{Pool} gap closed by \textsc{Pool-Long} & \lmCloseM\% & \lmCloseX\% \\
     \midrule
     \multicolumn{3}{@{}l}{\textit{Exploratory, after an internal review:} \textsc{Skill-Full} $-$ \textsc{Pool-Long} on the total}\\
     \quad without figure/table quality & \lmNoFigM{} [\lmNoFigLoM, \lmNoFigHiM] & \lmNoFigX{} [\lmNoFigLoX, \lmNoFigHiX] \\
@@ -245,25 +245,25 @@ slt = r"""\begin{table}[t]
   configured model (two passes); cross judge: Qwen3.5-397B-A17B; discipline rubric: the benchmark's
   discipline-specific criteria, benchmark judge.}
   \label{tab:sl}
-  \small
-  \setlength{\tabcolsep}{4pt}
-  \resizebox{\linewidth}{!}{\begin{tabular}{@{}llccc@{}}
+  \footnotesize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{@{}llccc@{}}
     \toprule
-    Judge & Comparison & Outline & Content & Reference \\
+    Judge, rubric & Comparison & Outline & Content & Reference \\
     \midrule
-    \multirow{3}{*}{benchmark} & \textsc{Skill-Full} & \slBjOutlineSkill & \slBjContentSkill & \slBjReferenceSkill \\
-     & $-$ \textsc{Own} & \slBjOutlineDOwn{} [\slBjOutlineDOwnLo, \slBjOutlineDOwnHi] & \slBjContentDOwn{} & \slBjReferenceDOwn{} [\slBjReferenceDOwnLo, \slBjReferenceDOwnHi] \\
-     & $-$ \textsc{Pool} & \slBjOutlineDPool{} [\slBjOutlineDPoolLo, \slBjOutlineDPoolHi] & \slBjContentDPool{} & \slBjReferenceDPool{} [\slBjReferenceDPoolLo, \slBjReferenceDPoolHi] \\
+    \multirow{3}{*}{\shortstack[l]{Qwen3-30B,\\generic}} & \textsc{Skill-Full} & \slBjOutlineSkill & \slBjContentSkill & \slBjReferenceSkill \\
+     & $-$ \textsc{Own} & \slBjOutlineDOwn{} [\slBjOutlineDOwnLo, \slBjOutlineDOwnHi] & \slBjContentDOwn{} [\slBjContentDOwnLo, \slBjContentDOwnHi] & \slBjReferenceDOwn{} [\slBjReferenceDOwnLo, \slBjReferenceDOwnHi] \\
+     & $-$ \textsc{Pool} & \slBjOutlineDPool{} [\slBjOutlineDPoolLo, \slBjOutlineDPoolHi] & \slBjContentDPool{} [\slBjContentDPoolLo, \slBjContentDPoolHi] & \slBjReferenceDPool{} [\slBjReferenceDPoolLo, \slBjReferenceDPoolHi] \\
     \midrule
-    \multirow{3}{*}{cross} & \textsc{Skill-Full} & \slCjOutlineSkill & \slCjContentSkill & \slCjReferenceSkill \\
+    \multirow{3}{*}{\shortstack[l]{Qwen3.5-397B,\\generic}} & \textsc{Skill-Full} & \slCjOutlineSkill & \slCjContentSkill & \slCjReferenceSkill \\
      & $-$ \textsc{Own} & \slCjOutlineDOwn{} [\slCjOutlineDOwnLo, \slCjOutlineDOwnHi] & \slCjContentDOwn{} [\slCjContentDOwnLo, \slCjContentDOwnHi] & \slCjReferenceDOwn{} [\slCjReferenceDOwnLo, \slCjReferenceDOwnHi] \\
      & $-$ \textsc{Pool} & \slCjOutlineDPool{} [\slCjOutlineDPoolLo, \slCjOutlineDPoolHi] & \slCjContentDPool{} [\slCjContentDPoolLo, \slCjContentDPoolHi] & \slCjReferenceDPool{} [\slCjReferenceDPoolLo, \slCjReferenceDPoolHi] \\
     \midrule
-    \multirow{3}{*}{discipline} & \textsc{Skill-Full} & \slDrOutlineSkill & \slDrContentSkill & \slDrReferenceSkill \\
+    \multirow{3}{*}{\shortstack[l]{Qwen3-30B,\\discipline}} & \textsc{Skill-Full} & \slDrOutlineSkill & \slDrContentSkill & \slDrReferenceSkill \\
      & $-$ \textsc{Own} & \slDrOutlineDOwn{} [\slDrOutlineDOwnLo, \slDrOutlineDOwnHi] & \slDrContentDOwn{} [\slDrContentDOwnLo, \slDrContentDOwnHi] & \slDrReferenceDOwn{} [\slDrReferenceDOwnLo, \slDrReferenceDOwnHi] \\
      & $-$ \textsc{Pool} & \slDrOutlineDPool{} [\slDrOutlineDPoolLo, \slDrOutlineDPoolHi] & \slDrContentDPool{} [\slDrContentDPoolLo, \slDrContentDPoolHi] & \slDrReferenceDPool{} [\slDrReferenceDPoolLo, \slDrReferenceDPoolHi] \\
     \bottomrule
-  \end{tabular}}
+  \end{tabular}
 \end{table}
 """
 
@@ -387,6 +387,63 @@ q = c4["skill_minus_pool_error_share"]
 mac("cFourD", sg(100 * q["diff"], 0))
 mac("cFourDLo", f2(100 * q["ci95"][0], 0))
 mac("cFourDHi", f2(100 * q["ci95"][1], 0))
+
+# Exploratory, after the internal review: R1-10 (Opus pilot) and R3-8 (citation balance vs papers cited).
+r38 = load("review_followup/r1_10_r3_8.json")
+for b, tag in (("DAS-Bench", "M"), ("DAS-Bench-xjudge", "X")):
+    for t, tt in (("003", "A"), ("027", "B")):
+        row = r38["opus"][b][t]
+        mac(f"opus{tt}{tag}", f2(row["opus_total"]))
+        mac(f"opusDs{tt}{tag}", f2(row["deepseek_total_mean_runs"]))
+    mac(f"balR{tag}", f2(r38["balance"][b]["pearson_cited_vs_balance"]))
+mac("balN", r38["balance"]["DAS-Bench"]["n_sessions"])
+mac("wallMaxAll", f"{r38['wall_min_max']:.0f}")
+
+# C6 (review_followup/PLAN_C6_C8.md): mechanical heading edits, held-out SurveyLens topics.
+c6 = load("review_followup/c6_result.json")
+for conf, ct in (("primary", "Bj"), ("cross", "Cj"), ("discipline", "Dr")):
+    for name, nt in (("v1split_minus_v1", "Split"), ("v3_minus_v1", "VThree"), ("v3flat_minus_v3", "Flat")):
+        q = c6[f"{conf}|outline|{name}"]
+        mac(f"cSix{nt}{ct}", sg(q["mean"]))
+        mac(f"cSix{nt}{ct}Abs", f2(abs(q["mean"])))
+        mac(f"cSix{nt}{ct}Lo", f2(q["ci95"][0]))
+        mac(f"cSix{nt}{ct}Hi", f2(q["ci95"][1]))
+    mac(f"cSixShare{ct}", f"{100 * c6[f'{conf}|outline|share_of_v3_gain']:.0f}")
+mac("cSixHthreeSplit", f"{c6['h3_per_survey']['v1split_h3']:.0f}")
+mac("cSixHthreeVThree", f"{c6['h3_per_survey']['v3_h3']:.0f}")
+
+# C8 (review_followup/PLAN_C6_C8.md): the same agent without the skill, DAS-Bench.
+c8 = load("review_followup/c8_result.json")
+for b, tag in (("DAS-Bench", "M"), ("DAS-Bench-xjudge", "X")):
+    q = c8["das"][b]
+    for part, pn in (("total", "D"), ("without_fig", "NoFig")):
+        mac(f"cEight{pn}{tag}", sg(q[part]["mean"]))
+        mac(f"cEight{pn}Lo{tag}", f2(q[part]["ci95"][0]))
+        mac(f"cEight{pn}Hi{tag}", f2(q[part]["ci95"][1]))
+    mac(f"cEightWins{tag}", q["total"]["wins"])
+    mac(f"cEightN{tag}", q["total"]["n"])
+    mac(f"cEightNoSkillTotal{tag}", f2(q["noskill_total_mean"]))
+    for fam in ("BSC", "TSQ", "HDQ", "MAR"):
+        f = q["families"][fam]
+        mac(f"cEight{fam.capitalize()}{tag}", sg(f["mean"]))
+        mac(f"cEight{fam.capitalize()}Lo{tag}", f2(f["ci95"][0]))
+        mac(f"cEight{fam.capitalize()}Hi{tag}", f2(f["ci95"][1]))
+mac("cEightWordsNoSkill", f"{c8['words_noskill_median']:,.0f}".replace(",", "{,}"))
+mac("cEightWordsSkill", f"{c8['words_skill_median']:,.0f}".replace(",", "{,}"))
+ig = c8["integrity"]
+mac("cEightVerSkill", _r(ig["verifier_skill"], 1))
+mac("cEightVerNoSkill", _r(ig["verifier_noskill"], 1))
+mac("cEightVerD", sg(ig["verifier_diff"], 1))
+mac("cEightVerLo", f2(ig["verifier_ci95"][0], 1))
+mac("cEightVerHi", f2(ig["verifier_ci95"][1], 1))
+mac("cEightCorrSkill", _r(ig["corrected_skill"], 1))
+mac("cEightCorrNoSkill", _r(ig["corrected_noskill"], 1))
+mac("cEightCorrD", sg(ig["corrected_diff"], 1))
+mac("cEightCorrLo", f2(ig["corrected_ci95"][0], 1))
+mac("cEightCorrHi", f2(ig["corrected_ci95"][1], 1))
+mac("cEightGoneNoSkill", _r(ig["not_exist_noskill"], 1))
+mac("cEightAuditNFGone", ig["audit_cells"]["not_found"]["not_exist"])
+mac("cEightAuditNFN", ig["audit_cells"]["not_found"]["n"])
 
 cit = r"""\begin{table}[t]
   \centering
@@ -546,21 +603,25 @@ rft = r"""\begin{table}[t]
   test (\cref{sec:refine-results}). The \textsc{Pool} baseline here received v1's candidate papers.}
   \label{tab:refine}
   \small
-  \setlength{\tabcolsep}{3.5pt}
-  \resizebox{\linewidth}{!}{\begin{tabular}{@{}llcccc@{}}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}lllcc@{}}
     \toprule
-    & & \multicolumn{2}{c}{$-$ \textsc{NaiveRAG-Own}} & \multicolumn{2}{c}{$-$ \textsc{NaiveRAG-Pool}} \\
-    \cmidrule(lr){3-4}\cmidrule(l){5-6}
-    Judge & Component & v1 & v3 & v1 & v3 \\
+    Judge, rubric & Component & Comparison & v1 & v3 \\
     \midrule
-    benchmark & outline & \haBjOutlineVOneOwn{} & \haBjOutlineVThreeOwn{} & \haBjOutlineVOnePool{} [\haBjOutlineVOnePoolLo, \haBjOutlineVOnePoolHi] & \haBjOutlineVThreePool{} [\haBjOutlineVThreePoolLo, \haBjOutlineVThreePoolHi] \\
-    cross & outline & \haCjOutlineVOneOwn{} & \haCjOutlineVThreeOwn{} & \haCjOutlineVOnePool{} [\haCjOutlineVOnePoolLo, \haCjOutlineVOnePoolHi] & \haCjOutlineVThreePool{} [\haCjOutlineVThreePoolLo, \haCjOutlineVThreePoolHi] \\
-    discipline & outline & \haDrOutlineVOneOwn{} & \haDrOutlineVThreeOwn{} & \haDrOutlineVOnePool{} [\haDrOutlineVOnePoolLo, \haDrOutlineVOnePoolHi] & \haDrOutlineVThreePool{} [\haDrOutlineVThreePoolLo, \haDrOutlineVThreePoolHi] \\
-    discipline & content & \haDrContentVOneOwn{} & \haDrContentVThreeOwn{} & \haDrContentVOnePool{} [\haDrContentVOnePoolLo, \haDrContentVOnePoolHi] & \haDrContentVThreePool{} [\haDrContentVThreePoolLo, \haDrContentVThreePoolHi] \\
-    cross & reference & \haCjReferenceVOneOwn{} & \haCjReferenceVThreeOwn{} & \haCjReferenceVOnePool{} [\haCjReferenceVOnePoolLo, \haCjReferenceVOnePoolHi] & \haCjReferenceVThreePool{} [\haCjReferenceVThreePoolLo, \haCjReferenceVThreePoolHi] \\
-    discipline & reference & \haDrReferenceVOneOwn{} & \haDrReferenceVThreeOwn{} & \haDrReferenceVOnePool{} [\haDrReferenceVOnePoolLo, \haDrReferenceVOnePoolHi] & \haDrReferenceVThreePool{} [\haDrReferenceVThreePoolLo, \haDrReferenceVThreePoolHi] \\
+    \multirow{2}{*}{Qwen3-30B, generic} & \multirow{2}{*}{outline} & $-$ \textsc{Own} & \haBjOutlineVOneOwn{} [\haBjOutlineVOneOwnLo, \haBjOutlineVOneOwnHi] & \haBjOutlineVThreeOwn{} [\haBjOutlineVThreeOwnLo, \haBjOutlineVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haBjOutlineVOnePool{} [\haBjOutlineVOnePoolLo, \haBjOutlineVOnePoolHi] & \haBjOutlineVThreePool{} [\haBjOutlineVThreePoolLo, \haBjOutlineVThreePoolHi] \\ \addlinespace
+    \multirow{2}{*}{Qwen3.5-397B, generic} & \multirow{2}{*}{outline} & $-$ \textsc{Own} & \haCjOutlineVOneOwn{} [\haCjOutlineVOneOwnLo, \haCjOutlineVOneOwnHi] & \haCjOutlineVThreeOwn{} [\haCjOutlineVThreeOwnLo, \haCjOutlineVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haCjOutlineVOnePool{} [\haCjOutlineVOnePoolLo, \haCjOutlineVOnePoolHi] & \haCjOutlineVThreePool{} [\haCjOutlineVThreePoolLo, \haCjOutlineVThreePoolHi] \\ \addlinespace
+    \multirow{2}{*}{Qwen3-30B, discipline} & \multirow{2}{*}{outline} & $-$ \textsc{Own} & \haDrOutlineVOneOwn{} [\haDrOutlineVOneOwnLo, \haDrOutlineVOneOwnHi] & \haDrOutlineVThreeOwn{} [\haDrOutlineVThreeOwnLo, \haDrOutlineVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haDrOutlineVOnePool{} [\haDrOutlineVOnePoolLo, \haDrOutlineVOnePoolHi] & \haDrOutlineVThreePool{} [\haDrOutlineVThreePoolLo, \haDrOutlineVThreePoolHi] \\ \addlinespace
+    \multirow{2}{*}{Qwen3-30B, discipline} & \multirow{2}{*}{content} & $-$ \textsc{Own} & \haDrContentVOneOwn{} [\haDrContentVOneOwnLo, \haDrContentVOneOwnHi] & \haDrContentVThreeOwn{} [\haDrContentVThreeOwnLo, \haDrContentVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haDrContentVOnePool{} [\haDrContentVOnePoolLo, \haDrContentVOnePoolHi] & \haDrContentVThreePool{} [\haDrContentVThreePoolLo, \haDrContentVThreePoolHi] \\ \addlinespace
+    \multirow{2}{*}{Qwen3.5-397B, generic} & \multirow{2}{*}{reference} & $-$ \textsc{Own} & \haCjReferenceVOneOwn{} [\haCjReferenceVOneOwnLo, \haCjReferenceVOneOwnHi] & \haCjReferenceVThreeOwn{} [\haCjReferenceVThreeOwnLo, \haCjReferenceVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haCjReferenceVOnePool{} [\haCjReferenceVOnePoolLo, \haCjReferenceVOnePoolHi] & \haCjReferenceVThreePool{} [\haCjReferenceVThreePoolLo, \haCjReferenceVThreePoolHi] \\ \addlinespace
+    \multirow{2}{*}{Qwen3-30B, discipline} & \multirow{2}{*}{reference} & $-$ \textsc{Own} & \haDrReferenceVOneOwn{} [\haDrReferenceVOneOwnLo, \haDrReferenceVOneOwnHi] & \haDrReferenceVThreeOwn{} [\haDrReferenceVThreeOwnLo, \haDrReferenceVThreeOwnHi] \\
+     &  & $-$ \textsc{Pool} & \haDrReferenceVOnePool{} [\haDrReferenceVOnePoolLo, \haDrReferenceVOnePoolHi] & \haDrReferenceVThreePool{} [\haDrReferenceVThreePoolLo, \haDrReferenceVThreePoolHi] \\ \addlinespace
     \bottomrule
-  \end{tabular}}
+  \end{tabular}
 \end{table}
 """
 

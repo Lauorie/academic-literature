@@ -1,0 +1,36 @@
+{
+ "opus": {
+  "DAS-Bench": {
+   "003": {
+    "opus_total": 4.562,
+    "deepseek_total_mean_runs": 4.146
+   },
+   "027": {
+    "opus_total": 4.188,
+    "deepseek_total_mean_runs": 4.375
+   }
+  },
+  "DAS-Bench-xjudge": {
+   "003": {
+    "opus_total": 4.438,
+    "deepseek_total_mean_runs": 4.375
+   },
+   "027": {
+    "opus_total": 4.062,
+    "deepseek_total_mean_runs": 4.396
+   }
+  }
+ },
+ "balance": {
+  "DAS-Bench": {
+   "n_sessions": 120,
+   "pearson_cited_vs_balance": 0.344
+  },
+  "DAS-Bench-xjudge": {
+   "n_sessions": 120,
+   "pearson_cited_vs_balance": 0.243
+  }
+ },
+ "wall_min_max": 63.7,
+ "sessions_over_150_min": 0
+}

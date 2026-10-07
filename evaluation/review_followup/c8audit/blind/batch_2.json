@@ -1,0 +1,102 @@
+[
+ {
+  "aid": "S002",
+  "entry": "J. Gao, C. Long. RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for Approximate Nearest Neighbor Search. Proceedings of the ACM SIGMOD International Conference on Management of Data, 2024. https://dl.acm.org/doi/10.1145/3654970"
+ },
+ {
+  "aid": "S005",
+  "entry": "J. Tang, J. Ren, H. Zhou, Z. Liu, G. Zeng, et al. DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation. ICLR, 2024. arXiv:2309.16653. https://arxiv.org/abs/2309.16653"
+ },
+ {
+  "aid": "S008",
+  "entry": "Y. Qin et al. ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs. ICLR, 2024. https://arxiv.org/abs/2307.16789"
+ },
+ {
+  "aid": "S011",
+  "entry": "Fan Liu, Delong Chen, Zhangqingyun Guan, Xiaocong Zhou, Jiale Zhu, Qiaolin Ye, Liyong Fu, Jun Zhou. RemoteCLIP: A Vision Language Foundation Model for Remote Sensing. IEEE Transactions on Geoscience and Remote Sensing, 2024. https://doi.org/10.1109/tgrs.2024.3390838."
+ },
+ {
+  "aid": "S014",
+  "entry": "S. Wang, Y. Zhu, et al. DAFNet: Dynamic Auxiliary Fusion for Sequential Model Editing in Large Language Models. arXiv:2311.08151, 2023."
+ },
+ {
+  "aid": "S017",
+  "entry": "J. Zhou, G. Cui, S. Hu, Z. Zhang, C. Yang, Z. Liu, L. Wang, C. Li, and M. Sun. Graph Neural Networks: A Review of Methods and Applications. AI Open, 1:57–81, 2020. arXiv:1812.08434."
+ },
+ {
+  "aid": "S020",
+  "entry": "Julius von Kuegelgen, Michel Besserve, Wendong Liang, Armin Kekic, Frederik Traeuble, Manuel Weller, and Bernhard Schoelkopf. Nonparametric identifiability of causal representations from unknown interventions. NeurIPS, 2023."
+ },
+ {
+  "aid": "S023",
+  "entry": "Y. Li, T. Li, K. Chen, J. Zhang, S. Liu, W. Wang, T. Zhang, and Y. Liu. BadEdit: Backdooring Large Language Models by Model Editing. International Conference on Learning Representations (ICLR), 2024. arXiv:2403.02644"
+ },
+ {
+  "aid": "S026",
+  "entry": "K. Valmeekam, S. Sreedharan, M. Marquez, et al. On the Planning Abilities of Large Language Models: A Critical Investigation. NeurIPS, 2023. arXiv:2302.06706."
+ },
+ {
+  "aid": "S029",
+  "entry": "J. L. Watson, D. Juergens, N. R. Bennett, B. L. Trippe, J. Yim, H. E. Eisenach, W. Ahern, A. J. Borst, R. J. Ragotte, L. F. Milles, et al. De novo design of protein structure and function with RFdiffusion. Nature, 2023. DOI: 10.1038/s41586-023-06415-8."
+ },
+ {
+  "aid": "S032",
+  "entry": "O. Avrahami, T. Hayes, O. Gafni, S. Gupta, Y. Taigman, D. Parikh, D. Lischinski, O. Fried, X. Yin. SpaText: Spatio-Textual Representation for Controllable Image Generation. CVPR, 2023. arXiv:2211.13081."
+ },
+ {
+  "aid": "S035",
+  "entry": "Abby O'Neill, Abdul Rehman, Abhiram Maddukuri, et al. Open X-Embodiment: Robotic Learning Datasets and RT-X Models. ICRA, 2024. https://doi.org/10.1109/icra57147.2024.10611477"
+ },
+ {
+  "aid": "S038",
+  "entry": "Kun Zhang and Aapo Hyvarinen. On the identifiability of the post-nonlinear causal model. Uncertainty in Artificial Intelligence (UAI), 2009."
+ },
+ {
+  "aid": "S041",
+  "entry": "Z. Li, S. Niklaus, N. Snavely, O. Wang. Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes. CVPR, 2021. arXiv:2011.12950. https://arxiv.org/abs/2011.12950"
+ },
+ {
+  "aid": "S044",
+  "entry": "A. Fan, B. Gokkaya, M. Harman, M. Lyubarskiy, S. Sengupta, S. Yoo, and J. M. Zhang. Large Language Models for Software Engineering: Survey and Open Problems. arXiv:2310.03533, 2023."
+ },
+ {
+  "aid": "S047",
+  "entry": "Y. Jiao, et al. ChromFound: A Foundation Model for Chromatin Accessibility. In NeurIPS, 2025."
+ },
+ {
+  "aid": "S050",
+  "entry": "Yuxiang Wu, Yu Zhao, Baotian Hu, Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel. An Efficient Memory-Augmented Transformer for Knowledge-Intensive NLP Tasks. EMNLP, 2022. https://doi.org/10.18653/v1/2022.emnlp-main.346"
+ },
+ {
+  "aid": "S053",
+  "entry": "Vincent Dorie, Jennifer Hill, Uri Shalit, Marc Scott, and Dan Cervone. Automated versus do-it-yourself methods for causal inference: Lessons learned from a data analysis competition. Statistical Science, 2019. arXiv: 1707.02641."
+ },
+ {
+  "aid": "S056",
+  "entry": "A. Sengupta, L. Cheng, S. Cao. Robust Multiobject Tracking Using Mmwave Radar-Camera Sensor Fusion. IEEE Sensors Letters, 2022. https://doi.org/10.1109/LSENS.2022.3213529"
+ },
+ {
+  "aid": "S059",
+  "entry": "S. Carpov, N. Gama, M. Georgieva, and D. Jetchev. GenoPPML — A Framework for Genomic Privacy-Preserving Machine Learning. IEEE CLOUD, 2022. DOI: 10.1109/CLOUD55607.2022.00076"
+ },
+ {
+  "aid": "S062",
+  "entry": "X. B. D. Le, D. Lo, and C. Le Goues. History Driven Program Repair. In Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER), 2016. DOI: 10.1109/SANER.2016.45."
+ },
+ {
+  "aid": "S065",
+  "entry": "W. L. Hamilton, R. Ying, and J. Leskovec. Inductive Representation Learning on Large Graphs. Advances in Neural Information Processing Systems (NeurIPS), 2017. arXiv:1706.02216."
+ },
+ {
+  "aid": "S068",
+  "entry": "Y. Zhang, J. Wang, D. Berzin, M. Mirchev, D. Liu, A. Arya, O. Chang, and A. Roychoudhury. Fixing Security Vulnerabilities with AI in OSS-Fuzz. arXiv:2411.03346, 2024."
+ },
+ {
+  "aid": "S071",
+  "entry": "A. L. Oblak, J. C. Fehrenbacher, M. A. Kacena. Use of AI Language Engine ChatGPT 4.0 to Write a Scientific Review Article Examining the Intersection of Alzheimer's Disease and Bone. Current Osteoporosis Reports, 2024. https://doi.org/10.1007/s11914-023-00853-z"
+ },
+ {
+  "aid": "S074",
+  "entry": "P. Ormaniec, et al. A comparison of LSTM and GARCH models for financial volatility forecasting. arXiv, 2022. arXiv:2207.10539"
+ }
+]

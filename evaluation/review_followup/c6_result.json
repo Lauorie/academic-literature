@@ -1,0 +1,286 @@
+{
+ "primary|outline|v1split_minus_v1": {
+  "n": 20,
+  "mean": 0.325,
+  "ci95": [
+   -0.025,
+   0.7
+  ],
+  "wins": 9,
+  "losses": 5
+ },
+ "primary|outline|v3_minus_v1": {
+  "n": 20,
+  "mean": 1.475,
+  "ci95": [
+   1.15,
+   1.8
+  ],
+  "wins": 18,
+  "losses": 0
+ },
+ "primary|outline|v3flat_minus_v3": {
+  "n": 20,
+  "mean": 0.025,
+  "ci95": [
+   0.0,
+   0.075
+  ],
+  "wins": 1,
+  "losses": 0
+ },
+ "primary|outline|share_of_v3_gain": 0.22,
+ "primary|content|v1split_minus_v1": {
+  "n": 20,
+  "mean": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 0
+ },
+ "primary|content|v3_minus_v1": {
+  "n": 20,
+  "mean": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 0
+ },
+ "primary|content|v3flat_minus_v3": {
+  "n": 20,
+  "mean": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 0
+ },
+ "primary|reference|v1split_minus_v1": {
+  "n": 20,
+  "mean": 0.025,
+  "ci95": [
+   0.0,
+   0.075
+  ],
+  "wins": 1,
+  "losses": 0
+ },
+ "primary|reference|v3_minus_v1": {
+  "n": 20,
+  "mean": 0.075,
+  "ci95": [
+   0.0,
+   0.2
+  ],
+  "wins": 2,
+  "losses": 0
+ },
+ "primary|reference|v3flat_minus_v3": {
+  "n": 20,
+  "mean": -0.025,
+  "ci95": [
+   -0.075,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 1
+ },
+ "primary|reference|share_of_v3_gain": 0.333,
+ "cross|outline|v1split_minus_v1": {
+  "n": 20,
+  "mean": -0.5,
+  "ci95": [
+   -0.9,
+   -0.1
+  ],
+  "wins": 3,
+  "losses": 10
+ },
+ "cross|outline|v3_minus_v1": {
+  "n": 20,
+  "mean": 0.8,
+  "ci95": [
+   0.45,
+   1.1
+  ],
+  "wins": 16,
+  "losses": 2
+ },
+ "cross|outline|v3flat_minus_v3": {
+  "n": 20,
+  "mean": -0.15,
+  "ci95": [
+   -0.45,
+   0.15
+  ],
+  "wins": 3,
+  "losses": 6
+ },
+ "cross|outline|share_of_v3_gain": -0.625,
+ "cross|content|v1split_minus_v1": {
+  "n": 20,
+  "mean": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 0
+ },
+ "cross|content|v3_minus_v1": {
+  "n": 20,
+  "mean": -0.05,
+  "ci95": [
+   -0.15,
+   0.0
+  ],
+  "wins": 0,
+  "losses": 1
+ },
+ "cross|content|v3flat_minus_v3": {
+  "n": 20,
+  "mean": 0.05,
+  "ci95": [
+   0.0,
+   0.15
+  ],
+  "wins": 1,
+  "losses": 0
+ },
+ "cross|content|share_of_v3_gain": -0.0,
+ "cross|reference|v1split_minus_v1": {
+  "n": 20,
+  "mean": -0.25,
+  "ci95": [
+   -0.65,
+   0.15
+  ],
+  "wins": 4,
+  "losses": 9
+ },
+ "cross|reference|v3_minus_v1": {
+  "n": 20,
+  "mean": 0.9,
+  "ci95": [
+   0.55,
+   1.25
+  ],
+  "wins": 13,
+  "losses": 0
+ },
+ "cross|reference|v3flat_minus_v3": {
+  "n": 20,
+  "mean": -0.05,
+  "ci95": [
+   -0.3,
+   0.2
+  ],
+  "wins": 2,
+  "losses": 2
+ },
+ "cross|reference|share_of_v3_gain": -0.278,
+ "discipline|outline|v1split_minus_v1": {
+  "n": 20,
+  "mean": 0.4,
+  "ci95": [
+   0.147,
+   0.637
+  ],
+  "wins": 16,
+  "losses": 4
+ },
+ "discipline|outline|v3_minus_v1": {
+  "n": 20,
+  "mean": 1.623,
+  "ci95": [
+   1.283,
+   1.923
+  ],
+  "wins": 19,
+  "losses": 1
+ },
+ "discipline|outline|v3flat_minus_v3": {
+  "n": 20,
+  "mean": -1.263,
+  "ci95": [
+   -1.547,
+   -0.987
+  ],
+  "wins": 0,
+  "losses": 20
+ },
+ "discipline|outline|share_of_v3_gain": 0.246,
+ "discipline|content|v1split_minus_v1": {
+  "n": 20,
+  "mean": -0.014,
+  "ci95": [
+   -0.044,
+   0.01
+  ],
+  "wins": 5,
+  "losses": 5
+ },
+ "discipline|content|v3_minus_v1": {
+  "n": 20,
+  "mean": -0.02,
+  "ci95": [
+   -0.064,
+   0.012
+  ],
+  "wins": 4,
+  "losses": 7
+ },
+ "discipline|content|v3flat_minus_v3": {
+  "n": 20,
+  "mean": -0.006,
+  "ci95": [
+   -0.018,
+   0.008
+  ],
+  "wins": 2,
+  "losses": 6
+ },
+ "discipline|content|share_of_v3_gain": 0.7,
+ "discipline|reference|v1split_minus_v1": {
+  "n": 20,
+  "mean": -0.007,
+  "ci95": [
+   -0.133,
+   0.113
+  ],
+  "wins": 10,
+  "losses": 7
+ },
+ "discipline|reference|v3_minus_v1": {
+  "n": 20,
+  "mean": 0.25,
+  "ci95": [
+   -0.03,
+   0.543
+  ],
+  "wins": 12,
+  "losses": 6
+ },
+ "discipline|reference|v3flat_minus_v3": {
+  "n": 20,
+  "mean": 0.063,
+  "ci95": [
+   -0.07,
+   0.207
+  ],
+  "wins": 8,
+  "losses": 6
+ },
+ "discipline|reference|share_of_v3_gain": -0.028,
+ "h3_per_survey": {
+  "v1_h3": 1.9,
+  "v1split_h3": 44.1,
+  "v3_h3": 18,
+  "v3flat_h3": 0
+ }
+}

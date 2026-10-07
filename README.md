@@ -28,6 +28,9 @@ evaluation/
                               (c7_check.py, with the two ledger-script versions it needs); an audit of the reference
                               verifier's labels (prepare_c3.py, c3/, c3_analyze.py); and the tracing of figures in the
                               prose to evidence files and cited papers (c4_partA.py, prepare_c4.py, c4/, c4_analyze.py).
+                              Two pre-registered experiments (PLAN_C6_C8.md): mechanical heading edits re-judged on
+                              SurveyLens (c6_prepare.py, c6_analyze.py), and the same agent without the skill on
+                              DAS-Bench (harness/gen_noskill.sh, c8_sync.sh, c8_analyze.py, prepare_c8audit.py, c8audit/).
                               Blind samples, answer keys, auditor outputs and results are included
 refinement/                   SkillRefiner corpus conversion and runner, label rules (LABELS.md), the edits
                               applied (CHANGES.md, make_v2.py), held-out tests (EVAL.md, compare_ver.py)

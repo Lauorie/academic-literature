@@ -1,0 +1,102 @@
+[
+ {
+  "aid": "S003",
+  "entry": "Mohammad Reza Karimi Madahi et al. Can large language models act as causal discovery experts? arXiv preprint, 2024."
+ },
+ {
+  "aid": "S006",
+  "entry": "A. G. Wilson, Z. Hu, R. Salakhutdinov, and E. P. Xing. Deep Kernel Learning. AISTATS, 2016. http://proceedings.mlr.press/v51/wilson16.pdf"
+ },
+ {
+  "aid": "S009",
+  "entry": "X. Wang, et al. SpatialFormer: a foundation model for spatial transcriptomics. Nature Computational Science, 2026. DOI: 10.1038/s43588-026-01016-7."
+ },
+ {
+  "aid": "S012",
+  "entry": "Z. Wang, W. Fan, J. Wang, H. Chen, et al. Harnessing large language models for text-rich sequential recommendation (LLM-TRSR). WWW, 2024. https://doi.org/10.1145/3589334.3645358"
+ },
+ {
+  "aid": "S015",
+  "entry": "Y. Wu and X. Tang. scExtract: extracting structured cell type annotations from literature. Genome Biology, 2025. DOI: 10.1186/s13059-025-03639-x."
+ },
+ {
+  "aid": "S018",
+  "entry": "X. B. D. Le, F. Thongtanunam, D. Lo, and C. Le Goues. Overfitting in Semantics-Based Automated Program Repair. Empirical Software Engineering, 2018. DOI: 10.1007/s10664-017-9577-2."
+ },
+ {
+  "aid": "S021",
+  "entry": "Yongbi Son et al. AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents. Proceedings of the ACM on Software Engineering, 2026. https://dl.acm.org/doi/abs/10.1145/3832165."
+ },
+ {
+  "aid": "S024",
+  "entry": "Guangzhi Xiong, Qiao Jin, Zhiyong Lu, Aidong Zhang. Benchmarking Retrieval-Augmented Generation for Medicine (MIRAGE/MedRAG). Findings of ACL, 2024. DOI: 10.18653/v1/2024.findings-acl.372."
+ },
+ {
+  "aid": "S027",
+  "entry": "Sheetal Harris, Ta Vinh Thong, Marcello Trovati, et al. Multimodal Misinformation Detection Across Diverse Languages Using Retrieval-Augmented Generation and LLMs. Journal of Intelligent Information Systems, 2026. DOI: 10.1007/s10844-026-01042-x."
+ },
+ {
+  "aid": "S030",
+  "entry": "Xinze Li, Yixin Cao, Yubo Ma, Aixin Sun. Long Context vs. RAG for LLMs: An Evaluation and Revisits. arXiv, 2024. https://arxiv.org/abs/2501.01880"
+ },
+ {
+  "aid": "S033",
+  "entry": "J. Jiang, J. Zhang, Y. Li, Y. Liu, C. Wang, Y. Wang, et al. GPR: Towards a generative pre-trained one-model paradigm for large-scale advertising recommendation. KDD, 2026. https://doi.org/10.1145/3770855.3818425"
+ },
+ {
+  "aid": "S036",
+  "entry": "Y. Ovadia, E. Fertig, J. Ren, Z. Nado, D. Sculley, S. Nowozin, J. V. Dillon, B. Lakshminarayanan, and J. Snoek. Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift. NeurIPS, 2019. https://proceedings.neurips.cc/paper_files/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html"
+ },
+ {
+  "aid": "S039",
+  "entry": "Muhammad A. Mughees, Gianluca Montefoschi, Zhe Chen, et al. From Foundation Embeddings to Cropland Maps: Label Efficiency, Temporal Transferability and Independent Human Validation. arXiv, 2026. arXiv:2609.17138."
+ },
+ {
+  "aid": "S042",
+  "entry": "A. Madaan et al. Self-Refine: Iterative Refinement with Self-Feedback. NeurIPS, 2023. https://arxiv.org/abs/2303.17651"
+ },
+ {
+  "aid": "S045",
+  "entry": "F. E. Casado, D. Lema, M. F. Criado, R. Iglesias, C. V. Regueiro, and S. Barro. Federated and Continual Learning for Classification Tasks in a Society of Devices. arXiv:2202.00275, 2022."
+ },
+ {
+  "aid": "S048",
+  "entry": "Daniel Eaton and Kevin Murphy. Exact Bayesian structure learning from uncertain interventions. AISTATS, 2007."
+ },
+ {
+  "aid": "S051",
+  "entry": "Z. Tang, M. Zhou, K. Zhang, and Q. Song. scPerb: predict single-cell perturbation via style transfer-based variational autoencoder. Journal of Advanced Research, 2024. DOI: 10.1016/j.jare.2024.11.006."
+ },
+ {
+  "aid": "S054",
+  "entry": "X. Gu, M. Krenn. Generation and Human-Expert Evaluation of Interesting Research Ideas Using Knowledge Graphs and Large Language Models. Preprint, 2024. https://openreview.net/forum?id=XPGhLxUrH7"
+ },
+ {
+  "aid": "S057",
+  "entry": "J. Liu, Y. He, Z. Zheng, Y. Bu, C. Ni. AI-Assisted Writing Is Growing Fastest Among Non-English-Speaking and Less Established Scientists. arXiv, 2025. https://arxiv.org/abs/2511.15872"
+ },
+ {
+  "aid": "S060",
+  "entry": "D. Ulmer, C. Hardmeier, and J. Frellsen. Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods for Uncertainty Estimation. TMLR, 2023. arXiv:2110.03051"
+ },
+ {
+  "aid": "S063",
+  "entry": "L. Chanussot, A. Das, S. Goyal, T. Lavril, M. Shuaibi, M. Riviere, et al. Open Catalyst 2020 (OC20) Dataset and Community Challenges. ACS Catalysis, 11(10):6059–6072, 2021. DOI:10.1021/acscatal.0c04525."
+ },
+ {
+  "aid": "S066",
+  "entry": "Rui Yang, Hanyang Chen, Junyu Zhang, Mark Zhao, Cheng Qian, Kangrui Wang, et al. EmbodiedBench: Comprehensive Benchmarking Multi-Modal Large Language Models for Vision-Driven Embodied Agents. arXiv, 2025. https://arxiv.org/abs/2502.09560"
+ },
+ {
+  "aid": "S069",
+  "entry": "Ricardo Silva, Richard Scheines, Clark Glymour, and Peter Spirtes. Learning the structure of linear latent variable models. Journal of Machine Learning Research, 2006."
+ },
+ {
+  "aid": "S072",
+  "entry": "T. Vandal, E. Kodra, S. Ganguly, A. Michaelis, et al. DeepSD: Generating high resolution climate change projections through single image super-resolution. ACM SIGKDD, 2017. DOI: 10.1145/3097983.3098004"
+ },
+ {
+  "aid": "S075",
+  "entry": "Z. Wang, Z. Zhang, S. Ebrahimi, R. Sun, C.-Y. Lee, X. Ren, G. Su, V. Perot, J. Dy, and T. Pfister. DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning. European Conference on Computer Vision (ECCV), 2022. arXiv:2204.13317"
+ }
+]
