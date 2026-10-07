@@ -1,0 +1,3370 @@
+{
+ "summary": {
+  "flagged_in_paper": {
+   "sessions": 12,
+   "entries": 745,
+   "a_identical": 745,
+   "b_ledger_paper_edited": 0,
+   "c_outside_ledger": 0,
+   "no_check_call": [],
+   "last_check_visible_pass": 5,
+   "last_check_visible_fail": [],
+   "last_check_not_visible": [
+    "deepseek-v4.1-flash_full_r2/013",
+    "deepseek-v4.1-flash_full_r3/003",
+    "deepseek-v4.1-flash_full_r3/004",
+    "deepseek-v4.1-flash_full_r3/017",
+    "deepseek-v4.1-flash_full_r3/025",
+    "deepseek-v4.1-flash_abs_r1/008",
+    "deepseek-v4.1-flash_abs_r1/022"
+   ],
+   "edited_after_last_check": [
+    "deepseek-v4.1-flash_full_r2/008",
+    "deepseek-v4.1-flash_full_r3/004"
+   ],
+   "recheck_pass": 12,
+   "recheck_fail": [],
+   "body_numbers_without_entry": {
+    "deepseek-v4.1-flash/026": [
+     56
+    ]
+   }
+  },
+  "all": {
+   "sessions": 120,
+   "entries": 6380,
+   "a_identical": 6380,
+   "b_ledger_paper_edited": 0,
+   "c_outside_ledger": 0,
+   "no_check_call": [],
+   "last_check_visible_pass": 113,
+   "last_check_visible_fail": [],
+   "last_check_not_visible": [
+    "deepseek-v4.1-flash_full_r2/013",
+    "deepseek-v4.1-flash_full_r3/003",
+    "deepseek-v4.1-flash_full_r3/004",
+    "deepseek-v4.1-flash_full_r3/017",
+    "deepseek-v4.1-flash_full_r3/025",
+    "deepseek-v4.1-flash_abs_r1/008",
+    "deepseek-v4.1-flash_abs_r1/022"
+   ],
+   "edited_after_last_check": [
+    "deepseek-v4.1-flash/003",
+    "deepseek-v4.1-flash_full_r2/008",
+    "deepseek-v4.1-flash_full_r2/023",
+    "deepseek-v4.1-flash_full_r3/004",
+    "deepseek-v4.1-flash_full_r3/007",
+    "deepseek-v4.1-flash_full_r3/028",
+    "deepseek-v4.1-flash_abs_r1/003"
+   ],
+   "recheck_pass": 120,
+   "recheck_fail": [],
+   "body_numbers_without_entry": {
+    "deepseek-v4.1-flash/009": [
+     0
+    ],
+    "deepseek-v4.1-flash/026": [
+     56
+    ],
+    "deepseek-v4.1-flash_full_r3/009": [
+     0
+    ]
+   }
+  },
+  "by_condition": {
+   "Skill-Full r1": {
+    "recheck_pass": 30,
+    "warnings_mean": 19.97,
+    "n": 30
+   },
+   "Skill-Full r2": {
+    "recheck_pass": 30,
+    "warnings_mean": 26.13,
+    "n": 30
+   },
+   "Skill-Full r3": {
+    "recheck_pass": 30,
+    "warnings_mean": 25.07,
+    "n": 30
+   },
+   "Skill-Abs": {
+    "recheck_pass": 30,
+    "warnings_mean": 24.3,
+    "n": 30
+   }
+  }
+ },
+ "sessions": [
+  {
+   "session": "deepseek-v4.1-flash/001",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 50,
+   "classes": {
+    "a_identical": 50,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/002",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 52,
+   "classes": {
+    "a_identical": 52,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/003",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 21,
+   "n_entries": 58,
+   "classes": {
+    "a_identical": 58,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/004",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 35,
+   "n_entries": 69,
+   "classes": {
+    "a_identical": 69,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/005",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 38,
+   "classes": {
+    "a_identical": 38,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/006",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 8,
+   "n_entries": 35,
+   "classes": {
+    "a_identical": 35,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/007",
+   "check_calls": 7,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 46,
+   "classes": {
+    "a_identical": 46,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/008",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 11,
+   "n_entries": 34,
+   "classes": {
+    "a_identical": 34,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/009",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 13,
+   "n_entries": 32,
+   "classes": {
+    "a_identical": 32,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [
+    0
+   ],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/010",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 19,
+   "n_entries": 61,
+   "classes": {
+    "a_identical": 61,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/011",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 26,
+   "n_entries": 52,
+   "classes": {
+    "a_identical": 52,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/012",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 17,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/013",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 28,
+   "n_entries": 44,
+   "classes": {
+    "a_identical": 44,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/014",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/015",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 29,
+   "n_entries": 62,
+   "classes": {
+    "a_identical": 62,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/016",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 15,
+   "n_entries": 33,
+   "classes": {
+    "a_identical": 33,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/017",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 30,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/018",
+   "check_calls": 8,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 19,
+   "n_entries": 56,
+   "classes": {
+    "a_identical": 56,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/019",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 3,
+   "n_entries": 30,
+   "classes": {
+    "a_identical": 30,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/020",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 33,
+   "n_entries": 38,
+   "classes": {
+    "a_identical": 38,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/021",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 5,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/022",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [
+     "delivered_differs_from_render"
+    ],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 21,
+   "n_entries": 50,
+   "classes": {
+    "a_identical": 50,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/023",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [
+     "delivered_differs_from_render"
+    ],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 42,
+   "n_entries": 83,
+   "classes": {
+    "a_identical": 83,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/024",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 27,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/025",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 33,
+   "classes": {
+    "a_identical": 33,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/026",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 20,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [
+    56
+   ],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash/027",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 13,
+   "n_entries": 41,
+   "classes": {
+    "a_identical": 41,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/028",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 7,
+   "n_entries": 30,
+   "classes": {
+    "a_identical": 30,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/029",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 10,
+   "n_entries": 44,
+   "classes": {
+    "a_identical": 44,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash/030",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 26,
+   "n_entries": 41,
+   "classes": {
+    "a_identical": 41,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r1",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/001",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/002",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 72,
+   "n_entries": 61,
+   "classes": {
+    "a_identical": 61,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/003",
+   "check_calls": 1,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 36,
+   "n_entries": 28,
+   "classes": {
+    "a_identical": 28,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/004",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 27,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/005",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 22,
+   "n_entries": 65,
+   "classes": {
+    "a_identical": 65,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/006",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 15,
+   "n_entries": 56,
+   "classes": {
+    "a_identical": 56,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/007",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 24,
+   "n_entries": 61,
+   "classes": {
+    "a_identical": 61,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/008",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 37,
+   "n_entries": 84,
+   "classes": {
+    "a_identical": 84,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/009",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 38,
+   "n_entries": 79,
+   "classes": {
+    "a_identical": 79,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/010",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 18,
+   "n_entries": 36,
+   "classes": {
+    "a_identical": 36,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/011",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 26,
+   "n_entries": 45,
+   "classes": {
+    "a_identical": 45,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/012",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 30,
+   "n_entries": 61,
+   "classes": {
+    "a_identical": 61,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/013",
+   "check_calls": 3,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 18,
+   "n_entries": 39,
+   "classes": {
+    "a_identical": 39,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/014",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 54,
+   "classes": {
+    "a_identical": 54,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/015",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 15,
+   "n_entries": 57,
+   "classes": {
+    "a_identical": 57,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/016",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 57,
+   "classes": {
+    "a_identical": 57,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/017",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 7,
+   "n_entries": 28,
+   "classes": {
+    "a_identical": 28,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/018",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 21,
+   "n_entries": 64,
+   "classes": {
+    "a_identical": 64,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/019",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 12,
+   "n_entries": 42,
+   "classes": {
+    "a_identical": 42,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/020",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 31,
+   "n_entries": 52,
+   "classes": {
+    "a_identical": 52,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/021",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 49,
+   "classes": {
+    "a_identical": 49,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/022",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [
+     "delivered_differs_from_render"
+    ],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 32,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/023",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 28,
+   "n_entries": 59,
+   "classes": {
+    "a_identical": 59,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/024",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 18,
+   "n_entries": 32,
+   "classes": {
+    "a_identical": 32,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/025",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 49,
+   "n_entries": 80,
+   "classes": {
+    "a_identical": 80,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/026",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 20,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/027",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/028",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 18,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/029",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 33,
+   "n_entries": 44,
+   "classes": {
+    "a_identical": 44,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/030",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 37,
+   "n_entries": 55,
+   "classes": {
+    "a_identical": 55,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r2",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/001",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 29,
+   "n_entries": 61,
+   "classes": {
+    "a_identical": 61,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/002",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 63,
+   "classes": {
+    "a_identical": 63,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/003",
+   "check_calls": 3,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 27,
+   "n_entries": 41,
+   "classes": {
+    "a_identical": 41,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/004",
+   "check_calls": 1,
+   "last_check_hard": null,
+   "edits_after_last_check": 2,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 36,
+   "n_entries": 47,
+   "classes": {
+    "a_identical": 47,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/005",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 15,
+   "n_entries": 57,
+   "classes": {
+    "a_identical": 57,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/006",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 41,
+   "classes": {
+    "a_identical": 41,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/007",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 34,
+   "n_entries": 53,
+   "classes": {
+    "a_identical": 53,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/008",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 21,
+   "n_entries": 48,
+   "classes": {
+    "a_identical": 48,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/009",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 46,
+   "n_entries": 82,
+   "classes": {
+    "a_identical": 82,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [
+    0
+   ],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/010",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 59,
+   "classes": {
+    "a_identical": 59,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/011",
+   "check_calls": 8,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 45,
+   "classes": {
+    "a_identical": 45,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/012",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 26,
+   "n_entries": 41,
+   "classes": {
+    "a_identical": 41,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/013",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 26,
+   "n_entries": 65,
+   "classes": {
+    "a_identical": 65,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/014",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 22,
+   "n_entries": 35,
+   "classes": {
+    "a_identical": 35,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/015",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 39,
+   "n_entries": 119,
+   "classes": {
+    "a_identical": 119,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/016",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 26,
+   "n_entries": 51,
+   "classes": {
+    "a_identical": 51,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/017",
+   "check_calls": 3,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 16,
+   "n_entries": 35,
+   "classes": {
+    "a_identical": 35,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/018",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 67,
+   "n_entries": 63,
+   "classes": {
+    "a_identical": 63,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/019",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 8,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/020",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 32,
+   "classes": {
+    "a_identical": 32,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/021",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 7,
+   "n_entries": 51,
+   "classes": {
+    "a_identical": 51,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/022",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 25,
+   "n_entries": 46,
+   "classes": {
+    "a_identical": 46,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/023",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 34,
+   "n_entries": 57,
+   "classes": {
+    "a_identical": 57,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/024",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 19,
+   "n_entries": 42,
+   "classes": {
+    "a_identical": 42,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/025",
+   "check_calls": 5,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 14,
+   "n_entries": 38,
+   "classes": {
+    "a_identical": 38,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/026",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 13,
+   "n_entries": 45,
+   "classes": {
+    "a_identical": 45,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/027",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 46,
+   "classes": {
+    "a_identical": 46,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/028",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 20,
+   "n_entries": 38,
+   "classes": {
+    "a_identical": 38,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/029",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 49,
+   "classes": {
+    "a_identical": 49,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/030",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 26,
+   "n_entries": 38,
+   "classes": {
+    "a_identical": 38,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Full r3",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/001",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 17,
+   "n_entries": 60,
+   "classes": {
+    "a_identical": 60,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/002",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 49,
+   "n_entries": 121,
+   "classes": {
+    "a_identical": 121,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/003",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 1,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 23,
+   "n_entries": 89,
+   "classes": {
+    "a_identical": 89,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/004",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 28,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/005",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 8,
+   "n_entries": 55,
+   "classes": {
+    "a_identical": 55,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/006",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 13,
+   "n_entries": 52,
+   "classes": {
+    "a_identical": 52,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/007",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 40,
+   "n_entries": 94,
+   "classes": {
+    "a_identical": 94,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/008",
+   "check_calls": 6,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 33,
+   "n_entries": 79,
+   "classes": {
+    "a_identical": 79,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/009",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 48,
+   "n_entries": 80,
+   "classes": {
+    "a_identical": 80,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/010",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 2,
+   "n_entries": 46,
+   "classes": {
+    "a_identical": 46,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/011",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 37,
+   "n_entries": 59,
+   "classes": {
+    "a_identical": 59,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/012",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 24,
+   "n_entries": 65,
+   "classes": {
+    "a_identical": 65,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/013",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 31,
+   "n_entries": 64,
+   "classes": {
+    "a_identical": 64,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/014",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 17,
+   "n_entries": 66,
+   "classes": {
+    "a_identical": 66,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/015",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 21,
+   "n_entries": 57,
+   "classes": {
+    "a_identical": 57,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/016",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 10,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/017",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 27,
+   "n_entries": 46,
+   "classes": {
+    "a_identical": 46,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/018",
+   "check_calls": 6,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 25,
+   "n_entries": 97,
+   "classes": {
+    "a_identical": 97,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/019",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 2,
+   "n_entries": 49,
+   "classes": {
+    "a_identical": 49,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/020",
+   "check_calls": 7,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 29,
+   "n_entries": 77,
+   "classes": {
+    "a_identical": 77,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/021",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 30,
+   "n_entries": 121,
+   "classes": {
+    "a_identical": 121,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/022",
+   "check_calls": 4,
+   "last_check_hard": null,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 28,
+   "n_entries": 50,
+   "classes": {
+    "a_identical": 50,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/023",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [
+     "delivered_differs_from_render"
+    ],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 21,
+   "n_entries": 47,
+   "classes": {
+    "a_identical": 47,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/024",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 8,
+   "n_entries": 40,
+   "classes": {
+    "a_identical": 40,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/025",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 19,
+   "n_entries": 37,
+   "classes": {
+    "a_identical": 37,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/026",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": [
+     "delivered_differs_from_render"
+    ]
+   },
+   "recheck_warnings": 17,
+   "n_entries": 49,
+   "classes": {
+    "a_identical": 49,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/027",
+   "check_calls": 5,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 48,
+   "n_entries": 99,
+   "classes": {
+    "a_identical": 99,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/028",
+   "check_calls": 2,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 23,
+   "n_entries": 50,
+   "classes": {
+    "a_identical": 50,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/029",
+   "check_calls": 4,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 29,
+   "n_entries": 64,
+   "classes": {
+    "a_identical": 64,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": true
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/030",
+   "check_calls": 3,
+   "last_check_hard": 0,
+   "edits_after_last_check": 0,
+   "recheck_pass_versions": [
+    "8fc3",
+    "8fc3+doi_fix",
+    "142f"
+   ],
+   "recheck_hard": {
+    "8fc3": [],
+    "8fc3+doi_fix": [],
+    "142f": []
+   },
+   "recheck_warnings": 22,
+   "n_entries": 54,
+   "classes": {
+    "a_identical": 54,
+    "b_ledger_paper_edited": 0,
+    "c_outside_ledger": 0
+   },
+   "non_identical_entries": [],
+   "body_numbers_without_entry": [],
+   "condition": "Skill-Abs",
+   "flagged_in_paper": false
+  }
+ ]
+}

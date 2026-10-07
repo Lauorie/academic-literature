@@ -101,10 +101,22 @@ def mar_sub(method: str, crit: str) -> float:
 
 
 FT = "Figure/Table Quality and Textual Integration"
-mac("lmFigTabSkill", f2(mar_sub("skill_deepseek-v4.1-flash", FT)))
-mac("lmFigTabPoolLong", f2(mar_sub("naiverag-deepseek-v4.1-flash_poollong_r1", FT)))
-mac("lmRefPresSkill", f2(mar_sub("skill_deepseek-v4.1-flash", "Citation and Reference Presentation Integrity")))
-mac("lmRefPresPoolLong", f2(mar_sub("naiverag-deepseek-v4.1-flash_poollong_r1", "Citation and Reference Presentation Integrity")))
+RP = "Citation and Reference Presentation Integrity"
+# Exploratory, after the internal review (review_followup/PLAN.md, C1): criterion-level differences, Skill-Full as the
+# mean of its three runs, as in every other Skill-Full number.
+c1 = load("review_followup/c1_result.json")
+c1m = c1["DAS-Bench"]["NaiveRAG-Pool-Long"]["per_criterion"]
+mac("lmFigTabSkill", f2(c1m[FT]["skill"]))
+mac("lmFigTabPoolLong", f2(c1m[FT]["baseline"]))
+mac("lmRefPresSkill", f2(c1m[RP]["skill"]))
+mac("lmRefPresPoolLong", f2(c1m[RP]["baseline"]))
+for b, tag in (("DAS-Bench", "M"), ("DAS-Bench-xjudge", "X")):
+    for other, oname in (("NaiveRAG-Pool-Long", "lm"), ("NaiveRAG-Pool", "pool")):
+        for part, pname in (("without_fig", "NoFig"), ("without_fig_ref", "NoFigRef")):
+            q = c1[b][other][part]
+            mac(f"{oname}{pname}{tag}", sg(q["mean"]))
+            mac(f"{oname}{pname}Lo{tag}", f2(q["ci95"][0]))
+            mac(f"{oname}{pname}Hi{tag}", f2(q["ci95"][1]))
 
 
 def pearson(x, y):
@@ -146,6 +158,10 @@ lt = r"""\begin{table}[t]
     \quad topics won & \lmWinsM{}/\lmNM{} & \lmWinsX{}/\lmNX{} \\
     \quad \BSC{} / \TSQ{} / \HDQ{} / \MAR{} & \lmBscM{} / \lmTsqM{} / \lmHdqM{} / \lmMarM{} & \lmBscX{} / \lmTsqX{} / \lmHdqX{} / \lmMarX{} \\
     Share of the \textsc{Pool} gap closed by length & \lmCloseM\% & \lmCloseX\% \\
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Exploratory, after an internal review:} \textsc{Skill-Full} $-$ \textsc{Pool-Long} on the total}\\
+    \quad without figure/table quality & \lmNoFigM{} [\lmNoFigLoM, \lmNoFigHiM] & \lmNoFigX{} [\lmNoFigLoX, \lmNoFigHiX] \\
+    \quad without it and reference presentation & \lmNoFigRefM{} [\lmNoFigRefLoM, \lmNoFigRefHiM] & \lmNoFigRefX{} [\lmNoFigRefLoX, \lmNoFigRefHiX] \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -460,8 +476,9 @@ mac("vThreeWall", f"{st.mean(r['wall_min'] for r in r3):.0f}")
 rft = r"""\begin{table}[t]
   \centering
   \caption{\textbf{Held-out topics: first version (v1) and refined version (v3) against the same-model baselines}
-  (\hoSl{} SurveyLens topics never used for refinement; paired differences with 95\% bootstrap CIs). The \textsc{Pool}
-  baseline here received v1's candidate papers.}
+  (\hoSl{} SurveyLens topics whose traces stayed out of the refinement corpus; paired differences with 95\% bootstrap CIs).
+  We wrote v3's \texttt{fill} step after seeing v2's results on these topics, so the reference rows are not a clean held-out
+  test (\cref{sec:refine-results}). The \textsc{Pool} baseline here received v1's candidate papers.}
   \label{tab:refine}
   \small
   \setlength{\tabcolsep}{3.5pt}

@@ -1,0 +1,838 @@
+{
+ "DAS-Bench": {
+  "NaiveRAG-Pool-Long": {
+   "n": 30,
+   "total": {
+    "mean": 0.1347,
+    "ci95": [
+     0.0361,
+     0.2375
+    ],
+    "wins": 19,
+    "ties": 0
+   },
+   "without_fig": {
+    "mean": -0.0341,
+    "ci95": [
+     -0.1341,
+     0.0711
+    ],
+    "wins": 12,
+    "ties": 1
+   },
+   "without_fig_ref": {
+    "mean": 0.054,
+    "ci95": [
+     -0.0484,
+     0.1619
+    ],
+    "wins": 13,
+    "ties": 2
+   },
+   "per_criterion": {
+    "Claim-Level Citation Support": {
+     "mean": 0.0444,
+     "ci95": [
+      -0.0556,
+      0.1556
+     ],
+     "wins": 5,
+     "ties": 20,
+     "skill": 3.9778,
+     "baseline": 3.9333
+    },
+    "Reference Faithfulness and Attribution Accuracy": {
+     "mean": 0.0889,
+     "ci95": [
+      -0.0667,
+      0.2667
+     ],
+     "wins": 10,
+     "ties": 12,
+     "skill": 4.0889,
+     "baseline": 4.0
+    },
+    "Multi-Reference Synthesis Coverage and Quality": {
+     "mean": -0.0222,
+     "ci95": [
+      -0.1778,
+      0.1444
+     ],
+     "wins": 6,
+     "ties": 15,
+     "skill": 3.7444,
+     "baseline": 3.7667
+    },
+    "Citation Distribution Balance and Non-Redundancy": {
+     "mean": 0.1111,
+     "ci95": [
+      0.0,
+      0.2111
+     ],
+     "wins": 12,
+     "ties": 16,
+     "skill": 3.1778,
+     "baseline": 3.0667
+    },
+    "Research-Space Coverage": {
+     "mean": -0.2778,
+     "ci95": [
+      -0.4778,
+      -0.0667
+     ],
+     "wins": 7,
+     "ties": 6,
+     "skill": 4.4222,
+     "baseline": 4.7
+    },
+    "Taxonomy Clarity and Boundary Control": {
+     "mean": 0.0333,
+     "ci95": [
+      -0.2222,
+      0.2889
+     ],
+     "wins": 10,
+     "ties": 10,
+     "skill": 4.6667,
+     "baseline": 4.6333
+    },
+    "Survey Organization and Functional Coherence": {
+     "mean": 0.1333,
+     "ci95": [
+      -0.0444,
+      0.3222
+     ],
+     "wins": 8,
+     "ties": 13,
+     "skill": 4.8667,
+     "baseline": 4.7333
+    },
+    "Synthesis Insight and Gap Analysis": {
+     "mean": 0.2111,
+     "ci95": [
+      -0.0111,
+      0.4556
+     ],
+     "wins": 9,
+     "ties": 12,
+     "skill": 4.8778,
+     "baseline": 4.6667
+    },
+    "Multi-Level Goal Alignment": {
+     "mean": 0.0889,
+     "ci95": [
+      -0.0889,
+      0.3
+     ],
+     "wins": 7,
+     "ties": 15,
+     "skill": 4.7889,
+     "baseline": 4.7
+    },
+    "Paragraph Argument Progression": {
+     "mean": 0.2222,
+     "ci95": [
+      -0.0,
+      0.4778
+     ],
+     "wins": 10,
+     "ties": 13,
+     "skill": 4.7556,
+     "baseline": 4.5333
+    },
+    "Atomic Claim Specificity and Technical Concreteness": {
+     "mean": 0.1111,
+     "ci95": [
+      -0.0778,
+      0.3222
+     ],
+     "wins": 7,
+     "ties": 18,
+     "skill": 4.8111,
+     "baseline": 4.7
+    },
+    "Local Synthesis and Non-Enumerative Writing": {
+     "mean": 0.1667,
+     "ci95": [
+      -0.0444,
+      0.4111
+     ],
+     "wins": 10,
+     "ties": 12,
+     "skill": 4.7333,
+     "baseline": 4.5667
+    },
+    "Citation and Reference Presentation Integrity": {
+     "mean": -1.2667,
+     "ci95": [
+      -1.4667,
+      -1.0556
+     ],
+     "wins": 0,
+     "ties": 2,
+     "skill": 3.7333,
+     "baseline": 5.0
+    },
+    "Figure/Table Quality and Textual Integration": {
+     "mean": 2.6667,
+     "ci95": [
+      2.4889,
+      2.8444
+     ],
+     "wins": 30,
+     "ties": 0,
+     "skill": 3.6667,
+     "baseline": 1.0
+    },
+    "Layout and Formatting Professionalism": {
+     "mean": -0.1222,
+     "ci95": [
+      -0.2111,
+      -0.0556
+     ],
+     "wins": 0,
+     "ties": 21,
+     "skill": 4.8778,
+     "baseline": 5.0
+    },
+    "Manuscript Component Completeness": {
+     "mean": -0.0333,
+     "ci95": [
+      -0.0889,
+      0.0
+     ],
+     "wins": 0,
+     "ties": 28,
+     "skill": 4.9667,
+     "baseline": 5.0
+    }
+   }
+  },
+  "NaiveRAG-Pool": {
+   "n": 30,
+   "total": {
+    "mean": 0.4618,
+    "ci95": [
+     0.3646,
+     0.5597
+    ],
+    "wins": 30,
+    "ties": 0
+   },
+   "without_fig": {
+    "mean": 0.3148,
+    "ci95": [
+     0.2148,
+     0.417
+    ],
+    "wins": 24,
+    "ties": 2
+   },
+   "without_fig_ref": {
+    "mean": 0.4278,
+    "ci95": [
+     0.3222,
+     0.5341
+    ],
+    "wins": 26,
+    "ties": 2
+   },
+   "per_criterion": {
+    "Claim-Level Citation Support": {
+     "mean": 0.0111,
+     "ci95": [
+      -0.0667,
+      0.1111
+     ],
+     "wins": 4,
+     "ties": 21,
+     "skill": 3.9778,
+     "baseline": 3.9667
+    },
+    "Reference Faithfulness and Attribution Accuracy": {
+     "mean": 0.1556,
+     "ci95": [
+      0.0333,
+      0.2889
+     ],
+     "wins": 13,
+     "ties": 12,
+     "skill": 4.0889,
+     "baseline": 3.9333
+    },
+    "Multi-Reference Synthesis Coverage and Quality": {
+     "mean": 0.0778,
+     "ci95": [
+      -0.1,
+      0.2667
+     ],
+     "wins": 8,
+     "ties": 14,
+     "skill": 3.7444,
+     "baseline": 3.6667
+    },
+    "Citation Distribution Balance and Non-Redundancy": {
+     "mean": 0.1444,
+     "ci95": [
+      0.0444,
+      0.2333
+     ],
+     "wins": 12,
+     "ties": 17,
+     "skill": 3.1778,
+     "baseline": 3.0333
+    },
+    "Research-Space Coverage": {
+     "mean": 0.3556,
+     "ci95": [
+      0.1667,
+      0.5444
+     ],
+     "wins": 17,
+     "ties": 10,
+     "skill": 4.4222,
+     "baseline": 4.0667
+    },
+    "Taxonomy Clarity and Boundary Control": {
+     "mean": 0.5333,
+     "ci95": [
+      0.2889,
+      0.7778
+     ],
+     "wins": 19,
+     "ties": 8,
+     "skill": 4.6667,
+     "baseline": 4.1333
+    },
+    "Survey Organization and Functional Coherence": {
+     "mean": 0.5,
+     "ci95": [
+      0.2778,
+      0.7222
+     ],
+     "wins": 17,
+     "ties": 8,
+     "skill": 4.8667,
+     "baseline": 4.3667
+    },
+    "Synthesis Insight and Gap Analysis": {
+     "mean": 0.7778,
+     "ci95": [
+      0.6,
+      0.9556
+     ],
+     "wins": 24,
+     "ties": 5,
+     "skill": 4.8778,
+     "baseline": 4.1
+    },
+    "Multi-Level Goal Alignment": {
+     "mean": 0.4889,
+     "ci95": [
+      0.2667,
+      0.7111
+     ],
+     "wins": 19,
+     "ties": 7,
+     "skill": 4.7889,
+     "baseline": 4.3
+    },
+    "Paragraph Argument Progression": {
+     "mean": 1.2556,
+     "ci95": [
+      0.9889,
+      1.5222
+     ],
+     "wins": 27,
+     "ties": 3,
+     "skill": 4.7556,
+     "baseline": 3.5
+    },
+    "Atomic Claim Specificity and Technical Concreteness": {
+     "mean": 0.6444,
+     "ci95": [
+      0.3889,
+      0.8889
+     ],
+     "wins": 22,
+     "ties": 5,
+     "skill": 4.8111,
+     "baseline": 4.1667
+    },
+    "Local Synthesis and Non-Enumerative Writing": {
+     "mean": 1.2,
+     "ci95": [
+      0.9222,
+      1.4778
+     ],
+     "wins": 26,
+     "ties": 3,
+     "skill": 4.7333,
+     "baseline": 3.5333
+    },
+    "Citation and Reference Presentation Integrity": {
+     "mean": -1.2667,
+     "ci95": [
+      -1.4667,
+      -1.0556
+     ],
+     "wins": 0,
+     "ties": 2,
+     "skill": 3.7333,
+     "baseline": 5.0
+    },
+    "Figure/Table Quality and Textual Integration": {
+     "mean": 2.6667,
+     "ci95": [
+      2.4889,
+      2.8444
+     ],
+     "wins": 30,
+     "ties": 0,
+     "skill": 3.6667,
+     "baseline": 1.0
+    },
+    "Layout and Formatting Professionalism": {
+     "mean": -0.1222,
+     "ci95": [
+      -0.2111,
+      -0.0556
+     ],
+     "wins": 0,
+     "ties": 21,
+     "skill": 4.8778,
+     "baseline": 5.0
+    },
+    "Manuscript Component Completeness": {
+     "mean": -0.0333,
+     "ci95": [
+      -0.0889,
+      0.0
+     ],
+     "wins": 0,
+     "ties": 28,
+     "skill": 4.9667,
+     "baseline": 5.0
+    }
+   }
+  }
+ },
+ "DAS-Bench-xjudge": {
+  "NaiveRAG-Pool-Long": {
+   "n": 30,
+   "total": {
+    "mean": 0.1618,
+    "ci95": [
+     0.1021,
+     0.2222
+    ],
+    "wins": 26,
+    "ties": 1
+   },
+   "without_fig": {
+    "mean": 0.043,
+    "ci95": [
+     -0.0185,
+     0.1059
+    ],
+    "wins": 16,
+    "ties": 1
+   },
+   "without_fig_ref": {
+    "mean": 0.0992,
+    "ci95": [
+     0.0397,
+     0.1611
+    ],
+    "wins": 23,
+    "ties": 2
+   },
+   "per_criterion": {
+    "Claim-Level Citation Support": {
+     "mean": -0.0,
+     "ci95": [
+      -0.1778,
+      0.2
+     ],
+     "wins": 9,
+     "ties": 10,
+     "skill": 3.8,
+     "baseline": 3.8
+    },
+    "Reference Faithfulness and Attribution Accuracy": {
+     "mean": -0.1778,
+     "ci95": [
+      -0.4,
+      0.0333
+     ],
+     "wins": 11,
+     "ties": 8,
+     "skill": 3.9889,
+     "baseline": 4.1667
+    },
+    "Multi-Reference Synthesis Coverage and Quality": {
+     "mean": -0.2222,
+     "ci95": [
+      -0.4222,
+      -0.0
+     ],
+     "wins": 5,
+     "ties": 6,
+     "skill": 3.4778,
+     "baseline": 3.7
+    },
+    "Citation Distribution Balance and Non-Redundancy": {
+     "mean": 0.3556,
+     "ci95": [
+      0.1889,
+      0.5111
+     ],
+     "wins": 21,
+     "ties": 8,
+     "skill": 3.2889,
+     "baseline": 2.9333
+    },
+    "Research-Space Coverage": {
+     "mean": -0.1778,
+     "ci95": [
+      -0.3444,
+      -0.0111
+     ],
+     "wins": 6,
+     "ties": 8,
+     "skill": 4.4889,
+     "baseline": 4.6667
+    },
+    "Taxonomy Clarity and Boundary Control": {
+     "mean": 0.5667,
+     "ci95": [
+      0.3667,
+      0.7667
+     ],
+     "wins": 19,
+     "ties": 8,
+     "skill": 4.8667,
+     "baseline": 4.3
+    },
+    "Survey Organization and Functional Coherence": {
+     "mean": 0.1,
+     "ci95": [
+      -0.0222,
+      0.2444
+     ],
+     "wins": 4,
+     "ties": 24,
+     "skill": 4.9667,
+     "baseline": 4.8667
+    },
+    "Synthesis Insight and Gap Analysis": {
+     "mean": 0.1333,
+     "ci95": [
+      0.0333,
+      0.2667
+     ],
+     "wins": 4,
+     "ties": 26,
+     "skill": 5.0,
+     "baseline": 4.8667
+    },
+    "Multi-Level Goal Alignment": {
+     "mean": 0.1111,
+     "ci95": [
+      0.0,
+      0.2444
+     ],
+     "wins": 4,
+     "ties": 24,
+     "skill": 4.9778,
+     "baseline": 4.8667
+    },
+    "Paragraph Argument Progression": {
+     "mean": 0.5111,
+     "ci95": [
+      0.3222,
+      0.6889
+     ],
+     "wins": 17,
+     "ties": 11,
+     "skill": 4.9444,
+     "baseline": 4.4333
+    },
+    "Atomic Claim Specificity and Technical Concreteness": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "ties": 30,
+     "skill": 5.0,
+     "baseline": 5.0
+    },
+    "Local Synthesis and Non-Enumerative Writing": {
+     "mean": 0.4667,
+     "ci95": [
+      0.2889,
+      0.6444
+     ],
+     "wins": 15,
+     "ties": 14,
+     "skill": 4.9667,
+     "baseline": 4.5
+    },
+    "Citation and Reference Presentation Integrity": {
+     "mean": -0.7444,
+     "ci95": [
+      -0.9667,
+      -0.5111
+     ],
+     "wins": 3,
+     "ties": 2,
+     "skill": 3.7556,
+     "baseline": 4.5
+    },
+    "Figure/Table Quality and Textual Integration": {
+     "mean": 1.9444,
+     "ci95": [
+      1.7889,
+      2.0889
+     ],
+     "wins": 30,
+     "ties": 0,
+     "skill": 2.9444,
+     "baseline": 1.0
+    },
+    "Layout and Formatting Professionalism": {
+     "mean": -0.1222,
+     "ci95": [
+      -0.3222,
+      0.0667
+     ],
+     "wins": 11,
+     "ties": 5,
+     "skill": 3.9111,
+     "baseline": 4.0333
+    },
+    "Manuscript Component Completeness": {
+     "mean": -0.1556,
+     "ci95": [
+      -0.2667,
+      -0.0333
+     ],
+     "wins": 1,
+     "ties": 15,
+     "skill": 4.7778,
+     "baseline": 4.9333
+    }
+   }
+  },
+  "NaiveRAG-Pool": {
+   "n": 30,
+   "total": {
+    "mean": 0.4056,
+    "ci95": [
+     0.3028,
+     0.5111
+    ],
+    "wins": 28,
+    "ties": 1
+   },
+   "without_fig": {
+    "mean": 0.303,
+    "ci95": [
+     0.1956,
+     0.4133
+    ],
+    "wins": 24,
+    "ties": 0
+   },
+   "without_fig_ref": {
+    "mean": 0.373,
+    "ci95": [
+     0.2651,
+     0.481
+    ],
+    "wins": 25,
+    "ties": 0
+   },
+   "per_criterion": {
+    "Claim-Level Citation Support": {
+     "mean": -0.0,
+     "ci95": [
+      -0.1778,
+      0.1889
+     ],
+     "wins": 11,
+     "ties": 8,
+     "skill": 3.8,
+     "baseline": 3.8
+    },
+    "Reference Faithfulness and Attribution Accuracy": {
+     "mean": -0.0444,
+     "ci95": [
+      -0.2556,
+      0.1556
+     ],
+     "wins": 12,
+     "ties": 6,
+     "skill": 3.9889,
+     "baseline": 4.0333
+    },
+    "Multi-Reference Synthesis Coverage and Quality": {
+     "mean": 0.0778,
+     "ci95": [
+      -0.1444,
+      0.3
+     ],
+     "wins": 11,
+     "ties": 7,
+     "skill": 3.4778,
+     "baseline": 3.4
+    },
+    "Citation Distribution Balance and Non-Redundancy": {
+     "mean": 0.3556,
+     "ci95": [
+      0.1667,
+      0.5556
+     ],
+     "wins": 20,
+     "ties": 7,
+     "skill": 3.2889,
+     "baseline": 2.9333
+    },
+    "Research-Space Coverage": {
+     "mean": 0.1556,
+     "ci95": [
+      -0.0444,
+      0.3444
+     ],
+     "wins": 16,
+     "ties": 7,
+     "skill": 4.4889,
+     "baseline": 4.3333
+    },
+    "Taxonomy Clarity and Boundary Control": {
+     "mean": 0.6333,
+     "ci95": [
+      0.4222,
+      0.8444
+     ],
+     "wins": 21,
+     "ties": 4,
+     "skill": 4.8667,
+     "baseline": 4.2333
+    },
+    "Survey Organization and Functional Coherence": {
+     "mean": 0.6,
+     "ci95": [
+      0.4111,
+      0.7778
+     ],
+     "wins": 18,
+     "ties": 11,
+     "skill": 4.9667,
+     "baseline": 4.3667
+    },
+    "Synthesis Insight and Gap Analysis": {
+     "mean": 0.5,
+     "ci95": [
+      0.3333,
+      0.6667
+     ],
+     "wins": 15,
+     "ties": 15,
+     "skill": 5.0,
+     "baseline": 4.5
+    },
+    "Multi-Level Goal Alignment": {
+     "mean": 0.5111,
+     "ci95": [
+      0.3333,
+      0.7
+     ],
+     "wins": 16,
+     "ties": 13,
+     "skill": 4.9778,
+     "baseline": 4.4667
+    },
+    "Paragraph Argument Progression": {
+     "mean": 1.1111,
+     "ci95": [
+      0.8556,
+      1.3556
+     ],
+     "wins": 25,
+     "ties": 4,
+     "skill": 4.9444,
+     "baseline": 3.8333
+    },
+    "Atomic Claim Specificity and Technical Concreteness": {
+     "mean": 0.4333,
+     "ci95": [
+      0.2667,
+      0.6
+     ],
+     "wins": 13,
+     "ties": 17,
+     "skill": 5.0,
+     "baseline": 4.5667
+    },
+    "Local Synthesis and Non-Enumerative Writing": {
+     "mean": 1.1333,
+     "ci95": [
+      0.8889,
+      1.3667
+     ],
+     "wins": 25,
+     "ties": 5,
+     "skill": 4.9667,
+     "baseline": 3.8333
+    },
+    "Citation and Reference Presentation Integrity": {
+     "mean": -0.6778,
+     "ci95": [
+      -0.9333,
+      -0.3889
+     ],
+     "wins": 4,
+     "ties": 3,
+     "skill": 3.7556,
+     "baseline": 4.4333
+    },
+    "Figure/Table Quality and Textual Integration": {
+     "mean": 1.9444,
+     "ci95": [
+      1.7889,
+      2.0889
+     ],
+     "wins": 30,
+     "ties": 0,
+     "skill": 2.9444,
+     "baseline": 1.0
+    },
+    "Layout and Formatting Professionalism": {
+     "mean": -0.1222,
+     "ci95": [
+      -0.4333,
+      0.1889
+     ],
+     "wins": 11,
+     "ties": 2,
+     "skill": 3.9111,
+     "baseline": 4.0333
+    },
+    "Manuscript Component Completeness": {
+     "mean": -0.1222,
+     "ci95": [
+      -0.2778,
+      0.0333
+     ],
+     "wins": 3,
+     "ties": 13,
+     "skill": 4.7778,
+     "baseline": 4.9
+    }
+   }
+  }
+ }
+}

@@ -22,6 +22,10 @@ evaluation/
   citation_integrity/         NoRAG / Pool-Free generation and the reference verifier
   surveylens/                 SurveyLens processing, judging and analysis
   surveybench/                SurveyBench conversion, judging and analysis
+  review_followup/            two analyses added after an internal review: the plan written before computing them
+                              (PLAN.md), the per-criterion split of the length-matched comparison (c1_criteria.py),
+                              the re-check of every delivered DAS-Bench survey against its ledger (c7_check.py, with
+                              the two ledger-script versions it needs), and their results
 refinement/                   SkillRefiner corpus conversion and runner, label rules (LABELS.md), the edits
                               applied (CHANGES.md, make_v2.py), held-out tests (EVAL.md, compare_ver.py)
 protocols/                    the pre-registered protocols with every logged deviation

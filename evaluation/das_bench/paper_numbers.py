@@ -124,8 +124,25 @@ def main() -> int:
         shares = [x["evidence_full"]["mean"] / (x["evidence_full"]["mean"] + x["evidence_abstract"]["mean"]) for x in full]
         m += macro("fullShareMin", f"{100 * min(shares):.0f}") + macro("fullShareMax", f"{100 * max(shares):.0f}")
         m += macro("costAbs", f"{ps['abs_r1']['cost_usd']['mean']:.2f}") + macro("wallAbs", f"{ps['abs_r1']['wall_min']['mean']:.0f}")
+        # Check outcomes come from review_followup/c7_check.py: the first parser here missed `check` calls made
+        # through a shell variable and outputs the agent filtered, and counted those sessions as failures.
+        c7 = json.loads((pdir.parent / "review_followup" / "c7_result.json").read_text())
+        c7_cond = {"full_r1": "Skill-Full r1", "full_r2": "Skill-Full r2", "full_r3": "Skill-Full r3", "abs_r1": "Skill-Abs"}
+        for k, cond in c7_cond.items():
+            sel = [r for r in c7["sessions"] if r["condition"] == cond]
+            ps[k]["c7_logged_pass"] = sum(r["last_check_hard"] == 0 for r in sel)
+            ps[k]["c7_recheck_pass"] = sum(bool(r["recheck_pass_versions"]) for r in sel)
+            ps[k]["c7_warnings"] = c7["summary"]["by_condition"][cond]["warnings_mean"]
         for k, name in (("full_r1", "RunOne"), ("full_r2", "RunTwo"), ("full_r3", "RunThree"), ("abs_r1", "RunAbs")):
-            m += macro(f"checkPass{name}", str(round(ps[k]["check_pass_rate"] * ps[k]["n_runs"])))
+            m += macro(f"checkLogged{name}", str(ps[k]["c7_logged_pass"]))
+        allc7 = c7["summary"]["all"]
+        m += macro("cSevenSessions", str(allc7["sessions"])) + macro("cSevenEntries", f"{allc7['entries']:,}".replace(",", "{,}"))
+        m += macro("cSevenLoggedPass", str(allc7["last_check_visible_pass"]))
+        m += macro("cSevenHidden", str(len(allc7["last_check_not_visible"])))
+        m += macro("cSevenRecheckPass", str(allc7["recheck_pass"])) + macro("cSevenOutside", str(allc7["c_outside_ledger"]))
+        m += macro("cSevenFlagged", str(c7["summary"]["flagged_in_paper"]["sessions"]))
+        m += macro("cSevenWarnMin", f"{min(ps[k]['c7_warnings'] for k in c7_cond):.1f}")
+        m += macro("cSevenWarnMax", f"{max(ps[k]['c7_warnings'] for k in c7_cond):.1f}")
         rows = [("Search calls, \\texttt{deep\\_search} in parentheses", lambda x: f"{x['search_calls']['mean']:.1f} ({x['deep_search_calls']['mean']:.1f})"),
                 ("Result files ingested into the ledger", lambda x: f"{x['ingested_result_files']['mean']:.1f}"),
                 ("Papers added to the ledger", lambda x: f"{x['ledger_adds']['mean']:.0f}"),
@@ -133,15 +150,16 @@ def main() -> int:
                 ("Papers cited in the survey", lambda x: f"{x['cited']['mean']:.1f}"),
                 ("Reader sub-agents", lambda x: f"{x['subagents']['mean']:.1f}"),
                 ("Evidence files: full text / abstract", lambda x: f"{x['evidence_full']['mean']:.1f} / {x['evidence_abstract']['mean']:.1f}"),
-                ("Warnings left by the final \\texttt{check}", lambda x: f"{x['check_warnings_final']['mean']:.1f}"),
+                ("Warnings \\texttt{check} reports on the delivered files", lambda x: f"{x['c7_warnings']:.1f}"),
                 ("Agent turns", lambda x: f"{x['turns']['mean']:.0f}"),
                 ("Wall time (min)", lambda x: f"{x['wall_min']['mean']:.1f}"),
                 ("Generation cost (USD)", lambda x: f"{x['cost_usd']['mean']:.2f}"),
-                ("Sessions whose final \\texttt{check} passed", lambda x: f"{round(x['check_pass_rate'] * x['n_runs'])}/{x['n_runs']}")]
+                ("Final \\texttt{check} shows zero hard failures in the log", lambda x: f"{x['c7_logged_pass']}/{x['n_runs']}"),
+                ("Delivered file passes \\texttt{check} when re-run", lambda x: f"{x['c7_recheck_pass']}/{x['n_runs']}")]
         body = "\n".join("    " + name + " & " + " & ".join(fn(ps[k]) for k, _ in runs) + r" \\" for name, fn in rows)
         (out / "tab_process.tex").write_text(r"""\begin{table}[t]
   \centering
-  \caption{\textbf{Process statistics of \skill{}}: means per session over 30 sessions per run (\dsflash{}). Search calls are counted from the executed shell commands and may undercount calls issued inside loops; ingested result files are counted from the ledger.}
+  \caption{\textbf{Process statistics of \skill{}}: means per session over 30 sessions per run (\dsflash{}). Search calls are counted from the executed shell commands and may undercount calls issued inside loops; ingested result files are counted from the ledger. The last two rows read the session log, where the agent sometimes filtered the output of its final \texttt{check}, and re-run \texttt{check} on the delivered files with the ledger code deployed during the runs.}
   \label{tab:process}
   \small
   \begin{tabular}{@{}lcccc@{}}
