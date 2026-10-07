@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {"matcher": "WebFetch|Bash", "hooks": [{"type": "command", "command": "/opt/gen/bin/python3 /opt/gen/sb_guard.py"}]}
+    ]
+  }
+}

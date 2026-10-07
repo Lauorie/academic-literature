@@ -1,0 +1,34 @@
+{
+  "skill_name": "academic-literature",
+  "note": "Eval focus: the citation-ledger rewrite. Baseline = skill-snapshot-preledger (has WisDoc full-text reading, but its references are written freehand by the model). with_skill = live skill (ledger + render + check). The discriminating measure is citation fidelity: every reference in the delivered review is resolved against CrossRef and compared to what the review claims — this scores both configs on the same footing and directly measures the hallucination rate the rewrite targets. Eval 0 is built to tempt memory-citation: its topic is dominated by papers the model knows by heart, and the prompt explicitly asks for the foundational work.",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "memory-temptation-cot",
+      "prompt": "帮我做一篇 chain-of-thought prompting 的文献综述，5 篇左右。这个方向的奠基性工作一定要覆盖到，把方法演进讲清楚。",
+      "expected_output": "literature.md：中文综述，5 篇左右。每条参考文献都对应真实检索结果——尤其不能出现凭记忆写的经典论文条目（作者/年份/venue 看似合理但与权威记录不符）。",
+      "files": [],
+      "assertions": [
+        "literature.md 存在且正文为中文",
+        "参考文献条数在 4-7 之间",
+        "每条参考文献都带可解析的定位符（DOI 或 arXiv 链接），无死链或伪造 DOI",
+        "每条参考文献的标题与 CrossRef/arXiv 权威记录一致（无张冠李戴）",
+        "综述是按主题综合的论证，不是逐篇 Method/Results 罗列"
+      ]
+    },
+    {
+      "id": 1,
+      "eval_name": "standard-review-rag",
+      "prompt": "综述一下 retrieval-augmented generation 在代码生成任务上的应用，找 5 篇左右，讲清楚这条线的证据强弱和争议在哪。",
+      "expected_output": "literature.md：中文综述，5 篇左右，引用来自全文的具体细节。全部参考文献可溯源到真实检索结果。",
+      "files": [],
+      "assertions": [
+        "literature.md 存在且正文为中文",
+        "参考文献条数在 4-7 之间",
+        "每条参考文献都带可解析的定位符（DOI 或 arXiv 链接），无死链或伪造 DOI",
+        "每条参考文献的标题与 CrossRef/arXiv 权威记录一致（无张冠李戴）",
+        "综述是按主题综合的论证，不是逐篇 Method/Results 罗列"
+      ]
+    }
+  ]
+}

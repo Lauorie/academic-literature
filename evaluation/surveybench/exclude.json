@@ -1,0 +1,192 @@
+[
+ {
+  "sb_id": "sb01",
+  "topic": "3D Gaussian Splatting",
+  "title": "A Survey on 3D Gaussian Splatting",
+  "arxiv_id": "2401.03890",
+  "dois": [
+   "10.48550/arxiv.2401.03890"
+  ]
+ },
+ {
+  "sb_id": "sb02",
+  "topic": "3D Object Detection in Autonomous Driving",
+  "title": "3D Object Detection for Autonomous Driving: A Comprehensive Survey",
+  "arxiv_id": "2206.09474",
+  "dois": [
+   "10.1007/s11263-023-01790-1",
+   "10.48550/arxiv.2206.09474"
+  ]
+ },
+ {
+  "sb_id": "sb03",
+  "topic": "Agentic Reinforcement Learning",
+  "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+  "arxiv_id": "2509.02547",
+  "dois": [
+   "10.48550/arxiv.2509.02547"
+  ]
+ },
+ {
+  "sb_id": "sb04",
+  "topic": "Alignment of Large Language Models",
+  "title": "Aligning Large Language Models with Human: A Survey",
+  "arxiv_id": "2307.12966",
+  "dois": [
+   "10.48550/arxiv.2307.12966"
+  ]
+ },
+ {
+  "sb_id": "sb05",
+  "topic": "Efficient Inference for Large Language Models",
+  "title": "A Survey on Efficient Inference for Large Language Models",
+  "arxiv_id": "2404.14294",
+  "dois": [
+   "10.48550/arxiv.2404.14294"
+  ]
+ },
+ {
+  "sb_id": "sb06",
+  "topic": "Evaluation of Large Language Models",
+  "title": "A Survey on Evaluation of Large Language Models",
+  "arxiv_id": "2307.03109",
+  "dois": [
+   "10.1145/3641289",
+   "10.48550/arxiv.2307.03109"
+  ]
+ },
+ {
+  "sb_id": "sb07",
+  "topic": "Explainability for Large Language Models",
+  "title": "Explainability for Large Language Models: A Survey",
+  "arxiv_id": "2309.01029",
+  "dois": [
+   "10.1145/3639372",
+   "10.48550/arxiv.2309.01029"
+  ]
+ },
+ {
+  "sb_id": "sb08",
+  "topic": "Generative Diffusion Models",
+  "title": "A Survey on Generative Diffusion Models",
+  "arxiv_id": "2209.02646",
+  "dois": [
+   "10.1109/tkde.2024.3361474",
+   "10.48550/arxiv.2209.02646"
+  ]
+ },
+ {
+  "sb_id": "sb09",
+  "topic": "Graph Neural Networks",
+  "title": "Graph Neural Networks: Taxonomy, Advances and Trends",
+  "arxiv_id": "2012.08752",
+  "dois": [
+   "10.1145/3495161",
+   "10.48550/arxiv.2012.08752"
+  ]
+ },
+ {
+  "sb_id": "sb10",
+  "topic": "Hallucination in Large Language Models",
+  "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+  "arxiv_id": "2309.01219",
+  "dois": [
+   "10.1162/coli.a.16",
+   "10.48550/arxiv.2309.01219"
+  ]
+ },
+ {
+  "sb_id": "sb11",
+  "topic": "LLM-based Multi-Agent",
+  "title": "A Survey on Large Language Model based Autonomous Agents",
+  "arxiv_id": "2308.11432",
+  "dois": [
+   "10.1007/s11704-024-40231-1",
+   "10.48550/arxiv.2308.11432"
+  ]
+ },
+ {
+  "sb_id": "sb12",
+  "topic": "Large Language Models for Recommendation",
+  "title": "A Survey on Large Language Models for Recommendation",
+  "arxiv_id": "2305.19860",
+  "dois": [
+   "10.1007/s11280-024-01291-2",
+   "10.48550/arxiv.2305.19860"
+  ]
+ },
+ {
+  "sb_id": "sb13",
+  "topic": "Large Language Models for Time Series",
+  "title": "Large Language Models for Time Series: A Survey",
+  "arxiv_id": "2402.01801",
+  "dois": [
+   "10.48550/arxiv.2402.01801"
+  ]
+ },
+ {
+  "sb_id": "sb14",
+  "topic": "Multimodal Large Language Models",
+  "title": "A Survey on Multimodal Large Language Models",
+  "arxiv_id": "2306.13549",
+  "dois": [
+   "10.1093/nsr/nwae403",
+   "10.48550/arxiv.2306.13549"
+  ]
+ },
+ {
+  "sb_id": "sb15",
+  "topic": "Reinforcement Learning for Large Language Models",
+  "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+  "arxiv_id": "2509.08827",
+  "dois": [
+   "10.48550/arxiv.2509.08827"
+  ]
+ },
+ {
+  "sb_id": "sb16",
+  "topic": "Retrieval-Augmented Generation for Large Language Models",
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "arxiv_id": "2312.10997",
+  "dois": [
+   "10.48550/arxiv.2312.10997"
+  ]
+ },
+ {
+  "sb_id": "sb17",
+  "topic": "Safety in Large Language Models",
+  "title": "A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",
+  "arxiv_id": "2504.15585",
+  "dois": [
+   "10.48550/arxiv.2504.15585"
+  ]
+ },
+ {
+  "sb_id": "sb18",
+  "topic": "Scientific Large Language Models",
+  "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+  "arxiv_id": "2508.21148",
+  "dois": [
+   "10.48550/arxiv.2508.21148"
+  ]
+ },
+ {
+  "sb_id": "sb19",
+  "topic": "Vision Transformers",
+  "title": "A Survey of Visual Transformers",
+  "arxiv_id": "2111.06091",
+  "dois": [
+   "10.1109/tnnls.2022.3227717",
+   "10.48550/arxiv.2111.06091"
+  ]
+ },
+ {
+  "sb_id": "sb20",
+  "topic": "Vision-Language-Action Models",
+  "title": "Vision-Language-Action Models: Concepts, Progress, Applications and Challenges",
+  "arxiv_id": "2505.04769",
+  "dois": [
+   "10.48550/arxiv.2505.04769"
+  ]
+ }
+]

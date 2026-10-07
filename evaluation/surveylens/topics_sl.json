@@ -1,0 +1,502 @@
+[
+ {
+  "topic_id": "sl001",
+  "topic": "Acoustofluidic Separation Technology in Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl002",
+  "topic": "Endosymbiosis of Wolbachia in Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl003",
+  "topic": "Human Lice Research",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl004",
+  "topic": "Lineage Tracing Combined with Single-Cell Omics in Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl005",
+  "topic": "Luciferase Systems for In Vivo Imaging in Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl006",
+  "topic": "Mycobiome in the Gut",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl007",
+  "topic": "Organoids as Host Models for Infection Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl008",
+  "topic": "PRISMA Extension for Ecology and Evolutionary Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl009",
+  "topic": "Stingless Bee Classification and Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl010",
+  "topic": "Temporal Framework for Understanding Nonsuicidal Self-Injury in Biology",
+  "discipline": "Biology"
+ },
+ {
+  "topic_id": "sl011",
+  "topic": "Additive Manufacturing Technology in Business Models",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl012",
+  "topic": "Artificial Intelligence in Business",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl013",
+  "topic": "Artificial Intelligence in Business Strategy for Digital Transformation",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl014",
+  "topic": "Artificial Intelligence on Business Value in the Digital Era",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl015",
+  "topic": "Corporate Social Responsibility in Business",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl016",
+  "topic": "Corruption in International Business",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl017",
+  "topic": "Digital Entrepreneurship in Innovation Systems for Sustainable Transitions",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl018",
+  "topic": "Qualitative Comparative Analysis (QCA) in International Business Research",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl019",
+  "topic": "Small and Medium Enterprises (SMEs) Challenges and Survival Strategies in Business",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl020",
+  "topic": "Sustainable Development Goals in Business Strategy",
+  "discipline": "Business"
+ },
+ {
+  "topic_id": "sl021",
+  "topic": "Abusive Language Training Data in Natural Language Processing",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl022",
+  "topic": "Computational Thinking in Education with Scratch",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl023",
+  "topic": "Computer Vision for Safety Science and Management in Construction",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl024",
+  "topic": "Educational Chatbots in Computer Science",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl025",
+  "topic": "Explainable Artificial Intelligence in Finance",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl026",
+  "topic": "Fairness in Recommender Systems",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl027",
+  "topic": "Generative Adversarial Networks in Computer Science",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl028",
+  "topic": "Graph Theory Applications in Computer Science and Social Networks",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl029",
+  "topic": "Multi-modal Fusion with Attention Mechanisms in Visual Question Answering",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl030",
+  "topic": "Pre-trained Language Models in Biomedical Domain",
+  "discipline": "Computer Science"
+ },
+ {
+  "topic_id": "sl031",
+  "topic": "Digital Competence in Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl032",
+  "topic": "Education 4.0 and 21st Century Skills in Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl033",
+  "topic": "Gamification in Health Professions Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl034",
+  "topic": "Gamification in Science Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl035",
+  "topic": "Generative Artificial Intelligence in Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl036",
+  "topic": "Immersive Virtual Reality in Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl037",
+  "topic": "Impact of COVID-19 on Education in Developing Countries",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl038",
+  "topic": "Large Language Models in Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl039",
+  "topic": "Large Language Models in Education: Practical and Ethical Challenges",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl040",
+  "topic": "Predicting Academic Success in Higher Education",
+  "discipline": "Education"
+ },
+ {
+  "topic_id": "sl041",
+  "topic": "CAR-T Cell Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl042",
+  "topic": "Chitosan-based Bioactive Materials in Tissue Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl043",
+  "topic": "Distributed Optical Fiber Sensors for Structural Health Monitoring in Civil Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl044",
+  "topic": "Fiber Bragg Grating Sensors for Physical Parameter Monitoring in Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl045",
+  "topic": "Machine Learning in Earthquake Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl046",
+  "topic": "Model Predictive Control in Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl047",
+  "topic": "Nanoparticles and Nanostructured Materials in Biomedical and Agricultural Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl048",
+  "topic": "Polydimethylsiloxane (PDMS) in Biomedical Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl049",
+  "topic": "Tribology in Engineering",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl050",
+  "topic": "Upper Limb Exoskeleton Design",
+  "discipline": "Engineering"
+ },
+ {
+  "topic_id": "sl051",
+  "topic": "Cyanobacteria in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl052",
+  "topic": "Groundwater Sustainability: Interactions Between Science and Policy in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl053",
+  "topic": "Hydrothermal Liquefaction of Biomass for Biorefinery Applications in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl054",
+  "topic": "Lake Restoration in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl055",
+  "topic": "Marine Transportation Environmental Impacts and Mitigation Strategies in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl056",
+  "topic": "Nanotechnology in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl057",
+  "topic": "Permeable Pavement Systems in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl058",
+  "topic": "Quantitative Evidence Synthesis in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl059",
+  "topic": "Sonochemistry in Environmental Science",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl060",
+  "topic": "Thermal Destruction of Per- and Polyfluoroalkyl Substances in Water Resource Recovery Facilities",
+  "discipline": "Environmental Science"
+ },
+ {
+  "topic_id": "sl061",
+  "topic": "Analytical Methods for Determining Antioxidant Activity in Medicine",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl062",
+  "topic": "Artificial Intelligence in Healthcare",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl063",
+  "topic": "Cardiomyocyte Maturation in Regenerative Medicine",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl064",
+  "topic": "Feature Selection Methods for Disease Risk Prediction in Medicine",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl065",
+  "topic": "Nanoparticle Classification and Applications in Medicine",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl066",
+  "topic": "PRISMA-DTA in Diagnostic Test Accuracy Studies",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl067",
+  "topic": "Precision Cancer Medicine",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl068",
+  "topic": "Social Determinants of Health in Diabetes Research",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl069",
+  "topic": "Traditional Chinese Medicine in Treating SARS-CoV-2 Infections",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl070",
+  "topic": "Wearable Health Devices in Health Care",
+  "discipline": "Medicine"
+ },
+ {
+  "topic_id": "sl071",
+  "topic": "Computational Methods for the Hubbard Model in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl072",
+  "topic": "Cosmological Tensions and Anomalies in Particle Physics and Cosmology",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl073",
+  "topic": "Dipolar Physics with Magnetic Quantum Gases",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl074",
+  "topic": "Heavy-Heavy Hadronic Molecules in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl075",
+  "topic": "Hubble Tension in Cosmology",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl076",
+  "topic": "Non-Hermitian Skin Effect in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl077",
+  "topic": "Non-Hermitian Topological Phenomena in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl078",
+  "topic": "Physics-informed Neural Networks for Fluid Mechanics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl079",
+  "topic": "Quantum Many-Body Scars and Hilbert Space Fragmentation in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl080",
+  "topic": "Scalar Induced Gravitational Waves in Physics",
+  "discipline": "Physics"
+ },
+ {
+  "topic_id": "sl081",
+  "topic": "Artificial Intelligence in Psychological Research",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl082",
+  "topic": "Ecological Momentary Assessment in Child Psychology and Psychiatry",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl083",
+  "topic": "Esports Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl084",
+  "topic": "Goal-Setting Theory in Physical Activity Promotion Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl085",
+  "topic": "Heart Rate Variability Analysis in Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl086",
+  "topic": "Multi-component Positive Psychology Interventions in Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl087",
+  "topic": "Multicomponent Positive Psychology Interventions in Adolescent Well-being and Distress",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl088",
+  "topic": "Psychobiological Processes of Stress and Health in Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl089",
+  "topic": "Psychology of Sustainability and Quality of Life During Pandemics",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl090",
+  "topic": "Subjective Well-Being in Psychology",
+  "discipline": "Psychology"
+ },
+ {
+  "topic_id": "sl091",
+  "topic": "Behavior-Based Insurance from a Sociological Perspective",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl092",
+  "topic": "Community Detection in Multilayer Networks in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl093",
+  "topic": "Digital Interviews in Qualitative Research in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl094",
+  "topic": "Freebirthing as a Historical and Social Phenomenon in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl095",
+  "topic": "Innovation Adoption in Agricultural Communities",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl096",
+  "topic": "Intersectionality and Coalitions in Social Movement Research",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl097",
+  "topic": "Longitudinal Social Research in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl098",
+  "topic": "Qualitative Research and Focus Group Discussion in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl099",
+  "topic": "Residential Property Investor Types in Sociology",
+  "discipline": "Sociology"
+ },
+ {
+  "topic_id": "sl100",
+  "topic": "Xenophobia towards Asylum Seekers in Sociology",
+  "discipline": "Sociology"
+ }
+]

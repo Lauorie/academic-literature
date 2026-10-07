@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 27 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 27
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Business
+Loaded: expanded_aspects_Corruption_in_international_business-_A_review_and_research_agenda.json
+Loaded: expanded_aspects_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_A_Systematic_Literature_Review_as_a_Basis_for_Future_Research_Avenues_for_Sustainable_Transitions.json
+Loaded: expanded_aspects_How_Additive_Manufacturing_Technology_Changes_Business_Models_–_Review_of_Literature.json
+Loaded: expanded_aspects_The_contributions_of_qualitative_comparative_analysis_(QCA)_to_international_business_research.json
+Loaded: expanded_aspects_Sustainable_development_goals_and_the_strategic_role_of_business_A_systematic_literature_review.json
+Loaded: expanded_aspects_Meta-analyses_on_Corporate_Social_Responsibility_(CSR)-_a_literature_review.json
+Loaded: expanded_aspects_Investigating_the_Influence_of_Artificial_Intelligence_on_Business_Value_in_the_Digital_Era_of_Strategy_A_Literature_Review.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Strategy_towards_Digital_Transformation-_A_Research_Agenda.json
+Loaded: expanded_aspects_Artificial_Intelligence_and_Business_Value-_a_Literature_Review.json
+Loaded: expanded_aspects_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Small_and_Medium_Enterprises_(SMEs).json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Business/merged_aspects.json
+================================================================================

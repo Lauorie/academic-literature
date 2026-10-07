@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Sociology
+Loaded: expanded_aspects_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theories.json
+Loaded: expanded_aspects_One_and_the_Same_A_Systematic_Literature_Review_of_Residential_Property_Investor_Types.json
+Loaded: expanded_aspects_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussion.json
+Loaded: expanded_aspects_Pioneering_the_use_of_technologies_in_qualitative_research_–_A_research_review_of_the_use_of_digital_interviews.json
+Loaded: expanded_aspects_A_survey_of_community_detection_methods_in_multilayer_networks.json
+Loaded: expanded_aspects_Contested_technology-_Social_scientific_perspectives_of_behaviour-based_insurance.json
+Loaded: expanded_aspects_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A_Review_of_Selected_Conceptual_Models.json
+Loaded: expanded_aspects_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_Social_Survey_at_Fifty.json
+Loaded: expanded_aspects_Exploring_the_conceptualisation_and_study_of_freebirthing_as_a_historical_and_social_phenomenon-_a_meta-narrative_review_of_diverse_research_traditions.json
+Loaded: expanded_aspects_Intersectionality_and_coalitions_in_social_movement_research_A_survey_and_outlook.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Sociology/merged_aspects.json
+================================================================================

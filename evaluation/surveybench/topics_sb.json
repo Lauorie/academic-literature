@@ -1,0 +1,82 @@
+[
+ {
+  "topic_id": "sb01",
+  "topic": "3D Gaussian Splatting"
+ },
+ {
+  "topic_id": "sb02",
+  "topic": "3D Object Detection in Autonomous Driving"
+ },
+ {
+  "topic_id": "sb03",
+  "topic": "Agentic Reinforcement Learning"
+ },
+ {
+  "topic_id": "sb04",
+  "topic": "Alignment of Large Language Models"
+ },
+ {
+  "topic_id": "sb05",
+  "topic": "Efficient Inference for Large Language Models"
+ },
+ {
+  "topic_id": "sb06",
+  "topic": "Evaluation of Large Language Models"
+ },
+ {
+  "topic_id": "sb07",
+  "topic": "Explainability for Large Language Models"
+ },
+ {
+  "topic_id": "sb08",
+  "topic": "Generative Diffusion Models"
+ },
+ {
+  "topic_id": "sb09",
+  "topic": "Graph Neural Networks"
+ },
+ {
+  "topic_id": "sb10",
+  "topic": "Hallucination in Large Language Models"
+ },
+ {
+  "topic_id": "sb11",
+  "topic": "LLM-based Multi-Agent"
+ },
+ {
+  "topic_id": "sb12",
+  "topic": "Large Language Models for Recommendation"
+ },
+ {
+  "topic_id": "sb13",
+  "topic": "Large Language Models for Time Series"
+ },
+ {
+  "topic_id": "sb14",
+  "topic": "Multimodal Large Language Models"
+ },
+ {
+  "topic_id": "sb15",
+  "topic": "Reinforcement Learning for Large Language Models"
+ },
+ {
+  "topic_id": "sb16",
+  "topic": "Retrieval-Augmented Generation for Large Language Models"
+ },
+ {
+  "topic_id": "sb17",
+  "topic": "Safety in Large Language Models"
+ },
+ {
+  "topic_id": "sb18",
+  "topic": "Scientific Large Language Models"
+ },
+ {
+  "topic_id": "sb19",
+  "topic": "Vision Transformers"
+ },
+ {
+  "topic_id": "sb20",
+  "topic": "Vision-Language-Action Models"
+ }
+]

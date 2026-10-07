@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Psychology
+Loaded: expanded_aspects_Stress_and_Health-_A_Review_of_Psychobiological_Processes..json
+Loaded: expanded_aspects_AI_in_marketing,_consumer_research_and_psychology-_A_systematic_literature_review_and_research_agenda.json
+Loaded: expanded_aspects_The_Efficacy_of_Multi-component_Positive_Psychology_Interventions-_A_Systematic_Review_and_Meta-analysis_of_Randomized_Controlled_Trials.json
+Loaded: expanded_aspects_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indices_and_an_Analysis_Tutorial.json
+Loaded: expanded_aspects_Setting_the_scientific_stage_for_esports_psychology-_a_systematic_review.json
+Loaded: expanded_aspects_Effects_of_School-based_Multicomponent_Positive_Psychology_Interventions_on_Well-being_and_Distress_in_Adolescents-_A_Systematic_Review_and_Meta-analysis.json
+Loaded: expanded_aspects_Updating_goal-setting_theory_in_physical_activity_promotion-_a_critical_conceptual_review.json
+Loaded: expanded_aspects_Annual_Research_Review-_Ecological_momentary_assessment_studies_in_child_psychology_and_psychiatry..json
+Loaded: expanded_aspects_Understanding_subjective_well-being-_perspectives_from_psychology_and_public_health.json
+Loaded: expanded_aspects_Getting_Through_COVID-19_The_Pandemic_s_Impact_on_the_Psychology_of_Sustainability,_Quality_of_Life,_and_the_Global_Economy_–_A_Systematic_Review.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Psychology/merged_aspects.json
+================================================================================

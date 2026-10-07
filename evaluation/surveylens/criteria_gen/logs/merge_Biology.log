@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Biology
+Loaded: expanded_aspects_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_in_Vivo_Imaging.json
+Loaded: expanded_aspects_Recent_advances_in_acoustofluidic_separation_technology_in_biology.json
+Loaded: expanded_aspects_Lineage_tracing_meets_single-cell_omics-_opportunities_and_challenges.json
+Loaded: expanded_aspects_Organoids_as_host_models_for_infection_biology_–_a_review_of_methods.json
+Loaded: expanded_aspects_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_of_Knowledge.json
+Loaded: expanded_aspects_Mycobiome_in_the_Gut-_A_Multiperspective_Review.json
+Loaded: expanded_aspects_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_review..json
+Loaded: expanded_aspects_Stingless_bee_classification_and_biology_(Hymenoptera,_Apidae)-_a_review,_with_an_updated_key_to_genera_and_subgenera.json
+Loaded: expanded_aspects_Advancing_a_temporal_framework_for_understanding_the_biology_of_nonsuicidal_self-injury-_An_expert_review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_reviews_and_meta鈥恆nalyses_in_ecology_and_evolutionary_biology-_a_PRISMA_extension.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Biology/merged_aspects.json
+================================================================================

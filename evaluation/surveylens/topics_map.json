@@ -1,0 +1,1270 @@
+[
+ {
+  "discipline": "Biology",
+  "topic": "Acoustofluidic Separation Technology in Biology",
+  "topic_filename": "Acoustofluidic Separation Technology in Biology",
+  "human_title": "Recent advances in acoustofluidic separation technology in biology",
+  "human_md": "results/original/Human/Biology/Recent advances in acoustofluidic separation technology in biology.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [48, 49, 50] (Gemini:confirmed, LLMxMapReduce_V2:candidate, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 5 human_file=Recent advances in acoustofluidic separation technology in biology_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Recent_advances_in_acoustofluidic_separation_technology_in_b_20251226_065323.md; Qwen/Biology/07_Recent_advances_in_acoustofluidic_separation_technology_in_b_20251225_144607.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Endosymbiosis of Wolbachia in Biology",
+  "topic_filename": "Endosymbiosis of Wolbachia in Biology",
+  "human_title": "Living in the endosymbiotic world of Wolbachia: A centennial review",
+  "human_md": "results/original/Human/Biology/Living in the endosymbiotic world of Wolbachia- A centennial review..md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [36] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 4 human_file=Living in the endosymbiotic world of Wolbachia- A centennial review._split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_20251226_060401.md; Qwen/Biology/01_Living_in_the_endosymbiotic_world_of_Wolbachia-_A_centennial_20251225_135520.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Human Lice Research",
+  "topic_filename": "Human Lice Research",
+  "human_title": "Where Are We With Human Lice? A Review of the Current State of Knowledge",
+  "human_md": "results/original/Human/Biology/Where Are We With Human Lice A Review of the Current State of Knowledge.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [47] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 3 human_file=Where Are We With Human Lice A Review of the Current State of Knowledge_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_o_20251226_062543.md; Qwen/Biology/04_Where_Are_We_With_Human_Lice_A_Review_of_the_Current_State_o_20251225_142237.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Lineage Tracing Combined with Single-Cell Omics in Biology",
+  "topic_filename": "Lineage Tracing Combined with Single-Cell Omics in Biology",
+  "human_title": "Lineage tracing meets single-cell omics: opportunities and challenges",
+  "human_md": "results/original/Human/Biology/Lineage tracing meets single-cell omics- opportunities and challenges.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [37] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 2 human_file=Lineage tracing meets single-cell omics- opportunities and challenges_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Lineage_tracing_meets_single-cell_omics-_opportunities_and_c_20251226_064503.md; Qwen/Biology/06_Lineage_tracing_meets_single-cell_omics-_opportunities_and_c_20251225_143749.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Luciferase Systems for In Vivo Imaging in Biology",
+  "topic_filename": "Luciferase Systems for In Vivo Imaging in Biology",
+  "human_title": "Brightening up Biology: Advances in Luciferase Systems for in Vivo Imaging",
+  "human_md": "results/original/Human/Biology/Brightening up Biology- Advances in Luciferase Systems for in Vivo Imaging.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [51] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_i_20251226_072540.md; Qwen/Biology/10_Brightening_up_Biology-_Advances_in_Luciferase_Systems_for_i_20251225_151353.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Mycobiome in the Gut",
+  "topic_filename": "Mycobiome in the Gut",
+  "human_title": "Mycobiome in the Gut- A Multiperspective Review",
+  "human_md": "results/original/Human/Biology/Mycobiome in the Gut- A Multiperspective Review.md",
+  "confidence": "medium-high",
+  "evidence": [
+   "pairs.jsonl line 7 human_file=Mycobiome in the Gut- A Multiperspective Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Mycobiome_in_the_Gut-_A_Multiperspective_Review_20251226_062034.md; Qwen/Biology/03_Mycobiome_in_the_Gut-_A_Multiperspective_Review_20251225_141452.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Organoids as Host Models for Infection Biology",
+  "topic_filename": "Organoids as Host Models for Infection Biology",
+  "human_title": "Organoids as host models for infection biology �?a review of methods",
+  "human_md": "results/original/Human/Biology/Organoids as host models for infection biology – a review of methods.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [41, 42, 43] (Gemini:confirmed, LLMxMapReduce_V2:candidate, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 6 human_file=Organoids as host models for infection biology – a review of methods_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Organoids_as_host_models_for_infection_biology_a_review_of_m_20251226_061212.md; Qwen/Biology/02_Organoids_as_host_models_for_infection_biology_a_review_of_m_20251225_140157.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "PRISMA Extension for Ecology and Evolutionary Biology",
+  "topic_filename": "PRISMA Extension for Ecology and Evolutionary Biology",
+  "human_title": "preferred reporting items for systematic reviews and meta‐analyses in ecology and evolutionary biology: a prisma extension",
+  "human_md": "results/original/Human/Biology/Preferred reporting items for systematic reviews and meta‐analyses in ecology and evolutionary biology- a PRISMA extension.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [38, 39, 40] (Gemini:candidate, LLMxMapReduce_V2:confirmed, SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Preferred_reporting_items_for_systematic_reviews_and_metaana_20251226_071352.md; Qwen/Biology/09_Preferred_reporting_items_for_systematic_reviews_and_metaana_20251225_150547.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Stingless Bee Classification and Biology",
+  "topic_filename": "Stingless Bee Classification and Biology",
+  "human_title": "Stingless bee classification and biology (Hymenoptera, Apidae): a review, with an updated key to genera and subgenera",
+  "human_md": "results/original/Human/Biology/Stingless bee classification and biology (Hymenoptera, Apidae)- a review, with an updated key to genera and subgenera.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [46] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 8 human_file=Stingless bee classification and biology (Hymenoptera, Apidae)- a review, with an updated key to genera and subgenera_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Stingless_bee_classification_and_biology_Hymenoptera_Apidae-_20251226_063403.md; Qwen/Biology/05_Stingless_bee_classification_and_biology_Hymenoptera_Apidae-_20251225_143033.md"
+  ]
+ },
+ {
+  "discipline": "Biology",
+  "topic": "Temporal Framework for Understanding Nonsuicidal Self-Injury in Biology",
+  "topic_filename": "Temporal Framework for Understanding Nonsuicidal Self-Injury in Biology",
+  "human_title": "Advancing a Temporal Framework for Understanding the Biology of Nonsuicidal Self-Injury: An Expert Review",
+  "human_md": "results/original/Human/Biology/Advancing a temporal framework for understanding the biology of nonsuicidal self-injury- An expert review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [44, 45] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 1 human_file=Advancing a temporal framework for understanding the biology of nonsuicidal self-injury- An expert review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Biology/Advancing_a_temporal_framework_for_understanding_the_biology_20251226_070217.md; Qwen/Biology/08_Advancing_a_temporal_framework_for_understanding_the_biology_20251225_152131.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Additive Manufacturing Technology in Business Models",
+  "topic_filename": "Additive Manufacturing Technology in Business Models",
+  "human_title": "How Additive Manufacturing Technology Changes Business Models? �?Review of Literature",
+  "human_md": "results/original/Human/Business/How Additive Manufacturing Technology Changes Business Models – Review of Literature.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [163] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 13 human_file=How Additive Manufacturing Technology Changes Business Models – Review of Literature_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/How_Additive_Manufacturing_Technology_Changes_Business_Model_20251226_234825.md; Qwen/Business/08_How_Additive_Manufacturing_Technology_Changes_Business_Model_20251226_004523.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Artificial Intelligence in Business",
+  "topic_filename": "Artificial Intelligence in Business",
+  "human_title": "Artificial Intelligence and Business Value: A Literature Review",
+  "human_md": "results/original/Human/Business/Artificial Intelligence and Business Value- a Literature Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [176, 177] (Gemini:confirmed, Qwen:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Artificial_Intelligence_and_Business_Value-_a_Literature_Rev_20251226_230049.md; Qwen/Business/02_Artificial_Intelligence_and_Business_Value-_a_Literature_Rev_20251226_000747.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Artificial Intelligence in Business Strategy for Digital Transformation",
+  "topic_filename": "Artificial Intelligence in Business Strategy for Digital Transformation",
+  "human_title": "Artificial Intelligence and Business Strategy towards Digital Transformation: A Research Agenda",
+  "human_md": "results/original/Human/Business/Artificial Intelligence and Business Strategy towards Digital Transformation- A Research Agenda.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [170, 171, 172] (Gemini:confirmed, LLMxMapReduce_V2:candidate, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 14 human_file=Artificial Intelligence and Business Strategy towards Digital Transformation- A Research Agenda_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Artificial_Intelligence_and_Business_Strategy_towards_Digita_20251227_000307.md; Qwen/Business/10_Artificial_Intelligence_and_Business_Strategy_towards_Digita_20251226_012358.md; Qwen/Business/02_Artificial_Intelligence_and_Business_Strategy_towards_Digita_20251226_011743.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Artificial Intelligence on Business Value in the Digital Era",
+  "topic_filename": "Artificial Intelligence on Business Value in the Digital Era",
+  "human_title": "Investigating the Influence of Artificial Intelligence on Business Value in the Digital Era of Strategy: A Literature Review",
+  "human_md": "results/original/Human/Business/Investigating the Influence of Artificial Intelligence on Business Value in the Digital Era of Strategy A Literature Review.md",
+  "confidence": "high (CSV) / pairs.jsonl disagrees",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [173] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 16 human_file=Artificial Intelligence and Business Value- a Literature Review_split.json",
+   "CONFLICT: pairs.jsonl maps this topic to 'Artificial Intelligence and Business Value- a Literature Review'; CSV (Gemini confirmed, lexical match of topic to title) preferred",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Investigating_the_Influence_of_Artificial_Intelligence_on_Bu_20251226_235636.md; Qwen/Business/09_Investigating_the_Influence_of_Artificial_Intelligence_on_Bu_20251226_011124.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Corporate Social Responsibility in Business",
+  "topic_filename": "Corporate Social Responsibility in Business",
+  "human_title": "Meta-analyses on Corporate Social Responsibility (CSR): a literature review",
+  "human_md": "results/original/Human/Business/Meta-analyses on Corporate Social Responsibility (CSR)- a literature review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [166, 167] (Gemini:confirmed, Qwen:candidate) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Meta-analyses_on_Corporate_Social_Responsibility_CSR-_a_lite_20251226_233104.md; Qwen/Business/06_Meta-analyses_on_Corporate_Social_Responsibility_CSR-_a_lite_20251226_003105.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Corruption in International Business",
+  "topic_filename": "Corruption in International Business",
+  "human_title": "Corruption in international business: A review and research agenda",
+  "human_md": "results/original/Human/Business/Corruption in international business- A review and research agenda.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [175] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 10 human_file=Corruption in international business- A review and research agenda_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Corruption_in_international_business-_A_review_and_research__20251226_233911.md; Qwen/Business/07_Corruption_in_international_business-_A_review_and_research__20251226_003925.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Digital Entrepreneurship in Innovation Systems for Sustainable Transitions",
+  "topic_filename": "Digital Entrepreneurship in Innovation Systems for Sustainable Transitions",
+  "human_title": "Digital Entrepreneurship and its Role in Innovation Systems: A Systematic Literature Review as a Basis for Future Research Avenues for Sustainable Transitions",
+  "human_md": "results/original/Human/Business/Digital Entrepreneurship and its Role in Innovation Systems- A Systematic Literature Review as a Basis for Future Research Avenues for Sustainable Transitions.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [174] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 12 human_file=Digital Entrepreneurship and its Role in Innovation Systems- A Systematic Literature Review as a Basis for Future Research Avenues for Sustainable Transitions_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_20251226_232457.md; Qwen/Business/05_Digital_Entrepreneurship_and_its_Role_in_Innovation_Systems-_20251226_002529.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Qualitative Comparative Analysis (QCA) in International Business Research",
+  "topic_filename": "Qualitative Comparative Analysis (QCA) in International Business Research",
+  "human_title": "The contributions of qualitative comparative analysis (QCA) to international business research",
+  "human_md": "results/original/Human/Business/The contributions of qualitative comparative analysis (QCA) to international business research.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [164, 165] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 11 human_file=The contributions of qualitative comparative analysis (QCA) to international business research_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/The_contributions_of_qualitative_comparative_analysis_QCA_to_20251226_231659.md; Qwen/Business/04_The_contributions_of_qualitative_comparative_analysis_QCA_to_20251226_001944.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Small and Medium Enterprises (SMEs) Challenges and Survival Strategies in Business",
+  "topic_filename": "Small and Medium Enterprises (SMEs) Challenges and Survival Strategies in Business",
+  "human_title": "A Review of Global Challenges and Survival Strategies of Small and Medium Enterprises (SMEs)",
+  "human_md": "results/original/Human/Business/A Review of Global Challenges and Survival Strategies of Small and Medium Enterprises (SMEs).md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [168, 169] (Gemini:confirmed, LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 9 human_file=A Review of Global Challenges and Survival Strategies of Small and Medium Enterprises (SMEs)_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/A_Review_of_Global_Challenges_and_Survival_Strategies_of_Sma_20251226_225432.md; Qwen/Business/01_A_Review_of_Global_Challenges_and_Survival_Strategies_of_Sma_20251226_000149.md"
+  ]
+ },
+ {
+  "discipline": "Business",
+  "topic": "Sustainable Development Goals in Business Strategy",
+  "topic_filename": "Sustainable Development Goals in Business Strategy",
+  "human_title": "Sustainable development goals and the strategic role of business: A systematic literature review",
+  "human_md": "results/original/Human/Business/Sustainable development goals and the strategic role of business A systematic literature review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [178] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 15 human_file=Sustainable development goals and the strategic role of business A systematic literature review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Business/Sustainable_development_goals_and_the_strategic_role_of_busi_20251226_230915.md; Qwen/Business/03_Sustainable_development_goals_and_the_strategic_role_of_busi_20251226_001342.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Abusive Language Training Data in Natural Language Processing",
+  "topic_filename": "Abusive Language Training Data in Natural Language Processing",
+  "human_title": "Directions in abusive language training data, a systematic review: Garbage in, garbage out.",
+  "human_md": "results/original/Human/Computer Science/Directions in abusive language training data, a systematic review- Garbage in, garbage out.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [150, 151, 152, 153] (Autosurvey:candidate, Gemini:confirmed, LLMxMapReduce_V2:confirmed, SciSage:confirmed) give original_survey_title",
+   "pairs.jsonl line 19 human_file=Directions in abusive language training data, a systematic review- Garbage in, garbage out_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Directions_in_abusive_language_training_data_a_systematic_re_20251226_214349.md; Qwen/Computer Science/03_Directions_in_abusive_language_training_data_a_systematic_re_20251225_231426.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Computational Thinking in Education with Scratch",
+  "topic_filename": "Computational Thinking in Education with Scratch",
+  "human_title": "Computational thinking in programming with Scratch in primary schools: A systematic review",
+  "human_md": "results/original/Human/Computer Science/Computational thinking in programming with Scratch in primary schools- A systematic review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [138] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 17 human_file=Computational thinking in programming with Scratch in primary schools- A systematic review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Computational_thinking_in_programming_with_Scratch_in_primar_20251226_213458.md; Qwen/Computer Science/02_Computational_thinking_in_programming_with_Scratch_in_primar_20251225_230826.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Computer Vision for Safety Science and Management in Construction",
+  "topic_filename": "Computer Vision for Safety Science and Management in Construction",
+  "human_title": "Computer vision technologies for safety science and management in construction: A critical review and future research directions",
+  "human_md": "results/original/Human/Computer Science/Computer vision technologies for safety science and management in construction- A critical review and future research directions.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [146] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 20 human_file=Computer vision technologies for safety science and management in construction- A critical review and future research directions_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Computer_vision_technologies_for_safety_science_and_manageme_20251226_224245.md; Qwen/Computer Science/10_Computer_vision_technologies_for_safety_science_and_manageme_20251225_235241.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Educational Chatbots in Computer Science",
+  "topic_filename": "Educational Chatbots in Computer Science",
+  "human_title": "Interacting with educational chatbots: A systematic review",
+  "human_md": "results/original/Human/Computer Science/Interacting with educational chatbots- A systematic review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [148, 149] (Gemini:confirmed, SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Interacting_with_educational_chatbots-_A_systematic_review_20251226_221737.md; Qwen/Computer Science/08_Interacting_with_educational_chatbots-_A_systematic_review_20251225_234110.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Explainable Artificial Intelligence in Finance",
+  "topic_filename": "Explainable Artificial Intelligence in Finance",
+  "human_title": "Applications of Explainable Artificial Intelligence in Finance—a systematic review of Finance, Information Systems, and Computer Science literature",
+  "human_md": "results/original/Human/Computer Science/Applications of Explainable Artificial Intelligence in Finance a systematic review of Finance, Information Systems, and Computer Science literature.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [156] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 22 human_file=Applications of Explainable Artificial Intelligence in Finance a systematic review of Finance, Information Systems, and Computer Science literature_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Applications_of_Explainable_Artificial_Intelligence_in_Finan_20251226_215147.md; Qwen/Computer Science/04_Applications_of_Explainable_Artificial_Intelligence_in_Finan_20251225_231720.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Fairness in Recommender Systems",
+  "topic_filename": "Fairness in Recommender Systems",
+  "human_title": "fairness in recommender systems research landscape and future directions",
+  "human_md": "results/original/Human/Computer Science/Fairness in recommender systems- research landscape and future directions.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [157, 158, 159, 160, 161, 162] (Autosurvey:confirmed, Gemini:confirmed, LLMxMapReduce_V2:confirmed, Qwen:candidate, SurveyForge:confirmed, SurveyX:confirmed) give original_survey_title",
+   "pairs.jsonl line 23 human_file=Fairness in recommender systems- research landscape and future directions_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Fairness_in_recommender_systems-_research_landscape_and_futu_20251226_212425.md; Qwen/Computer Science/01_Fairness_in_recommender_systems-_research_landscape_and_futu_20251225_230303.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Generative Adversarial Networks in Computer Science",
+  "topic_filename": "Generative Adversarial Networks in Computer Science",
+  "human_title": "a review on generative adversarial networks algorithms, theory, and applications",
+  "human_md": "results/original/Human/Computer Science/A Review on Generative Adversarial Networks- Algorithms, Theory, and Applications.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [154, 155] (Autosurvey:confirmed, Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/A_Review_on_Generative_Adversarial_Networks-_Algorithms_Theo_20251226_223539.md; Qwen/Computer Science/09_A_Review_on_Generative_Adversarial_Networks-_Algorithms_Theo_20251225_234701.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Graph Theory Applications in Computer Science and Social Networks",
+  "topic_filename": "Graph Theory Applications in Computer Science and Social Networks",
+  "human_title": "Graph Theory- A Comprehensive Survey about Graph Theory Applications in Computer Science and Social Networks",
+  "human_md": "results/original/Human/Computer Science/Graph Theory- A Comprehensive Survey about Graph Theory Applications in Computer Science and Social Networks.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [147] (LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 18 human_file=Graph Theory- A Comprehensive Survey about Graph Theory Applications in Computer Science and Social Networks_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Appl_20251226_221048.md; Qwen/Computer Science/07_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Appl_20251225_233446.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Multi-modal Fusion with Attention Mechanisms in Visual Question Answering",
+  "topic_filename": "Multi-modal Fusion with Attention Mechanisms in Visual Question Answering",
+  "human_title": "The multi-modal fusion in visual question answering- a review of attention mechanisms",
+  "human_md": "results/original/Human/Computer Science/The multi-modal fusion in visual question answering- a review of attention mechanisms.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [144, 145] (LLMxMapReduce_V2:candidate, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 21 human_file=The multi-modal fusion in visual question answering- a review of attention mechanisms_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/The_multi-modal_fusion_in_visual_question_answering-_a_revie_20251226_220500.md; Qwen/Computer Science/06_The_multi-modal_fusion_in_visual_question_answering-_a_revie_20251225_232934.md"
+  ]
+ },
+ {
+  "discipline": "Computer Science",
+  "topic": "Pre-trained Language Models in Biomedical Domain",
+  "topic_filename": "Pre-trained Language Models in Biomedical Domain",
+  "human_title": "pre-trained language models in biomedical domain a systematic survey",
+  "human_md": "results/original/Human/Computer Science/Pre-trained Language Models in Biomedical Domain- A Systematic Survey.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [139, 140, 141, 142, 143] (Autosurvey:confirmed, Gemini:confirmed, InteractiveSurvey:confirmed, LLMxMapReduce_V2:confirmed, SurveyForge:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Computer Science/Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systemat_20251226_215833.md; Qwen/Computer Science/05_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systemat_20251225_232332.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Digital Competence in Education",
+  "topic_filename": "Digital Competence in Education",
+  "human_title": "Digital competence in higher education research: A systematic literature review",
+  "human_md": "results/original/Human/Education/Digital competence in higher education research- A systematic literature review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [7, 8] (Gemini:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 32 human_file=Digital competence in higher education research- A systematic literature review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Digital_competence_in_higher_education_research-_A_systemati_20251226_035535.md; Qwen/education/06_Digital_competence_in_higher_education_research-_A_systemati_20251225_045522.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Education 4.0 and 21st Century Skills in Education",
+  "topic_filename": "Education 4.0 and 21st Century Skills in Education",
+  "human_title": "Components of Education 4.0 in 21st Century Skills Frameworks: Systematic Review",
+  "human_md": "results/original/Human/Education/Components of Education 4.0 in 21st Century Skills Frameworks Systematic Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [4, 5, 6] (Gemini:confirmed, Qwen:candidate, SciSage:candidate) give original_survey_title",
+   "pairs.jsonl line 31 human_file=Components of Education 4.0 in 21st Century Skills Frameworks Systematic Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Components_of_Education_40_in_21st_Century_Skills_Frameworks_20251226_042216.md; Qwen/education/10_Components_of_Education_40_in_21st_Century_Skills_Frameworks_20251225_051830.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Gamification in Health Professions Education",
+  "topic_filename": "Gamification in Health Professions Education",
+  "human_title": "Gamifcation of health professions education- a systematic review",
+  "human_md": "results/original/Human/Education/Gamifcation of health professions education- a systematic review.md",
+  "confidence": "medium-high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [9, 10] (Gemini:candidate, Qwen:candidate) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Gamifcation_of_health_professions_education-_a_systematic_re_20251226_032620.md; Qwen/education/02_Gamifcation_of_health_professions_education-_a_systematic_re_20251225_043617.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Gamification in Science Education",
+  "topic_filename": "Gamification in Science Education",
+  "human_title": "Gamification in Science Education. A Systematic Review of the Literature",
+  "human_md": "results/original/Human/Education/Gamification in Science Education. A Systematic Review of the Literature.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [12] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 28 human_file=Gamification in Science Education. A Systematic Review of the Literature_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Gamification_in_Science_Education_A_Systematic_Review_of_the_20251226_041244.md; Qwen/education/08_Gamification_in_Science_Education_A_Systematic_Review_of_the_20251225_050719.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Generative Artificial Intelligence in Education",
+  "topic_filename": "Generative Artificial Intelligence in Education",
+  "human_title": "Transforming Education- A Comprehensive Review of Generative Artificial Intelligence in Educational Settings through Bibliometric and Content Analysi",
+  "human_md": "results/original/Human/Education/Transforming Education- A Comprehensive Review of Generative Artificial Intelligence in Educational Settings through Bibliometric and Content Analysi.md",
+  "confidence": "medium-high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [11] (Gemini:candidate) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Transforming_Education-_A_Comprehensive_Review_of_Generative_20251226_040312.md; Qwen/education/07_Transforming_Education-_A_Comprehensive_Review_of_Generative_20251225_050153.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Immersive Virtual Reality in Education",
+  "topic_filename": "Immersive Virtual Reality in Education",
+  "human_title": "Immersive virtual reality as a pedagogical tool in education: a systematic literature review of quantitative learning outcomes and experimental design",
+  "human_md": "results/original/Human/Education/Immersive virtual reality as a pedagogical tool in education- a systematic literature review of quantitative learning outcomes and experimental design.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [16] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 29 human_file=Immersive virtual reality as a pedagogical tool in education- a systematic literature review of quantitative learning outcomes and experimental design_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Immersive_virtual_reality_as_a_pedagogical_tool_in_education_20251226_133926.md; Qwen/education/09_Immersive_virtual_reality_as_a_pedagogical_tool_in_education_20251225_051154.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Impact of COVID-19 on Education in Developing Countries",
+  "topic_filename": "Impact of COVID-19 on Education in Developing Countries",
+  "human_title": "The Impact of COVID-19 Pandemic on Education System in Developing Countries: A Review",
+  "human_md": "results/original/Human/Education/The Impact of COVID-19 Pandemic on Education System in Developing Countries- A Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [13, 14, 15] (Gemini:confirmed, LLMxMapReduce_V2:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 26 human_file=The Impact of COVID-19 Pandemic on Education System in Developing Countries- A Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/The_Impact_of_COVID-19_Pandemic_on_Education_System_in_Devel_20251226_033130.md; Qwen/education/03_The_Impact_of_COVID-19_Pandemic_on_Education_System_in_Devel_20251225_044038.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Large Language Models in Education",
+  "topic_filename": "Large Language Models in Education",
+  "human_title": "What Is the Impact of ChatGPT on Education? A Rapid Review of the Literature",
+  "human_md": "results/original/Human/Education/What Is the Impact of ChatGPT on Education A Rapid Review of the Literature.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [2] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 25 human_file=What Is the Impact of ChatGPT on Education A Rapid Review of the Literature_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/What_Is_the_Impact_of_ChatGPT_on_Education_A_Rapid_Review_of_20251226_034440.md; Qwen/education/05_What_Is_the_Impact_of_ChatGPT_on_Education_A_Rapid_Review_of_20251225_045025.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Large Language Models in Education: Practical and Ethical Challenges",
+  "topic_filename": "Large Language Models in Education Practical and Ethical Challenges",
+  "human_title": "practical and ethical challenges of large language models in education a systematic scoping review",
+  "human_md": "results/original/Human/Education/Practical and Ethical Challenges of Large Language Models in Education- A Systematic Scoping Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [17, 18, 19, 20] (Autosurvey:confirmed, Gemini:confirmed, Qwen:candidate, SurveyForge:confirmed) give original_survey_title",
+   "pairs.jsonl line 27 human_file=Practical and Ethical Challenges of Large Language Models in Education- A Systematic Scoping Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Practical_and_Ethical_Challenges_of_Large_Language_Models_in_20251226_032048.md; Qwen/education/01_Practical_and_Ethical_Challenges_of_Large_Language_Models_in_20251225_043039.md"
+  ]
+ },
+ {
+  "discipline": "Education",
+  "topic": "Predicting Academic Success in Higher Education",
+  "topic_filename": "Predicting Academic Success in Higher Education",
+  "human_title": "Predicting academic success in higher education: literature review and best practices",
+  "human_md": "results/original/Human/Education/Predicting academic success in higher education- literature review and best practices.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [3] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 30 human_file=Predicting academic success in higher education- literature review and best practices_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Education/Predicting_academic_success_in_higher_education-_literature__20251226_033847.md; Qwen/education/04_Predicting_academic_success_in_higher_education-_literature__20251225_044512.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "CAR-T Cell Engineering",
+  "topic_filename": "CAR-T Cell Engineering",
+  "human_title": "Recent advances in CAR-T cell engineering",
+  "human_md": "results/original/Human/Engineering/Recent advances in CAR-T cell engineering.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [111] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 36 human_file=Recent advances in CAR-T cell engineering_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Recent_advances_in_CAR-T_cell_engineering_20251226_181915.md; Qwen/Engineering/01_Recent_advances_in_CAR-T_cell_engineering_20251225_193811.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Chitosan-based Bioactive Materials in Tissue Engineering",
+  "topic_filename": "Chitosan-based Bioactive Materials in Tissue Engineering",
+  "human_title": "chitosan based bioactive materials in tissue engineering applications-a review",
+  "human_md": "results/original/Human/Engineering/Chitosan based bioactive materials in tissue engineering applications-A review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [119, 120, 121] (Gemini:candidate, LLMxMapReduce_V2:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 38 human_file=Chitosan based bioactive materials in tissue engineering applications-A review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Chitosan_based_bioactive_materials_in_tissue_engineering_app_20251226_182527.md; Qwen/Engineering/02_Chitosan_based_bioactive_materials_in_tissue_engineering_app_20251225_194558.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Distributed Optical Fiber Sensors for Structural Health Monitoring in Civil Engineering",
+  "topic_filename": "Distributed Optical Fiber Sensors for Structural Health Monitoring in Civil Engineering",
+  "human_title": "A Review of Recent Distributed Optical Fiber Sensors Applications for Civil Engineering Structural Health Monitoring",
+  "human_md": "results/original/Human/Engineering/A Review of Recent Distributed Optical Fiber Sensors Applications for Civil Engineering Structural Health Monitoring.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [108, 109, 110] (Gemini:confirmed, LLMxMapReduce_V2:candidate, SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/A_Review_of_Recent_Distributed_Optical_Fiber_Sensors_Applica_20251226_192521.md; Qwen/Engineering/08_A_Review_of_Recent_Distributed_Optical_Fiber_Sensors_Applica_20251225_202223.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Fiber Bragg Grating Sensors for Physical Parameter Monitoring in Engineering",
+  "topic_filename": "Fiber Bragg Grating Sensors for Physical Parameter Monitoring in Engineering",
+  "human_title": "Fiber Bragg grating sensors for monitoring of physical parameters: a comprehensive review",
+  "human_md": "results/original/Human/Engineering/Fiber Bragg grating sensors for monitoring of physical parameters  a comprehensive review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [126, 127] (Gemini:confirmed, SciSage:confirmed) give original_survey_title",
+   "pairs.jsonl line 37 human_file=Fiber Bragg grating sensors for monitoring of physical parameters  a comprehensive review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Fiber_Bragg_grating_sensors_for_monitoring_of_physical_param_20251226_184717.md; Qwen/Engineering/05_Fiber_Bragg_grating_sensors_for_monitoring_of_physical_param_20251225_200255.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Machine Learning in Earthquake Engineering",
+  "topic_filename": "Machine Learning in Earthquake Engineering",
+  "human_title": "The promise of implementing machine learning in earthquake engineering: A state-of-the-art review",
+  "human_md": "results/original/Human/Engineering/The promise of implementing machine learning in earthquake engineering- A state-of-the-art review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [116] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/The_promise_of_implementing_machine_learning_in_earthquake_e_20251226_191000.md; Qwen/Engineering/07_The_promise_of_implementing_machine_learning_in_earthquake_e_20251225_201531.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Model Predictive Control in Engineering",
+  "topic_filename": "Model Predictive Control in Engineering",
+  "human_title": "Review on Model Predictive Control: An Engineering Perspective",
+  "human_md": "results/original/Human/Engineering/Review on model predictive control- an engineering perspective.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [117, 118] (Gemini:confirmed, Qwen:confirmed) give original_survey_title",
+   "pairs.jsonl line 34 human_file=Review on model predictive control- an engineering perspective_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Review_on_model_predictive_control-_an_engineering_perspecti_20251226_183906.md; Qwen/Engineering/04_Review_on_model_predictive_control-_an_engineering_perspecti_20251225_195549.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Nanoparticles and Nanostructured Materials in Biomedical and Agricultural Engineering",
+  "topic_filename": "Nanoparticles and Nanostructured Materials in Biomedical and Agricultural Engineering",
+  "human_title": "Review on Nanoparticles and Nanostructured Materials- Bioimaging, Biosensing, Drug Delivery, Tissue Engineering, Antimicrobial, and Agro-Food Applications",
+  "human_md": "results/original/Human/Engineering/Review on Nanoparticles and Nanostructured Materials- Bioimaging, Biosensing, Drug Delivery, Tissue Engineering, Antimicrobial, and Agro-Food Applications.md",
+  "confidence": "medium",
+  "evidence": [
+   "elimination: only unassigned Human md in discipline; lexical overlap with topic",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Review_on_Nanoparticles_and_Nanostructured_Materials-_Bioima_20251226_194007.md; Qwen/Engineering/10_Review_on_Nanoparticles_and_Nanostructured_Materials-_Bioima_20251225_203817.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Polydimethylsiloxane (PDMS) in Biomedical Engineering",
+  "topic_filename": "Polydimethylsiloxane (PDMS) in Biomedical Engineering",
+  "human_title": "Properties and Applications of PDMS for Biomedical Engineering: A Review",
+  "human_md": "results/original/Human/Engineering/Properties and Applications of PDMS for Biomedical Engineering- A Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [122, 123, 124, 125] (Gemini:confirmed, LLMxMapReduce_V2:confirmed, Qwen:candidate, SciSage:confirmed) give original_survey_title",
+   "pairs.jsonl line 33 human_file=Properties and Applications of PDMS for Biomedical Engineering- A Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/Properties_and_Applications_of_PDMS_for_Biomedical_Engineeri_20251226_193255.md; Qwen/Engineering/09_Properties_and_Applications_of_PDMS_for_Biomedical_Engineeri_20251225_202903.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Tribology in Engineering",
+  "topic_filename": "Tribology in Engineering",
+  "human_title": "a review of recent advances in tribology",
+  "human_md": "results/original/Human/Engineering/A review of recent advances in tribology.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [107] (SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/A_review_of_recent_advances_in_tribology_20251226_190001.md; Qwen/Engineering/06_A_review_of_recent_advances_in_tribology_20251225_200927.md"
+  ]
+ },
+ {
+  "discipline": "Engineering",
+  "topic": "Upper Limb Exoskeleton Design",
+  "topic_filename": "Upper Limb Exoskeleton Design",
+  "human_title": "A Review on Design of Upper Limb Exoskeleton",
+  "human_md": "results/original/Human/Engineering/A Review on Design of Upper Limb Exoskeleton.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [112, 113, 114, 115] (Gemini:candidate, LLMxMapReduce_V2:candidate, Qwen:candidate, SciSage:candidate) give original_survey_title",
+   "pairs.jsonl line 35 human_file=A Review on Design of Upper Limb Exoskeleton_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Engineering/A_Review_on_Design_of_Upper_Limb_Exoskeleton_20251226_183022.md; Qwen/Engineering/03_A_Review_on_Design_of_Upper_Limb_Exoskeleton_20251225_195249.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Cyanobacteria in Environmental Science",
+  "topic_filename": "Cyanobacteria in Environmental Science",
+  "human_title": "Cyanobacteria- Review of Current Potentials and Applications",
+  "human_md": "results/original/Human/Environmental Science/Cyanobacteria- Review of Current Potentials and Applications.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [128] (Gemini:candidate) give original_survey_title",
+   "pairs.jsonl line 43 human_file=Cyanobacteria- Review of Current Potentials and Applications_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Cyanobacteria-_Review_of_Current_Potentials_and_Applications_20251226_200803.md; Qwen/Environmental Science/03_Cyanobacteria-_Review_of_Current_Potentials_and_Applications_20251225_221110.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Groundwater Sustainability: Interactions Between Science and Policy in Environmental Science",
+  "topic_filename": "Groundwater Sustainability Interactions Between Science and Policy in Environmental Science",
+  "human_title": "Groundwater sustainability: a review of the interactions between science and policy",
+  "human_md": "results/original/Human/Environmental Science/Groundwater sustainability- a review of the interactions between science and policy.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [137] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Groundwater_sustainability-_a_review_of_the_interactions_bet_20251226_200113.md; Qwen/Environmental Science/02_Groundwater_sustainability-_a_review_of_the_interactions_bet_20251225_220404.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Hydrothermal Liquefaction of Biomass for Biorefinery Applications in Environmental Science",
+  "topic_filename": "Hydrothermal Liquefaction of Biomass for Biorefinery Applications in Environmental Science",
+  "human_title": "a review on key design and operational parameters to optimize and develop hydrothermal liquefaction of biomass for biorefinery applications",
+  "human_md": "results/original/Human/Environmental Science/A review on key design and operational parameters to optimize and develop hydrothermal liquefaction of biomass for biorefinery applications.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [134] (LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 48 human_file=A review on key design and operational parameters to optimize and develop hydrothermal liquefaction of biomass for biorefinery applications_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/A_review_on_key_design_and_operational_parameters_to_optimiz_20251226_205235.md; Qwen/Environmental Science/07_A_review_on_key_design_and_operational_parameters_to_optimiz_20251225_223529.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Lake Restoration in Environmental Science",
+  "topic_filename": "Lake Restoration in Environmental Science",
+  "human_title": "Preface: Restoration of eutrophic lakes: current practices and future challenges",
+  "human_md": "results/original/Human/Environmental Science/Preface- Restoration of eutrophic lakes- current practices and future challenges.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [135] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 46 human_file=Preface- Restoration of eutrophic lakes- current practices and future challenges_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Preface-_Restoration_of_eutrophic_lakes-_current_practices_a_20251226_211626.md; Qwen/Environmental Science/10_Preface-_Restoration_of_eutrophic_lakes-_current_practices_a_20251225_225318.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Marine Transportation Environmental Impacts and Mitigation Strategies in Environmental Science",
+  "topic_filename": "Marine Transportation Environmental Impacts and Mitigation Strategies in Environmental Science",
+  "human_title": "Boating- and Shipping-Related Environmental Impacts and Example Management Measures: A Review",
+  "human_md": "results/original/Human/Environmental Science/Boating- and Shipping-Related Environmental Impacts and Example Management Measures- A Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [133] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Boating-_and_Shipping-Related_Environmental_Impacts_and_Exam_20251226_203208.md; Qwen/Environmental Science/05_Boating-_and_Shipping-Related_Environmental_Impacts_and_Exam_20251225_222326.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Nanotechnology in Environmental Science",
+  "topic_filename": "Nanotechnology in Environmental Science",
+  "human_title": "Benefits and Application of Nanotechnology in Environmental Science: an Overview.",
+  "human_md": "results/original/Human/Environmental Science/Benefits and Application of Nanotechnology in Environmental Science- an Overview.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [130] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 41 human_file=Benefits and Application of Nanotechnology in Environmental Science- an Overview_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Benefits_and_Application_of_Nanotechnology_in_Environmental__20251226_203912.md; Qwen/Environmental Science/06_Benefits_and_Application_of_Nanotechnology_in_Environmental__20251225_222928.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Permeable Pavement Systems in Environmental Science",
+  "topic_filename": "Permeable Pavement Systems in Environmental Science",
+  "human_title": "A Systematic Review of the Hydrological, Environmental and Durability Performance of Permeable Pavement Systems",
+  "human_md": "results/original/Human/Environmental Science/A Systematic Review of the Hydrological, Environmental and Durability Performance of Permeable Pavement Systems.md",
+  "confidence": "medium-high",
+  "evidence": [
+   "pairs.jsonl line 42 human_file=A Systematic Review of the Hydrological, Environmental and Durability Performance of Permeable Pavement Systems_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/A_Systematic_Review_of_the_Hydrological_Environmental_and_Du_20251226_210634.md; Qwen/Environmental Science/09_A_Systematic_Review_of_the_Hydrological_Environmental_and_Du_20251225_224653.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Quantitative Evidence Synthesis in Environmental Science",
+  "topic_filename": "Quantitative Evidence Synthesis in Environmental Science",
+  "human_title": "Quantitative evidence synthesis: a practical guide on meta-analysis, meta-regression, and publication bias tests for environmental sciences",
+  "human_md": "results/original/Human/Environmental Science/Quantitative evidence synthesis- a practical guide on meta-analysis, meta-regression, and publication bias tests for environmental sciences.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [131, 132] (Gemini:confirmed, LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 45 human_file=Quantitative evidence synthesis- a practical guide on meta-analysis, meta-regression, and publication bias tests for environmental sciences_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Quantitative_evidence_synthesis-_a_practical_guide_on_meta-a_20251226_205954.md; Qwen/Environmental Science/08_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-a_20251225_224113.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Sonochemistry in Environmental Science",
+  "topic_filename": "Sonochemistry in Environmental Science",
+  "human_title": "A Review on Sonochemistry and Its Environmental Applications",
+  "human_md": "results/original/Human/Environmental Science/A Review on Sonochemistry and Its Environmental Applications.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [129] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 44 human_file=A Review on Sonochemistry and Its Environmental Applications_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/A_Review_on_Sonochemistry_and_Its_Environmental_Applications_20251226_195359.md; Qwen/Environmental Science/01_A_Review_on_Sonochemistry_and_Its_Environmental_Applications_20251225_215938.md"
+  ]
+ },
+ {
+  "discipline": "Environmental Science",
+  "topic": "Thermal Destruction of Per- and Polyfluoroalkyl Substances in Water Resource Recovery Facilities",
+  "topic_filename": "Thermal Destruction of Per- and Polyfluoroalkyl Substances in Water Resource Recovery Facilities",
+  "human_title": "Per�?and polyfluoroalkyl substances thermal destruction at water resource recovery facilities- A state of the science review",
+  "human_md": "results/original/Human/Environmental Science/Per‐ and polyfluoroalkyl substances thermal destruction at water resource recovery facilities.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [136] (LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 47 human_file=Per‐ and polyfluoroalkyl substances thermal destruction at water resource recovery facilities_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Environmental Science/Per_and_polyfluoroalkyl_substances_thermal_destruction_at_wa_20251226_201554.md; Qwen/Environmental Science/04_Per_and_polyfluoroalkyl_substances_thermal_destruction_at_wa_20251225_221739.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Analytical Methods for Determining Antioxidant Activity in Medicine",
+  "topic_filename": "Analytical Methods for Determining Antioxidant Activity in Medicine",
+  "human_title": "Analytical Methods Used in Determining Antioxidant Activity: A Review",
+  "human_md": "results/original/Human/Medicine/Analytical Methods Used in Determining Antioxidant Activity- A Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [26, 27] (Gemini:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 53 human_file=Analytical Methods Used in Determining Antioxidant Activity- A Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_20251226_054448.md; Qwen/medicine/09_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_20251225_124053.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Artificial Intelligence in Healthcare",
+  "topic_filename": "Artificial Intelligence in Healthcare",
+  "human_title": "The role of artificial intelligence in healthcare- a structured literature review",
+  "human_md": "results/original/Human/Medicine/The role of artificial intelligence in healthcare- a structured literature review.md",
+  "confidence": "medium",
+  "evidence": [
+   "elimination: only unassigned Human md in discipline; lexical overlap with topic",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/The_role_of_artificial_intelligence_in_healthcare-_a_structu_20251226_045947.md; Qwen/medicine/04_The_role_of_artificial_intelligence_in_healthcare-_a_structu_20251225_115805.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Cardiomyocyte Maturation in Regenerative Medicine",
+  "topic_filename": "Cardiomyocyte Maturation in Regenerative Medicine",
+  "human_title": "Cardiomyocyte maturation: advances in knowledge and implications for regenerative medicine.",
+  "human_md": "results/original/Human/Medicine/Cardiomyocyte maturation- advances in knowledge and implications for regenerative medicine.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [33, 34] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Cardiomyocyte_maturation-_advances_in_knowledge_and_implicat_20251226_053123.md; Qwen/medicine/07_Cardiomyocyte_maturation-_advances_in_knowledge_and_implicat_20251225_122146.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Feature Selection Methods for Disease Risk Prediction in Medicine",
+  "topic_filename": "Feature Selection Methods for Disease Risk Prediction in Medicine",
+  "human_title": "A Review of Feature Selection Methods for Machine Learning-Based Disease Risk Prediction",
+  "human_md": "results/original/Human/Medicine/A Review of Feature Selection Methods for Machine Learning-Based Disease Risk Prediction.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [29, 30] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 50 human_file=A Review of Feature Selection Methods for Machine Learning-Based Disease Risk Prediction_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/A_Review_of_Feature_Selection_Methods_for_Machine_Learning-B_20251226_055333.md; Qwen/medicine/10_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-B_20251225_124639.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Nanoparticle Classification and Applications in Medicine",
+  "topic_filename": "Nanoparticle Classification and Applications in Medicine",
+  "human_title": "Nanoparticle classification, physicochemical properties, characterization, and applications: a comprehensive review for biologists",
+  "human_md": "results/original/Human/Medicine/Nanoparticle classification, physicochemical properties, characterization, and applications- a comprehensive review for biologists.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [23] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Nanoparticle_classification_physicochemical_properties_chara_20251226_051926.md; Qwen/medicine/06_Nanoparticle_classification_physicochemical_properties_chara_20251225_121352.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "PRISMA-DTA in Diagnostic Test Accuracy Studies",
+  "topic_filename": "PRISMA-DTA in Diagnostic Test Accuracy Studies",
+  "human_title": "Preferred reporting items for systematic review and meta-analysis of diagnostic test accuracy studies (PRISMA-DTA): explanation, elaboration, and checklist",
+  "human_md": "results/original/Human/Medicine/Preferred reporting items for systematic review and meta-analysis of diagnostic test accuracy studies (PRISMA-DTA)- explanation, elaboration, and checklist.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [24, 25] (Gemini:confirmed, SciSage:confirmed) give original_survey_title",
+   "pairs.jsonl line 52 human_file=Preferred reporting items for systematic review and meta-analysis of diagnostic test accuracy studies (PRISMA-DTA)- explanation, elaboration, and checklist_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Preferred_reporting_items_for_systematic_review_and_meta-ana_20251226_051149.md; Qwen/medicine/05_Preferred_reporting_items_for_systematic_review_and_meta-ana_20251225_120416.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Precision Cancer Medicine",
+  "topic_filename": "Precision Cancer Medicine",
+  "human_title": "Review of precision cancer medicine: Evolution of the treatment paradigm",
+  "human_md": "results/original/Human/Medicine/Review of precision cancer medicine- Evolution of the treatment paradigm..md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [35] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 54 human_file=Review of precision cancer medicine- Evolution of the treatment paradigm._split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Review_of_precision_cancer_medicine-_Evolution_of_the_treatm_20251226_044505.md; Qwen/medicine/02_Review_of_precision_cancer_medicine-_Evolution_of_the_treatm_20251225_114459.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Social Determinants of Health in Diabetes Research",
+  "topic_filename": "Social Determinants of Health in Diabetes Research",
+  "human_title": "social determinants of health and diabetes: a scientific review",
+  "human_md": "results/original/Human/Medicine/Social Determinants of Health and Diabetes- A Scientific Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [31, 32] (Gemini:candidate, Qwen:confirmed) give original_survey_title",
+   "pairs.jsonl line 55 human_file=Social Determinants of Health and Diabetes- A Scientific Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Rev_20251226_042952.md; Qwen/medicine/01_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Rev_20251225_134327.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Traditional Chinese Medicine in Treating SARS-CoV-2 Infections",
+  "topic_filename": "Traditional Chinese Medicine in Treating SARS-CoV-2 Infections",
+  "human_title": "traditional chinese medicine in the treatment of patients infected with 2019-new coronavirus (sars-cov-2): a review and perspective",
+  "human_md": "results/original/Human/Medicine/Traditional Chinese Medicine in the Treatment of Patients Infected with 2019-New Coronavirus (SARS-CoV-2)- A Review and Perspective.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [28] (LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 49 human_file=Traditional Chinese Medicine in the Treatment of Patients Infected with 2019-New Coronavirus (SARS-CoV-2)- A Review and Perspective_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_In_20251226_053609.md; Qwen/medicine/08_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_In_20251225_122805.md"
+  ]
+ },
+ {
+  "discipline": "Medicine",
+  "topic": "Wearable Health Devices in Health Care",
+  "topic_filename": "Wearable Health Devices in Health Care",
+  "human_title": "Wearable Health Devices in Health Care: Narrative Systematic Review",
+  "human_md": "results/original/Human/Medicine/Wearable Health Devices in Health Care- Narrative Systematic Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [21, 22] (Gemini:confirmed, LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 51 human_file=Wearable Health Devices in Health Care- Narrative Systematic Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Medicine/Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_20251226_045306.md; Qwen/medicine/03_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_20251225_115113.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Computational Methods for the Hubbard Model in Physics",
+  "topic_filename": "Computational Methods for the Hubbard Model in Physics",
+  "human_title": "The Hubbard Model: A Computational Perspective",
+  "human_md": "results/original/Human/Physics/The Hubbard model- A computational perspective.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [85, 86] (Gemini:confirmed, Qwen:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/The_Hubbard_model-_A_computational_perspective_20251226_162856.md; Qwen/physics/09_The_Hubbard_model-_A_computational_perspective_20251225_175352.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Cosmological Tensions and Anomalies in Particle Physics and Cosmology",
+  "topic_filename": "Cosmological Tensions and Anomalies in Particle Physics and Cosmology",
+  "human_title": "Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies https://arxiv.org/abs/2203.06142",
+  "human_md": "results/original/Human/Physics/Cosmology Intertwined- A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [74, 75, 76] (LLMxMapReduce_V2:confirmed, SciSage:candidate, gemini-3-pro-preview:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Cosmology_Intertwined-_A_Review_of_the_Particle_Physics_Astr_20251226_154146.md; Qwen/physics/04_Cosmology_Intertwined-_A_Review_of_the_Particle_Physics_Astr_20251225_171828.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Dipolar Physics with Magnetic Quantum Gases",
+  "topic_filename": "Dipolar Physics with Magnetic Quantum Gases",
+  "human_title": "Dipolar physics: a review of experiments with magnetic quantum gases",
+  "human_md": "results/original/Human/Physics/Dipolar physics- a review of experiments with magnetic quantum gases.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [90] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Dipolar_physics-_a_review_of_experiments_with_magnetic_quant_20251226_152518.md; Qwen/physics/02_Dipolar_physics-_a_review_of_experiments_with_magnetic_quant_20251225_170121.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Heavy-Heavy Hadronic Molecules in Physics",
+  "topic_filename": "Heavy-Heavy Hadronic Molecules in Physics",
+  "human_title": "A survey of heavy–heavy hadronic molecules",
+  "human_md": "results/original/Human/Physics/A survey of heavy heavy hadronic molecules.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [79, 80, 81] (Gemini:confirmed, LLMxMapReduce_V2:confirmed, SciSage:confirmed) give original_survey_title",
+   "pairs.jsonl line 58 human_file=A survey of heavy heavy hadronic molecules_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/A_survey_of_heavyheavy_hadronic_molecules_20251226_155118.md; Qwen/physics/05_A_survey_of_heavyheavy_hadronic_molecules_20251225_172441.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Hubble Tension in Cosmology",
+  "topic_filename": "Hubble Tension in Cosmology",
+  "human_title": "In the realm of the Hubble tension—a review of solutions",
+  "human_md": "results/original/Human/Physics/In the realm of the Hubble tension a review of solutions.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [77, 78] (SciSage:candidate, gemini-3-pro-preview:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/In_the_realm_of_the_Hubble_tensiona_review_of_solutions_20251226_160248.md; Qwen/physics/06_In_the_realm_of_the_Hubble_tensiona_review_of_solutions_20251225_173208.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Non-Hermitian Skin Effect in Physics",
+  "topic_filename": "Non-Hermitian Skin Effect in Physics",
+  "human_title": "A review on non-Hermitian skin effect",
+  "human_md": "results/original/Human/Physics/A review on non-Hermitian skin effect.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [91, 92] (Gemini:confirmed, Qwen:confirmed) give original_survey_title",
+   "pairs.jsonl line 56 human_file=A review on non-Hermitian skin effect_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/A_review_on_non-Hermitian_skin_effect_20251226_153231.md; Qwen/physics/03_A_review_on_non-Hermitian_skin_effect_20251225_180748.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Non-Hermitian Topological Phenomena in Physics",
+  "topic_filename": "Non-Hermitian Topological Phenomena in Physics",
+  "human_title": "Non-Hermitian Topological Phenomena: A Review",
+  "human_md": "results/original/Human/Physics/Non-Hermitian Topological Phenomena- A Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [71, 72, 73] (Gemini:confirmed, LLMxMapReduce_V2:candidate, SurveyX:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Non-Hermitian_Topological_Phenomena-_A_Review_20251226_163644.md; Qwen/physics/10_Non-Hermitian_Topological_Phenomena-_A_Review_20251225_180205.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Physics-informed Neural Networks for Fluid Mechanics",
+  "topic_filename": "Physics-informed Neural Networks for Fluid Mechanics",
+  "human_title": "physics-informed neural networks (pinns) for fluid mechanics a review",
+  "human_md": "results/original/Human/Physics/Physics-informed neural networks (PINNs) for fluid mechanics- a review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [82, 83, 84] (Autosurvey:confirmed, Gemini:confirmed, LLMxMapReduce_V2:candidate) give original_survey_title",
+   "pairs.jsonl line 57 human_file=Physics-informed neural networks (PINNs) for fluid mechanics- a review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Physics-informed_neural_networks_PINNs_for_fluid_mechanics-__20251226_162226.md; Qwen/physics/08_Physics-informed_neural_networks_PINNs_for_fluid_mechanics-__20251225_174733.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Quantum Many-Body Scars and Hilbert Space Fragmentation in Physics",
+  "topic_filename": "Quantum Many-Body Scars and Hilbert Space Fragmentation in Physics",
+  "human_title": "Quantum many-body scars and Hilbert space fragmentation: a review of exact results",
+  "human_md": "results/original/Human/Physics/Quantum many-body scars and Hilbert space fragmentation- a review of exact results.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [87, 88, 89] (Gemini:confirmed, Qwen:candidate, SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Quantum_many-body_scars_and_Hilbert_space_fragmentation-_a_r_20251226_151230.md; Qwen/physics/01_Quantum_many-body_scars_and_Hilbert_space_fragmentation-_a_r_20251225_165254.md"
+  ]
+ },
+ {
+  "discipline": "Physics",
+  "topic": "Scalar Induced Gravitational Waves in Physics",
+  "topic_filename": "Scalar Induced Gravitational Waves in Physics",
+  "human_title": "Scalar Induced Gravitational Waves Review",
+  "human_md": "results/original/Human/Physics/Scalar Induced Gravitational Waves Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [68, 69, 70] (Gemini:confirmed, LLMxMapReduce_V2:candidate, Qwen:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Physics/Scalar_Induced_Gravitational_Waves_Review_20251226_161348.md; Qwen/physics/07_Scalar_Induced_Gravitational_Waves_Review_20251225_173952.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Artificial Intelligence in Psychological Research",
+  "topic_filename": "Artificial Intelligence in Psychological Research",
+  "human_title": "AI in marketing, consumer research and psychology: A systematic literature review and research agenda",
+  "human_md": "results/original/Human/Psychology/AI in marketing, consumer research and psychology- A systematic literature review and research agenda.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [103] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/AI_in_marketing_consumer_research_and_psychology-_A_systemat_20251226_171352.md; Qwen/Psychology/04_AI_in_marketing_consumer_research_and_psychology-_A_systemat_20251225_183628.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Ecological Momentary Assessment in Child Psychology and Psychiatry",
+  "topic_filename": "Ecological Momentary Assessment in Child Psychology and Psychiatry",
+  "human_title": "Annual Research Review: Ecological momentary assessment studies in child psychology and psychiatry",
+  "human_md": "results/original/Human/Psychology/Annual Research Review- Ecological momentary assessment studies in child psychology and psychiatry..md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [101, 102] (Gemini:confirmed, LLMxMapReduce_V2:candidate) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Annual_Research_Review-_Ecological_momentary_assessment_stud_20251226_181201.md; Qwen/Psychology/10_Annual_Research_Review-_Ecological_momentary_assessment_stud_20251225_191252.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Esports Psychology",
+  "topic_filename": "Esports Psychology",
+  "human_title": "Setting the scientific stage for esports psychology: a systematic review",
+  "human_md": "results/original/Human/Psychology/Setting the scientific stage for esports psychology- a systematic review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [99] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Setting_the_scientific_stage_for_esports_psychology-_a_syste_20251226_165207.md; Qwen/Psychology/01_Setting_the_scientific_stage_for_esports_psychology-_a_syste_20251225_181648.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Goal-Setting Theory in Physical Activity Promotion Psychology",
+  "topic_filename": "Goal-Setting Theory in Physical Activity Promotion Psychology",
+  "human_title": "Updating goal-setting theory in physical activity promotion: a critical conceptual review",
+  "human_md": "results/original/Human/Psychology/Updating goal-setting theory in physical activity promotion- a critical conceptual review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [104, 105, 106] (Gemini:confirmed, LLMxMapReduce_V2:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 63 human_file=Updating goal-setting theory in physical activity promotion- a critical conceptual review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Updating_goal-setting_theory_in_physical_activity_promotion-_20251226_173913.md; Qwen/Psychology/07_Updating_goal-setting_theory_in_physical_activity_promotion-_20251225_185552.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Heart Rate Variability Analysis in Psychology",
+  "topic_filename": "Heart Rate Variability Analysis in Psychology",
+  "human_title": "Heart Rate Variability in Psychology: A Review of HRV Indices and an Analysis Tutorial",
+  "human_md": "results/original/Human/Psychology/Heart Rate Variability in Psychology- A Review of HRV Indices and an Analysis Tutorial.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [98] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 64 human_file=Heart Rate Variability in Psychology- A Review of HRV Indices and an Analysis Tutorial_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indice_20251226_173102.md; Qwen/Psychology/06_Heart_Rate_Variability_in_Psychology-_A_Review_of_HRV_Indice_20251225_184925.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Multi-component Positive Psychology Interventions in Psychology",
+  "topic_filename": "Multi-component Positive Psychology Interventions in Psychology",
+  "human_title": "The Efficacy of Multi-component Positive Psychology Interventions: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+  "human_md": "results/original/Human/Psychology/The Efficacy of Multi-component Positive Psychology Interventions- A Systematic Review and Meta-analysis of Randomized Controlled Trials.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [95, 96] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 67 human_file=The Efficacy of Multi-component Positive Psychology Interventions- A Systematic Review and Meta-analysis of Randomized Controlled Trials_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/The_Efficacy_of_Multi-component_Positive_Psychology_Interven_20251226_172252.md; Qwen/Psychology/05_The_Efficacy_of_Multi-component_Positive_Psychology_Interven_20251225_184252.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Multicomponent Positive Psychology Interventions in Adolescent Well-being and Distress",
+  "topic_filename": "Multicomponent Positive Psychology Interventions in Adolescent Well-being and Distress",
+  "human_title": "Effects of School-based Multicomponent Positive Psychology Interventions on Well-being and Distress in Adolescents: A Systematic Review and Meta-analysis",
+  "human_md": "results/original/Human/Psychology/Effects of School-based Multicomponent Positive Psychology Interventions on Well-being and Distress in Adolescents- A Systematic Review and Meta-analysis.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [94] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 68 human_file=Effects of School-based Multicomponent Positive Psychology Interventions on Well-being and Distress in Adolescents- A Systematic Review and Meta-analysis_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Effects_of_School-based_Multicomponent_Positive_Psychology_I_20251226_174638.md; Qwen/Psychology/08_Effects_of_School-based_Multicomponent_Positive_Psychology_I_20251225_190134.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Psychobiological Processes of Stress and Health in Psychology",
+  "topic_filename": "Psychobiological Processes of Stress and Health in Psychology",
+  "human_title": "Stress and Health: A Review of Psychobiological Processes",
+  "human_md": "results/original/Human/Psychology/Stress and Health- A Review of Psychobiological Processes..md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [100] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 66 human_file=Stress and Health- A Review of Psychobiological Processes._split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Stress_and_Health-_A_Review_of_Psychobiological_Processes_20251226_180425.md; Qwen/Psychology/09_Stress_and_Health-_A_Review_of_Psychobiological_Processes_20251225_190907.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Psychology of Sustainability and Quality of Life During Pandemics",
+  "topic_filename": "Psychology of Sustainability and Quality of Life During Pandemics",
+  "human_title": "Getting Through COVID-19: The Pandemic’s Impact on the Psychology of Sustainability, Quality of Life, and the Global Economy �?A Systematic Review",
+  "human_md": "results/original/Human/Psychology/Getting Through COVID-19 The Pandemic s Impact on the Psychology of Sustainability, Quality of Life, and the Global Economy – A Systematic Review.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [93] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 62 human_file=Getting Through COVID-19 The Pandemic s Impact on the Psychology of Sustainability, Quality of Life, and the Global Economy – A Systematic Review_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Getting_Through_COVID-19_The_Pandemics_Impact_on_the_Psychol_20251226_165827.md; Qwen/Psychology/02_Getting_Through_COVID-19_The_Pandemics_Impact_on_the_Psychol_20251225_182423.md"
+  ]
+ },
+ {
+  "discipline": "Psychology",
+  "topic": "Subjective Well-Being in Psychology",
+  "topic_filename": "Subjective Well-Being in Psychology",
+  "human_title": "Understanding subjective well-being: perspectives from psychology and public health",
+  "human_md": "results/original/Human/Psychology/Understanding subjective well-being- perspectives from psychology and public health.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [97] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 65 human_file=Understanding subjective well-being- perspectives from psychology and public health_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Psychology/Understanding_subjective_well-being-_perspectives_from_psych_20251226_170457.md; Qwen/Psychology/03_Understanding_subjective_well-being-_perspectives_from_psych_20251225_183102.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Behavior-Based Insurance from a Sociological Perspective",
+  "topic_filename": "Behavior-Based Insurance from a Sociological Perspective",
+  "human_title": "Contested technology: Social scientific perspectives of behaviour-based insurance",
+  "human_md": "results/original/Human/Sociology/Contested technology- Social scientific perspectives of behaviour-based insurance.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [52, 53] (Gemini:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 74 human_file=Contested technology- Social scientific perspectives of behaviour-based insurance_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Contested_technology-_Social_scientific_perspectives_of_beha_20251226_144251.md; Qwen/Sociology/08_Contested_technology-_Social_scientific_perspectives_of_beha_20251225_161703.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Community Detection in Multilayer Networks in Sociology",
+  "topic_filename": "Community Detection in Multilayer Networks in Sociology",
+  "human_title": "A survey of community detection methods in multilayer networks",
+  "human_md": "results/original/Human/Sociology/A survey of community detection methods in multilayer networks.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [57] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/A_survey_of_community_detection_methods_in_multilayer_networ_20251226_135950.md; Qwen/Sociology/03_A_survey_of_community_detection_methods_in_multilayer_networ_20251225_154613.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Digital Interviews in Qualitative Research in Sociology",
+  "topic_filename": "Digital Interviews in Qualitative Research in Sociology",
+  "human_title": "Pioneering the use of technologies in qualitative research �?A research review of the use of digital interviews",
+  "human_md": "results/original/Human/Sociology/Pioneering the use of technologies in qualitative research – A research review of the use of digital interviews.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [61] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 70 human_file=Pioneering the use of technologies in qualitative research – A research review of the use of digital interviews_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Pioneering_the_use_of_technologies_in_qualitative_research_A_20251226_143436.md; Qwen/Sociology/07_Pioneering_the_use_of_technologies_in_qualitative_research_A_20251225_161051.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Freebirthing as a Historical and Social Phenomenon in Sociology",
+  "topic_filename": "Freebirthing as a Historical and Social Phenomenon in Sociology",
+  "human_title": "Exploring the conceptualisation and study of freebirthing as a historical and social phenomenon: a meta-narrative review of diverse research traditions",
+  "human_md": "results/original/Human/Sociology/Exploring the conceptualisation and study of freebirthing as a historical and social phenomenon- a meta-narrative review of diverse research traditions.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [66, 67] (Gemini:confirmed, SciSage:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Exploring_the_conceptualisation_and_study_of_freebirthing_as_20251226_145149.md; Qwen/Sociology/09_Exploring_the_conceptualisation_and_study_of_freebirthing_as_20251225_162416.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Innovation Adoption in Agricultural Communities",
+  "topic_filename": "Innovation Adoption in Agricultural Communities",
+  "human_title": "Understanding the adoption of innovations in agriculture: A review of selected conceptual models",
+  "human_md": "results/original/Human/Sociology/Understanding the Adoption of Innovations in Agriculture- A Review of Selected Conceptual Models.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [60] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 72 human_file=Understanding the Adoption of Innovations in Agriculture- A Review of Selected Conceptual Models_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Understanding_the_Adoption_of_Innovations_in_Agriculture-_A__20251226_142136.md; Qwen/Sociology/05_Understanding_the_Adoption_of_Innovations_in_Agriculture-_A__20251225_155822.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Intersectionality and Coalitions in Social Movement Research",
+  "topic_filename": "Intersectionality and Coalitions in Social Movement Research",
+  "human_title": "Intersectionality and coalitions in social movement research—A survey and outlook",
+  "human_md": "results/original/Human/Sociology/Intersectionality and coalitions in social movement research A survey and outlook.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [63, 64, 65] (Gemini:confirmed, LLMxMapReduce_V2:candidate, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 75 human_file=Intersectionality and coalitions in social movement research A survey and outlook_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Intersectionality_and_coalitions_in_social_movement_research_20251226_140539.md; Qwen/Sociology/04_Intersectionality_and_coalitions_in_social_movement_research_20251225_155226.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Longitudinal Social Research in Sociology",
+  "topic_filename": "Longitudinal Social Research in Sociology",
+  "human_title": "Tracking US Social Change Over a Half-Century: The General Social Survey at Fifty",
+  "human_md": "results/original/Human/Sociology/Tracking US Social Change Over a Half-Century- The General Social Survey at Fifty.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [56] (Gemini:confirmed) give original_survey_title",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Tracking_US_Social_Change_Over_a_Half-Century-_The_General_S_20251226_134629.md; Qwen/Sociology/01_Tracking_US_Social_Change_Over_a_Half-Century-_The_General_S_20251225_153150.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Qualitative Research and Focus Group Discussion in Sociology",
+  "topic_filename": "Qualitative Research and Focus Group Discussion in Sociology",
+  "human_title": "An Overview of Qualitative Research and Focus Group Discussion",
+  "human_md": "results/original/Human/Sociology/An Overview of Qualitative Research and Focus Group Discussion.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [62] (Gemini:confirmed) give original_survey_title",
+   "pairs.jsonl line 73 human_file=An Overview of Qualitative Research and Focus Group Discussion_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/An_Overview_of_Qualitative_Research_and_Focus_Group_Discussi_20251226_142708.md; Qwen/Sociology/06_An_Overview_of_Qualitative_Research_and_Focus_Group_Discussi_20251225_160449.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Residential Property Investor Types in Sociology",
+  "topic_filename": "Residential Property Investor Types in Sociology",
+  "human_title": "One and the Same? A Systematic Literature Review of Residential Property Investor Types.",
+  "human_md": "results/original/Human/Sociology/One and the Same A Systematic Literature Review of Residential Property Investor Types.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [54, 55] (Gemini:confirmed, LLMxMapReduce_V2:confirmed) give original_survey_title",
+   "pairs.jsonl line 71 human_file=One and the Same A Systematic Literature Review of Residential Property Investor Types_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/One_and_the_Same_A_Systematic_Literature_Review_of_Residenti_20251226_150117.md; Qwen/Sociology/10_One_and_the_Same_A_Systematic_Literature_Review_of_Residenti_20251225_163002.md"
+  ]
+ },
+ {
+  "discipline": "Sociology",
+  "topic": "Xenophobia towards Asylum Seekers in Sociology",
+  "topic_filename": "Xenophobia towards Asylum Seekers in Sociology",
+  "human_title": "Xenophobia towards asylum seekers: A survey of social theories",
+  "human_md": "results/original/Human/Sociology/Xenophobia towards asylum seekers- A survey of social theories.md",
+  "confidence": "high",
+  "evidence": [
+   "flagged_cases_minimal.csv rows [58, 59] (Gemini:confirmed, Qwen:candidate) give original_survey_title",
+   "pairs.jsonl line 69 human_file=Xenophobia towards asylum seekers- A survey of social theories_split.json",
+   "Gemini/Qwen output prompted with this human title: Gemini/Sociology/Xenophobia_towards_asylum_seekers-_A_survey_of_social_theori_20251226_135331.md; Qwen/Sociology/02_Xenophobia_towards_asylum_seekers-_A_survey_of_social_theori_20251225_153923.md"
+  ]
+ }
+]

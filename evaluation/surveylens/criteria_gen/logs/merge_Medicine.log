@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Medicine
+Loaded: expanded_aspects_Social_Determinants_of_Health_and_Diabetes-_A_Scientific_Review.json
+Loaded: expanded_aspects_Preferred_reporting_items_for_systematic_review_and_meta-analysis_of_diagnostic_test_accuracy_studies_(PRISMA-DTA)-_explanation,_elaboration,_and_checklist.json
+Loaded: expanded_aspects_Review_of_precision_cancer_medicine-_Evolution_of_the_treatment_paradigm..json
+Loaded: expanded_aspects_Wearable_Health_Devices_in_Health_Care-_Narrative_Systematic_Review.json
+Loaded: expanded_aspects_The_role_of_artificial_intelligence_in_healthcare-_a_structured_literature_review.json
+Loaded: expanded_aspects_Analytical_Methods_Used_in_Determining_Antioxidant_Activity-_A_Review.json
+Loaded: expanded_aspects_Traditional_Chinese_Medicine_in_the_Treatment_of_Patients_Infected_with_2019-New_Coronavirus_(SARS-CoV-2)-_A_Review_and_Perspective.json
+Loaded: expanded_aspects_Cardiomyocyte_maturation-_advances_in_knowledge_and_implications_for_regenerative_medicine.json
+Loaded: expanded_aspects_A_Review_of_Feature_Selection_Methods_for_Machine_Learning-Based_Disease_Risk_Prediction.json
+Loaded: expanded_aspects_Nanoparticle_classification,_physicochemical_properties,_characterization,_and_applications-_a_comprehensive_review_for_biologists.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Medicine/merged_aspects.json
+================================================================================

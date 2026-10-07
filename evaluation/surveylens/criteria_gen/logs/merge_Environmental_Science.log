@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Environmental Science
+Loaded: expanded_aspects_Groundwater_sustainability-_a_review_of_the_interactions_between_science_and_policy.json
+Loaded: expanded_aspects_Boating-_and_Shipping-Related_Environmental_Impacts_and_Example_Management_Measures-_A_Review.json
+Loaded: expanded_aspects_Cyanobacteria-_Review_of_Current_Potentials_and_Applications.json
+Loaded: expanded_aspects_A_review_on_key_design_and_operational_parameters_to_optimize_and_develop_hydrothermal_liquefaction_of_biomass_for_biorefinery_applications.json
+Loaded: expanded_aspects_Benefits_and_Application_of_Nanotechnology_in_Environmental_Science-_an_Overview.json
+Loaded: expanded_aspects_Preface-_Restoration_of_eutrophic_lakes-_current_practices_and_future_challenges.json
+Loaded: expanded_aspects_A_Review_on_Sonochemistry_and_Its_Environmental_Applications.json
+Loaded: expanded_aspects_Per‐_and_polyfluoroalkyl_substances_thermal_destruction_at_water_resource_recovery_facilities.json
+Loaded: expanded_aspects_A_Systematic_Review_of_the_Hydrological,_Environmental_and_Durability_Performance_of_Permeable_Pavement_Systems.json
+Loaded: expanded_aspects_Quantitative_evidence_synthesis-_a_practical_guide_on_meta-analysis,_meta-regression,_and_publication_bias_tests_for_environmental_sciences.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Environmental Science/merged_aspects.json
+================================================================================

@@ -1,0 +1,323 @@
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Discovering all aspects...
+  outline: 3 aspects
+    - Formal Precision
+    - Structural Coherence
+    - Substantive Integrity
+  content: 5 aspects
+    - Critical Insight and Novelty
+    - Scholarly Communication
+    - Scope and Relevance
+    - Structural Coherence
+    - Synthesis and Integration
+  reference: 3 aspects
+    - Bibliometric Comprehensiveness
+    - Evidential Integrity
+    - Referential Pertinence and Compliance
+
+================================================================================
+Processing 11 aspects across 3 components
+================================================================================
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Formal Precision'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Formal Precision'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Formal Precision
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Substantive Integrity'
+Filtering by component: 'outline'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Substantive Integrity'
+Component: 'outline'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for outline - Substantive Integrity
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Critical Insight and Novelty'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Critical Insight and Novelty'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Critical Insight and Novelty
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scholarly Communication'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scholarly Communication'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scholarly Communication
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Scope and Relevance'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Scope and Relevance'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Scope and Relevance
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Structural Coherence'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Structural Coherence'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Structural Coherence
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Synthesis and Integration'
+Filtering by component: 'content'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Synthesis and Integration'
+Component: 'content'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for content - Synthesis and Integration
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Bibliometric Comprehensiveness'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Bibliometric Comprehensiveness'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Bibliometric Comprehensiveness
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Evidential Integrity'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Evidential Integrity'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Evidential Integrity
+
+Loading JSON files from folder: outputs/criteria/Computer Science
+Loaded: expanded_aspects_Applications_of_Explainable_Artificial_Intelligence_in_Finance_a_systematic_review_of_Finance,_Information_Systems,_and_Computer_Science_literature.json
+Loaded: expanded_aspects_A_Review_on_Generative_Adversarial_Networks-_Algorithms,_Theory,_and_Applications.json
+Loaded: expanded_aspects_The_multi-modal_fusion_in_visual_question_answering-_a_review_of_attention_mechanisms.json
+Loaded: expanded_aspects_Fairness_in_recommender_systems-_research_landscape_and_future_directions.json
+Loaded: expanded_aspects_Graph_Theory-_A_Comprehensive_Survey_about_Graph_Theory_Applications_in_Computer_Science_and_Social_Networks.json
+Loaded: expanded_aspects_Directions_in_abusive_language_training_data,_a_systematic_review-_Garbage_in,_garbage_out.json
+Loaded: expanded_aspects_Computational_thinking_in_programming_with_Scratch_in_primary_schools-_A_systematic_review.json
+Loaded: expanded_aspects_Pre-trained_Language_Models_in_Biomedical_Domain-_A_Systematic_Survey.json
+Loaded: expanded_aspects_Interacting_with_educational_chatbots-_A_systematic_review.json
+Loaded: expanded_aspects_Computer_vision_technologies_for_safety_science_and_management_in_construction-_A_critical_review_and_future_research_directions.json
+Found 10 JSON files
+
+Extracting criteria for aspect: 'Referential Pertinence and Compliance'
+Filtering by component: 'reference'
+Found 30 criteria from 10 files
+
+================================================================================
+Merging criteria for aspect: 'Referential Pertinence and Compliance'
+Component: 'reference'
+Total criteria to merge: 30
+Target merged criteria: 5
+================================================================================
+✓ Successfully merged into 5 criteria
+✓ Added merged criteria for reference - Referential Pertinence and Compliance
+
+
+================================================================================
+All merged results saved to: outputs/criteria/Computer Science/merged_aspects.json
+================================================================================
