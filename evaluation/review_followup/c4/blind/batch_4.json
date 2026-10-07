@@ -1,0 +1,136 @@
+[
+ {
+  "cid": "N004",
+  "sentence": "The interactive end of the spectrum is more measured: IRIS puts a human in the loop over a three-agent ideation pipeline with Monte Carlo tree search, and reports that user interaction raised hypothesis scores by 0.5 points and ELO by 12 at depth 3 — but on a user study of 8 researchers (10 cases), with the gain measured by an LLM judge the authors themselves show correlates only moderately with human rankings (r=0.60) [cited].",
+  "ref": "Aniketh Garikaparthi, et al. IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery. arXiv preprint, 2025. https://arxiv.org/abs/2504.16728",
+  "numbers": [
+   "0.5",
+   "0.60",
+   "10",
+   "12"
+  ]
+ },
+ {
+  "cid": "N010",
+  "sentence": "And the deployment-focused benchmark of thirteen scFMs across ~100 datasets concluded flatly that increased model scale, architectural complexity, corpus size or input encoding does not consistently translate into better downstream performance [cited].",
+  "ref": "S Hou, et al. A unified framework enables accessible deployment and comprehensive benchmarking of single-cell foundation models. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12803055/",
+  "numbers": [
+   "100"
+  ]
+ },
+ {
+  "cid": "N016",
+  "sentence": "scGPT-spatial curated 30 million human spatial cells for continual pretraining [cited].",
+  "ref": "C Wang, H Cui, A Zhang, et al. scGPT-spatial: continual pretraining of single-cell foundation model for spatial transcriptomics. 2025. https://www.biorxiv.org/content/10.1101/2025.02.05.636714.abstract",
+  "numbers": [
+   "30"
+  ]
+ },
+ {
+  "cid": "N022",
+  "sentence": "CAR-T binder design has been benchmarked at scale through the Bits to Binders competition, with 12,000 designs screened and 707 showing activity [cited].",
+  "ref": "Clayton W. Kosonocky, Alex M. Abel, Aaron L. Feller, et al. Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition. bioRxiv, 2026. https://doi.org/10.64898/2026.03.03.709355",
+  "numbers": [
+   "12000",
+   "707"
+  ]
+ },
+ {
+  "cid": "N028",
+  "sentence": "Applying a conservative sample-size framework to externally validated radiomics models in first-quartile journals (2023–2025), one study found that of 64 assessed full texts, 16 (25%) could not even be assessed because feature counts were not reported; among the 28 assessable models the median deficit was 195.5 training instances, only 3 (10.7%) met stability criteria, and the median events-per-predictor deficit was 5.8 [cited].",
+  "ref": "Burak Kocak, et al. Externally validated yet undertrained: sample size deficits in machine learning-based radiomics. European Radiology, 2026. https://doi.org/10.1007/s00330-026-12543-2",
+  "numbers": [
+   "10.7",
+   "16",
+   "195.5",
+   "25",
+   "28",
+   "5.8",
+   "64"
+  ]
+ },
+ {
+  "cid": "N034",
+  "sentence": "VDocRAG attacks the training rather than the architecture, adding two self-supervised objectives (retrieval-contrastive and token-generation with an attention mask that forces OCR content through the pooled `<EOS>` vector) and shows that the retrieval-specific pretraining matters: removing it costs 1.4–1.8 nDCG@5, and swapping the LVLM for CLIP encoders collapses SlideVQA retrieval from 77.3 to 43.7 [cited].",
+  "ref": "Ryota Tanaka, et al. VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents. Computer Vision and Pattern Recognition, 2025. https://doi.org/10.48550/arxiv.2504.09795",
+  "numbers": [
+   "1.4",
+   "1.8",
+   "43.7",
+   "77.3"
+  ]
+ },
+ {
+  "cid": "N040",
+  "sentence": "propose scalable overload-aware graph-based index construction for 10-billion-scale similarity search [cited].",
+  "ref": "Y Shi, Y Sun, J Du, et al. Scalable overload-aware graph-based index construction for 10-billion-scale vector similarity search. 2025. https://dl.acm.org/doi/abs/10.1145/3701716.3715576",
+  "numbers": [
+   "10"
+  ]
+ },
+ {
+  "cid": "N046",
+  "sentence": "MARS coordinates 19 LLM agents with 16 domain-specific tools for closed-loop autonomous materials discovery [cited].",
+  "ref": "Tongyu Shi, Yutang Li, Zhanlong Wang, et al. Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system. Matter, 2026. https://doi.org/10.1016/j.matt.2025.102577",
+  "numbers": [
+   "16",
+   "19"
+  ]
+ },
+ {
+  "cid": "N052",
+  "sentence": "Optimization-based gradient inversion reconstructs input images *and* their labels from a single gradient exchange, with image MSE below 0.03 against the previous state of the art's 0.2, requiring no generative prior and working even from randomly initialized weights [cited].",
+  "ref": "Ligeng Zhu, Zhijian Liu, Song Han. Deep Leakage from Gradients. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1906.08935",
+  "numbers": [
+   "0.03",
+   "0.2"
+  ]
+ },
+ {
+  "cid": "N058",
+  "sentence": "DAGs have been used to understand 30-day mortality after STEMI [cited].",
+  "ref": "Anubha Gupta, Srijan Arora, Manu K Shetty, et al. Understanding 30-Day Mortality After First STEMI Through DAGs: Unravelling Epidemiological Cause-Effect Links. Cureus, 2025. https://doi.org/10.7759/cureus.86178",
+  "numbers": [
+   "30"
+  ]
+ },
+ {
+  "cid": "N064",
+  "sentence": "The same study disputes the original GraphRAG result directly, attributing the discrepancy to evaluation methodology — reference-free LLM-as-judge has strong position bias — and shows that under ROUGE-style reference metrics community GraphRAG's global search generally loses to RAG on query-based summarization, including a ROUGE-2 of 3.23 against RAG's 6.32 on QMSum [cited].",
+  "ref": "Haoyu Han, et al. Rag vs. graphrag: A systematic evaluation and key insights. arXiv (Cornell University), 2026. https://doi.org/10.48550/arxiv.2502.11371",
+  "numbers": [
+   "3.23",
+   "6.32"
+  ]
+ },
+ {
+  "cid": "N070",
+  "sentence": "DistServe's motivating measurement is the cleanest statement of the opportunity: on one A100 with OPT-13B, colocated goodput is ~1.6 requests/s, prefill-only is 5.6 and decode-only 10, so splitting 2 prefill + 1 decode GPUs yields 10 rps, or 2.1× per GPU [cited].",
+  "ref": "Yinmin Zhong, et al. DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving. arXiv preprint, 2024. https://arxiv.org/abs/2401.09670",
+  "numbers": [
+   "1.6",
+   "10",
+   "2.1",
+   "5.6"
+  ]
+ },
+ {
+  "cid": "N076",
+  "sentence": "The second was **scaling and architecture search**, where Pangu-Weather's 3D Earth-specific transformer with hierarchical temporal aggregation produced a 5-day Z500 RMSE of 296.7 against operational IFS's 333.7 and FourCastNet's 462.5, at 1.4 s per forecast on a single GPU [cited].",
+  "ref": "K Bi, et al. Accurate medium-range global weather forecasting with 3D neural networks. 2023. https://www.nature.com/articles/s41586-023-06185-3",
+  "numbers": [
+   "1.4",
+   "296.7",
+   "333.7",
+   "462.5"
+  ]
+ },
+ {
+  "cid": "N082",
+  "sentence": "CMIP6-driven 10 km super-resolution projections with potential evapotranspiration estimates have been generated for China using residual channel attention networks [cited].",
+  "ref": "Fuyao Zhang, Xiubin Li, Xue Wang, et al. CMIP6-driven 10 km super-resolution daily climate projections with PET estimates in China. Scientific Data, 2025. https://doi.org/10.1038/s41597-025-05071-z",
+  "numbers": [
+   "10"
+  ]
+ }
+]

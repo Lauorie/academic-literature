@@ -1,0 +1,119 @@
+[
+ {
+  "cid": "N006",
+  "sentence": "**Reviews are propagating unverified numbers.** The clearest case is a narrative review whose in-text citations are systematically misaligned with its reference list, and which quotes a 114,000× screening speed-up and a 0.063–0.076 eV RMSD without qualification [cited].",
+  "ref": "K Ding, et al. Recent advances in the data-driven development of emerging electrocatalysts. 2023. https://www.sciencedirect.com/science/article/pii/S2451910323001977",
+  "numbers": [
+   "0.063",
+   "0.076",
+   "114000"
+  ]
+ },
+ {
+  "cid": "N012",
+  "sentence": "What is missing is a shared protocol for measuring whether a reward model's uncertainty is calibrated with respect to what the downstream policy actually needs — RoboReward's r = 0.83 correlation between reward accuracy and RL performance [cited] is a first step, but task-specific and short-horizon.",
+  "ref": "T Lee, et al. Roboreward: General-purpose vision-language reward models for robotics. arXiv preprint, 2026. https://arxiv.org/abs/2601.00675",
+  "numbers": [
+   "0.83"
+  ]
+ },
+ {
+  "cid": "N018",
+  "sentence": "A comprehensive benchmark of 27 methods for single-cell perturbation response prediction found that performance depends strongly on perturbation scenario, cell type, and evaluation metric [cited].",
+  "ref": "Z Wei, Y Wang, Y Gao, et al. Benchmarking algorithms for generalizable single-cell perturbation response prediction. 2026. https://www.nature.com/articles/s41592-025-02980-0",
+  "numbers": [
+   "27"
+  ]
+ },
+ {
+  "cid": "N024",
+  "sentence": "TerraFM scaled multisensor EO pretraining to around 1.53 million samples [cited].",
+  "ref": "Muhammad Sohail Danish, Muhammad Akhtar Munir, Syed Roshaan Ali Shah, et al. TerraFM: A scalable foundation model for unified multisensor earth observation. ICLR, 2026. https://proceedings.iclr.cc/paper_files/paper/2026/hash/159511050630689045bf5593e74b13cc-Abstract-Conference.html",
+  "numbers": [
+   "1.53"
+  ]
+ },
+ {
+  "cid": "N030",
+  "sentence": "That same study introduced HumanEval-Java specifically to escape benchmark contamination, and its own leakage analysis is sobering — of 354 individual Codex fixes, 234 (66%) differed from the developer patch, and the authors concede that fully eliminating leakage would require retraining the models [cited].",
+  "ref": "CS Xia, Y Wei, L Zhang. Automated program repair in the era of large pre-trained language models. 2023. https://ieeexplore.ieee.org/abstract/document/10172803/",
+  "numbers": [
+   "234",
+   "354",
+   "66"
+  ]
+ },
+ {
+  "cid": "N036",
+  "sentence": "Grouped-Query Attention (GQA) interpolates between MHA and MQA, and its uptraining recipe (mean-pooling KV heads, then 5% of original pretraining compute) recovers near-MHA quality: GQA-8-XXL averages 47.1 quality at 0.28 s/sample against MHA-XXL's 47.2 at 1.51 s [cited].",
+  "ref": "Joshua Ainslie, et al. GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023. https://doi.org/10.18653/v1/2023.emnlp-main.298",
+  "numbers": [
+   "0.28",
+   "1.51",
+   "47.1",
+   "47.2",
+   "5"
+  ]
+ },
+ {
+  "cid": "N042",
+  "sentence": "SEAgent [cited] generalises to mandatory access control over a live information-flow graph, reporting 0% ASR on both InjecAgent and AgentDojo while matching naive-agent correctness — and, notably, demonstrating bypasses of IsolateGPT, CaMeL, and SecAlign under its privilege-escalation scenarios.",
+  "ref": "Zimo Ji, et al. Taming various privilege escalation in LLM-based agent systems: A mandatory access control framework. ArXiv.org, 2026. https://doi.org/10.48550/arxiv.2601.11893",
+  "numbers": [
+   "0"
+  ]
+ },
+ {
+  "cid": "N048",
+  "sentence": "That survey is unusually blunt about the ordering, finding that early collaboration tends to be the empirical ceiling and late collaboration the floor on V2X benchmarks — on V2X-Sim, early collaboration reaches AP-BEV 64.2 against 55.4 for late fusion and 45.8 for no collaboration at all [cited].",
+  "ref": "Y Han, et al. Collaborative perception in autonomous driving: Methods, datasets, and challenges. 2023. https://ieeexplore.ieee.org/abstract/document/10248946/",
+  "numbers": [
+   "45.8",
+   "55.4",
+   "64.2"
+  ]
+ },
+ {
+  "cid": "N054",
+  "sentence": "SMARTIES beats CROMA by 1.5 mAP on one benchmark and loses to SatMAE++ by 1.7 points on RESISC-45 [cited].",
+  "ref": "Gencer Sumbul, et al. SMARTIES: Spectrum-aware multi-sensor auto-encoder for remote sensing images. ArXiv.org, 2025. https://doi.org/10.48550/arxiv.2506.19585",
+  "numbers": [
+   "1.5",
+   "1.7"
+  ]
+ },
+ {
+  "cid": "N060",
+  "sentence": "ToolLLM trains on over 16,000 real-world APIs and uses a depth-first search decision tree to generate multi-step tool-use trajectories [cited].",
+  "ref": "Y Qin, S Liang, Y Ye, et al. Toolllm: Facilitating large language models to master 16000+ real-world apis. 2024. https://proceedings.iclr.cc/paper_files/paper/2024/hash/28e50ee5b72e90b50e7196fde8ea260e-Abstract-Conference.html",
+  "numbers": [
+   "16000"
+  ]
+ },
+ {
+  "cid": "N066",
+  "sentence": "The obstacle is identified clearly: 2D corpora of ~10^9 molecules exist while 3D datasets are roughly 10^9 smaller [cited].",
+  "ref": "Edward O. Pyzer-Knapp, et al. Foundation models for materials discovery – current state and future directions. npj Computational Materials, 2025. https://doi.org/10.1038/s41524-025-01538-0",
+  "numbers": [
+   "10"
+  ]
+ },
+ {
+  "cid": "N072",
+  "sentence": "Under robustness testing, seven neural repair systems failed on semantically equivalent rewritings of 20–35% of bugs, and only 58.8% of the transformations used in such tests were judged natural by human developers — meaning prior robustness claims may have over- or under-stated the problem by roughly a quarter [cited].",
+  "ref": "T Le-Cong, et al. Towards reliable evaluation of neural program repair with natural robustness testing. 2025. https://doi.org/10.1145/3716167",
+  "numbers": [
+   "20",
+   "35",
+   "58.8"
+  ]
+ },
+ {
+  "cid": "N078",
+  "sentence": "ZR-0 supplies converging evidence from a different direction: it applies dense ECoT supervision over ~60M frames as an auxiliary language-modelling loss, then masks the chain out of the action expert's cross-attention so the trace is never generated at inference [cited].",
+  "ref": "H Li, et al. Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision. arXiv preprint, 2026. https://arxiv.org/abs/2606.30552",
+  "numbers": [
+   "60"
+  ]
+ }
+]

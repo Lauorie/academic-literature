@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R006",
+  "entry": "TM Nguyen, et al. The search for superionic solid-state electrolytes using a physics-informed generative model. 2025. https://pubs.rsc.org/mh/article-abstract/12/17/6945/897297"
+ },
+ {
+  "aid": "R013",
+  "entry": "Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E., et al. “Language Models (Mostly) Know What They Know.” arXiv:2207.05221, 2022."
+ },
+ {
+  "aid": "R020",
+  "entry": "Bender, E. M., Gebru, T., McMillan-Major, A., Shmitchell, S. “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” FAccT (2021). DOI: 10.1145/3442188.3445922."
+ },
+ {
+  "aid": "R027",
+  "entry": "Hao, M., Gong, J., Zeng, X., Liu, C., Guo, Y., Cheng, X., Wang, T., Ma, J., Zhang, X., & Song, L. (2024). Large-scale foundation model on single-cell transcriptomics. Nature Methods, 21(8), 1481–1491. DOI: 10.1038/s41592-024-02305-7."
+ },
+ {
+  "aid": "R034",
+  "entry": "L Ericson, et al. Deep generative modeling for financial time series with application in var: A comparative review. arXiv preprint, 2024. https://arxiv.org/abs/2401.10370"
+ },
+ {
+  "aid": "R041",
+  "entry": "Bodnar, C., Bruinsma, W. P., Lucic, A., Stanley, A., Brandstetter, J., Garvan, P., et al. Aurora: A foundation model of the atmosphere. arXiv preprint, 2024. arXiv:2405.13063."
+ },
+ {
+  "aid": "R048",
+  "entry": "Khattab, O., Zaharia, M. ColBERT: Efficient and effective passage search via contextualized late interaction over BERT. SIGIR, 2020. DOI 10.1145/3397271.3401075."
+ },
+ {
+  "aid": "R055",
+  "entry": "J. Shi, J. Li, W. C. Tam, P. Gardoni. Physics_GNN: Towards Physics-informed graph neural network for the real-time simulation of obstructed gas explosion. n/a, 2025."
+ },
+ {
+  "aid": "R062",
+  "entry": "V Ivanistsev, R Cepitis, J Rossmeisl. Twenty years after: scaling relations in oxygen electrocatalysis and beyond. 2025. https://pubs.rsc.org/cs/article-abstract/54/23/10956/888201"
+ },
+ {
+  "aid": "R069",
+  "entry": "Will Dabney, Georg Ostrovski, David Silver, Rémi Munos. Implicit Quantile Networks for Distributional Reinforcement Learning. arXiv (Cornell University), 2022."
+ },
+ {
+  "aid": "R076",
+  "entry": "S Melo, G Varoquaux. Epistemic Uncertainty Quantification to Improve Decisions From Black-Box Models. 2026. https://proceedings.iclr.cc/paper_files/paper/2026/hash/51b3bf54f2a06c3c844b09d20b70eadb-Abstract-Conference.html"
+ },
+ {
+  "aid": "R083",
+  "entry": "Y Hu, et al. Memory in the age of ai agents. arXiv preprint, 2025. https://arxiv.org/abs/2512.13564"
+ },
+ {
+  "aid": "R090",
+  "entry": "Sun, L., Han, Y., Zhan, Z., Mao, X., Wu, Y., Huang, X., et al. “SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research.” arXiv:2309.08968 (2023)."
+ },
+ {
+  "aid": "R097",
+  "entry": "M. Mohammadi, M. Vejdanihemmat, M. Lotfinia. “Differential privacy for medical deep learning: methods, tradeoffs, and deployment implications.” n/a, 2026. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R104",
+  "entry": "Sumedh Pendurkar, Guni Sharon. Policy-Guided Search on Tree-of-Thoughts for Efficient Problem Solving with Bounded Language Model Queries. ArXiv.org, 2026."
+ },
+ {
+  "aid": "R111",
+  "entry": "Salvagno, M., Taccone, F. S., Gerli, A. G. “Can artificial intelligence help for scientific writing?” Critical Care 27, 75 (2023). DOI: 10.1186/s13054-023-04380-2."
+ },
+ {
+  "aid": "R118",
+  "entry": "Shengyu Zhu, Ignavier Ng, Zhitang Chen. Causal Discovery with Reinforcement Learning. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1906.04477"
+ },
+ {
+  "aid": "R125",
+  "entry": "Sun R, et al. A radiomics approach to assess tumour-infiltrating CD8 cells and response to immunotherapy. Lancet Oncology. 2018. DOI: 10.1016/S1470-2045(18)30413-3."
+ },
+ {
+  "aid": "R132",
+  "entry": "S. Wu, Z. Ren, X. Xin, J. Yang. Constrained auto-regressive decoding constrains generative retrieval. n/a, 2025. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R139",
+  "entry": "Y. Liu, Y. Jia, R. Geng, J. Jia, and N. Z. Gong. “Prompt Injection Attacks and Defenses in LLM-Integrated Applications.” arXiv preprint arXiv:2310.12815, 2023."
+ },
+ {
+  "aid": "R146",
+  "entry": "Y Li, R Chen, Y Tan, X Zhong. Improving Genetic Perturbation Response Prediction with an Enhanced Biological Knowledge Graph. n/a, 2024."
+ },
+ {
+  "aid": "R153",
+  "entry": "L. Liao, W. Yan, W. Xu, M. Yang. “Learning-based 3D Reconstruction in Autonomous Driving: A Comprehensive Survey.” n/a, 2025."
+ },
+ {
+  "aid": "R160",
+  "entry": "KY Chen, FY Su, JH Chiang. The Self-Correction Illusion: LLMs Correct Others but Not Themselves. n/a, 2026."
+ },
+ {
+  "aid": "R167",
+  "entry": "Liangping Ding, Cornelia Lawson, Philip Shapira. Rise of generative artificial intelligence in science. Scientometrics, 2025. https://doi.org/10.1007/s11192-025-05413-z"
+ },
+ {
+  "aid": "R174",
+  "entry": "R Römer, L Brunke, M Schuck. Safe offline reinforcement learning using trajectory-level diffusion models. 2024. https://openreview.net/forum?id=o575pIMeEz"
+ },
+ {
+  "aid": "R181",
+  "entry": "Huang, L., et al. “A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions.” ACM Transactions on Information Systems, 2024. arXiv:2311.05232."
+ },
+ {
+  "aid": "R188",
+  "entry": "Kickingereder P, et al. Radiomic profiling of glioblastoma. Radiology. 2016. DOI: 10.1148/radiol.2016160845."
+ },
+ {
+  "aid": "R195",
+  "entry": "Le Goues, C., Dewey-Vogt, M., Forrest, S., Weimer, W. A Large-Scale Study of Automated Program Repair: Fixing 55 out of 105 Bugs for $8 Each. ICSE 2012. DOI: 10.1109/ICSE.2012.6227211."
+ },
+ {
+  "aid": "R202",
+  "entry": "Emre Kiciman, et al. Causal Reasoning and Large Language Models: Opening a New Frontier for Causality. Trans. Mach. Learn. Res., 2023. https://doi.org/10.48550/arxiv.2305.00050"
+ },
+ {
+  "aid": "R209",
+  "entry": "Mitchell, E., Lin, C., Bosselut, A., Manning, C. D., & Finn, C. (2023). MEMIT: Mass-Editing Memory in a Transformer. ICLR. arXiv:2210.07229."
+ },
+ {
+  "aid": "R216",
+  "entry": "Vincent Fortuin. On the choice of priors in Bayesian deep learning. Repository for Publications and Research Data (ETH Zurich), 2021."
+ }
+]

@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R005",
+  "entry": "AJ Oche, A. Biswas (JO Agada, A. Biswas). “LLMs, RAG systems, and agents in crystalline materials discovery and characterization: A systematic review.” n/a, 2026."
+ },
+ {
+  "aid": "R012",
+  "entry": "van Griethuysen JJM, et al. Computational Radiomics System to Decode the Radiographic Phenotype. Cancer Research. 2017. DOI: 10.1158/0008-5472.CAN-17-0339."
+ },
+ {
+  "aid": "R019",
+  "entry": "Alex Kendall, Yarin Gal. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1703.04977"
+ },
+ {
+  "aid": "R026",
+  "entry": "B Varici, et al. Score-based causal representation learning: Linear and general transformations. 2025. http://www.jmlr.org/papers/v26/24-0194.html"
+ },
+ {
+  "aid": "R033",
+  "entry": "T. Taipalus. “Vector databases and language models: Synergies and challenges.” Venue not provided, 2025."
+ },
+ {
+  "aid": "R040",
+  "entry": "Kopanas, G., Philip, J., Leimkühler, T., Drettakis, G. Differentiable Point-Based Radiance Fields for Efficient View Synthesis. SIGGRAPH Asia 2022. arXiv:2205.14330. DOI: 10.1145/3550469.3555413."
+ },
+ {
+  "aid": "R047",
+  "entry": "OWASP Foundation. “OWASP Top 10 for Large Language Model Applications.” 2025. Available at https://owasp.org/www-project-top-10-for-large-language-model-applications/."
+ },
+ {
+  "aid": "R054",
+  "entry": "P. Sun, H. Kretzschmar, X. Dotiwalla, A. Chouard, V. Patnaik, P. Tsui, J. Guo, Y. Zhou, Y. Chai, B. Caine, V. Vasudevan, W. Han, J. Ngiam, H. Zhao, A. Timofeev, S. Ettinger, M. Krivokon, A. Gao, A. Joshi, Y. Zhang, J. Shlens, Z. Chen, and D. Anguelov, “Scalability in Perception for Autonomous Driving: Waymo Open Dataset,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2020. arXiv:1912.04838."
+ },
+ {
+  "aid": "R061",
+  "entry": "Ramachandran, et al. A primer for assessing foundation models for earth observation. Zenodo (CERN European Organization for Nuclear Research), 2025. https://doi.org/10.5281/zenodo.15264751"
+ },
+ {
+  "aid": "R068",
+  "entry": "Y Qizhen. A Review of Quantitative Methods for Uncertainty in Financial Markets. 2025. http://www.stemmpress.com/uploadfile/202510/8a9ff1df7ca0c6b.pdf"
+ },
+ {
+  "aid": "R075",
+  "entry": "Grimaldi, G., Ehrler, B. “AI et al.; or the potential of artificial intelligence-assisted writing.” Patterns 4(2), 100692 (2023). DOI: 10.1016/j.patter.2023.100692."
+ },
+ {
+  "aid": "R082",
+  "entry": "R. Jiao, X. Kong, Z. Yu, W. Huang. Equivariant pretrained transformer for unified geometric learning on multi-domain 3d molecules. n/a, 2024."
+ },
+ {
+  "aid": "R089",
+  "entry": "J De La Torre-López, A Ramírez, JR Romero. “Artificial intelligence to automate the systematic review of scientific literature: J. de la Torre-López et al.” Venue: n/a; Year: 2023. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R096",
+  "entry": "Xun Zheng, et al. DAGs with NO TEARS: Continuous Optimization for Structure Learning. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1803.01422"
+ },
+ {
+  "aid": "R103",
+  "entry": "Z. Li, D. Zou, S. Xu, H. Jin, Y. Zhu, and Z. Chen. “SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities.” IEEE TDSC 2021. arXiv:1806.07338. DOI: 10.1109/TDSC.2018.2879442."
+ },
+ {
+  "aid": "R110",
+  "entry": "Zwanenburg A, et al. The Image Biomarker Standardization Initiative. Radiology. 2020. DOI: 10.1148/radiol.2020191145."
+ },
+ {
+  "aid": "R117",
+  "entry": "Mayra Diaz-Acevedo, Chloe E. Curry, Xiao-Nan Lu, Saehwa Chong. Predicting Nepheline Formation in Nuclear Waste Glasses Using Machine Learning With Uncertainty Quantification. International Journal of Applied Glass Science, 2026."
+ },
+ {
+  "aid": "R124",
+  "entry": "D Stefanou. Gene Regulatory Networks Inference using Bidirectional Encoder Representations from Transformers. n/a, 2024."
+ },
+ {
+  "aid": "R131",
+  "entry": "X Shen, et al. Disentangled generative causal representation learning. 2020. https://openreview.net/forum?id=agyFqcmgl6y"
+ },
+ {
+  "aid": "R138",
+  "entry": "A Kolluru. Deep Learning Frameworks for Accelerating Catalyst Simulations. n/a, 2024."
+ },
+ {
+  "aid": "R145",
+  "entry": "J Černevičienė, A Kabašinskas. Explainable artificial intelligence (XAI) in finance: a systematic literature review. n/a, 2024."
+ },
+ {
+  "aid": "R152",
+  "entry": "Hans Buehler, Lukas Gonon, Josef Teichmann, Ben Wood. Deep hedging: hedging derivatives under generic market frictions using reinforcement learning. Swiss Finance Institute Research Paper Series, 2019."
+ },
+ {
+  "aid": "R159",
+  "entry": "W. Huang, C. Wang, R. Zhang, Y. Li. \"VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models.\" arXiv (Cornell University), 2023."
+ },
+ {
+  "aid": "R166",
+  "entry": "M Liu, et al. Long-context efficient transformers: a comprehensive survey of techniques, applications, and future directions. 2025. https://doi.org/10.36227/techrxiv.174431756.65547803/v1"
+ },
+ {
+  "aid": "R173",
+  "entry": "I. Corley et al. “SSL4EO-L: Datasets and Foundation Models for Landsat Imagery.” NeurIPS Datasets and Benchmarks Track, 2023. arXiv:2306.12510."
+ },
+ {
+  "aid": "R180",
+  "entry": "T Silver, V Hariprasad, RS Shuttleworth. PDDL planning with pretrained large language models. 2022. https://openreview.net/forum?id=1QMMUB4zfl"
+ },
+ {
+  "aid": "R187",
+  "entry": "M. Schmitt et al. “SEN12MS: A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion.” ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2019. arXiv:1903.11843."
+ },
+ {
+  "aid": "R194",
+  "entry": "Peters, J., Janzing, D., Schölkopf, B. Elements of Causal Inference: Foundations and Learning Algorithms. MIT Press, 2017. DOI: 10.7551/mitpress/11231.001.0001."
+ },
+ {
+  "aid": "R201",
+  "entry": "Prateek Yadav, et al. What matters for model merging at scale? arXiv (Cornell University), 2024. https://doi.org/10.48550/arxiv.2410.03617"
+ },
+ {
+  "aid": "R208",
+  "entry": "Omar Khattab, Matei Zaharia. ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT. SIGIR, 2020. arXiv:2004.12832."
+ },
+ {
+  "aid": "R215",
+  "entry": "C. Damour, Y. Li, A. Miranville, A. G. de Brevern. Diffusion-Based Protein Structure Design: Geometric Modelling, Validation Strategies, and Thermodynamic Challenges. n/a, 2026."
+ }
+]

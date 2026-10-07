@@ -1,0 +1,139 @@
+[
+ {
+  "cid": "N003",
+  "sentence": "A group-privacy approach for personalized FL using d-privacy over Euclidean distance reports FEMNIST accuracy of 0.835 at noise multiplier ν = 3 — slightly *above* the 0.832 at ν = 0 — with accuracy collapsing to 0.692 at ν = 10 and 0.561 at ν = 15, and a gradient-inversion attack failing for ν ≥ 1 [cited].",
+  "ref": "F Galli, et al. Group privacy for personalized federated learning. arXiv preprint, 2022. https://arxiv.org/abs/2206.03396",
+  "numbers": [
+   "0.561",
+   "0.692",
+   "0.832",
+   "0.835",
+   "10",
+   "15"
+  ]
+ },
+ {
+  "cid": "N009",
+  "sentence": "The obvious weakness is that the dropout rate is a hyperparameter, which is what Concrete dropout removes: a continuous (Gumbel-softmax) relaxation makes the per-layer dropout probability differentiable so it can be learned, recovering hand-tuned performance without the search (CamVid/DenseNet IoU 67.4 versus 67.2 for hand-tuned p=0.2) and revealing that the optimal rate shrinks toward zero in early layers and grows with depth and model size [cited].",
+  "ref": "Y. Gal, Jiri Hron, Alex Kendall. Concrete dropout. NIPS, 2017. https://proceedings.neurips.cc/paper_files/paper/2017/hash/84ddfb34126fc3a48ee38d7044e87276-Abstract.html",
+  "numbers": [
+   "0.2",
+   "67.2",
+   "67.4"
+  ]
+ },
+ {
+  "cid": "N015",
+  "sentence": "\"Retrieval Meets Reasoning\" [cited] pushes the idea furthest, treating an entire long document as external knowledge to be edited in context via DAG-planned multi-hop retrieval, reaching a 44.5 three-task average against GPT-3.5-Turbo-16k's 38.7 (though it still loses to GPT-3.5 on HotpotQA specifically, 48.7 vs.",
+  "ref": "W Fei, et al. Retrieval meets reasoning: Dynamic in-context editing for long-text understanding. arXiv preprint, 2024. https://arxiv.org/abs/2406.12331",
+  "numbers": [
+   "38.7",
+   "44.5",
+   "48.7"
+  ]
+ },
+ {
+  "cid": "N021",
+  "sentence": "Diffusion-based downscaling has been applied to 180-year East Asian climate reconstruction [cited].",
+  "ref": "Fenghua Ling, Zeyu Lu, Jing-Jia Luo, et al. Diffusion model-based probabilistic downscaling for 180-year East Asian climate reconstruction. SHILAP Revista de lepidopterología, 2024. https://doi.org/10.1038/s41612-024-00679-1",
+  "numbers": [
+   "180"
+  ]
+ },
+ {
+  "cid": "N027",
+  "sentence": "Empirical evaluations have examined over 600,000 generated patches [cited].",
+  "ref": "J Sun, F Li, X Qi, et al. Empirical evaluation of large language models in automated program repair. 2025. https://arxiv.org/abs/2506.13186",
+  "numbers": [
+   "600000"
+  ]
+ },
+ {
+  "cid": "N033",
+  "sentence": "Thought-Retriever [[cited]] makes a different structural bet — store distilled *thoughts* (validated, deduplicated answer-level abstractions) rather than raw chunks, then retrieve over thoughts and chunks jointly — reporting at least 7.6% F1 and 16% win-rate gains, beating a gold-chunk oracle on its own AcademicEval benchmark, running >25× faster than MemWalker, and showing held-out self-evolution of +6.4% as the thought memory grows.",
+  "ref": "T Feng, et al. Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems. arXiv preprint, 2026. https://arxiv.org/abs/2604.12231",
+  "numbers": [
+   "16",
+   "25",
+   "6.4",
+   "7.6"
+  ]
+ },
+ {
+  "cid": "N039",
+  "sentence": "DASH built a PEM single cell and ran it for 125 hours [cited].",
+  "ref": "Rui Ding, et al. Leveraging Data Mining, Active Learning, and Domain Adaptation in a Multi-Stage, Machine Learning-Driven Approach for the Efficient Discovery of Advanced Acidic Oxygen Evolution Electrocatalysts. arXiv preprint, 2024. https://arxiv.org/abs/2407.04877",
+  "numbers": [
+   "125"
+  ]
+ },
+ {
+  "cid": "N045",
+  "sentence": "And using LLM agents to *simulate* users is a genuinely different proposition with a genuinely different validation standard: RecAgent builds agents with profiles, a three-tier memory model and six action types, and validates them against real humans rather than against a downstream metric — 68% above the best baseline but 8% below real humans on item-overlap, with a 45.0% vs 33.3% adversarial win rate against RecSim [cited].",
+  "ref": "Lei Wang, et al. User Behavior Simulation with Large Language Model-based Agents. ACM Trans. Inf. Syst., 2024. https://doi.org/10.1145/3708985",
+  "numbers": [
+   "33.3",
+   "45.0",
+   "68",
+   "8"
+  ]
+ },
+ {
+  "cid": "N051",
+  "sentence": "The strongest empirical answer comes from Geom3D, a benchmark spanning 16 geometric models, 10 2D GNNs, 7 1D baselines, 14 pretraining algorithms and 52 tasks across small molecules, proteins, crystals and binding [cited].",
+  "ref": "S Liu, et al. Symmetry-informed geometric representation for molecules, proteins, and crystalline materials. 2023. https://proceedings.neurips.cc/paper_files/paper/2023/hash/d07379f3acf3af51dfc8598862cadfa0-Abstract-Datasets_and_Benchmarks.html",
+  "numbers": [
+   "10",
+   "14",
+   "16",
+   "52"
+  ]
+ },
+ {
+  "cid": "N057",
+  "sentence": "CRITIC, which routes critiques through a search engine, a code interpreter and a toxicity API, gains 7.7 F1 across three QA sets, 7.0% on math, and a 79.2% reduction in toxicity probability — and the ablations show the tools carry the effect, since removing them collapses the gains [cited].",
+  "ref": "Z Gou, et al. Critic: Large language models can self-correct with tool-interactive critiquing. 2024. https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html",
+  "numbers": [
+   "7.0",
+   "7.7",
+   "79.2"
+  ]
+ },
+ {
+  "cid": "N063",
+  "sentence": "AlphaProteo reports the strongest binder numbers to date — 9–88% success on 7 of 8 targets, best K_D 82 pM, without high-throughput screening — but it also failed completely on TNFα, a flat and highly polar interface, and three of its targets were used during method development [cited].",
+  "ref": "Vinicius Zambaldi, et al. De novo design of high-affinity protein binders with AlphaProteo. arXiv (Cornell University), 2024. https://doi.org/10.48550/arxiv.2409.08022",
+  "numbers": [
+   "82",
+   "88"
+  ]
+ },
+ {
+  "cid": "N069",
+  "sentence": "Two things about the evidence deserve emphasis: it is synthetic only (dz=10, dx=20, 1M examples), and the paper's most quotable empirical result is a *negative* one about baselines — they achieve high R² but low MCC, meaning they are linearly identifiable without being disentangled [cited].",
+  "ref": "Sébastien Lachapelle, et al. Disentanglement via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA. CLeaR, 2021. https://proceedings.mlr.press/v177/lachapelle22a.html",
+  "numbers": [
+   "10",
+   "20"
+  ]
+ },
+ {
+  "cid": "N075",
+  "sentence": "Cascading Instruction Influence [cited] models injection propagating through three-tier delegation chains, validated statistically against behavioural data from ten production LLMs, and reports a large effect for hierarchical versus centralised topologies (Cohen's d = 2.34, 95% CI 1.82–2.86) — the argument being that hierarchy depth *raises* risk rather than containing it.",
+  "ref": "MRM Abdellah, AS Aziz. Cascading Instruction Influence Indirect Prompt Injection in Hierarchical Multi-Agent Systems. 2026. https://iapress.org/index.php/soic/article/view/3574",
+  "numbers": [
+   "1.82",
+   "2.34",
+   "2.86",
+   "95"
+  ]
+ },
+ {
+  "cid": "N081",
+  "sentence": "AlphaProteo designs high-affinity protein binders with 3- to 300-fold better binding affinities and higher experimental success rates than prior methods [cited].",
+  "ref": "Vinicius Zambaldi, David La, Alexander E. Chu, et al. De novo design of high-affinity protein binders with AlphaProteo. arXiv (Cornell University), 2024. https://doi.org/10.48550/arxiv.2409.08022",
+  "numbers": [
+   "300"
+  ]
+ }
+]

@@ -29,3 +29,50 @@ now three-run means (3.67/3.73).
   0 from outside the ledger. Three body numbers without an entry are not citations ("lambda in [0,1]" twice; prose
   quoting another paper's "ref [56]").
 - Warnings check reports on the delivered files (mean per session): r1 20.0, r2 26.1, r3 25.1, Abs 24.3.
+
+# C3 and C4 (2026-10-07; plan in PLAN_C3_C4.md)
+
+## C3 (prepare_c3.py, c3/, c3_analyze.py -> c3_result.json)
+
+216 entries audited by 7 search agents blind to condition and label; 2 unsure (dropped).
+
+| cell | label right | entries truly defective |
+|---|---|---|
+| verified (all three conditions) | 75/75 | 0/75 |
+| not_found: skill / NoRAG / Pool-Free | 0/24, 1/25, 2/24 do not exist | 1/24, 6/25, 2/24 |
+| metadata_error: skill / NoRAG / Pool-Free | 9/25, 20/25, 8/16 | same |
+
+Corrected defect rate per survey: skill 1.4%, NoRAG 7.8%, Pool-Free 1.4% (verifier: 8.0 / 14.3 / 10.5).
+Skill - NoRAG -6.4 pp [-9.2, -4.1] (holds); Skill - Pool-Free -0.1 [-1.6, 1.4] (does not survive).
+Work does not exist: skill 0.0%, NoRAG 0.3% (one sampled entry, R179, arXiv id points to another work), Pool-Free
+0.8% (both unfound entries are records in its candidate pool, copied verbatim).
+Field errors on real works (added decomposition): skill 1.4%, NoRAG 7.6%, Pool-Free 0.7%; skill - Pool-Free +0.7
+[-0.2, 1.8].
+
+## C4 part A (c4_partA.py -> c4_partA_result.json)
+
+Per skill session (120): 229 claim numbers in citing sentences/table rows; 97.7% in the cited papers' evidence files,
+0.7% only in another paper's file, 0.3% in none, 1.4% in sentences whose cited papers have no file. Warnings 23.9 per
+session: 19.8 records without identifier, 2.1 figures not in the cited evidence, 1.9 venue vs arXiv DOI.
+
+## C4 part B (prepare_c4.py, c4/, c4_analyze.py -> c4_result.json; c4_density.py -> c4_density.json)
+
+Eligible sentences per survey: skill 37.2 (1,115 in all), NaiveRAG-Pool 0.8 (25 in all; none in 16 surveys).
+Skill: 7 of 60 sentences have a wrong figure (12%, Wilson [6, 22]); of 207 figures, 10 misattributed (in the paper,
+other meaning) and 1 absent; 57 of 60 read in full text. All 11 wrong figures are in the cited paper's evidence
+file, so check passes them. NaiveRAG-Pool: 0 of 18 checkable sentences wrong ([0, 18]); 2 unverifiable, 2 no claim.
+Skill - Pool error share +12 pp [3, 22] (topics bootstrap); the samples differ in size and in figures per sentence
+(3.5 against 1). Three further skill sentences with correct figures misdescribe the method (auditor notes, batch 5).
+
+## Checks added after the results (2026-10-07)
+
+- C3: the 16 skill metadata_error labels the audit overturned were read against the verifier's reasons. Most trace to
+  the verifier: name normalization (diacritics such as Varıcı/Kıcıman, candidate records without authors, records
+  that store given names as surnames, a compound surname), ACM DOIs whose record title did not match, and one match to
+  a different paper. Two auditor calls are borderline (R100: year 2022 for a 2020 paper with a 2022 arXiv revision;
+  R135: 2018 for HNSW, TPAMI online 2018). Counting both as errors raises the skill's corrected rate from 1.4% to
+  about 1.7%; no conclusion changes.
+- C3: the verified cell had 0 errors in 75; the 95% Wilson upper bound is 4.9%. The corrected rates treat the
+  verified labels as right.
+- C4 density over all prose, whatever the citation style: claim numbers per 1,000 words, skill 35.8, NaiveRAG-Pool 0.8
+  (c4_density.py).

@@ -1,0 +1,363 @@
+[
+ {
+  "cid": "N002",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/lgrs.2022.3201489 (abstract; IEEE full text closed, no arXiv version found)",
+  "numbers": [
+   {
+    "value": "1.3",
+    "verdict": "supported",
+    "evidence": "Abstract: \"we pretrain a vision transformer (ViT) on 1.3 million satellite-derived RS images. We pretrain SatViT using ... masked autoencoding (MAE)\""
+   }
+  ],
+  "note": "Abstract alone settles it; full text is paywalled."
+ },
+ {
+  "cid": "N008",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2412.01940 (v3, preprint of the cited LNCS chapter)",
+  "numbers": [
+   {
+    "value": "32",
+    "verdict": "supported",
+    "evidence": "Appendix, Figure 9 caption: \"We observe that the hierarchical structure accelerates search only when d < 32, matching the findings of (Lin & Zhao, 2019).\" Sec. 1 also: \"(Lin & Zhao, 2019) report that the hierarchy only improves performance for low-dimensional data (d < 32)\"."
+   }
+  ],
+  "note": "The d < 32 threshold comes first from Lin & Zhao (2019); this paper reproduces it on synthetic data in Fig. 9 and adopts it. Checked against the arXiv v3 text, not the 2026 Springer chapter."
+ },
+ {
+  "cid": "N014",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://aclanthology.org/2024.acl-demos.9.pdf",
+  "numbers": [
+   {
+    "value": "0.43",
+    "verdict": "supported",
+    "evidence": "Table 2 (LlaMA-2, ZsRE): \"GRACE 99.22 0.43 100.00 56.87 426.31\" under Reliability / Generalization / Locality / Portability / Fluency."
+   },
+   {
+    "value": "100.00",
+    "verdict": "supported",
+    "evidence": "Table 2: GRACE Locality = 100.00."
+   },
+   {
+    "value": "99.22",
+    "verdict": "supported",
+    "evidence": "Table 2: GRACE Reliability = 99.22."
+   }
+  ],
+  "note": "Sec. 5.1: \"we utilize LlaMA 2 (7B)\" and \"We employ the ZsRE dataset\"."
+ },
+ {
+  "cid": "N020",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://api.openalex.org/works/doi:10.1088/1748-9326/ad41f0 (abstract; iopscience full text blocked by bot wall)",
+  "numbers": [
+   {
+    "value": "0.1",
+    "verdict": "supported",
+    "evidence": "Abstract: \"with a threshold of 400 mm, the AI-driven model secures a Threat Score (TS) of 0.1 for forecast lead time reaching up to 8.5 d. This performance notably surpasses the performance of traditional GFS-Driven models, which achieve a similar TS only within a limited 3-day forecast lead time.\""
+   },
+   {
+    "value": "400",
+    "verdict": "supported",
+    "evidence": "Abstract: \"with a threshold of 400 mm\" (same passage)."
+   },
+   {
+    "value": "8.5",
+    "verdict": "supported",
+    "evidence": "Abstract: \"TS of 0.1 for forecast lead time reaching up to 8.5 d\"."
+   }
+  ],
+  "note": "The AI-driven model is Pangu-weather driving regional WRF; the comparison is GFS-driven WRF. The abstract also holds the 3-day figure."
+ },
+ {
+  "cid": "N026",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2310.13639",
+  "numbers": [
+   {
+    "value": "1.6",
+    "verdict": "supported",
+    "evidence": "Sec. 1: \"CPL is able to match the performance of prior RL based methods. At the same time, it is 1.6× faster and four times as parameter efficient. When using denser preference data, CPL is able to surpass the performance of RL baselines on 5 out of 6 tasks.\" Sec. 4.1 / Table 2: \"CPL runs 1.62× faster than P-IQL on images and has less than a quarter of the parameters\" (P-IQL 9.6m params / 16.5 hrs vs CPL 2.1m / 10.2 hrs)."
+   }
+  ],
+  "note": "The speed and parameter figures compare against one RL baseline, P-IQL (Table 2). The sentence's plural 'RL baselines' is a loose fit."
+ },
+ {
+  "cid": "N032",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://api.openalex.org/works/doi:10.1109/icpids65698.2024.00033 (abstract; IEEE ICPIDS 2024 full text closed)",
+  "numbers": [
+   {
+    "value": "0.87",
+    "verdict": "supported",
+    "evidence": "Abstract: \"MobileViT is evaluated in association with the BraTS 2021 dataset ... it achieves a Die Coefficient of 0.87 in segmentation tasks and 40% less inference time than CNN models.\""
+   },
+   {
+    "value": "40",
+    "verdict": "supported",
+    "evidence": "Abstract: \"40% less inference time than CNN models\" (same passage)."
+   }
+  ],
+  "note": "DOI 10.1109/ICPIDS65698.2024.00033 (IEEE doc 10974209). Only the abstract was reachable. It says 'CNN models', with no qualifier like 'comparable'."
+ },
+ {
+  "cid": "N038",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2512.15943",
+  "numbers": [
+   {
+    "value": "350",
+    "verdict": "supported",
+    "evidence": "Sec. 1: \"We fine-tuned the facebook/opt-350m model using the ToolBench dataset\"; Method: \"The OPT-350M model, with its 350 million parameters\". Abstract reports \"a 77.55% pass rate on ToolBench evaluation\", above larger baselines."
+   }
+  ],
+  "note": ""
+ },
+ {
+  "cid": "N044",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2506.01804",
+  "numbers": [
+   {
+    "value": "60",
+    "verdict": "supported",
+    "evidence": "Sec. 3: \"According to Pajo P. [20], using ADK can reduce agent development time by up to 60%\". The figure is quoted from ref [20], not measured by the paper."
+   },
+   {
+    "value": "70",
+    "verdict": "supported",
+    "evidence": "Sec. 4 (Implementation Results Analysis): \"According to Salimbeni [16], implementation using LangGraph can reduce code volume by more than 70% compared to traditional methods.\" [16] is a Medium post. The paper quotes it and does not measure it."
+   }
+  ],
+  "note": "The sentence presents both figures as quoted, not measured, which matches the paper. [20] Pajo is a ResearchGate manuscript, not strictly a blog or specification. Other quoted figures exist: 60% inquiry-resolution time (Cloud Security Alliance [15]) and 60% development costs / 40% time to market (Schmid [21]). None of them is measured."
+ },
+ {
+  "cid": "N050",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2110.02711 (v6, 11 Aug 2022; CVPR 2022 paper)",
+  "numbers": [
+   {
+    "value": "0.020",
+    "verdict": "supported",
+    "evidence": "Table 1 (face image reconstruction): \"Diffusion (t0 = 300) 0.020 0.073 0.914\" under MAE / LPIPS / SSIM."
+   },
+   {
+    "value": "0.062",
+    "verdict": "supported",
+    "evidence": "Table 1: \"HFGI w e4e 0.062 0.127 0.877\"."
+   },
+   {
+    "value": "0.073",
+    "verdict": "supported",
+    "evidence": "Table 1: Diffusion (t0 = 300) LPIPS 0.073."
+   },
+   {
+    "value": "0.127",
+    "verdict": "supported",
+    "evidence": "Table 1: HFGI w e4e LPIPS 0.127."
+   },
+   {
+    "value": "0.877",
+    "verdict": "supported",
+    "evidence": "Table 1: HFGI w e4e SSIM 0.877."
+   },
+   {
+    "value": "0.914",
+    "verdict": "supported",
+    "evidence": "Table 1: Diffusion (t0 = 300) SSIM 0.914."
+   },
+   {
+    "value": "300",
+    "verdict": "supported",
+    "evidence": "Table 1 row label \"Diffusion (t0 = 300)\"."
+   }
+  ],
+  "note": "All figures match Table 1. 'Best baseline' is loose: the 'Optimization' baseline row (0.061 / 0.126 / 0.875) beats HFGI w e4e on MAE and LPIPS. HFGI w e4e is best only on SSIM."
+ },
+ {
+  "cid": "N056",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2505.12638 (v3, 26 Oct 2025; v1 and v2 also checked)",
+  "numbers": [
+   {
+    "value": "0.61",
+    "verdict": "supported",
+    "evidence": "Sec. 4.3: \"ChromFound achieves the highest AUC scores with 0.77 for COPZ1 and 0.61 for HNRNPA1, accurately identifying enhancer-gene links.\""
+   },
+   {
+    "value": "0.6232",
+    "verdict": "supported",
+    "evidence": "Table 2 (denoising batch effect), PBMC169K AvgBIO: \"Harmony [32] ... 0.6232\", the best baseline in that column."
+   },
+   {
+    "value": "0.6443",
+    "verdict": "supported",
+    "evidence": "Table 2, PBMC169K AvgBIO: \"ChromFound ... 0.6443\"."
+   },
+   {
+    "value": "0.77",
+    "verdict": "supported",
+    "evidence": "Sec. 4.3: \"0.77 for COPZ1\" (same passage as 0.61); Appendix repeats \"AUCs of 0.77 for COPZ1 and 0.61 for HNRNPA1\"."
+   },
+   {
+    "value": "0.9449",
+    "verdict": "supported",
+    "evidence": "Table 3 (cross-omics prediction): ChromFound PCC 0.9449 on Cell lines Zhu11K, the highest PCC in the table."
+   },
+   {
+    "value": "1.97",
+    "verdict": "supported",
+    "evidence": "Sec. 3.3: \"We assemble a large-scale scATAC-seq dataset comprising over 2.64 million cells ... For model pretraining, we select a representative subset of 1.97 million cells\"."
+   },
+   {
+    "value": "14.69",
+    "verdict": "supported",
+    "evidence": "Appendix G.2: \"ChromFound achieves a 4.71% improvement in accuracy and a 14.69% increase in macro F1 score compared to the previous SOTA method, CellCano.\" (train EPF_hydrop_3, test VIB_10xv1_2)."
+   },
+   {
+    "value": "17.02",
+    "verdict": "supported",
+    "evidence": "Sec. 1: \"achieving an average ARI improvement of 17.02% across 8 scATAC-seq datasets from 4 tissues\" (v3; v1 and v2 say 17.47%)."
+   },
+   {
+    "value": "2.65",
+    "verdict": "misattributed",
+    "evidence": "Appendix C: \"We collect a large-scale human scATAC-seq dataset that includes more than 2.65 million cells and 1.75 trillion tokens.\" This is the full collected corpus, which Sec. 3.3 gives as \"over 2.64 million cells\". The 1.97M pretraining set is a subset of it. The paper never says it trained on 2.65M cells, so the claimed discrepancy (1.97M vs 2.65M training cells) does not exist. The only mismatch is 2.64M vs 2.65M for the total corpus."
+   },
+   {
+    "value": "3.37",
+    "verdict": "supported",
+    "evidence": "Table 2, PBMC169K AvgBIO Gain(%) row: 3.37."
+   },
+   {
+    "value": "4.71",
+    "verdict": "supported",
+    "evidence": "Appendix G.2: \"a 4.71% improvement in accuracy ... compared to the previous SOTA method, CellCano\"."
+   }
+  ],
+  "note": "The 0.6443 / 0.6232 / 3.37 triple comes from one dataset (PBMC169K) of four in Table 2; the sentence does not name it. Sec. 1 calls ChromFound \"the first scATAC-seq foundation model\". The 17.02% figure appears only in v3."
+ },
+ {
+  "cid": "N062",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2406.03816",
+  "numbers": [
+   {
+    "value": "20.76",
+    "verdict": "supported",
+    "evidence": "Table 2, LLaMA-3-8B-Instruct, MATH column: \"0th iteration (zero-shot) 20.76\"."
+   },
+   {
+    "value": "34.28",
+    "verdict": "supported",
+    "evidence": "Table 2, LLaMA-3-8B-Instruct, MATH column: \"w/ ReST-MCTS∗ (2nd iteration) 34.28\"."
+   },
+   {
+    "value": "42.5",
+    "verdict": "supported",
+    "evidence": "Sec. 4.1: \"after more iterations of self-training, verification based on the enhanced value model basically outperforms Self-Consistency on every point, achieving the highest accuracy of 48.5% that significantly exceeds the 42.5% of Self-Consistency\" (Figure 2(a), test set of MATH)."
+   },
+   {
+    "value": "48.5",
+    "verdict": "supported",
+    "evidence": "Same passage: \"achieving the highest accuracy of 48.5%\" (ReST-MCTS* Iter #2, Figure 2(a), MATH)."
+   }
+  ],
+  "note": "The 48.5 vs 42.5 comparison is a search-verification experiment (Figure 2(a), equal token budget). The policy backbone for Figure 2(a) is never named (Sec. 4.1, Appendix E.2 and E.3 checked). The sentence reads as if the 48.5/42.5 result were LLaMA-3-8B-Instruct, but the paper does not support that link. The figures themselves are the paper's ReST-MCTS*-vs-Self-Consistency result on MATH."
+ },
+ {
+  "cid": "N068",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2401.10370",
+  "numbers": [
+   {
+    "value": "1.484",
+    "verdict": "supported",
+    "evidence": "Table 31 (Model comparison for dataset USDYC1, Libor curve): \"1 HS PHS 0.197 0.750 0.537 1.484\" (Composite)."
+   },
+   {
+    "value": "14",
+    "verdict": "supported",
+    "evidence": "Sec. 1: \"The 14 models covered in this study are listed in Table 1.\""
+   },
+   {
+    "value": "2.068",
+    "verdict": "supported",
+    "evidence": "Table 31: \"2 PM GARCHt-RET 0.734 0.789 0.545 2.068\"."
+   },
+   {
+    "value": "2.094",
+    "verdict": "supported",
+    "evidence": "Table 31: \"3 NN CWGAN 0.766 0.764 0.565 2.094\". CWGAN is the best NN model on USDYC1."
+   }
+  ],
+  "note": "Sec. 4.5.1: \"HS model performs the best, followed by GARCHt-RET model. CWGAN is the top performing NN model\"; Sec. 4.4.5: \"Plain historical simulation (PHS) model is the top performer for all 4 DGPs.\""
+ },
+ {
+  "cid": "N074",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s00259-021-05303-5 (PMID 33772334, PMC8440288)",
+  "numbers": [
+   {
+    "value": "18",
+    "verdict": "not_a_claim",
+    "evidence": "\"18\" is the fluorine-18 mass number in the tracer name \"[18F]FDG\" (abstract: \"2-[18F] fluoro-2-deoxy-D-glucose ([18F]FDG) PET/CT\"). It is not a result figure."
+   }
+  ],
+  "note": "The abstract supports the qualitative claim: \"One hundred fifty-eight patients with LACC from multiple centers ... tested in data from each scanner independently\". The title says \"multi-scanner/center study with external validation\"."
+ },
+ {
+  "cid": "N080",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2401.15884 (v3, 7 Oct 2024)",
+  "numbers": [
+   {
+    "value": "0.363",
+    "verdict": "supported",
+    "evidence": "Table 6 (computational overhead; executing time per instance): \"RAG 26.5 0.363\"."
+   },
+   {
+    "value": "0.512",
+    "verdict": "supported",
+    "evidence": "Table 6: \"CRAG 27.2 0.512\" (TFLOPs per token, executing time (s))."
+   },
+   {
+    "value": "39.0",
+    "verdict": "supported",
+    "evidence": "Table 1, SelfRAG-LLaMA2-7b block: \"RAG 52.8 59.2 39.0 53.2\" (PopQA / Bio / Pub / ARC)."
+   },
+   {
+    "value": "52.8",
+    "verdict": "supported",
+    "evidence": "Table 1, SelfRAG-LLaMA2-7b: RAG PopQA 52.8."
+   },
+   {
+    "value": "59.8",
+    "verdict": "supported",
+    "evidence": "Table 1, SelfRAG-LLaMA2-7b: \"CRAG 59.8 74.1 75.6 68.6\"; CRAG PopQA 59.8."
+   },
+   {
+    "value": "75.6",
+    "verdict": "supported",
+    "evidence": "Table 1, SelfRAG-LLaMA2-7b: CRAG PubHealth (Pub) 75.6."
+   }
+  ],
+  "note": "The accuracy pairs share one generator (SelfRAG-LLaMA2-7b), as the sentence says. Table 6 does not name its generator and notes the times are \"a rough estimate of the generation phase\"."
+ }
+]

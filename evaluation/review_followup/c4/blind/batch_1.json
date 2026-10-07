@@ -1,0 +1,139 @@
+[
+ {
+  "cid": "N001",
+  "sentence": "A widely cited review put state-of-the-art experimental success rates at \"nearing 20%\" [cited].",
+  "ref": "Adam Winnifrith, Carlos Outeiral, Brian L Hie. Generative artificial intelligence for de novo protein design. Current opinion in structural biology, 2024. https://doi.org/10.1016/j.sbi.2024.102794",
+  "numbers": [
+   "20"
+  ]
+ },
+ {
+  "cid": "N007",
+  "sentence": "Animatable and Relightable Gaussians jointly optimise geometry, appearance and a relighting decomposition on multi-view captures, reaching 30.6143 dB NVS on AvatarReX against 23.2475 dB for the AvatarReX baseline, 30.3607 dB on actorsHQ against 3DGS-Avatar's 28.7836 dB and GaussianAvatar's 26.9497 dB, and 31.6339 dB under relighting, at a cost of about two days on an RTX 4090 and 4–10 seconds per frame for relighting [cited].",
+  "ref": "Z Li, et al. Animatable and relightable gaussians for high-fidelity human avatar modeling. arXiv preprint, 2023. https://arxiv.org/abs/2311.16096",
+  "numbers": [
+   "10",
+   "23.2475",
+   "26.9497",
+   "28.7836",
+   "30.3607",
+   "30.6143",
+   "31.6339",
+   "4090"
+  ]
+ },
+ {
+  "cid": "N013",
+  "sentence": "Its explicitly stated motive is scalability — no MLP is applied per Gaussian — and its results on the deliberately hard Unbiased4D capture (22.348 dB on the synthetic cactus against Nerfies at 17.36 dB and HexPlane at 16.327 dB) demonstrate the value of strong priors when multi-view cues are weak; ablation shows the basis size K is critical, with K=2 collapsing to 15.67 dB and K=25 optimal at 22.348 dB [cited].",
+  "ref": "Devikalyan Das, et al. Neural parametric gaussians for monocular non-rigid object reconstruction. arXiv (Cornell University), 2024. https://doi.org/10.48550/arxiv.2312.01196",
+  "numbers": [
+   "15.67",
+   "16.327",
+   "17.36",
+   "22.348",
+   "25"
+  ]
+ },
+ {
+  "cid": "N019",
+  "sentence": "Large-scale analysis of 78K SBOMs in the wild studies declared dependency graphs and missing edges [cited].",
+  "ref": "A Zięba-Kozarzewski. No Edges, No Verdict: A Large-Scale Empirical Study of Declared Dependency Graphs in 78K SBOMs in the Wild. 2026. https://arxiv.org/abs/2607.22140",
+  "numbers": [
+   "78"
+  ]
+ },
+ {
+  "cid": "N025",
+  "sentence": "Modelling CFG training as a masked conditional/unconditional score-matching risk, it proves via a \"diffused Taylor approximation\" that conditional distribution estimation in TV distance attains O(n^{−β/(d+d_y+2β)} (log n)^{max(19/2,(β+2)/2)}) under its Assumption 3.3, matching a minimax lower bound of ≳ n^{−β/(d+2β)} for d_y = 0 [cited].",
+  "ref": "H Fu, et al. Unveil conditional diffusion models with classifier-free guidance: A sharp statistical theory. arXiv preprint, 2024. https://arxiv.org/abs/2403.11968",
+  "numbers": [
+   "19",
+   "3.3"
+  ]
+ },
+ {
+  "cid": "N031",
+  "sentence": "TiC-LM provides a web-scale benchmark for time-continual LLM pretraining using 114 Common Crawl dumps and time-stratified evaluations [cited].",
+  "ref": "Li, Jeffrey, Armandpour, et al. TiC-LM: A web-scale benchmark for time-continual LLM pretraining. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025. https://doi.org/10.18653/v1/2025.acl-long.1551",
+  "numbers": [
+   "114"
+  ]
+ },
+ {
+  "cid": "N037",
+  "sentence": "Depth uncertainty networks put a categorical posterior over network depth, marginalizing over weight-sharing subnetworks in a single forward pass; they reach the best test log-likelihood on a 2-million-point flights dataset, tied with ensembles and dropout, with a better total calibration error (.087±.009) and at .026 s per prediction [cited].",
+  "ref": "J Antorán, J Allingham. Depth uncertainty in neural networks. 2020. https://proceedings.neurips.cc/paper_files/paper/2020/hash/781877bda0783aac5f1cf765c128b437-Abstract.html",
+  "numbers": [
+   "026",
+   "087"
+  ]
+ },
+ {
+  "cid": "N043",
+  "sentence": "Interpretability and correctability are real benefits — ECoT reports that a single human correction of a reasoning step raises success on its three hardest tasks by 48% [cited] — but they are a different argument from the one the numbers are usually recruited for.",
+  "ref": "M Zawalski, et al. Robotic control via embodied chain-of-thought reasoning. arXiv preprint, 2024. https://arxiv.org/abs/2407.08693",
+  "numbers": [
+   "48"
+  ]
+ },
+ {
+  "cid": "N049",
+  "sentence": "The dataset survey of 265 driving datasets supplies the field-level view and the methodological warning: annotation quality, labelling tools and annotation processes vary enough that cross-dataset numbers deserve less confidence than they receive [cited].",
+  "ref": "M Liu, et al. A survey on autonomous driving datasets: Statistics, annotation quality, and a future outlook. 2024. https://ieeexplore.ieee.org/abstract/document/10509812/",
+  "numbers": [
+   "265"
+  ]
+ },
+ {
+  "cid": "N055",
+  "sentence": "The download-success rates the authors report — npm 29.14%, PyPI 63.64%, RubyGems 90.24%, Maven Central 0% — are an under-appreciated finding in their own right, since they show that studying malicious packages is itself constrained by what registries still serve [cited].",
+  "ref": "Marc Ohm, et al. Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks. arXiv preprint, 2020. https://arxiv.org/abs/2005.09535",
+  "numbers": [
+   "0",
+   "29.14",
+   "63.64",
+   "90.24"
+  ]
+ },
+ {
+  "cid": "N061",
+  "sentence": "The SPSE platform combined cheap empirical transport proxies (crystal structure analysis by Voronoi decomposition, bond-valence site energy) with automated first-principles nudged elastic band calculations, running the full funnel over 91,763 structures of which 91,688 came from the ICSD; of 21,542 Li- and Na-containing candidates, 5,192 survived the Ea ≤ 1.2 eV screen [cited].",
+  "ref": "B He, et al. High-throughput screening platform for solid electrolytes combining hierarchical ion-transport prediction algorithms. 2020. https://www.nature.com/articles/s41597-020-0474-y",
+  "numbers": [
+   "1.2",
+   "21542",
+   "5192",
+   "91688",
+   "91763"
+  ]
+ },
+ {
+  "cid": "N067",
+  "sentence": "A combined predictive and generative ML approach identified 16 novel fast-ion conductors while considering electrolytes and interfaces [cited].",
+  "ref": "J Wu, H Wang, C Wang, et al. Machine Learning‐Driven Design of Electrolytes and Interfaces for Solid‐State Lithium Batteries: Progress and Outlook. 2026. https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.78357",
+  "numbers": [
+   "16"
+  ]
+ },
+ {
+  "cid": "N073",
+  "sentence": "Without calibration, a 90% interval may not contain the true outcome 90% of the time, which is unacceptable for risk management [cited].",
+  "ref": "Volodymyr Kuleshov, Nathan Fenner, Stefano Ermon. Accurate uncertainties for deep learning using calibrated regression. CoRR, 2018. https://doi.org/10.48550/arxiv.1807.00263",
+  "numbers": [
+   "90"
+  ]
+ },
+ {
+  "cid": "N079",
+  "sentence": "The recurring structural finding is that *low-level contract compliance is saturated while higher-order planning is not*: MCP-Bench reports valid-tool-name rates of 96.0–100.0% and schema compliance of 85.0–99.9% for mid-scale and frontier models, with the differentiators being dependency awareness (0.649 for GPT-5) and parallelism efficiency (0.339) [cited].",
+  "ref": "Z Wang, et al. Mcp-bench: Benchmarking tool-using llm agents with complex real-world tasks via mcp servers. 2026. https://proceedings.iclr.cc/paper_files/paper/2026/hash/9e4b14eb6f16fe7b5818a8d633a0606a-Abstract-Conference.html",
+  "numbers": [
+   "0.339",
+   "0.649",
+   "100.0",
+   "85.0",
+   "96.0",
+   "99.9"
+  ]
+ }
+]

@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R004",
+  "entry": "A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, J. Uszkoreit, and N. Houlsby, “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,” in Proc. Int. Conf. Learn. Represent. (ICLR), 2021. arXiv:2010.11929."
+ },
+ {
+  "aid": "R011",
+  "entry": "Gao, Z., Shi, X., Han, B., Wang, H., Yeung, D.-Y., Woo, W.-C., Wong, W.-K. DiffCast: A unified framework via residual diffusion for precipitation nowcasting. CVPR, 2024. arXiv:2312.06734."
+ },
+ {
+  "aid": "R018",
+  "entry": "Jiajing Chen, Lu Jiang, Shendong Tan, Jun Yang. “Machine-learning-aided screening of inorganic lithium solid-state electrolytes with a wide electrochemical window.” Journal of Materials Chemistry A, 2025."
+ },
+ {
+  "aid": "R025",
+  "entry": "Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. KDD. DOI 10.1145/2939672.2939785."
+ },
+ {
+  "aid": "R032",
+  "entry": "H. An, M. Li, J. Zhang, and N. Xu. “MASpi: A Unified Environment for Evaluating Prompt Injection Robustness in LLM-Based Multi-Agent Systems.” n/a, 2025."
+ },
+ {
+  "aid": "R039",
+  "entry": "W Xu, et al. LLM-Based Agents for Tool Learning: A Survey: W. Xu et al. 2025. https://doi.org/10.1007/s41019-025-00296-9"
+ },
+ {
+  "aid": "R046",
+  "entry": "P. Blanchard, E. M. El Mhamdi, R. Guerraoui, and J. Stainer. “Machine Learning with Adversaries: Byzantine Tolerant Gradient Descent.” NeurIPS 2017."
+ },
+ {
+  "aid": "R053",
+  "entry": "UC Irvine Sungjin Ahn, UC Irvine Anoop Korattikara, UC Irvine Max Welling. Bayesian posterior sampling via stochastic gradient Fisher scoring. arXiv (Cornell University), 2022."
+ },
+ {
+  "aid": "R060",
+  "entry": "Yoon, J., Jarrett, D., & van der Schaar, M. (2019). Time-series Generative Adversarial Networks. NeurIPS."
+ },
+ {
+  "aid": "R067",
+  "entry": "S. Buchkul, A. Sonawane, A. Khandelwal. “Federated Learning for Privacy-Preserving Next-Word.” n/a, n/a. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R074",
+  "entry": "Zhou, T., Tucker, R., Flynn, J., Fyffe, G., Snavely, N. Deep View Synthesis from Sparse Photographic Images. ACM TOG 2019. DOI: 10.1145/3306346.3323028."
+ },
+ {
+  "aid": "R081",
+  "entry": "V Jain, Z Wang, F You. Machine learning pipelines for the design of solid-state electrolytes. 2026. https://pubs.rsc.org/mh/article-abstract/13/1/15/897496"
+ },
+ {
+  "aid": "R088",
+  "entry": "L Jing, et al. A Survey of Vector Quantization for Approximate Nearest Neighbor Search. n.d.. https://www.researchgate.net/profile/Mingyu-Yang-26/publication/414393985_A_Survey_of_Vector_Quantization_for_Approximate_Nearest_Neighbor_Search/links/6aab62ad7ea1f607bf9269b3/A-Survey-of-Vector-Quantization-for-Approximate-Nearest-Neighbor-Search.pdf"
+ },
+ {
+  "aid": "R095",
+  "entry": "P. Reiser, M. Neubert, A. Eberhard, L. Torresi, C. Zhou, C. Shao, H. Metni, C. van Hoesel, H. Schopmans, T. Sommer, and P. Friederich. “Graph neural networks for materials science and chemistry.” Communications Materials, 3:1–18, 2022. DOI: 10.1038/s43246-022-00294-8."
+ },
+ {
+  "aid": "R102",
+  "entry": "Tom Farrand, et al. Neither private nor fair: Impact of data imbalance on utility and fairness in differential privacy. PPMLP@CCS, 2020. https://doi.org/10.1145/3411501.3419419"
+ },
+ {
+  "aid": "R109",
+  "entry": "Milena T. Bagdasarian, et al. 3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods. Computer Graphics Forum, Volume 44, Issue 2 (2025), 2024. https://doi.org/10.1111/cgf.70078"
+ },
+ {
+  "aid": "R116",
+  "entry": "S Jayaram Subramanya, F Devvrit. Diskann: Fast accurate billion-point nearest neighbor search on a single node. 2019. https://proceedings.neurips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html"
+ },
+ {
+  "aid": "R123",
+  "entry": "Ilyes Khemakhem, et al. Variational Autoencoders and Nonlinear ICA: A Unifying Framework. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1907.04809"
+ },
+ {
+  "aid": "R130",
+  "entry": "Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., et al. “ChatDev: Communicative Agents for Software Development.” ACL, 2024; arXiv:2307.07924."
+ },
+ {
+  "aid": "R137",
+  "entry": "Wang, Xinyu. Low-Bit Power-of-Two Quantization for Large Language Models. eScholarship@McGill (McGill), 2024."
+ },
+ {
+  "aid": "R144",
+  "entry": "Y. Li, A. W. Yu, T. Meng, B. Caine, J. Ngiam, D. Peng, J. Shen, Y. Lu, D. Zhou, Q. V. Le, A. Yuille, and D. Anguelov, “DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2022. arXiv:2203.08195."
+ },
+ {
+  "aid": "R151",
+  "entry": "S. K. Jauhar, P. Turney, E. Hovy. “Tables as semi-structured knowledge for question answering.” n/a, 2016."
+ },
+ {
+  "aid": "R158",
+  "entry": "GM Dejen. Multimodal artificial intelligence in medical biotechnology: Integrating genomics, imaging, and clinical data for precision therapeutics. n/a, 2026."
+ },
+ {
+  "aid": "R165",
+  "entry": "Q Zhang, et al. {VBASE}: Unifying online vector similarity search and relational queries via relaxed monotonicity. 2023. https://www.usenix.org/conference/osdi23/presentation/zhang-qianxi"
+ },
+ {
+  "aid": "R172",
+  "entry": "Joey Hejna, et al. Contrastive preference learning: Learning from human feedback without reinforcement learning. ICLR, 2024. https://proceedings.iclr.cc/paper_files/paper/2024/hash/51f547584cd1fcb87114ea022822a60d-Abstract-Conference.html"
+ },
+ {
+  "aid": "R179",
+  "entry": "Lin, Y., AlQuraishi, M. Generative modeling of protein backbone structures with 3D denoising diffusion. Advances in Neural Information Processing Systems 36 (2023). arXiv:2304.02198."
+ },
+ {
+  "aid": "R186",
+  "entry": "X Deng, Y Xue, Y Chen, M Mao. “MobileMem: Evaluating Long-Horizon Memory for Language Agents in Real-World Mobile Environments.” n/a, 2026."
+ },
+ {
+  "aid": "R193",
+  "entry": "Z. Liu et al. Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time. NeurIPS, 2023. arXiv:2305.17118."
+ },
+ {
+  "aid": "R200",
+  "entry": "L. Zheng et al. SGLang: Efficient Execution of Structured Language Model Programs. NeurIPS, 2024. arXiv:2312.07104."
+ },
+ {
+  "aid": "R207",
+  "entry": "J Zhang, et al. Advances in Feed‐Forward 3D Reconstruction and View Synthesis: A Survey. 2025. https://doi.org/10.1111/cgf.70494"
+ },
+ {
+  "aid": "R214",
+  "entry": "J Luo, Y Tian, C Cao, Z Luo. “From storage to experience: A survey on the evolution of llm agent memory mechanisms.” n/a, 2026."
+ }
+]

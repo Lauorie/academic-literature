@@ -1,0 +1,138 @@
+[
+ {
+  "cid": "N005",
+  "sentence": "MultiChartQA adds the multi-image dimension: 500 semantically related chart sets, 2,000 human-annotated questions, best model Claude-3.5-Sonnet at 77.72% against a human 90.11%, with sequential multi-hop reasoning the weakest category [cited].",
+  "ref": "Z Zhu, et al. MultiChartQA: Benchmarking vision-language models on multi-chart problems. 2025. https://aclanthology.org/2025.naacl-long.566/",
+  "numbers": [
+   "500",
+   "77.72",
+   "90.11"
+  ]
+ },
+ {
+  "cid": "N011",
+  "sentence": "Using DFT convex-hull computations to select precursors with favourable reaction energies, and validating with the ASTRAL robotic platform across 35 target quaternary oxides spanning 27 elements and 224 reactions operated by one human, 32 of 35 targets (91%) were synthesised; in 15 cases the thermodynamics-predicted precursors gave at least 20% higher phase purity, and 6 of those 15 could *only* be synthesised with the predicted precursors [cited].",
+  "ref": "Jiadong Chen, et al. Navigating phase diagram complexity to guide robotic inorganic materials synthesis. Nature Synthesis, 2024. https://doi.org/10.1038/s44160-024-00502-y",
+  "numbers": [
+   "15",
+   "20",
+   "224",
+   "27",
+   "32",
+   "35",
+   "91"
+  ]
+ },
+ {
+  "cid": "N017",
+  "sentence": "**Generative.** DiffusionSat [cited] adapts Stable Diffusion 2.1 to satellite imagery by conditioning on numerical metadata (longitude, latitude, GSD, cloud cover, date) instead of captions, then attaching task-specific ControlNets — including a 3D ControlNet for temporal control.",
+  "ref": "Samar Khanna, et al. DiffusionSat: A Generative Foundation Model for Satellite Imagery. arXiv (Cornell University), 2023. https://doi.org/10.48550/arxiv.2312.03606",
+  "numbers": [
+   "2.1"
+  ]
+ },
+ {
+  "cid": "N023",
+  "sentence": "Mean-while the length-extrapolation survey [[cited]] supplies the diagnosis by direct measurement: on LongBench-E, Llama2-7B-Chat degrades *within* its own nominal window (MultiFieldQA-en 41.42 → 34.29 → 21.21 as the length bucket grows), and its aggregated modelling table shows bias-based relative PEs (T5 bias, ALiBi) beating RoPE on perplexity while RoPE models still win on MMLU and arena rankings.",
+  "ref": "L Zhao, et al. Length extrapolation of transformers: A survey from the perspective of positional encoding. 2024. https://aclanthology.org/2024.findings-emnlp.582/",
+  "numbers": [
+   "21.21",
+   "34.29",
+   "41.42"
+  ]
+ },
+ {
+  "cid": "N029",
+  "sentence": "OOD evaluations show that LLMs trained on vulnerability datasets may fail on Top 25 CWE weaknesses when tested out of distribution [cited].",
+  "ref": "Yikun Li, Ngoc Tan Bui, Ting Zhang, et al. Out of Distribution, Out of Luck: How Well Can LLMs Trained on Vulnerability Datasets Detect Top 25 CWE Weaknesses?. Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering, 2026. https://dl.acm.org/doi/abs/10.1145/3744916.3787830",
+  "numbers": [
+   "25"
+  ]
+ },
+ {
+  "cid": "N035",
+  "sentence": "The Neural Hill estimator [cited] makes the complementary move on the threshold-selection problem: rather than learning a new tail estimator, a seven-unit network learns *which* Hill threshold to use, and the result is a genuine repair of a known pathology — at n=5,000 under an α-stable(1.5) law, the classical Hill estimator has bias −0.135190, RMSE 0.188713 and 95% interval coverage of just 0.54, while the neural-threshold version achieves −0.038235, 0.066173 and 0.92.",
+  "ref": "Jihane Abdelli, Brahimi Brahim. Deep learning meets extreme values: The Neural Hill estimator. Hacettepe Journal of Mathematics and Statistics, 2026. https://doi.org/10.15672/hujms.1856769",
+  "numbers": [
+   "0.038235",
+   "0.066173",
+   "0.135190",
+   "0.188713",
+   "0.54",
+   "0.92",
+   "1.5",
+   "5000",
+   "95"
+  ]
+ },
+ {
+  "cid": "N041",
+  "sentence": "The evidence here is better than in most of this review because the transfer evaluation is genuinely held out: on simulation the model reaches MCC 0.88±0.04 against 0.46 for a VAE and 0.47 for iVAE, and causal-target F1 of 0.51 against iVAE's 0.17; on real data (Norman 2019, 96,221 cells; Replogle 2022, 116,641 cells across 683 interventions) it generalises to held-out interventions better than iVAE, which fits validation best but transfers worst [cited].",
+  "ref": "Romain Lopez, et al. Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling. arXiv preprint, 2022. https://arxiv.org/abs/2211.03553",
+  "numbers": [
+   "0.04",
+   "0.17",
+   "0.46",
+   "0.47",
+   "0.51",
+   "0.88",
+   "116641",
+   "683",
+   "96221"
+  ]
+ },
+ {
+  "cid": "N047",
+  "sentence": "1000+ FPS 4DGS targets temporal redundancy [cited].",
+  "ref": "Yuheng Yuan, Qiuhong Shen, Xingyi Yang, et al. 1000+ FPS 4D Gaussian Splatting for Dynamic Scene Rendering. arXiv (Cornell University), 2025. https://doi.org/10.48550/arxiv.2503.16422",
+  "numbers": [
+   "1000"
+  ]
+ },
+ {
+  "cid": "N053",
+  "sentence": "Second, **instruction generality helps**: InstructRec's 252K instructions across 39 templates, spanning preference and intention axes and multiple task forms, let a 3B model beat GPT-3.5 and edge out SASRec on sequential recommendation (HR@1 0.6947 vs 0.6663) — though it still loses to DSSM on product search at HR@3 and HR@5 [cited].",
+  "ref": "J Zhang, et al. Recommendation as instruction following: A large language model empowered recommendation approach. 2026. https://doi.org/10.1145/3708882",
+  "numbers": [
+   "0.6663",
+   "0.6947",
+   "252",
+   "39"
+  ]
+ },
+ {
+  "cid": "N059",
+  "sentence": "Its domain-specific finding is the most striking: clinical medicine was the only one of 34 disciplines where LLM quality scores were *negatively* correlated with actual paper quality [cited].",
+  "ref": "J Lee, J Lee, JJ Yoo. The role of large language models in the peer-review process: opportunities and challenges for medical journal reviewers and editors. 2025. https://synapse.koreamed.org/articles/1516090615",
+  "numbers": [
+   "34"
+  ]
+ },
+ {
+  "cid": "N065",
+  "sentence": "Stripping the top layers and searching only the base NSW graph produces FlatNav, which reaches latency/recall parity with hierarchical HNSW at p50 and p99 on high-dimensional datasets and cuts peak construction memory by 38% (BigANN), 39% (Yandex DEEP) and 18% (Microsoft SpaceV) [cited].",
+  "ref": "B Munyampirwa, V Lakshman, B Coleman. Down with the hierarchy: The 'H'in HNSW Stands for “Hubs”. 2026. https://doi.org/10.1007/978-3-032-21324-2_3",
+  "numbers": [
+   "18",
+   "38",
+   "39"
+  ]
+ },
+ {
+  "cid": "N071",
+  "sentence": "1000+ FPS 4DGS targets temporal redundancy by removing short-lifespan and inactive Gaussians [cited].",
+  "ref": "Yuheng Yuan, Qiuhong Shen, Xingyi Yang, et al. 1000+ FPS 4D Gaussian Splatting for Dynamic Scene Rendering. arXiv (Cornell University), 2025. https://doi.org/10.48550/arxiv.2503.16422",
+  "numbers": [
+   "1000"
+  ]
+ },
+ {
+  "cid": "N077",
+  "sentence": "Real-Vul re-evaluated four models under a whole-project scanning regime and reported precision drops of up to 95 percentage points and F1 drops of up to 91 points, with false-positive counts in the hundreds of thousands; tellingly, retraining on a realistic class distribution still produced degenerate \"predict uncertain\" behaviour [cited].",
+  "ref": "P Chakraborty, KK Arumugam, M Alfadel. Revisiting the performance of deep learning-based vulnerability detection on realistic datasets. 2024. https://ieeexplore.ieee.org/abstract/document/10587162/",
+  "numbers": [
+   "91",
+   "95"
+  ]
+ }
+]

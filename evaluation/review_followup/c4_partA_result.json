@@ -1,0 +1,2368 @@
+{
+ "summary": {
+  "Skill-Full r1": {
+   "sessions": 30,
+   "warnings_mean": 19.97,
+   "warning_types_mean": {
+    "figure_not_in_evidence": 1.2,
+    "record_no_identifier": 17.6,
+    "record_other": 0.1,
+    "record_venue_vs_arxiv_doi": 1.07
+   },
+   "claim_numbers_mean": 274.4,
+   "share_in_table_rows": 0.42,
+   "trace_share": {
+    "in_cited_evidence": 0.95,
+    "cited_paper_has_no_file": 0.045,
+    "only_in_other_paper_file": 0.002,
+    "in_no_file": 0.003
+   }
+  },
+  "Skill-Full r2": {
+   "sessions": 30,
+   "warnings_mean": 26.13,
+   "warning_types_mean": {
+    "figure_not_in_evidence": 4.23,
+    "record_no_identifier": 20.1,
+    "record_other": 0.1,
+    "record_venue_vs_arxiv_doi": 1.7
+   },
+   "claim_numbers_mean": 269.6,
+   "share_in_table_rows": 0.399,
+   "trace_share": {
+    "in_cited_evidence": 0.984,
+    "cited_paper_has_no_file": 0.0,
+    "only_in_other_paper_file": 0.012,
+    "in_no_file": 0.004
+   }
+  },
+  "Skill-Full r3": {
+   "sessions": 30,
+   "warnings_mean": 25.07,
+   "warning_types_mean": {
+    "figure_not_in_evidence": 2.6,
+    "record_no_identifier": 20.47,
+    "record_other": 0.03,
+    "record_venue_vs_arxiv_doi": 1.97
+   },
+   "claim_numbers_mean": 281.2,
+   "share_in_table_rows": 0.396,
+   "trace_share": {
+    "in_cited_evidence": 0.991,
+    "cited_paper_has_no_file": 0.0,
+    "only_in_other_paper_file": 0.007,
+    "in_no_file": 0.002
+   }
+  },
+  "Skill-Abs": {
+   "sessions": 30,
+   "warnings_mean": 24.3,
+   "warning_types_mean": {
+    "figure_not_in_evidence": 0.53,
+    "record_no_identifier": 21.03,
+    "record_other": 0.03,
+    "record_venue_vs_arxiv_doi": 2.7
+   },
+   "claim_numbers_mean": 89.9,
+   "share_in_table_rows": 0.428,
+   "trace_share": {
+    "in_cited_evidence": 0.994,
+    "cited_paper_has_no_file": 0.0,
+    "only_in_other_paper_file": 0.003,
+    "in_no_file": 0.003
+   }
+  },
+  "all": {
+   "sessions": 120,
+   "warnings_mean": 23.87,
+   "warning_types_mean": {
+    "figure_not_in_evidence": 2.14,
+    "record_no_identifier": 19.8,
+    "record_other": 0.07,
+    "record_venue_vs_arxiv_doi": 1.86
+   },
+   "claim_numbers_mean": 228.8,
+   "share_in_table_rows": 0.407,
+   "trace_share": {
+    "in_cited_evidence": 0.977,
+    "cited_paper_has_no_file": 0.014,
+    "only_in_other_paper_file": 0.007,
+    "in_no_file": 0.003
+   }
+  }
+ },
+ "sessions": [
+  {
+   "session": "deepseek-v4.1-flash/001",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_other": 1,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 287,
+   "in_table_rows": 146,
+   "in_prose": 141,
+   "trace": {
+    "in_cited_evidence": 287,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/002",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "record_no_identifier": 23
+   },
+   "claim_numbers": 183,
+   "in_table_rows": 116,
+   "in_prose": 67,
+   "trace": {
+    "in_cited_evidence": 183,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/003",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 21,
+   "warning_types": {
+    "record_no_identifier": 15,
+    "record_venue_vs_arxiv_doi": 6
+   },
+   "claim_numbers": 426,
+   "in_table_rows": 204,
+   "in_prose": 222,
+   "trace": {
+    "in_cited_evidence": 426,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/004",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 35,
+   "warning_types": {
+    "record_no_identifier": 33,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 290,
+   "in_table_rows": 137,
+   "in_prose": 153,
+   "trace": {
+    "in_cited_evidence": 290,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/005",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 192,
+   "in_table_rows": 143,
+   "in_prose": 49,
+   "trace": {
+    "in_cited_evidence": 192,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/006",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 8,
+   "warning_types": {
+    "record_no_identifier": 8
+   },
+   "claim_numbers": 271,
+   "in_table_rows": 108,
+   "in_prose": 163,
+   "trace": {
+    "in_cited_evidence": 271,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/007",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 446,
+   "in_table_rows": 184,
+   "in_prose": 262,
+   "trace": {
+    "in_cited_evidence": 446,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/008",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 11,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 2,
+    "record_no_identifier": 9
+   },
+   "claim_numbers": 271,
+   "in_table_rows": 176,
+   "in_prose": 95,
+   "trace": {
+    "in_cited_evidence": 271,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/009",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 13,
+   "warning_types": {
+    "record_no_identifier": 11,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 410,
+   "in_table_rows": 184,
+   "in_prose": 226,
+   "trace": {
+    "in_cited_evidence": 410,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/010",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 19,
+   "warning_types": {
+    "record_no_identifier": 19
+   },
+   "claim_numbers": 576,
+   "in_table_rows": 175,
+   "in_prose": 401,
+   "trace": {
+    "in_cited_evidence": 576,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/011",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "record_no_identifier": 26
+   },
+   "claim_numbers": 434,
+   "in_table_rows": 123,
+   "in_prose": 311,
+   "trace": {
+    "in_cited_evidence": 434,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/012",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 17,
+   "warning_types": {
+    "record_no_identifier": 15,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 207,
+   "in_table_rows": 117,
+   "in_prose": 90,
+   "trace": {
+    "in_cited_evidence": 207,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/013",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 28,
+   "warning_types": {
+    "figure_not_in_evidence": 6,
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 125,
+   "in_table_rows": 1,
+   "in_prose": 124,
+   "trace": {
+    "in_cited_evidence": 119,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 5
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/014",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 24
+   },
+   "claim_numbers": 184,
+   "in_table_rows": 116,
+   "in_prose": 68,
+   "trace": {
+    "in_cited_evidence": 184,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/015",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 29,
+   "warning_types": {
+    "figure_not_in_evidence": 4,
+    "record_no_identifier": 18,
+    "record_venue_vs_arxiv_doi": 7
+   },
+   "claim_numbers": 471,
+   "in_table_rows": 204,
+   "in_prose": 267,
+   "trace": {
+    "in_cited_evidence": 467,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 3
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/016",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 15,
+   "warning_types": {
+    "record_no_identifier": 14,
+    "record_other": 1
+   },
+   "claim_numbers": 374,
+   "in_table_rows": 135,
+   "in_prose": 239,
+   "trace": {
+    "in_cited_evidence": 0,
+    "cited_paper_has_no_file": 374,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/017",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 30,
+   "warning_types": {
+    "figure_not_in_evidence": 6,
+    "record_venue_vs_arxiv_doi": 3,
+    "record_no_identifier": 21
+   },
+   "claim_numbers": 163,
+   "in_table_rows": 0,
+   "in_prose": 163,
+   "trace": {
+    "in_cited_evidence": 157,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 5
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/018",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 19,
+   "warning_types": {
+    "record_no_identifier": 19
+   },
+   "claim_numbers": 451,
+   "in_table_rows": 201,
+   "in_prose": 250,
+   "trace": {
+    "in_cited_evidence": 451,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/019",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 3,
+   "warning_types": {
+    "record_no_identifier": 3
+   },
+   "claim_numbers": 173,
+   "in_table_rows": 71,
+   "in_prose": 102,
+   "trace": {
+    "in_cited_evidence": 170,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 3,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/020",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 33,
+   "warning_types": {
+    "figure_not_in_evidence": 10,
+    "record_no_identifier": 22,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 231,
+   "in_table_rows": 112,
+   "in_prose": 119,
+   "trace": {
+    "in_cited_evidence": 221,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 5,
+    "in_no_file": 5
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/021",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 5,
+   "warning_types": {
+    "record_no_identifier": 5
+   },
+   "claim_numbers": 182,
+   "in_table_rows": 89,
+   "in_prose": 93,
+   "trace": {
+    "in_cited_evidence": 182,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/022",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 21,
+   "warning_types": {
+    "record_no_identifier": 20,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 324,
+   "in_table_rows": 134,
+   "in_prose": 190,
+   "trace": {
+    "in_cited_evidence": 324,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/023",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 42,
+   "warning_types": {
+    "record_no_identifier": 42
+   },
+   "claim_numbers": 303,
+   "in_table_rows": 37,
+   "in_prose": 266,
+   "trace": {
+    "in_cited_evidence": 303,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/024",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 27,
+   "warning_types": {
+    "figure_not_in_evidence": 10,
+    "record_no_identifier": 17
+   },
+   "claim_numbers": 306,
+   "in_table_rows": 124,
+   "in_prose": 182,
+   "trace": {
+    "in_cited_evidence": 296,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 7,
+    "in_no_file": 3
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/025",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 187,
+   "in_table_rows": 87,
+   "in_prose": 100,
+   "trace": {
+    "in_cited_evidence": 187,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/026",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 20,
+   "warning_types": {
+    "record_no_identifier": 20
+   },
+   "claim_numbers": 79,
+   "in_table_rows": 7,
+   "in_prose": 72,
+   "trace": {
+    "in_cited_evidence": 79,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/027",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 13,
+   "warning_types": {
+    "record_no_identifier": 11,
+    "record_venue_vs_arxiv_doi": 1,
+    "record_other": 1
+   },
+   "claim_numbers": 181,
+   "in_table_rows": 89,
+   "in_prose": 92,
+   "trace": {
+    "in_cited_evidence": 181,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/028",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 7,
+   "warning_types": {
+    "record_no_identifier": 7
+   },
+   "claim_numbers": 83,
+   "in_table_rows": 10,
+   "in_prose": 73,
+   "trace": {
+    "in_cited_evidence": 83,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/029",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 10,
+   "warning_types": {
+    "record_no_identifier": 10
+   },
+   "claim_numbers": 267,
+   "in_table_rows": 151,
+   "in_prose": 116,
+   "trace": {
+    "in_cited_evidence": 267,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash/030",
+   "condition": "Skill-Full r1",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "record_no_identifier": 25,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 155,
+   "in_table_rows": 79,
+   "in_prose": 76,
+   "trace": {
+    "in_cited_evidence": 155,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/001",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "figure_not_in_evidence": 7,
+    "record_no_identifier": 17
+   },
+   "claim_numbers": 195,
+   "in_table_rows": 13,
+   "in_prose": 182,
+   "trace": {
+    "in_cited_evidence": 188,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 6,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/002",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 72,
+   "warning_types": {
+    "figure_not_in_evidence": 49,
+    "record_no_identifier": 20,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 475,
+   "in_table_rows": 237,
+   "in_prose": 238,
+   "trace": {
+    "in_cited_evidence": 426,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 44,
+    "in_no_file": 5
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/003",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 36,
+   "warning_types": {
+    "figure_not_in_evidence": 20,
+    "record_no_identifier": 15,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 169,
+   "in_table_rows": 121,
+   "in_prose": 48,
+   "trace": {
+    "in_cited_evidence": 149,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 12,
+    "in_no_file": 8
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/004",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 27,
+   "warning_types": {
+    "record_no_identifier": 23,
+    "record_venue_vs_arxiv_doi": 4
+   },
+   "claim_numbers": 281,
+   "in_table_rows": 117,
+   "in_prose": 164,
+   "trace": {
+    "in_cited_evidence": 281,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/005",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 22,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 170,
+   "in_table_rows": 0,
+   "in_prose": 170,
+   "trace": {
+    "in_cited_evidence": 170,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/006",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 15,
+   "warning_types": {
+    "record_no_identifier": 13,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 864,
+   "in_table_rows": 361,
+   "in_prose": 503,
+   "trace": {
+    "in_cited_evidence": 864,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/007",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 22,
+    "record_other": 1,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 408,
+   "in_table_rows": 155,
+   "in_prose": 253,
+   "trace": {
+    "in_cited_evidence": 408,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/008",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 37,
+   "warning_types": {
+    "figure_not_in_evidence": 7,
+    "record_venue_vs_arxiv_doi": 3,
+    "record_no_identifier": 27
+   },
+   "claim_numbers": 456,
+   "in_table_rows": 233,
+   "in_prose": 223,
+   "trace": {
+    "in_cited_evidence": 449,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 7,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/009",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 38,
+   "warning_types": {
+    "record_no_identifier": 32,
+    "record_venue_vs_arxiv_doi": 6
+   },
+   "claim_numbers": 387,
+   "in_table_rows": 216,
+   "in_prose": 171,
+   "trace": {
+    "in_cited_evidence": 387,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/010",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 18,
+   "warning_types": {
+    "figure_not_in_evidence": 1,
+    "record_no_identifier": 15,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 366,
+   "in_table_rows": 142,
+   "in_prose": 224,
+   "trace": {
+    "in_cited_evidence": 365,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/011",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 1,
+    "record_no_identifier": 25
+   },
+   "claim_numbers": 319,
+   "in_table_rows": 102,
+   "in_prose": 217,
+   "trace": {
+    "in_cited_evidence": 319,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/012",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 30,
+   "warning_types": {
+    "record_no_identifier": 25,
+    "record_venue_vs_arxiv_doi": 4,
+    "record_other": 1
+   },
+   "claim_numbers": 234,
+   "in_table_rows": 53,
+   "in_prose": 181,
+   "trace": {
+    "in_cited_evidence": 234,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/013",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 18,
+   "warning_types": {
+    "record_no_identifier": 16,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 244,
+   "in_table_rows": 110,
+   "in_prose": 134,
+   "trace": {
+    "in_cited_evidence": 244,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/014",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "figure_not_in_evidence": 2,
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 146,
+   "in_table_rows": 84,
+   "in_prose": 62,
+   "trace": {
+    "in_cited_evidence": 144,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/015",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 15,
+   "warning_types": {
+    "record_no_identifier": 15
+   },
+   "claim_numbers": 1,
+   "in_table_rows": 0,
+   "in_prose": 1,
+   "trace": {
+    "in_cited_evidence": 1,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/016",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 2,
+    "record_no_identifier": 22
+   },
+   "claim_numbers": 472,
+   "in_table_rows": 130,
+   "in_prose": 342,
+   "trace": {
+    "in_cited_evidence": 472,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/017",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 7,
+   "warning_types": {
+    "record_no_identifier": 7
+   },
+   "claim_numbers": 209,
+   "in_table_rows": 93,
+   "in_prose": 116,
+   "trace": {
+    "in_cited_evidence": 209,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/018",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 21,
+   "warning_types": {
+    "record_no_identifier": 18,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 303,
+   "in_table_rows": 202,
+   "in_prose": 101,
+   "trace": {
+    "in_cited_evidence": 303,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/019",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 12,
+   "warning_types": {
+    "record_no_identifier": 12
+   },
+   "claim_numbers": 103,
+   "in_table_rows": 65,
+   "in_prose": 38,
+   "trace": {
+    "in_cited_evidence": 103,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/020",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 31,
+   "warning_types": {
+    "record_no_identifier": 25,
+    "record_venue_vs_arxiv_doi": 6
+   },
+   "claim_numbers": 154,
+   "in_table_rows": 7,
+   "in_prose": 147,
+   "trace": {
+    "in_cited_evidence": 152,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/021",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 12,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 230,
+   "in_table_rows": 3,
+   "in_prose": 227,
+   "trace": {
+    "in_cited_evidence": 230,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/022",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 32,
+   "warning_types": {
+    "figure_not_in_evidence": 5,
+    "record_no_identifier": 24,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 273,
+   "in_table_rows": 125,
+   "in_prose": 148,
+   "trace": {
+    "in_cited_evidence": 268,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 5,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/023",
+   "condition": "Skill-Full r2",
+   "version": "8fc3+doi_fix",
+   "warnings": 28,
+   "warning_types": {
+    "record_no_identifier": 28
+   },
+   "claim_numbers": 204,
+   "in_table_rows": 94,
+   "in_prose": 110,
+   "trace": {
+    "in_cited_evidence": 204,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/024",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 18,
+   "warning_types": {
+    "figure_not_in_evidence": 4,
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 244,
+   "in_table_rows": 121,
+   "in_prose": 123,
+   "trace": {
+    "in_cited_evidence": 240,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 2
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/025",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 49,
+   "warning_types": {
+    "figure_not_in_evidence": 21,
+    "record_no_identifier": 26,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 222,
+   "in_table_rows": 82,
+   "in_prose": 140,
+   "trace": {
+    "in_cited_evidence": 201,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 10,
+    "in_no_file": 11
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/026",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 20,
+   "warning_types": {
+    "record_no_identifier": 20
+   },
+   "claim_numbers": 273,
+   "in_table_rows": 98,
+   "in_prose": 175,
+   "trace": {
+    "in_cited_evidence": 273,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/027",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 13,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 187,
+   "in_table_rows": 1,
+   "in_prose": 186,
+   "trace": {
+    "in_cited_evidence": 187,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/028",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 18,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 1,
+    "record_no_identifier": 17
+   },
+   "claim_numbers": 256,
+   "in_table_rows": 134,
+   "in_prose": 122,
+   "trace": {
+    "in_cited_evidence": 256,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/029",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 33,
+   "warning_types": {
+    "figure_not_in_evidence": 8,
+    "record_no_identifier": 25
+   },
+   "claim_numbers": 190,
+   "in_table_rows": 127,
+   "in_prose": 63,
+   "trace": {
+    "in_cited_evidence": 182,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 6,
+    "in_no_file": 2
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r2/030",
+   "condition": "Skill-Full r2",
+   "version": "8fc3",
+   "warnings": 37,
+   "warning_types": {
+    "figure_not_in_evidence": 3,
+    "record_no_identifier": 33,
+    "record_other": 1
+   },
+   "claim_numbers": 53,
+   "in_table_rows": 2,
+   "in_prose": 51,
+   "trace": {
+    "in_cited_evidence": 50,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/001",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 29,
+   "warning_types": {
+    "record_no_identifier": 28,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 553,
+   "in_table_rows": 257,
+   "in_prose": 296,
+   "trace": {
+    "in_cited_evidence": 553,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/002",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 23,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 537,
+   "in_table_rows": 166,
+   "in_prose": 371,
+   "trace": {
+    "in_cited_evidence": 537,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/003",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 27,
+   "warning_types": {
+    "record_no_identifier": 27
+   },
+   "claim_numbers": 164,
+   "in_table_rows": 0,
+   "in_prose": 164,
+   "trace": {
+    "in_cited_evidence": 164,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/004",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 36,
+   "warning_types": {
+    "figure_not_in_evidence": 9,
+    "record_no_identifier": 22,
+    "record_venue_vs_arxiv_doi": 5
+   },
+   "claim_numbers": 364,
+   "in_table_rows": 198,
+   "in_prose": 166,
+   "trace": {
+    "in_cited_evidence": 355,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 5,
+    "in_no_file": 4
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/005",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 15,
+   "warning_types": {
+    "figure_not_in_evidence": 1,
+    "record_no_identifier": 10,
+    "record_venue_vs_arxiv_doi": 4
+   },
+   "claim_numbers": 314,
+   "in_table_rows": 132,
+   "in_prose": 182,
+   "trace": {
+    "in_cited_evidence": 312,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/006",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 485,
+   "in_table_rows": 131,
+   "in_prose": 354,
+   "trace": {
+    "in_cited_evidence": 485,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/007",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 34,
+   "warning_types": {
+    "figure_not_in_evidence": 10,
+    "record_no_identifier": 20,
+    "record_venue_vs_arxiv_doi": 3,
+    "record_other": 1
+   },
+   "claim_numbers": 348,
+   "in_table_rows": 11,
+   "in_prose": 337,
+   "trace": {
+    "in_cited_evidence": 338,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 8
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/008",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 21,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 7,
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 216,
+   "in_table_rows": 32,
+   "in_prose": 184,
+   "trace": {
+    "in_cited_evidence": 216,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/009",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 46,
+   "warning_types": {
+    "record_no_identifier": 46
+   },
+   "claim_numbers": 517,
+   "in_table_rows": 240,
+   "in_prose": 277,
+   "trace": {
+    "in_cited_evidence": 517,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/010",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 23,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 96,
+   "in_table_rows": 33,
+   "in_prose": 63,
+   "trace": {
+    "in_cited_evidence": 96,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/011",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "figure_not_in_evidence": 1,
+    "record_no_identifier": 22
+   },
+   "claim_numbers": 231,
+   "in_table_rows": 99,
+   "in_prose": 132,
+   "trace": {
+    "in_cited_evidence": 230,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/012",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 4,
+    "record_no_identifier": 22
+   },
+   "claim_numbers": 250,
+   "in_table_rows": 126,
+   "in_prose": 124,
+   "trace": {
+    "in_cited_evidence": 250,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/013",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "record_no_identifier": 22,
+    "record_venue_vs_arxiv_doi": 4
+   },
+   "claim_numbers": 261,
+   "in_table_rows": 161,
+   "in_prose": 100,
+   "trace": {
+    "in_cited_evidence": 261,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/014",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 22,
+   "warning_types": {
+    "figure_not_in_evidence": 1,
+    "record_no_identifier": 21
+   },
+   "claim_numbers": 25,
+   "in_table_rows": 0,
+   "in_prose": 25,
+   "trace": {
+    "in_cited_evidence": 24,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/015",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 39,
+   "warning_types": {
+    "record_no_identifier": 26,
+    "record_venue_vs_arxiv_doi": 13
+   },
+   "claim_numbers": 284,
+   "in_table_rows": 1,
+   "in_prose": 283,
+   "trace": {
+    "in_cited_evidence": 284,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/016",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "figure_not_in_evidence": 6,
+    "record_no_identifier": 19,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 245,
+   "in_table_rows": 96,
+   "in_prose": 149,
+   "trace": {
+    "in_cited_evidence": 239,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 4,
+    "in_no_file": 2
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/017",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 16,
+   "warning_types": {
+    "record_no_identifier": 16
+   },
+   "claim_numbers": 247,
+   "in_table_rows": 98,
+   "in_prose": 149,
+   "trace": {
+    "in_cited_evidence": 247,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/018",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 67,
+   "warning_types": {
+    "figure_not_in_evidence": 47,
+    "record_no_identifier": 19,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 343,
+   "in_table_rows": 205,
+   "in_prose": 138,
+   "trace": {
+    "in_cited_evidence": 296,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 46,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/019",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 8,
+   "warning_types": {
+    "record_no_identifier": 8
+   },
+   "claim_numbers": 293,
+   "in_table_rows": 153,
+   "in_prose": 140,
+   "trace": {
+    "in_cited_evidence": 293,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/020",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 169,
+   "in_table_rows": 80,
+   "in_prose": 89,
+   "trace": {
+    "in_cited_evidence": 169,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/021",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 7,
+   "warning_types": {
+    "record_no_identifier": 6,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 293,
+   "in_table_rows": 139,
+   "in_prose": 154,
+   "trace": {
+    "in_cited_evidence": 293,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/022",
+   "condition": "Skill-Full r3",
+   "version": "8fc3+doi_fix",
+   "warnings": 25,
+   "warning_types": {
+    "record_no_identifier": 23,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 330,
+   "in_table_rows": 128,
+   "in_prose": 202,
+   "trace": {
+    "in_cited_evidence": 330,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/023",
+   "condition": "Skill-Full r3",
+   "version": "8fc3+doi_fix",
+   "warnings": 34,
+   "warning_types": {
+    "record_no_identifier": 34
+   },
+   "claim_numbers": 277,
+   "in_table_rows": 150,
+   "in_prose": 127,
+   "trace": {
+    "in_cited_evidence": 277,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/024",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 19,
+   "warning_types": {
+    "record_no_identifier": 19
+   },
+   "claim_numbers": 275,
+   "in_table_rows": 88,
+   "in_prose": 187,
+   "trace": {
+    "in_cited_evidence": 275,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/025",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 14,
+   "warning_types": {
+    "record_no_identifier": 14
+   },
+   "claim_numbers": 128,
+   "in_table_rows": 55,
+   "in_prose": 73,
+   "trace": {
+    "in_cited_evidence": 128,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/026",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 13,
+   "warning_types": {
+    "record_no_identifier": 12,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 203,
+   "in_table_rows": 75,
+   "in_prose": 128,
+   "trace": {
+    "in_cited_evidence": 203,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/027",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 298,
+   "in_table_rows": 151,
+   "in_prose": 147,
+   "trace": {
+    "in_cited_evidence": 298,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/028",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 20,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 3,
+    "record_no_identifier": 17
+   },
+   "claim_numbers": 293,
+   "in_table_rows": 136,
+   "in_prose": 157,
+   "trace": {
+    "in_cited_evidence": 293,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/029",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 24
+   },
+   "claim_numbers": 206,
+   "in_table_rows": 90,
+   "in_prose": 116,
+   "trace": {
+    "in_cited_evidence": 206,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_full_r3/030",
+   "condition": "Skill-Full r3",
+   "version": "8fc3",
+   "warnings": 26,
+   "warning_types": {
+    "figure_not_in_evidence": 3,
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 192,
+   "in_table_rows": 106,
+   "in_prose": 86,
+   "trace": {
+    "in_cited_evidence": 189,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/001",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 17,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 6,
+    "record_no_identifier": 11
+   },
+   "claim_numbers": 172,
+   "in_table_rows": 73,
+   "in_prose": 99,
+   "trace": {
+    "in_cited_evidence": 172,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/002",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 49,
+   "warning_types": {
+    "figure_not_in_evidence": 1,
+    "record_no_identifier": 44,
+    "record_venue_vs_arxiv_doi": 4
+   },
+   "claim_numbers": 167,
+   "in_table_rows": 59,
+   "in_prose": 108,
+   "trace": {
+    "in_cited_evidence": 166,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/003",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 2,
+    "record_no_identifier": 21
+   },
+   "claim_numbers": 105,
+   "in_table_rows": 50,
+   "in_prose": 55,
+   "trace": {
+    "in_cited_evidence": 105,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/004",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 28,
+   "warning_types": {
+    "figure_not_in_evidence": 2,
+    "record_venue_vs_arxiv_doi": 2,
+    "record_no_identifier": 24
+   },
+   "claim_numbers": 27,
+   "in_table_rows": 11,
+   "in_prose": 16,
+   "trace": {
+    "in_cited_evidence": 25,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 2
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/005",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 8,
+   "warning_types": {
+    "record_no_identifier": 3,
+    "record_venue_vs_arxiv_doi": 5
+   },
+   "claim_numbers": 198,
+   "in_table_rows": 92,
+   "in_prose": 106,
+   "trace": {
+    "in_cited_evidence": 198,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/006",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 13,
+   "warning_types": {
+    "record_no_identifier": 11,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 351,
+   "in_table_rows": 155,
+   "in_prose": 196,
+   "trace": {
+    "in_cited_evidence": 351,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/007",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 40,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 1,
+    "record_no_identifier": 39
+   },
+   "claim_numbers": 54,
+   "in_table_rows": 25,
+   "in_prose": 29,
+   "trace": {
+    "in_cited_evidence": 54,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/008",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 33,
+   "warning_types": {
+    "record_no_identifier": 30,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 138,
+   "in_table_rows": 63,
+   "in_prose": 75,
+   "trace": {
+    "in_cited_evidence": 138,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/009",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 48,
+   "warning_types": {
+    "record_no_identifier": 42,
+    "record_venue_vs_arxiv_doi": 6
+   },
+   "claim_numbers": 30,
+   "in_table_rows": 11,
+   "in_prose": 19,
+   "trace": {
+    "in_cited_evidence": 30,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/010",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 2,
+   "warning_types": {
+    "record_no_identifier": 1,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 90,
+   "in_table_rows": 33,
+   "in_prose": 57,
+   "trace": {
+    "in_cited_evidence": 90,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/011",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 37,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 1,
+    "record_no_identifier": 36
+   },
+   "claim_numbers": 8,
+   "in_table_rows": 3,
+   "in_prose": 5,
+   "trace": {
+    "in_cited_evidence": 8,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/012",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 24,
+   "warning_types": {
+    "record_no_identifier": 22,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 1,
+   "in_table_rows": 1,
+   "in_prose": 0,
+   "trace": {
+    "in_cited_evidence": 1,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/013",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 31,
+   "warning_types": {
+    "record_no_identifier": 21,
+    "record_venue_vs_arxiv_doi": 10
+   },
+   "claim_numbers": 53,
+   "in_table_rows": 23,
+   "in_prose": 30,
+   "trace": {
+    "in_cited_evidence": 53,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/014",
+   "condition": "Skill-Abs",
+   "version": "8fc3+doi_fix",
+   "warnings": 17,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 2,
+    "record_no_identifier": 15
+   },
+   "claim_numbers": 29,
+   "in_table_rows": 15,
+   "in_prose": 14,
+   "trace": {
+    "in_cited_evidence": 29,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/015",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 21,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 5,
+    "record_no_identifier": 16
+   },
+   "claim_numbers": 76,
+   "in_table_rows": 32,
+   "in_prose": 44,
+   "trace": {
+    "in_cited_evidence": 76,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/016",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 10,
+   "warning_types": {
+    "record_no_identifier": 7,
+    "record_venue_vs_arxiv_doi": 3
+   },
+   "claim_numbers": 75,
+   "in_table_rows": 33,
+   "in_prose": 42,
+   "trace": {
+    "in_cited_evidence": 75,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/017",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 27,
+   "warning_types": {
+    "record_no_identifier": 27
+   },
+   "claim_numbers": 58,
+   "in_table_rows": 28,
+   "in_prose": 30,
+   "trace": {
+    "in_cited_evidence": 58,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/018",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 25,
+   "warning_types": {
+    "record_no_identifier": 25
+   },
+   "claim_numbers": 135,
+   "in_table_rows": 15,
+   "in_prose": 120,
+   "trace": {
+    "in_cited_evidence": 135,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/019",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 2,
+   "warning_types": {
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 199,
+   "in_table_rows": 78,
+   "in_prose": 121,
+   "trace": {
+    "in_cited_evidence": 199,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/020",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 29,
+   "warning_types": {
+    "record_no_identifier": 19,
+    "record_venue_vs_arxiv_doi": 10
+   },
+   "claim_numbers": 13,
+   "in_table_rows": 8,
+   "in_prose": 5,
+   "trace": {
+    "in_cited_evidence": 13,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/021",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 30,
+   "warning_types": {
+    "record_no_identifier": 26,
+    "record_venue_vs_arxiv_doi": 4
+   },
+   "claim_numbers": 60,
+   "in_table_rows": 29,
+   "in_prose": 31,
+   "trace": {
+    "in_cited_evidence": 60,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/022",
+   "condition": "Skill-Abs",
+   "version": "8fc3+doi_fix",
+   "warnings": 28,
+   "warning_types": {
+    "record_no_identifier": 27,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 43,
+   "in_table_rows": 20,
+   "in_prose": 23,
+   "trace": {
+    "in_cited_evidence": 43,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/023",
+   "condition": "Skill-Abs",
+   "version": "8fc3+doi_fix",
+   "warnings": 21,
+   "warning_types": {
+    "record_no_identifier": 21
+   },
+   "claim_numbers": 20,
+   "in_table_rows": 8,
+   "in_prose": 12,
+   "trace": {
+    "in_cited_evidence": 20,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/024",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 8,
+   "warning_types": {
+    "figure_not_in_evidence": 8
+   },
+   "claim_numbers": 190,
+   "in_table_rows": 85,
+   "in_prose": 105,
+   "trace": {
+    "in_cited_evidence": 182,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 3,
+    "in_no_file": 5
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/025",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 19,
+   "warning_types": {
+    "figure_not_in_evidence": 3,
+    "record_no_identifier": 16
+   },
+   "claim_numbers": 93,
+   "in_table_rows": 51,
+   "in_prose": 42,
+   "trace": {
+    "in_cited_evidence": 90,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 2,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/026",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 17,
+   "warning_types": {
+    "record_no_identifier": 17
+   },
+   "claim_numbers": 114,
+   "in_table_rows": 53,
+   "in_prose": 61,
+   "trace": {
+    "in_cited_evidence": 114,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/027",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 48,
+   "warning_types": {
+    "record_no_identifier": 47,
+    "record_other": 1
+   },
+   "claim_numbers": 28,
+   "in_table_rows": 14,
+   "in_prose": 14,
+   "trace": {
+    "in_cited_evidence": 28,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/028",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 23,
+   "warning_types": {
+    "figure_not_in_evidence": 2,
+    "record_no_identifier": 20,
+    "record_venue_vs_arxiv_doi": 1
+   },
+   "claim_numbers": 116,
+   "in_table_rows": 60,
+   "in_prose": 56,
+   "trace": {
+    "in_cited_evidence": 114,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 1,
+    "in_no_file": 1
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/029",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 29,
+   "warning_types": {
+    "record_no_identifier": 27,
+    "record_venue_vs_arxiv_doi": 2
+   },
+   "claim_numbers": 45,
+   "in_table_rows": 23,
+   "in_prose": 22,
+   "trace": {
+    "in_cited_evidence": 45,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  },
+  {
+   "session": "deepseek-v4.1-flash_abs_r1/030",
+   "condition": "Skill-Abs",
+   "version": "8fc3",
+   "warnings": 22,
+   "warning_types": {
+    "record_no_identifier": 16,
+    "record_venue_vs_arxiv_doi": 6
+   },
+   "claim_numbers": 10,
+   "in_table_rows": 5,
+   "in_prose": 5,
+   "trace": {
+    "in_cited_evidence": 10,
+    "cited_paper_has_no_file": 0,
+    "only_in_other_paper_file": 0,
+    "in_no_file": 0
+   }
+  }
+ ]
+}

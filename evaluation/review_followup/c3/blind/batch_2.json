@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R002",
+  "entry": "L Taylor, J Crawford, A Grieve. Authorship statement for Generative Artificial Intelligence: Assuring trust and accountability. 2026. https://doi.org/10.3316/informit.t2026040800002100935211592"
+ },
+ {
+  "aid": "R009",
+  "entry": "Kingma, D. P., & Welling, M. (2014). Auto-encoding variational Bayes. ICLR. arXiv:1312.6114."
+ },
+ {
+  "aid": "R016",
+  "entry": "Ligeng Zhu, Zhijian Liu, Song Han. Deep Leakage from Gradients. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1906.08935"
+ },
+ {
+  "aid": "R023",
+  "entry": "M Monperrus. Automatic software repair: A bibliography. 2018. https://doi.org/10.1145/3105906"
+ },
+ {
+  "aid": "R030",
+  "entry": "Q. Cappart, D. Chételat, E. B. Khalil, A. Lodi, C. Morris, and P. Veličković. “Combinatorial Optimization and Reasoning with Graph Neural Networks.” Journal of Machine Learning Research, 24(130):1–61, 2023. arXiv:2102.09544."
+ },
+ {
+  "aid": "R037",
+  "entry": "D Mohan. Bayesian deep learning for morphological classification of radio galaxies. n/a, 2022."
+ },
+ {
+  "aid": "R044",
+  "entry": "Karthik Valmeekam, et al. PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change. NeurIPS, 2022. http://papers.nips.cc/paper_files/paper/2023/hash/7a92bcdede88c7afd108072faf5485c8-Abstract-Datasets_and_Benchmarks.html"
+ },
+ {
+  "aid": "R051",
+  "entry": "L. Hou, L. Gao, Y. Wu, Y. Chang. \"A survey on evaluation of embodied ai.\" n/a, 2026."
+ },
+ {
+  "aid": "R058",
+  "entry": "P Reiser, et al. Graph neural networks for materials science and chemistry. 2022. https://www.nature.com/articles/s43246-022-00315-6"
+ },
+ {
+  "aid": "R065",
+  "entry": "F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini. “The graph neural network model.” IEEE Transactions on Neural Networks, 20(1):61–80, 2009. DOI: 10.1109/TNN.2008.2005605."
+ },
+ {
+  "aid": "R072",
+  "entry": "Balle, B., Bell, J., Gascón, A., & Nissim, K. (2019). The Privacy Blanket of the Shuffle Model. CRYPTO. DOI: 10.1007/978-3-030-26951-7_19."
+ },
+ {
+  "aid": "R079",
+  "entry": "D. Di Palma. A multidimensional study of large language models: recommendation behavior, internal representations, and post-training enhancements. n/a, 2026. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R086",
+  "entry": "N Thakur, et al. Beir: A heterogenous benchmark for zero-shot evaluation of information retrieval models. arXiv preprint, 2021. https://arxiv.org/abs/2104.08663"
+ },
+ {
+  "aid": "R093",
+  "entry": "O Wieder, S Kohlbacher, M Kuenemann. A compact review of molecular property prediction with graph neural networks. 2020. https://www.sciencedirect.com/science/article/pii/S1740674920300305"
+ },
+ {
+  "aid": "R100",
+  "entry": "Andrew Gordon Wilson, Pavel Izmailov. Bayesian Deep Learning and a Probabilistic Perspective of Generalization. NeurIPS, 2022. https://doi.org/10.48550/arxiv.2002.08791"
+ },
+ {
+  "aid": "R107",
+  "entry": "Adriana Sejfia, Max Schäfer. Practical automated detection of malicious npm packages. Proceedings of the 44th International Conference on Software Engineering, 2022. https://doi.org/10.1145/3510003.3510104"
+ },
+ {
+  "aid": "R114",
+  "entry": "A. Doruk. “Gaussian Based Adaptive Multi-Modal 3D Semantic Occupancy Prediction.” Venue n/a, 2026."
+ },
+ {
+  "aid": "R121",
+  "entry": "U. Hasan. Knowledge-Guided Causal Discovery With Uncertainty Quantification. n/a, 2026."
+ },
+ {
+  "aid": "R128",
+  "entry": "Guo, R. et al. Manu: A cloud native vector database management system. PVLDB, 2022. DOI 10.14778/3554821.3554890."
+ },
+ {
+  "aid": "R135",
+  "entry": "YA Malkov, DA Yashunin. Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs. 2018. https://ieeexplore.ieee.org/abstract/document/8594636/"
+ },
+ {
+  "aid": "R142",
+  "entry": "X Fei, X Zheng, H Feng. Mcp-zero: Active tool discovery for autonomous llm agents. Venue: n/a, 2025. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R149",
+  "entry": "Jishnu Mukhoti, Yarin Gal. Evaluating Bayesian Deep Learning Methods for Semantic Segmentation. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1811.12709"
+ },
+ {
+  "aid": "R156",
+  "entry": "Song, Y., Sohl-Dickstein, J., Kingma, D. P., Kumar, A., Ermon, S., & Poole, B. (2021). Score-based generative modeling through stochastic differential equations. ICLR. arXiv:2011.13456."
+ },
+ {
+  "aid": "R163",
+  "entry": "N. K. S. Kong. “Injectbench: An indirect prompt injection benchmarking framework.” n/a, 2024."
+ },
+ {
+  "aid": "R170",
+  "entry": "Y. W. Zhang, V. Sorkin, Z. H. Aitken. Roadmap for the development of machine learning-based interatomic potentials. n/a, 2025."
+ },
+ {
+  "aid": "R177",
+  "entry": "L Giray, ME Islam, JA Glo. “AI hallucinations in academic writing: implications for research integrity.” Venue: n/a; Year: 2026. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R184",
+  "entry": "A Masry, E Hoque. Integrating image data extraction and table parsing methods for chart question answering. 2021. https://www.yorku.ca/enamulh/papers/cqaw.pdf"
+ },
+ {
+  "aid": "R191",
+  "entry": "S El Amali. Privacy-Preserving Machine Learning for Financial Data: Federated Learning and Differential Privacy. 2021. https://www.researchgate.net/profile/Samy-El-Amali-3/publication/408132448_Privacy-Preserving_Machine_Learning_for_Financial_Data_Federated_Learning_and_Differential_Privacy/links/6a3ea1ebd551e312d721db08/Privacy-Preserving-Machine-Learning-for-Financial-Data-Federated-Learning-and-Differential-Privacy.pdf"
+ },
+ {
+  "aid": "R198",
+  "entry": "T Pearce, et al. Uncertainty in neural networks: Bayesian ensembling. 2018. https://www.researchgate.net/profile/Tim-Pearce-7/publication/328280288_Uncertainty_in_Neural_Networks_Bayesian_Ensembling/links/5bc8740b92851cae21ade9b9/Uncertainty-in-Neural-Networks-Bayesian-Ensembling.pdf"
+ },
+ {
+  "aid": "R205",
+  "entry": "Leinonen, J., Hamann, U., Germann, U., Mecikalski, J. R. Nowcasting thunderstorm hazards using machine learning: a review. Natural Hazards and Earth System Sciences, 23, 3439–3466, 2023. DOI: 10.5194/nhess-23-3439-2023."
+ },
+ {
+  "aid": "R212",
+  "entry": "Dylan Hadfield-Menell, Anca Dragan, Pieter Abbeel, Stuart Russell. Inverse Reward Design. NeurIPS 2017. arXiv:1711.02827."
+ }
+]

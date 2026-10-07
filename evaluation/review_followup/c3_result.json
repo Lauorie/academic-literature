@@ -1,0 +1,247 @@
+{
+ "missing_audits": [],
+ "unsure": {
+  "skill_full/not_found": 1,
+  "poolfree/not_found": 1
+ },
+ "per_cell": {
+  "norag/metadata_error": {
+   "n": 25,
+   "agree": 20,
+   "agree_ci": [
+    0.609,
+    0.911
+   ],
+   "defective": 20,
+   "defective_share": 0.8,
+   "defective_ci": [
+    0.609,
+    0.911
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.133
+   ]
+  },
+  "norag/not_found": {
+   "n": 25,
+   "agree": 1,
+   "agree_ci": [
+    0.007,
+    0.195
+   ],
+   "defective": 6,
+   "defective_share": 0.24,
+   "defective_ci": [
+    0.115,
+    0.434
+   ],
+   "not_exist": 1,
+   "not_exist_ci": [
+    0.007,
+    0.195
+   ]
+  },
+  "norag/verified": {
+   "n": 25,
+   "agree": 25,
+   "agree_ci": [
+    0.867,
+    1.0
+   ],
+   "defective": 0,
+   "defective_share": 0.0,
+   "defective_ci": [
+    0.0,
+    0.133
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.133
+   ]
+  },
+  "poolfree/metadata_error": {
+   "n": 16,
+   "agree": 8,
+   "agree_ci": [
+    0.28,
+    0.72
+   ],
+   "defective": 8,
+   "defective_share": 0.5,
+   "defective_ci": [
+    0.28,
+    0.72
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.194
+   ]
+  },
+  "poolfree/not_found": {
+   "n": 24,
+   "agree": 2,
+   "agree_ci": [
+    0.023,
+    0.258
+   ],
+   "defective": 2,
+   "defective_share": 0.083,
+   "defective_ci": [
+    0.023,
+    0.258
+   ],
+   "not_exist": 2,
+   "not_exist_ci": [
+    0.023,
+    0.258
+   ]
+  },
+  "poolfree/verified": {
+   "n": 25,
+   "agree": 25,
+   "agree_ci": [
+    0.867,
+    1.0
+   ],
+   "defective": 0,
+   "defective_share": 0.0,
+   "defective_ci": [
+    0.0,
+    0.133
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.133
+   ]
+  },
+  "skill_full/metadata_error": {
+   "n": 25,
+   "agree": 9,
+   "agree_ci": [
+    0.202,
+    0.555
+   ],
+   "defective": 9,
+   "defective_share": 0.36,
+   "defective_ci": [
+    0.202,
+    0.555
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.133
+   ]
+  },
+  "skill_full/not_found": {
+   "n": 24,
+   "agree": 0,
+   "agree_ci": [
+    0.0,
+    0.138
+   ],
+   "defective": 1,
+   "defective_share": 0.042,
+   "defective_ci": [
+    0.007,
+    0.202
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.138
+   ]
+  },
+  "skill_full/verified": {
+   "n": 25,
+   "agree": 25,
+   "agree_ci": [
+    0.867,
+    1.0
+   ],
+   "defective": 0,
+   "defective_share": 0.0,
+   "defective_ci": [
+    0.0,
+    0.133
+   ],
+   "not_exist": 0,
+   "not_exist_ci": [
+    0.0,
+    0.133
+   ]
+  }
+ },
+ "rates_pct": {
+  "verifier": {
+   "skill_full": 7.99,
+   "norag": 14.26,
+   "poolfree": 10.52
+  },
+  "corrected_defective": {
+   "skill_full": 1.38,
+   "norag": 7.82,
+   "poolfree": 1.44
+  },
+  "corrected_not_exist": {
+   "skill_full": 0.0,
+   "norag": 0.26,
+   "poolfree": 0.77
+  },
+  "corrected_field_error": {
+   "skill_full": 1.38,
+   "norag": 7.56,
+   "poolfree": 0.67
+  }
+ },
+ "skill_minus": {
+  "defective_vs_norag": {
+   "diff": -6.44,
+   "ci95": [
+    -9.16,
+    -4.07
+   ]
+  },
+  "defective_vs_poolfree": {
+   "diff": -0.06,
+   "ci95": [
+    -1.56,
+    1.36
+   ]
+  },
+  "not_exist_vs_norag": {
+   "diff": -0.26,
+   "ci95": [
+    -0.92,
+    0.0
+   ]
+  },
+  "not_exist_vs_poolfree": {
+   "diff": -0.77,
+   "ci95": [
+    -1.98,
+    0.0
+   ]
+  },
+  "field_error_vs_norag": {
+   "diff": -6.18,
+   "ci95": [
+    -8.85,
+    -3.85
+   ]
+  },
+  "field_error_vs_poolfree": {
+   "diff": 0.71,
+   "ci95": [
+    -0.22,
+    1.84
+   ]
+  }
+ },
+ "n_topics": 30
+}

@@ -1,0 +1,1298 @@
+{
+ "R001": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "013",
+  "i": 0
+ },
+ "R002": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "019",
+  "i": 26
+ },
+ "R003": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "018",
+  "i": 48
+ },
+ "R004": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "011",
+  "i": 33
+ },
+ "R005": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "025",
+  "i": 106
+ },
+ "R006": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "025",
+  "i": 26
+ },
+ "R007": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "015",
+  "i": 19
+ },
+ "R008": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "002",
+  "i": 20
+ },
+ "R009": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "029",
+  "i": 34
+ },
+ "R010": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "017",
+  "i": 30
+ },
+ "R011": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "027",
+  "i": 16
+ },
+ "R012": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "024",
+  "i": 3
+ },
+ "R013": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "030",
+  "i": 77
+ },
+ "R014": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "016",
+  "i": 76
+ },
+ "R015": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "004",
+  "i": 20
+ },
+ "R016": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 15
+ },
+ "R017": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 144
+ },
+ "R018": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "025",
+  "i": 78
+ },
+ "R019": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 24
+ },
+ "R020": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "019",
+  "i": 74
+ },
+ "R021": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "016",
+  "i": 103
+ },
+ "R022": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "016",
+  "i": 7
+ },
+ "R023": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "006",
+  "i": 10
+ },
+ "R024": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "011",
+  "i": 30
+ },
+ "R025": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "029",
+  "i": 10
+ },
+ "R026": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 15
+ },
+ "R027": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "023",
+  "i": 3
+ },
+ "R028": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "011",
+  "i": 4
+ },
+ "R029": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "016",
+  "i": 2
+ },
+ "R030": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "014",
+  "i": 71
+ },
+ "R031": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "017",
+  "i": 7
+ },
+ "R032": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "005",
+  "i": 48
+ },
+ "R033": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "016",
+  "i": 28
+ },
+ "R034": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "029",
+  "i": 5
+ },
+ "R035": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "010",
+  "i": 11
+ },
+ "R036": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "006",
+  "i": 15
+ },
+ "R037": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "030",
+  "i": 109
+ },
+ "R038": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "027",
+  "i": 105
+ },
+ "R039": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "001",
+  "i": 17
+ },
+ "R040": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "010",
+  "i": 8
+ },
+ "R041": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "027",
+  "i": 25
+ },
+ "R042": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 117
+ },
+ "R043": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "028",
+  "i": 28
+ },
+ "R044": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "004",
+  "i": 7
+ },
+ "R045": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "011",
+  "i": 15
+ },
+ "R046": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "018",
+  "i": 41
+ },
+ "R047": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "005",
+  "i": 39
+ },
+ "R048": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "016",
+  "i": 9
+ },
+ "R049": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "030",
+  "i": 37
+ },
+ "R050": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "028",
+  "i": 66
+ },
+ "R051": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "008",
+  "i": 63
+ },
+ "R052": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "005",
+  "i": 38
+ },
+ "R053": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 118
+ },
+ "R054": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "011",
+  "i": 21
+ },
+ "R055": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "014",
+  "i": 84
+ },
+ "R056": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "025",
+  "i": 11
+ },
+ "R057": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "018",
+  "i": 29
+ },
+ "R058": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "014",
+  "i": 10
+ },
+ "R059": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "002",
+  "i": 65
+ },
+ "R060": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "029",
+  "i": 67
+ },
+ "R061": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "028",
+  "i": 12
+ },
+ "R062": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "026",
+  "i": 28
+ },
+ "R063": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "016",
+  "i": 6
+ },
+ "R064": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "009",
+  "i": 43
+ },
+ "R065": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "014",
+  "i": 0
+ },
+ "R066": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "005",
+  "i": 23
+ },
+ "R067": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "017",
+  "i": 98
+ },
+ "R068": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "029",
+  "i": 22
+ },
+ "R069": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "029",
+  "i": 108
+ },
+ "R070": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "028",
+  "i": 3
+ },
+ "R071": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "017",
+  "i": 63
+ },
+ "R072": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 20
+ },
+ "R073": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "012",
+  "i": 4
+ },
+ "R074": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "010",
+  "i": 78
+ },
+ "R075": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "019",
+  "i": 73
+ },
+ "R076": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "030",
+  "i": 36
+ },
+ "R077": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "028",
+  "i": 88
+ },
+ "R078": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "025",
+  "i": 12
+ },
+ "R079": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "021",
+  "i": 67
+ },
+ "R080": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "001",
+  "i": 0
+ },
+ "R081": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "025",
+  "i": 16
+ },
+ "R082": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "014",
+  "i": 66
+ },
+ "R083": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "002",
+  "i": 35
+ },
+ "R084": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "023",
+  "i": 23
+ },
+ "R085": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "002",
+  "i": 108
+ },
+ "R086": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "016",
+  "i": 8
+ },
+ "R087": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "006",
+  "i": 21
+ },
+ "R088": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "016",
+  "i": 16
+ },
+ "R089": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "019",
+  "i": 13
+ },
+ "R090": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "019",
+  "i": 86
+ },
+ "R091": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "027",
+  "i": 24
+ },
+ "R092": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 28
+ },
+ "R093": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "014",
+  "i": 22
+ },
+ "R094": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "023",
+  "i": 56
+ },
+ "R095": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "014",
+  "i": 77
+ },
+ "R096": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 17
+ },
+ "R097": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "017",
+  "i": 17
+ },
+ "R098": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "011",
+  "i": 7
+ },
+ "R099": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "004",
+  "i": 35
+ },
+ "R100": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 29
+ },
+ "R101": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "030",
+  "i": 65
+ },
+ "R102": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 37
+ },
+ "R103": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "018",
+  "i": 21
+ },
+ "R104": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "004",
+  "i": 70
+ },
+ "R105": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "030",
+  "i": 38
+ },
+ "R106": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "007",
+  "i": 30
+ },
+ "R107": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "018",
+  "i": 6
+ },
+ "R108": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "017",
+  "i": 49
+ },
+ "R109": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "010",
+  "i": 24
+ },
+ "R110": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "024",
+  "i": 4
+ },
+ "R111": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "019",
+  "i": 69
+ },
+ "R112": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "010",
+  "i": 0
+ },
+ "R113": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "016",
+  "i": 4
+ },
+ "R114": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "011",
+  "i": 48
+ },
+ "R115": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "026",
+  "i": 61
+ },
+ "R116": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "016",
+  "i": 1
+ },
+ "R117": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "026",
+  "i": 125
+ },
+ "R118": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 22
+ },
+ "R119": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "002",
+  "i": 17
+ },
+ "R120": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "020",
+  "i": 6
+ },
+ "R121": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "020",
+  "i": 217
+ },
+ "R122": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "019",
+  "i": 13
+ },
+ "R123": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 3
+ },
+ "R124": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "023",
+  "i": 78
+ },
+ "R125": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "024",
+  "i": 18
+ },
+ "R126": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 10
+ },
+ "R127": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "023",
+  "i": 14
+ },
+ "R128": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "016",
+  "i": 5
+ },
+ "R129": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "002",
+  "i": 43
+ },
+ "R130": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "001",
+  "i": 61
+ },
+ "R131": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "020",
+  "i": 25
+ },
+ "R132": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "021",
+  "i": 14
+ },
+ "R133": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "027",
+  "i": 15
+ },
+ "R134": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "006",
+  "i": 35
+ },
+ "R135": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "016",
+  "i": 0
+ },
+ "R136": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "010",
+  "i": 13
+ },
+ "R137": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "015",
+  "i": 90
+ },
+ "R138": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "026",
+  "i": 85
+ },
+ "R139": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "005",
+  "i": 14
+ },
+ "R140": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "011",
+  "i": 41
+ },
+ "R141": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "012",
+  "i": 9
+ },
+ "R142": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "001",
+  "i": 55
+ },
+ "R143": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "026",
+  "i": 24
+ },
+ "R144": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "011",
+  "i": 11
+ },
+ "R145": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "029",
+  "i": 114
+ },
+ "R146": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "023",
+  "i": 150
+ },
+ "R147": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "004",
+  "i": 120
+ },
+ "R148": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "024",
+  "i": 1
+ },
+ "R149": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "030",
+  "i": 5
+ },
+ "R150": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "016",
+  "i": 19
+ },
+ "R151": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "007",
+  "i": 28
+ },
+ "R152": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "029",
+  "i": 83
+ },
+ "R153": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "010",
+  "i": 71
+ },
+ "R154": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "023",
+  "i": 21
+ },
+ "R155": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "024",
+  "i": 26
+ },
+ "R156": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "029",
+  "i": 72
+ },
+ "R157": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "027",
+  "i": 27
+ },
+ "R158": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "024",
+  "i": 66
+ },
+ "R159": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "008",
+  "i": 101
+ },
+ "R160": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "004",
+  "i": 66
+ },
+ "R161": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "022",
+  "i": 18
+ },
+ "R162": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "025",
+  "i": 47
+ },
+ "R163": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "005",
+  "i": 35
+ },
+ "R164": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "002",
+  "i": 96
+ },
+ "R165": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "016",
+  "i": 6
+ },
+ "R166": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "002",
+  "i": 7
+ },
+ "R167": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "019",
+  "i": 7
+ },
+ "R168": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "022",
+  "i": 36
+ },
+ "R169": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "023",
+  "i": 8
+ },
+ "R170": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "014",
+  "i": 32
+ },
+ "R171": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "008",
+  "i": 11
+ },
+ "R172": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "013",
+  "i": 9
+ },
+ "R173": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "028",
+  "i": 10
+ },
+ "R174": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "013",
+  "i": 17
+ },
+ "R175": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "016",
+  "i": 18
+ },
+ "R176": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "002",
+  "i": 46
+ },
+ "R177": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "019",
+  "i": 37
+ },
+ "R178": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "023",
+  "i": 21
+ },
+ "R179": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "022",
+  "i": 11
+ },
+ "R180": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "004",
+  "i": 60
+ },
+ "R181": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "003",
+  "i": 46
+ },
+ "R182": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "018",
+  "i": 18
+ },
+ "R183": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "008",
+  "i": 84
+ },
+ "R184": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "007",
+  "i": 26
+ },
+ "R185": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "027",
+  "i": 30
+ },
+ "R186": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "002",
+  "i": 74
+ },
+ "R187": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "028",
+  "i": 24
+ },
+ "R188": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "024",
+  "i": 16
+ },
+ "R189": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "019",
+  "i": 76
+ },
+ "R190": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "004",
+  "i": 33
+ },
+ "R191": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "017",
+  "i": 46
+ },
+ "R192": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "026",
+  "i": 107
+ },
+ "R193": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "015",
+  "i": 17
+ },
+ "R194": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 2
+ },
+ "R195": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "006",
+  "i": 57
+ },
+ "R196": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "001",
+  "i": 33
+ },
+ "R197": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "004",
+  "i": 58
+ },
+ "R198": {
+  "cond": "skill_full",
+  "class": "not_found",
+  "tid": "030",
+  "i": 23
+ },
+ "R199": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "026",
+  "i": 18
+ },
+ "R200": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "015",
+  "i": 13
+ },
+ "R201": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "012",
+  "i": 41
+ },
+ "R202": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "020",
+  "i": 34
+ },
+ "R203": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "029",
+  "i": 117
+ },
+ "R204": {
+  "cond": "skill_full",
+  "class": "metadata_error",
+  "tid": "025",
+  "i": 11
+ },
+ "R205": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "027",
+  "i": 17
+ },
+ "R206": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "010",
+  "i": 96
+ },
+ "R207": {
+  "cond": "skill_full",
+  "class": "verified",
+  "tid": "010",
+  "i": 60
+ },
+ "R208": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "007",
+  "i": 6
+ },
+ "R209": {
+  "cond": "norag",
+  "class": "metadata_error",
+  "tid": "002",
+  "i": 92
+ },
+ "R210": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "021",
+  "i": 36
+ },
+ "R211": {
+  "cond": "norag",
+  "class": "not_found",
+  "tid": "018",
+  "i": 49
+ },
+ "R212": {
+  "cond": "norag",
+  "class": "verified",
+  "tid": "013",
+  "i": 58
+ },
+ "R213": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "010",
+  "i": 118
+ },
+ "R214": {
+  "cond": "poolfree",
+  "class": "verified",
+  "tid": "002",
+  "i": 64
+ },
+ "R215": {
+  "cond": "poolfree",
+  "class": "metadata_error",
+  "tid": "022",
+  "i": 5
+ },
+ "R216": {
+  "cond": "poolfree",
+  "class": "not_found",
+  "tid": "030",
+  "i": 106
+ }
+}

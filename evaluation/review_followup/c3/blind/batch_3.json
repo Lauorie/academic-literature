@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R003",
+  "entry": "MITRE. “MITRE ATLAS: Adversarial Threat Landscape for Artificial-Intelligence Systems.” 2023. https://atlas.mitre.org/."
+ },
+ {
+  "aid": "R010",
+  "entry": "P. Kairouz, Ziyu Liu, T. Steinke. The distributed discrete gaussian mechanism for federated learning with secure aggregation. International Conference on Machine Learning, 2021. https://proceedings.mlr.press/v139/kairouz21a.html"
+ },
+ {
+  "aid": "R017",
+  "entry": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat. REALM: Retrieval-Augmented Language Model Pre-Training. arXiv, 2022."
+ },
+ {
+  "aid": "R024",
+  "entry": "Y. Yan, Y. Mao, and B. Li, “SECOND: Sparsely Embedded Convolutional Detection,” Sensors, vol. 18, no. 10, 2018. arXiv:1804.05196."
+ },
+ {
+  "aid": "R031",
+  "entry": "Shokri, R., Stronati, M., Song, C., & Shmatikov, V. (2017). Membership Inference Attacks Against Machine Learning Models. IEEE S&P. DOI: 10.1109/SP.2017.41."
+ },
+ {
+  "aid": "R038",
+  "entry": "SHAFEI, AFSHIN. “Designing an early-warning system to forecast extreme climate conditions using Machine-Learning and Deep-learning methods.” IRIS Research product catalog (Sapienza University of Rome), 2025."
+ },
+ {
+  "aid": "R045",
+  "entry": "K. Bansal, K. Rastogi, A. Gupta, and P. Krishnamurthy, “RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2020. arXiv:2007.14366."
+ },
+ {
+  "aid": "R052",
+  "entry": "A. Vassilev, A. Oprea, A. Fordyce, and H. Anderson. “Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations.” NIST AI 100-2e2023, 2024. DOI: 10.6028/NIST.AI.100-2e2023."
+ },
+ {
+  "aid": "R059",
+  "entry": "T Ding, A Nannapaneni, B Liu, L Zhang. “Always-OnAgents: A Survey of Persistent Memory, State, and Governance in LLMAgents.” n/a, 2026."
+ },
+ {
+  "aid": "R066",
+  "entry": "Fangzhou Wu, Ethan Cecchetti, Chaowei Xiao. System-Level Defense against Indirect Prompt Injection Attacks: An Information Flow Control Perspective. arXiv.org, 2024. https://doi.org/10.48550/arxiv.2409.19091"
+ },
+ {
+  "aid": "R073",
+  "entry": "Shuang Li, Yilun Du, Gido M. van de Ven, Igor Mordatch. Energy-Based Models for Continual Learning. Proceedings of The 1st Conference on Lifelong Learning Agents, PMLR 199: 1–22, 2022."
+ },
+ {
+  "aid": "R080",
+  "entry": "SG Patil, H Mao, F Yan, CCJ Ji. The berkeley function calling leaderboard (bfcl): From tool use to agentic evaluation of large language models. Venue: n/a, 2025. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R087",
+  "entry": "Feng, Z., Guo, D., Tang, D., et al. CodeBERT: A Pre-Trained Model for Programming and Natural Languages. Findings of EMNLP 2020. DOI: 10.18653/v1/2020.findings-emnlp.139. arXiv:2002.08155."
+ },
+ {
+  "aid": "R094",
+  "entry": "J Liu, S Xu, L Zhang, J Zhang. Single-Cell Omics Arena: A Benchmark Study for Large Language Models on Cell Type Annotation Using Single-Cell Data. n/a, 2024."
+ },
+ {
+  "aid": "R101",
+  "entry": "LF Feiner, M Nickel, L Lux, MJ Menten. Structured joint aleatoric and epistemic uncertainty for high dimensional output spaces. n/a, n/a."
+ },
+ {
+  "aid": "R108",
+  "entry": "Yang, Q., Liu, Y., Chen, T., & Tong, Y. (2019). Federated Machine Learning: Concept and Applications. ACM Transactions on Intelligent Systems and Technology, 10(2), 1–19. DOI: 10.1145/3298981."
+ },
+ {
+  "aid": "R115",
+  "entry": "M Karthikeyan, DM Mahapatra, ASA Razak. Machine learning aided synthesis and screening of HER catalyst: Present developments and prospects. n/a, 2024."
+ },
+ {
+  "aid": "R122",
+  "entry": "Wang, Q., Huang, L., Jiang, Z., Knight, K., Ji, H., Bansal, M., Luan, Y. “PaperRobot: Incremental Draft Generation of Scientific Ideas.” ACL (2019). DOI: 10.18653/v1/P19-1195."
+ },
+ {
+  "aid": "R129",
+  "entry": "Z Feng, M Yao, DS Lewis. When Memories Collide: Associative Interference Dynamics in Lifelong Agent Memory. 2026. https://openreview.net/forum?id=Y7r5ZODl7l"
+ },
+ {
+  "aid": "R136",
+  "entry": "Kyle Gao, et al. NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Review (Updated Post-Gaussian Splatting). arXiv preprint, 2022. https://doi.org/10.26599/cvm.2026.9450535"
+ },
+ {
+  "aid": "R143",
+  "entry": "J Kim, et al. Reactive machine learning interatomic potentials for chemistry and materials science. 2026. https://pubs.acs.org/chreay/article-abstract/126/8/4467/5150336"
+ },
+ {
+  "aid": "R150",
+  "entry": "Pan, J. J., Wang, J., Li, G. Vector database management systems: Fundamental concepts, open problems, and research directions. arXiv:2310.11703, 2023."
+ },
+ {
+  "aid": "R157",
+  "entry": "Andrea Asperti, et al. Precipitation nowcasting with generative diffusion models: A. Asperti et al. arXiv (Cornell University), 2025. https://doi.org/10.48550/arxiv.2308.06733"
+ },
+ {
+  "aid": "R164",
+  "entry": "G Xiao, J Tang, J Zuo, J Guo. “Duoattention: Efficient long-context llm inference with retrieval and streaming heads.” n/a, 2025."
+ },
+ {
+  "aid": "R171",
+  "entry": "Danny Driess, et al. PaLM-E: An Embodied Multimodal Language Model. arXiv (Cornell University), 2023. https://doi.org/10.48550/arxiv.2303.03378"
+ },
+ {
+  "aid": "R178",
+  "entry": "Luecken, M. D., Büttner, M., Chaichoompu, K., Danese, A., Interlandi, M., Mueller, M. F., Strobl, D. C., Zappia, L., Dugas, M., Colomé-Tatché, M., & Theis, F. J. (2022). Benchmarking atlas-level data integration in single-cell genomics. Nature Methods, 19(1), 41–50. DOI: 10.1038/s41592-021-01358-2."
+ },
+ {
+  "aid": "R185",
+  "entry": "W Xu, et al. Deep learning experiments for tropical cyclone intensity forecasts. 2021. https://journals.ametsoc.org/view/journals/wefo/36/4/WAF-D-20-0104.1.xml"
+ },
+ {
+  "aid": "R192",
+  "entry": "François Cornet, Bardi Benediktsson, Bjarke Hastrup, Mikkel N. Schmidt. OM-Diff: inverse-design of organometallic catalysts with guided equivariant denoising diffusion. Digital Discovery, 2024."
+ },
+ {
+  "aid": "R199",
+  "entry": "Y Tong, H Yin, L Wang, X Ao. An Interpretable Machine Learning Framework for Predicting Small-Molecule Adsorption on Ni@ g-C₃N₄ from Vibrational Spectra. n/a, 2026."
+ },
+ {
+  "aid": "R206",
+  "entry": "Zeyu Yang, Zijie Pan, Xiatian Zhu, Li Zhang. “4D Gaussian Splatting: Modeling Dynamic Scenes with Native 4D Primitives.” arXiv, 2024."
+ },
+ {
+  "aid": "R213",
+  "entry": "Alex Yu, Vickie Ye, Matthew Tancik, Angjoo Kanazawa. “pixelNeRF: Neural Radiance Fields from One or Few Images.” CoRR, 2021."
+ }
+]

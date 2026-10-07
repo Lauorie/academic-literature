@@ -1,0 +1,308 @@
+[
+ {
+  "cid": "N004",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2504.16728",
+  "numbers": [
+   {
+    "value": "0.5",
+    "verdict": "supported",
+    "evidence": "Sec 4.3: \"user interaction within IRIS consistently improved hypothesis quality, increasing average absolute scores by 0.5 points and ELO ratings by 12 points for a tree depth of 3.\""
+   },
+   {
+    "value": "0.60",
+    "verdict": "supported",
+    "evidence": "Sec 4.3 Metric Validation: \"Human baseline rankings correlated moderately with LLM based ELO scores (Pearson's r=0.60) but weakly with LLM based absolute scores (r=0.45).\""
+   },
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Sec 4.2: \"We conducted a user study with 8 researchers (N=8) ... Two users voluntarily participated twice (10 total case studies).\""
+   },
+   {
+    "value": "12",
+    "verdict": "supported",
+    "evidence": "Sec 4.3: \"... and ELO ratings by 12 points for a tree depth of 3.\""
+   }
+  ],
+  "note": "arXiv v2 (24 May 2025). The gains come from the LLM-as-a-judge evaluation (Fig. 3), as the sentence says."
+ },
+ {
+  "cid": "N010",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12803055/ ; https://api.biorxiv.org/details/biorxiv/10.64898/2026.01.06.698060",
+  "numbers": [
+   {
+    "value": "100",
+    "verdict": "supported",
+    "evidence": "bioRxiv v2 (2 Sep 2026, same DOI 10.64898/2026.01.06.698060) abstract: \"we systematically investigate thirteen scFMs alongside established methods across nearly one hundred datasets ... increased model scale, architectural complexity, pretraining corpus size, or input encoding does not consistently translate into superior downstream performance.\" The PMC copy (bioRxiv v1, 7 Jan 2026) instead says \"benchmark thirteen foundation models alongside classical baselines across more than fifty datasets\" (abstract and Introduction)."
+   }
+  ],
+  "note": "Version split. The cited PMC URL holds v1 (full text read: 'more than fifty datasets', datasets labelled up to D59; no '100 datasets'). The '~100 datasets' figure and the scale/complexity/corpus/encoding sentence match v2 of the same preprint (retitled 'Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models'), seen only as an abstract via the bioRxiv API. Against the PMC v1 text alone the verdict would be absent."
+ },
+ {
+  "cid": "N016",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.02.05.636714",
+  "numbers": [
+   {
+    "value": "30",
+    "verdict": "supported",
+    "evidence": "Abstract: \"We also curate SpatialHuman30M, a comprehensive spatial transcriptomics dataset comprising of 30 million spatial transcriptomic profiles, encompassing both imaging- and sequencing-based protocols.\""
+   }
+  ],
+  "note": "bioRxiv full-text page returned HTTP 403; judged from the abstract. The abstract counts 'spatial transcriptomic profiles' (which include sequencing-based spots), not strictly 'cells'; the 30 million figure itself matches."
+ },
+ {
+  "cid": "N022",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.03.709355",
+  "numbers": [
+   {
+    "value": "12000",
+    "verdict": "supported",
+    "evidence": "Abstract: \"Teams from 42 countries submitted 12,000 designs of 80-amino acid binders targeting human CD20 as CAR binding domains.\""
+   },
+   {
+    "value": "707",
+    "verdict": "supported",
+    "evidence": "Abstract: \"Designs were screened by pooled CAR-T proliferation, identifying 707 designs exhibiting significant CD20-specific enrichment, with team hit rates from 0.6% to 38.4%.\""
+   }
+  ],
+  "note": "Judged from the bioRxiv abstract (v1 and v2 identical). 'Showing activity' corresponds to significant CD20-specific enrichment in the pooled proliferation screen."
+ },
+ {
+  "cid": "N028",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42020624/",
+  "numbers": [
+   {
+    "value": "10.7",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"Only three studies (10.7%) met all criteria for stable prediction model development even under these charitable assumptions.\""
+   },
+   {
+    "value": "16",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"Of 64 full-text records assessed, 16 (25%) were unassessable due to missing essential parameters (e.g., feature counts) required for sample size estimation.\""
+   },
+   {
+    "value": "195.5",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"In the assessable final cohort (n = 28), the training sample sizes observed were consistently inadequate, with a median deficit of 195.5 training instances.\""
+   },
+   {
+    "value": "25",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"16 (25%) were unassessable\""
+   },
+   {
+    "value": "28",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"In the assessable final cohort (n = 28)\""
+   },
+   {
+    "value": "5.8",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"with a median events per predictor deficit of 5.8.\""
+   },
+   {
+    "value": "64",
+    "verdict": "supported",
+    "evidence": "Abstract (Results): \"Of 64 full-text records assessed\""
+   }
+  ],
+  "note": "Subscription article (Springer page blocked; Europe PMC lists 'Subscription required'); all figures are in the PubMed abstract. Abstract gives 'missing essential parameters (e.g., feature counts)', so the sentence's 'because feature counts were not reported' narrows the reason; the count itself matches. Period: January 2023 to August 2025, Q1 journals."
+ },
+ {
+  "cid": "N034",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2504.09795",
+  "numbers": [
+   {
+    "value": "1.4",
+    "verdict": "supported",
+    "evidence": "Table 5 (ablation, retrieval nDCG@5, single-pool): \"VDocRetriever 77.3 / 72.9; w/o RCR 75.9−1.4 / 71.1−1.8\" (SlideVQA / InfoVQA). RCR = Representation Compression via Retrieval pre-training task."
+   },
+   {
+    "value": "1.8",
+    "verdict": "supported",
+    "evidence": "Table 5: \"w/o RCR 75.9−1.4 71.1−1.8\" (InfoVQA drop 1.8 nDCG@5)."
+   },
+   {
+    "value": "43.7",
+    "verdict": "supported",
+    "evidence": "Table 5: \"w/o LLM & Projector (→ CLIP encoders) 43.7−33.6\" on SlideVQA."
+   },
+   {
+    "value": "77.3",
+    "verdict": "supported",
+    "evidence": "Table 5: \"VDocRetriever 77.3\" (SlideVQA nDCG@5)."
+   }
+  ],
+  "note": "Ablations are reported for the retriever component (VDocRetriever) of VDocRAG; metric nDCG@5 per Sec 5 evaluation metrics."
+ },
+ {
+  "cid": "N040",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2502.20695",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Title: \"Scalable Overload-Aware Graph-Based Index Construction for 10-Billion-Scale Vector Similarity Search\"; Table (datasets): \"VDD10B 512 10,483,835,016\"; abstract: \"deployed in a real-world industrial search engine, managing over 10 billion daily updated vectors\"."
+   }
+  ],
+  "note": "arXiv 2502.20695 is the author copy of the WWW Companion '25 paper (DOI 10.1145/3701716.3715576 per Semantic Scholar externalIds); ACM PDF returned 403."
+ },
+ {
+  "cid": "N046",
+  "paper_found": "yes",
+  "text_accessed": "none",
+  "source_url": "https://doi.org/10.1016/j.matt.2025.102577",
+  "numbers": [
+   {
+    "value": "16",
+    "verdict": "unverifiable",
+    "evidence": "Paper text not reachable: Cell Press and ScienceDirect pages returned 403; CrossRef, Semantic Scholar, OpenAlex and Europe PMC carry no abstract (OpenAlex: oa_status closed). A CAS news release (english.cas.cn, 10 Feb 2026) states: \"MARS is a knowledge-driven hierarchical architecture coordinating 19 LLM agents with 16 domain-specific tools organized into functional modules\" — not the paper's own text."
+   },
+   {
+    "value": "19",
+    "verdict": "unverifiable",
+    "evidence": "As above; only the institutional news release gives \"19 LLM agents with 16 domain-specific tools\"."
+   }
+  ],
+  "note": "Paper identified (Matter, PII S2590238525006204; authors Shi, Li, Wang, ... Yu). Figures are probably right given the press release, but the paper's own text could not be read."
+ },
+ {
+  "cid": "N052",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/1906.08935",
+  "numbers": [
+   {
+    "value": "0.03",
+    "verdict": "supported",
+    "evidence": "Sec 4.1: \"Images are normalized to the range [0, 1] and our algorithm appears much better results (ours < 0.03 v.s. previous > 0.2) on all four datasets.\""
+   },
+   {
+    "value": "0.2",
+    "verdict": "supported",
+    "evidence": "Sec 4.1: \"(ours < 0.03 v.s. previous > 0.2)\"; previous method = Melis et al. [27] (Fig. 6)."
+   }
+  ],
+  "note": "The paper gives the previous method's MSE as a bound (> 0.2); the sentence drops the '>' but keeps the figure for the same comparison. Paper also states DLG \"does not depend on any generative models\" and experiments use \"randomly initialized weights\"."
+ },
+ {
+  "cid": "N058",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12268226/",
+  "numbers": [
+   {
+    "value": "30",
+    "verdict": "supported",
+    "evidence": "Abstract: \"This study aimed to utilize DAGs to explore the causal impact of epidemiological factors on 30-day mortality among patients following their first acute ST-elevation myocardial infarction (STEMI).\" Introduction: \"this work utilizes the concepts of directed acyclic graph learning to learn the causal relations between 30-day mortality and epidemiology factors\"."
+   }
+  ],
+  "note": "Cureus 2025;17(6):e86178, NORIN-STEMI registry."
+ },
+ {
+  "cid": "N064",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2502.11371",
+  "numbers": [
+   {
+    "value": "3.23",
+    "verdict": "supported",
+    "evidence": "Table 6 (query-based single-document summarization, Llama 3.1-8B), QMSum ROUGE-2 F1: \"Community-GraphRAG (Global) ... 10.54 1.97 3.23\"."
+   },
+   {
+    "value": "6.32",
+    "verdict": "supported",
+    "evidence": "Table 6, QMSum ROUGE-2 F1: \"RAG ... 21.50 3.80 6.32\"."
+   }
+  ],
+  "note": "Sec 5.3 notes position bias in LLM-as-a-Judge and that Community GraphRAG with global search \"generally underperforms RAG on the selected datasets\". Values are ROUGE-2 F1 with Llama3.1-8B."
+ },
+ {
+  "cid": "N070",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2401.09670",
+  "numbers": [
+   {
+    "value": "1.6",
+    "verdict": "supported",
+    "evidence": "Sec 1: \"the maximum achievable goodput on a single A100 GPU ... is about 1.6 requests per second (rps).\""
+   },
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Sec 1: \"per-GPU goodput of 5.6 rps for the prefill phase and 10 rps for decoding. Ideally, by allocating 2 GPUs for prefill and 1 GPU for decoding, we can effectively serve the model with an overall goodput of 10 rps\""
+   },
+   {
+    "value": "2.1",
+    "verdict": "supported",
+    "evidence": "Sec 1: \"overall goodput of 10 rps, or equally 3.3 rps per GPU, which is 2.1x higher than existing systems.\""
+   },
+   {
+    "value": "5.6",
+    "verdict": "supported",
+    "evidence": "Sec 1: \"5.6 rps for the prefill phase\"; Fig. 1 \"rps=5.6\"."
+   }
+  ],
+  "note": "Paper describes the model as \"a 13B LLM\" / \"an LLM with 13B parameters\" (Fig. 1) on one 80GB A100; it does not name OPT-13B in that passage. Not a checked number."
+ },
+ {
+  "cid": "N076",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s41586-023-06185-3",
+  "numbers": [
+   {
+    "value": "1.4",
+    "verdict": "supported",
+    "evidence": "Main text: \"In addition, the inference cost of Pangu-Weather is 1.4 s on a single GPU, which is more than 10,000-times faster than the operational IFS\"; Methods (Inference speed): \"Pangu-Weather needs 1.4 s on a Tesla-V100 GPU\" for a 24-hour forecast."
+   },
+   {
+    "value": "296.7",
+    "verdict": "supported",
+    "evidence": "Main text: \"with a single-member forecast, Pangu-Weather reports an RMSE of 296.7 for a 5-day Z500 forecast, which is lower than that for the operational IFS and FourCastNet, which reported 333.7 and 462.5, respectively.\""
+   },
+   {
+    "value": "333.7",
+    "verdict": "supported",
+    "evidence": "Same passage: \"... operational IFS and FourCastNet, which reported 333.7 and 462.5, respectively.\""
+   },
+   {
+    "value": "462.5",
+    "verdict": "supported",
+    "evidence": "Same passage: \"... FourCastNet, which reported 333.7 and 462.5, respectively.\" (The introduction cites FourCastNet's own reported 484.5; the sentence uses the paper's comparison value 462.5.)"
+   }
+  ],
+  "note": "Paper describes 3D Earth-specific transformer and \"a hierarchical temporal aggregation strategy\"."
+ },
+ {
+  "cid": "N082",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s41597-025-05071-z",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Abstract: \"this study develops a super-resolution fusion framework based on deep residual attention mechanisms, establishing China's 10-km resolution multi-model-multi-scenario high-resolution climate and PET dataset (SRCPCN10). The Residual Channel Attention Network (RCAN) ...\"; \"... to achieve spatial resolution enhancement from the 100 km to 10 km.\""
+   }
+  ],
+  "note": "Scientific Data Data Descriptor, open access, published 30 April 2025; five CMIP6 GCMs under SSP126/245/370/585."
+ }
+]

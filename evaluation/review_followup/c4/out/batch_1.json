@@ -1,0 +1,323 @@
+[
+ {
+  "cid": "N001",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2310.09685",
+  "numbers": [
+   {
+    "value": "20",
+    "verdict": "supported",
+    "evidence": "Abstract: \"State-of-the-art design protocols now achieve experimental success rates nearing 20%, thus widening the access to de novo designed proteins.\""
+   }
+  ],
+  "note": "Full text read from the arXiv preprint (2310.09685) of the Curr. Opin. Struct. Biol. review (DOI 10.1016/j.sbi.2024.102794, same title and authors per CrossRef)."
+ },
+ {
+  "cid": "N007",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2311.16096v4",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Sec. Implementation Details, 4) Running Time: \"Given novel illumination for relighting, it takes 4 ∼ 10 secs to synthesize one frame\"."
+   },
+   {
+    "value": "23.2475",
+    "verdict": "misattributed",
+    "evidence": "Table III (comparison with NeRF-based full-body avatar): \"AvatarReX [66] 23.2475\" PSNR. Text: \"Tab. III reports the quantitative comparison on training pose reconstruction ... evaluated on the first 500 frames and the '22010710' camera view in the 'avatarrex zzr' sequence from AvatarReX dataset.\""
+   },
+   {
+    "value": "26.9497",
+    "verdict": "supported",
+    "evidence": "Table IV (comparison with 3DGS-based avatars, ActorsHQ Actor01/Sequence1, Cam127): \"GaussianAvatar [95] 26.9497\" PSNR."
+   },
+   {
+    "value": "28.7836",
+    "verdict": "supported",
+    "evidence": "Table IV: \"3DGS-Avatar [91] 28.7836\" PSNR on ActorsHQ."
+   },
+   {
+    "value": "30.3607",
+    "verdict": "supported",
+    "evidence": "Table IV: \"Ours 30.3607\" PSNR; \"computed on the 48-548 frames and the 'Cam127' camera view in the 'Actor01/Sequence1' from ActorsHQ dataset.\""
+   },
+   {
+    "value": "30.6143",
+    "verdict": "misattributed",
+    "evidence": "Table III: \"Ours 30.6143\" PSNR vs AvatarReX; text: \"Tab. III reports the quantitative comparison on training pose reconstruction.\""
+   },
+   {
+    "value": "31.6339",
+    "verdict": "supported",
+    "evidence": "Table V (comparison with state-of-the-art human performance relighting methods): \"Ours 31.6339\" PSNR."
+   },
+   {
+    "value": "4090",
+    "verdict": "not_a_claim",
+    "evidence": "GPU model name. The paper says \"the training procedure takes about two days on one RTX 4090.\""
+   }
+  ],
+  "note": "The sentence labels the AvatarReX comparison as NVS (novel view synthesis), but the paper states Table III is training pose reconstruction (first 500 frames, one camera view); 30.6143 and 23.2475 are the correct PSNRs for Ours vs AvatarReX on the AvatarReX dataset, only the evaluation setting is mislabelled, hence misattributed rather than absent. ActorsHQ (Table IV) and relighting (Table V) figures match. Training: about two days on one RTX 4090; relighting 4~10 s per frame. Rule applied across this batch: misattributed when the sentence's descriptor changes what the number measures (different protocol or unit of work); supported with a flag when the referent is unchanged and only surrounding prose misnames or overreaches."
+ },
+ {
+  "cid": "N013",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2312.01196",
+  "numbers": [
+   {
+    "value": "15.67",
+    "verdict": "supported",
+    "evidence": "Table 3 (ablation on synthetic cactus, Unbiased4D): \"Ours (K = 2) 15.67 0.87 0.15\"."
+   },
+   {
+    "value": "16.327",
+    "verdict": "supported",
+    "evidence": "Table 2 (novel view synthesis on Unbiased4D): \"HexPlane [4] 16.327\"."
+   },
+   {
+    "value": "17.36",
+    "verdict": "supported",
+    "evidence": "Table 2: \"Nerfies [40] 17.36 0.87 0.13\"."
+   },
+   {
+    "value": "22.348",
+    "verdict": "supported",
+    "evidence": "Table 2: \"Ours 22.348 0.905 0.095\"; Table 3: \"Ours (K = 25) 22.348\"."
+   },
+   {
+    "value": "25",
+    "verdict": "supported",
+    "evidence": "Sec. 4 ablation: \"We find the optimal size to be 25 for the synthetic cactus sequence.\""
+   }
+  ],
+  "note": "Scalability motive also stated: \"we do not apply MLPs to all Gaussians in a scene, which leads to better scalability.\" Only the synthetic cactus has ground-truth novel views in Unbiased4D."
+ },
+ {
+  "cid": "N019",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2607.22140v2",
+  "numbers": [
+   {
+    "value": "78",
+    "verdict": "supported",
+    "evidence": "Title: \"...Declared Dependency Graphs in 78K SBOMs in the Wild\"; Abstract: \"across 78,612 real-world SBOM files from the Wild SBOMs dataset (77,092 parseable)\"."
+   }
+  ],
+  "note": ""
+ },
+ {
+  "cid": "N025",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2403.11968",
+  "numbers": [
+   {
+    "value": "19",
+    "verdict": "supported",
+    "evidence": "Theorem 4.2: \"On the other hand, assume only Assumption 3.3. Taking t0 = n^{-4β/(d+dy+2β)-1}, it holds that E Ey[TV(P̂t0(·|y), P(·|y))] = O(n^{-β/(d+dy+2β)} (log n)^{max(19/2,(β+2)/2)})\"."
+   },
+   {
+    "value": "3.3",
+    "verdict": "supported",
+    "evidence": "Assumption 3.3 is the paper's stronger density assumption; Theorem 4.2 gives the fast TV rate \"assume only Assumption 3.3\". Proposition 4.3: inf sup E[TV] ≳ n^{-β/(d+2β)}; \"Theorem 4.2 also applies to unconditional distribution estimation by removing y and setting dy = 0 ... this matches the minimax optimal rate\"."
+   }
+  ],
+  "note": "'3.3' is the paper's assumption label, not a measured figure; it correctly names the assumption under which the rate holds. Paper also names \"a diffused Taylor approximation technique\" (abstract)."
+ },
+ {
+  "cid": "N031",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://aclanthology.org/2025.acl-long.1551.pdf",
+  "numbers": [
+   {
+    "value": "114",
+    "verdict": "supported",
+    "evidence": "Abstract: \"We introduce a web-scale dataset for time-continual pretraining of LLMs derived from 114 dumps of Common Crawl (CC) ... We also design time-stratified evaluations\"."
+   }
+  ],
+  "note": ""
+ },
+ {
+  "cid": "N037",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2006.08437",
+  "numbers": [
+   {
+    "value": "026",
+    "verdict": "misattributed",
+    "evidence": "Table 1 (flights, 2M): \"Time .026±.001\" for DUN. App. E.2.2: \"We report computation time for a single batch of size 512, which we evaluate across 5 runs.\" The figure is the time for a batch of 512 points, not per prediction."
+   },
+   {
+    "value": "087",
+    "verdict": "supported",
+    "evidence": "Table 1 (flights, 2M): \"TCE .087±.009\" for DUN (Dropout .096±.017, Ensemble .090±.008). Sec. 4.3: \"DUNs present superior uncertainty calibration. This allows them to achieve the best LL, tied with Ensembles and Dropout.\""
+   }
+  ],
+  "note": "TCE in the paper is \"Tail Calibration Error\" (calibration of the 10% and 90% intervals), not \"total calibration error\"; the value .087±.009 is DUN's TCE, better than Dropout and Ensembles but worse than MFVI (.068) and SGD (.084). Flights: \"we train on the first 2M data points and test on the subsequent 100k.\" Time .026 is per batch of 512 (CPU), so 'per prediction' misstates the unit."
+ },
+ {
+  "cid": "N043",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2407.08693",
+  "numbers": [
+   {
+    "value": "48",
+    "verdict": "supported",
+    "evidence": "Sec. 5.4: \"we rerun evaluations of our ECoT policy on the most challenging tasks from Table 1 (put mushroom in cup, pick up out-of-distribution object, and pick up non-yellow object) ... allow a human operator to interrupt policy execution once ... our ECoT policy can make effective use of the human language intervention, increasing its success rate by 48% on our most challenging evaluation tasks.\""
+   }
+  ],
+  "note": "Text: without intervention the policy \"achieved an average success rate of only 32%\" on these tasks; Fig. 6 annotates +48% for ECoT. The correction is a natural-language intervention rewritten into the reasoning chain by ChatGPT."
+ },
+ {
+  "cid": "N049",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2401.01454",
+  "numbers": [
+   {
+    "value": "265",
+    "verdict": "supported",
+    "evidence": "Abstract: \"we present an exhaustive study of 265 autonomous driving datasets ... we analyze the annotation processes, existing labeling tools, and the annotation quality of datasets, showing the importance of establishing a standard annotation pipeline.\""
+   }
+  ],
+  "note": "Full text read from the arXiv preprint of the IEEE paper (same title and authors)."
+ },
+ {
+  "cid": "N055",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/2005.09535",
+  "numbers": [
+   {
+    "value": "0",
+    "verdict": "supported",
+    "evidence": "Sec. 5 (Description of the Dataset): \"...and for Maven Central 0/10 (0.00%).\""
+   },
+   {
+    "value": "29.14",
+    "verdict": "supported",
+    "evidence": "Sec. 5: \"The rate of successful downloads of malicious packages for npm is 109/374 (29.14%)\"."
+   },
+   {
+    "value": "63.64",
+    "verdict": "supported",
+    "evidence": "Sec. 5: \"PyPI 28/44 (63.64%)\"."
+   },
+   {
+    "value": "90.24",
+    "verdict": "supported",
+    "evidence": "Sec. 5: \"for RubyGems 37/41 (90.24%)\"."
+   }
+  ],
+  "note": "The interpretive remark (registries constrain what can be studied) is the survey's own reading; the four rates match the paper."
+ },
+ {
+  "cid": "N061",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s41597-020-0474-y",
+  "numbers": [
+   {
+    "value": "1.2",
+    "verdict": "supported",
+    "evidence": "Screening process: \"only 5,192 candidates remained after the preliminary screening for Ea ≤ 1.2 eV in one-dimensional migration paths\"."
+   },
+   {
+    "value": "21542",
+    "verdict": "supported",
+    "evidence": "\"Step 1. Preliminary results There are 21,542 candidate compounds containing Li and Na in SPSE\"."
+   },
+   {
+    "value": "5192",
+    "verdict": "supported",
+    "evidence": "\"...of which only 5,192 candidates remained after the preliminary screening for Ea ≤ 1.2 eV\"."
+   },
+   {
+    "value": "91688",
+    "verdict": "supported",
+    "evidence": "\"The structures from the ICSD include 91,688 Li-, Na-, Mg-, Al-, Ca-, Cu-, Ag- and Zn-containing compounds.\""
+   },
+   {
+    "value": "91763",
+    "verdict": "supported",
+    "evidence": "\"Currently, our database contains 91,763 crystal structures, more than 10,000 computationally derived properties (ion-transport data), and 121 properties obtained from literature\"."
+   }
+  ],
+  "note": "91,763 and 91,688 are database counts. The paper does not say the full CAVD+BVSE->NEB funnel ran over all 91,763 structures; the screening it reports starts from the 21,542 Li/Na candidates, and it reports preliminary data for 7,678 structures (geometric analysis) and 12,000 BVSE activation energies. 'Running the full funnel over 91,763 structures' overstates the scope, but the counts themselves are correct. CAVD = crystal structure analysis by Voronoi decomposition; BVSE = bond valence site energy, as stated."
+ },
+ {
+  "cid": "N067",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://doi.org/10.1002/adfm.78357",
+  "numbers": [
+   {
+    "value": "16",
+    "verdict": "unverifiable",
+    "evidence": "Only the abstract was reachable (CrossRef/OpenAlex; OpenAlex marks it closed access; Wiley full text returned HTTP 403). The abstract mentions graph neural networks for high-throughput screening and closed-loop paradigms but gives no count of fast-ion conductors."
+   }
+  ],
+  "note": "Paper exists: Wu, Wang, Wang, Chen, Han, Adv. Funct. Mater., published 2026-09-11 (CrossRef). The work is a review; a '16 novel fast-ion conductors' result would likely come from a primary study it cites, but this could not be checked."
+ },
+ {
+  "cid": "N073",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/abs/1807.00263",
+  "numbers": [
+   {
+    "value": "90",
+    "verdict": "supported",
+    "evidence": "Abstract: \"Bayesian uncertainty estimates are often inaccurate — for example, a 90% credible interval may not contain the true outcome 90% of the time.\" Sec. 1: \"a 90% posterior credible interval generally does not contain the true outcome 90% of the time (Figure 1).\""
+   }
+  ],
+  "note": "The 90% is the paper's illustrative example of miscalibration. The 'unacceptable for risk management' framing is the survey's; not a number."
+ },
+ {
+  "cid": "N079",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/9e4b14eb6f16fe7b5818a8d633a0606a-Paper-Conference.pdf",
+  "numbers": [
+   {
+    "value": "0.339",
+    "verdict": "supported",
+    "evidence": "Table 3 (leaderboard averaged over single- and multi-server settings), gpt-5 row: \"100.0% 99.3% 99.1% 0.677 0.828 0.767 0.749 0.649 0.339 0.749\" (Parallelism and Efficiency = 0.339)."
+   },
+   {
+    "value": "0.649",
+    "verdict": "supported",
+    "evidence": "Table 3, gpt-5 row: Dependency Awareness = 0.649."
+   },
+   {
+    "value": "100.0",
+    "verdict": "supported",
+    "evidence": "Table 3, Valid Tool Name Rate: claude-sonnet-4 \"100.0%\" and gpt-5 \"100.0%\" (column maximum)."
+   },
+   {
+    "value": "85.0",
+    "verdict": "supported",
+    "evidence": "Table 3, Schema Compliance: llama-3-2-90b-vision-instruct \"85.0%\" (column minimum)."
+   },
+   {
+    "value": "96.0",
+    "verdict": "supported",
+    "evidence": "Table 3, Valid Tool Name Rate: nova-micro-v1 \"96.0%\" (column minimum)."
+   },
+   {
+    "value": "99.9",
+    "verdict": "supported",
+    "evidence": "Table 3, Schema Compliance: o3 \"99.9%\" (column maximum)."
+   }
+  ],
+  "note": "Ranges are the min/max of Table 3 across all 20 models, which includes small models such as llama-3-1-8b-instruct, so 'mid-scale and frontier' is a loose descriptor. The paper states: \"Low-level capabilities such as schema compliance and valid tool naming have largely converged across models. Even mid-scale systems achieve accuracy above 95%\" and that planning is the key differentiator. Same Table 3 values appear in arXiv 2508.20453v1."
+ }
+]

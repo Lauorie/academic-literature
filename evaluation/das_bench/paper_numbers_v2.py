@@ -328,6 +328,66 @@ mac("auditMeta", sum(x["class"] == "metadata_error" for x in key.values()))
 nr_cond = ci["condition"]["norag"]
 mac("ciNoRagNFCount", round(nr_cond["pooled_share"]["not_found"] * nr_cond["checked"]))  # no audited entry was judged invented by the model; see PROTOCOL.md "Hand audit"
 
+# Exploratory, after the internal review (review_followup/PLAN_C3_C4.md): C3 label audit, C4 numbers in the prose.
+c3 = load("review_followup/c3_result.json")
+CT = {"skill_full": "Skill", "norag": "NoRag", "poolfree": "PoolFree"}
+for c, tag in CT.items():
+    mac(f"cThreeCorr{tag}", _r(c3["rates_pct"]["corrected_defective"][c], 1))
+    mac(f"cThreeGone{tag}", _r(c3["rates_pct"]["corrected_not_exist"][c], 1))
+    mac(f"cThreeField{tag}", _r(c3["rates_pct"]["corrected_field_error"][c], 1))
+    cell = c3["per_cell"]
+    mac(f"cThreeMetaTrue{tag}", cell[f"{c}/metadata_error"]["defective"])
+    mac(f"cThreeMetaN{tag}", cell[f"{c}/metadata_error"]["n"])
+    mac(f"cThreeNFExist{tag}", cell[f"{c}/not_found"]["n"] - cell[f"{c}/not_found"]["not_exist"])
+    mac(f"cThreeNFN{tag}", cell[f"{c}/not_found"]["n"])
+for m, mt in (("defective", "D"), ("field_error", "F")):
+    for o, tag in (("norag", "NoRag"), ("poolfree", "PoolFree")):
+        q = c3["skill_minus"][f"{m}_vs_{o}"]
+        mac(f"cThree{mt}{tag}", sg(q["diff"], 1))
+        mac(f"cThree{mt}{tag}Lo", f2(q["ci95"][0], 1))
+        mac(f"cThree{mt}{tag}Hi", f2(q["ci95"][1], 1))
+mac("cThreeVerOK", sum(c3["per_cell"][f"{c}/verified"]["n"] - c3["per_cell"][f"{c}/verified"]["defective"] for c in CT))
+mac("cThreeVerN", sum(c3["per_cell"][f"{c}/verified"]["n"] for c in CT))
+_vok = sum(c3["per_cell"][f"{c}/verified"]["n"] - c3["per_cell"][f"{c}/verified"]["defective"] for c in CT)
+_vn = sum(c3["per_cell"][f"{c}/verified"]["n"] for c in CT)
+_z, _p = 1.96, (_vn - _vok) / _vn  # Wilson upper bound on the error share of verified labels, pooled
+mac("cThreeVerUpper", _r(100 * ((_p + _z * _z / (2 * _vn)) + _z * ((_p * (1 - _p) / _vn + _z * _z / (4 * _vn * _vn)) ** 0.5)) / (1 + _z * _z / _vn), 1))
+mac("cThreeItems", len(load("review_followup/c3/key/key.json")))
+mac("cThreeUnsure", sum(c3["unsure"].values()))
+c4a = load("review_followup/c4_partA_result.json")["summary"]["all"]
+mac("cFourNums", f"{c4a['claim_numbers_mean']:.0f}")
+mac("cFourInCited", _r(100 * c4a["trace_share"]["in_cited_evidence"], 1))
+mac("cFourOther", _r(100 * c4a["trace_share"]["only_in_other_paper_file"], 1))
+mac("cFourNone", _r(100 * c4a["trace_share"]["in_no_file"], 1))
+mac("cFourNoFile", _r(100 * c4a["trace_share"]["cited_paper_has_no_file"], 1))
+mac("cFourWarn", _r(c4a["warnings_mean"], 1))
+mac("cFourWarnNoId", _r(c4a["warning_types_mean"]["record_no_identifier"], 1))
+mac("cFourWarnFig", _r(c4a["warning_types_mean"]["figure_not_in_evidence"], 1))
+c4d = load("review_followup/c4_density.json")
+mac("cFourDensSkill", _r(c4d["skill_full_r1"]["mean"], 0))
+mac("cFourDensPool", _r(c4d["naiverag_pool"]["mean"], 1))
+mac("cFourZeroPool", c4d["naiverag_pool"]["zero"])
+mac("cFourPerKSkill", _r(c4d["skill_full_r1"]["claim_numbers_per_1k_prose_words"], 0))
+mac("cFourPerKPool", _r(c4d["naiverag_pool"]["claim_numbers_per_1k_prose_words"], 1))
+c4 = load("review_followup/c4_result.json")
+for c, tag in (("skill_full_r1", "Skill"), ("naiverag_pool", "Pool")):
+    b = c4["by_condition"][c]
+    mac(f"cFourClaims{tag}", b["claims"])
+    mac(f"cFourFull{tag}", b["full_text"])
+    mac(f"cFourVerif{tag}", b["supported"] + b["error"])
+    mac(f"cFourErr{tag}", b["error"])
+    mac(f"cFourErrPct{tag}", pc(b["error_share_of_verifiable"], 0))
+    mac(f"cFourErrLo{tag}", pc(b["error_ci"][0], 0))
+    mac(f"cFourErrHi{tag}", pc(b["error_ci"][1], 0))
+    nums = b["numbers"]
+    mac(f"cFourNumsChecked{tag}", sum(v for k, v in nums.items() if k in ("supported", "misattributed", "absent")))
+    mac(f"cFourNumsMis{tag}", nums.get("misattributed", 0))
+    mac(f"cFourNumsAbs{tag}", nums.get("absent", 0))
+q = c4["skill_minus_pool_error_share"]
+mac("cFourD", sg(100 * q["diff"], 0))
+mac("cFourDLo", f2(100 * q["ci95"][0], 0))
+mac("cFourDHi", f2(100 * q["ci95"][1], 0))
+
 cit = r"""\begin{table}[t]
   \centering
   \caption{\textbf{Reference integrity on DAS-Bench} (30 topics, up to 40 entries checked per survey against CrossRef
@@ -346,6 +406,11 @@ cit = r"""\begin{table}[t]
     not found (\%) & \ciSkillNF & \ciNoRagNF & \ciPoolFreeNF \\
     defective, mean per survey (\%) & \ciSkillDef & \ciNoRagDef & \ciPoolFreeDef \\
     \textsc{Skill-Full} $-$ baseline (pp) & --- & \ciDNoRag{} [\ciDNoRagLo, \ciDNoRagHi] & \ciDPoolFree{} [\ciDPoolFreeLo, \ciDPoolFreeHi] \\
+    \midrule
+    \multicolumn{4}{@{}l}{\textit{Exploratory: labels audited by search agents, blind to condition}} \\
+    defective, corrected (\%) & \cThreeCorrSkill & \cThreeCorrNoRag & \cThreeCorrPoolFree \\
+    \quad work does not exist (\%) & \cThreeGoneSkill & \cThreeGoneNoRag & \cThreeGonePoolFree \\
+    \textsc{Skill-Full} $-$ baseline (pp) & --- & \cThreeDNoRag{} [\cThreeDNoRagLo, \cThreeDNoRagHi] & \cThreeDPoolFree{} [\cThreeDPoolFreeLo, \cThreeDPoolFreeHi] \\
     \bottomrule
   \end{tabular}
 \end{table}

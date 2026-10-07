@@ -1,0 +1,16 @@
+{
+ "skill_full_r1": {
+  "mean": 37.2,
+  "median": 34.5,
+  "total": 1115,
+  "zero": 0,
+  "claim_numbers_per_1k_prose_words": 35.8
+ },
+ "naiverag_pool": {
+  "mean": 0.8,
+  "median": 0.0,
+  "total": 25,
+  "zero": 16,
+  "claim_numbers_per_1k_prose_words": 0.8
+ }
+}

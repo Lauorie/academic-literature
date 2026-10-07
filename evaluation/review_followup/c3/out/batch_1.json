@@ -1,0 +1,546 @@
+[
+ {
+  "aid": "R001",
+  "exists": "yes",
+  "record": {
+   "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+   "first_author": "Aviral Kumar",
+   "year": 2020,
+   "doi": null,
+   "arxiv_id": "2006.04779",
+   "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+  "note": "NeurIPS 2020 proceedings page lists Kumar, Zhou, Tucker, Levine; the entry's URL resolves to this paper and gives no DOI or arXiv id."
+ },
+ {
+  "aid": "R008",
+  "exists": "yes",
+  "record": {
+   "title": "DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs",
+   "first_author": "Xiabin Zhou",
+   "year": 2025,
+   "doi": "10.18653/v1/2025.findings-emnlp.426",
+   "arxiv_id": "2412.14838",
+   "url": "https://aclanthology.org/2025.findings-emnlp.426/"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://aclanthology.org/2025.findings-emnlp.426/",
+  "note": "Findings of EMNLP 2025 paper by Xiabin Zhou et al.; the entry's PDF URL has a doubled 'anthology-files' path but redirects to 2025.findings-emnlp.426.pdf."
+ },
+ {
+  "aid": "R015",
+  "exists": "yes",
+  "record": {
+   "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+   "first_author": "Wenlong Huang",
+   "year": 2022,
+   "doi": "10.48550/arXiv.2207.05608",
+   "arxiv_id": "2207.05608",
+   "url": "https://arxiv.org/abs/2207.05608"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2207.05608",
+  "note": "DataCite record for arXiv:2207.05608 matches title and authors Huang, Xia, Xiao, Chan, 2022."
+ },
+ {
+  "aid": "R022",
+  "exists": "yes",
+  "record": {
+   "title": "ByteX: A Unified AI Search Engine at ByteDance",
+   "first_author": "Yao Tian",
+   "year": 2026,
+   "doi": "10.48550/arXiv.2608.30607",
+   "arxiv_id": "2608.30607",
+   "url": "https://arxiv.org/abs/2608.30607"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://arxiv.org/abs/2608.30607v1",
+  "note": "arXiv:2608.30607 v1 (31 Aug 2026) carries the entry's UBASE title; v2 renamed it to ByteX; first author Yao Tian."
+ },
+ {
+  "aid": "R029",
+  "exists": "yes",
+  "record": {
+   "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+   "first_author": "Suhas Jayaram Subramanya",
+   "year": 2019,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+  "note": "NeurIPS 2019 proceedings lists first author Suhas Jayaram Subramanya; OpenAlex W2970360209 agrees."
+ },
+ {
+  "aid": "R036",
+  "exists": "yes",
+  "record": {
+   "title": "On the efficiency of test suite based program repair: A Systematic Assessment of 16 Automated Repair Systems for Java Programs",
+   "first_author": "Kui Liu",
+   "year": 2020,
+   "doi": "10.1145/3377811.3380338",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3377811.3380338"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3377811.3380338",
+  "note": "CrossRef: ICSE 2020 proceedings, pp. 615-627, first author Kui Liu; the entry's DOI resolves to this paper."
+ },
+ {
+  "aid": "R043",
+  "exists": "yes",
+  "record": {
+   "title": "SAR foundation models: a comprehensive review of data, models, and applications",
+   "first_author": "Yingyan Hou",
+   "year": 2026,
+   "doi": "10.1007/s11432-026-5040-3",
+   "arxiv_id": null,
+   "url": "https://link.springer.com/10.1007/s11432-026-5040-3"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s11432-026-5040-3",
+  "note": "CrossRef: Science China Information Sciences vol. 69 (2026), first author Yingyan Hou; doi.org returns 302 to Springer."
+ },
+ {
+  "aid": "R050",
+  "exists": "no",
+  "record": null,
+  "title_ok": "na",
+  "first_author_ok": "na",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": "https://api.openalex.org/works?filter=title.search:%22climate%20prediction%20and%20environmental%20sustainability%22",
+  "note": "No match for this title or for Lundberg plus this topic in CrossRef, OpenAlex (title search count 0), arXiv API, or two web searches; Semantic Scholar was rate-limited."
+ },
+ {
+  "aid": "R057",
+  "exists": "yes",
+  "record": {
+   "title": "Automated Program Repair in the Era of Large Pre-trained Language Models",
+   "first_author": "Chunqiu Steven Xia",
+   "year": 2023,
+   "doi": "10.1109/icse48619.2023.00129",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1109/icse48619.2023.00129"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1109/icse48619.2023.00129",
+  "note": "CrossRef: ICSE 2023 (45th), pp. 1482-1494, authors Xia, Wei, Zhang."
+ },
+ {
+  "aid": "R064",
+  "exists": "yes",
+  "record": {
+   "title": "Negative-Prompt Inversion: Fast Image Inversion for Editing with Text-Guided Diffusion Models",
+   "first_author": "Daiki Miyake",
+   "year": 2025,
+   "doi": "10.1109/wacv61041.2025.00207",
+   "arxiv_id": "2305.16807",
+   "url": "https://doi.org/10.1109/wacv61041.2025.00207"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2305.16806",
+  "note": "The entry's arXiv:2305.16806 resolves to 'Do GPTs Produce Less Literal Translations?' (Raunak et al.); the paper is arXiv:2305.16807, published at WACV 2025."
+ },
+ {
+  "aid": "R071",
+  "exists": "yes",
+  "record": {
+   "title": "FEEL: A Federated Edge Learning System for Efficient and Privacy-Preserving Mobile Healthcare",
+   "first_author": "Yeting Guo",
+   "year": 2020,
+   "doi": "10.1145/3404397.3404410",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3404397.3404410"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=FEEL%3A%20A%20federated%20edge%20learning%20system%20for%20efficient%20and%20privacy-preserving%20mobile%20healthcare%20Guo&rows=5",
+  "note": "CrossRef and OpenAlex: ICPP 2020 paper by Yeting Guo, Fang Liu, Zhiping Cai, Li Chen; the entry gives no identifier."
+ },
+ {
+  "aid": "R078",
+  "exists": "yes",
+  "record": {
+   "title": "Li6PS5X: A Class of Crystalline Li-Rich Solids With an Unusually High Li+ Mobility",
+   "first_author": "Hans-Jörg Deiseroth",
+   "year": 2008,
+   "doi": "10.1002/anie.200703900",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1002/anie.200703900"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1002/anie.200703900",
+  "note": "CrossRef: Angew. Chem. Int. Ed. 47, 755-758 (2008); the published title reads Li6PS5X, and the entry swaps X for Cl, a one-token drift that still names this paper."
+ },
+ {
+  "aid": "R085",
+  "exists": "yes",
+  "record": {
+   "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+   "first_author": "Emily M. Bender",
+   "year": 2021,
+   "doi": "10.1145/3442188.3445922",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3442188.3445922"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3442188.3445922",
+  "note": "CrossRef: FAccT 2021, pp. 610-623, authors Bender, Gebru, McMillan-Major, Shmitchell."
+ },
+ {
+  "aid": "R092",
+  "exists": "yes",
+  "record": {
+   "title": "A survey of uncertainty in deep neural networks",
+   "first_author": "Jakob Gawlikowski",
+   "year": 2023,
+   "doi": "10.1007/s10462-023-10562-9",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/s10462-023-10562-9"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s10462-023-10562-9",
+  "note": "CrossRef: Artificial Intelligence Review 56, 1513-1589 (2023); first four authors match the entry."
+ },
+ {
+  "aid": "R099",
+  "exists": "yes",
+  "record": {
+   "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+   "first_author": "Jie Huang",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2310.01798",
+   "arxiv_id": "2310.01798",
+   "url": "https://arxiv.org/abs/2310.01798"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2310.01798",
+  "note": "DataCite: arXiv:2310.01798 (2023) by Huang, Chen, Mishra, Zheng, Yu, Song; the entry's ICLR 2024 year falls within one year."
+ },
+ {
+  "aid": "R106",
+  "exists": "yes",
+  "record": {
+   "title": "GPT-4V(ision) System Card",
+   "first_author": "OpenAI",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+  "note": "The fetched OpenAI PDF is titled 'GPT-4V(ision) System Card', authored by OpenAI, dated September 25, 2023."
+ },
+ {
+  "aid": "R113",
+  "exists": "yes",
+  "record": {
+   "title": "Milvus: A Purpose-Built Vector Data Management System",
+   "first_author": "Jianguo Wang",
+   "year": 2021,
+   "doi": "10.1145/3448016.3457550",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3448016.3457550"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3448016.3457550",
+  "note": "CrossRef: SIGMOD 2021, pp. 2614-2627, first author Jianguo Wang."
+ },
+ {
+  "aid": "R120",
+  "exists": "yes",
+  "record": {
+   "title": "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
+   "first_author": "Irina Higgins",
+   "year": 2017,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=Sy2fzU9gl"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.openalex.org/works/W2753738274",
+  "note": "OpenAlex lists this ICLR 2017 paper with the same eight authors in the entry's order; OpenReview blocked automated access."
+ },
+ {
+  "aid": "R127",
+  "exists": "yes",
+  "record": {
+   "title": "Foundation Models for Single-Cell Transcriptomics: A Comparative Analysis of Architectures, Pretraining Strategies, and Empirical Performance",
+   "first_author": "Thomas Wang",
+   "year": 2026,
+   "doi": "10.2139/ssrn.7008880",
+   "arxiv_id": null,
+   "url": "https://www.ssrn.com/abstract=7008880"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.2139/ssrn.7008880",
+  "note": "CrossRef: SSRN preprint (posted-content, 2026) by Thomas Wang with the exact title."
+ },
+ {
+  "aid": "R134",
+  "exists": "yes",
+  "record": {
+   "title": "RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair",
+   "first_author": "André Silva",
+   "year": 2023,
+   "doi": "10.1109/tse.2025.3581062",
+   "arxiv_id": "2312.15698",
+   "url": "https://arxiv.org/abs/2312.15698"
+  },
+  "title_ok": "no",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2309.05575",
+  "note": "The entry's arXiv:2309.05575 is 'Anisotropic Diffusion Stencils' (Schrader et al.); RepairLLaMA is arXiv:2312.15698 (Dec 2023; IEEE TSE 2025), its subtitle in every version reads 'Efficient Representations and Fine-Tuned Adapters', and co-authors are Fang and Monperrus, not 'Silva, S., Goncalves, M.'."
+ },
+ {
+  "aid": "R141",
+  "exists": "yes",
+  "record": {
+   "title": "PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning",
+   "first_author": "Arun Mallya",
+   "year": 2018,
+   "doi": "10.1109/cvpr.2018.00810",
+   "arxiv_id": "1711.05769",
+   "url": "https://doi.org/10.1109/cvpr.2018.00810"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1711.05769",
+  "note": "DataCite: arXiv:1711.05769 by Mallya and Lazebnik; CrossRef shows the CVPR 2018 version (10.1109/cvpr.2018.00810)."
+ },
+ {
+  "aid": "R148",
+  "exists": "yes",
+  "record": {
+   "title": "A Multi-Center, Multi-Vendor Study to Evaluate the Generalizability of a Radiomics Model for Classifying Prostate cancer: High Grade vs. Low Grade",
+   "first_author": "Jose M. Castillo T.",
+   "year": 2021,
+   "doi": "10.3390/diagnostics11020369",
+   "arxiv_id": null,
+   "url": "https://www.mdpi.com/2075-4418/11/2/369"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.3390/diagnostics11020369",
+  "note": "CrossRef: Diagnostics 11(2):369 (2021), first author Jose M. Castillo T.; the entry's MDPI URL is this record's landing page."
+ },
+ {
+  "aid": "R155",
+  "exists": "yes",
+  "record": {
+   "title": "Comparison of clinical, radiomics, deep learning, and fusion models for predicting early recurrence in locally advanced rectal cancer based on multiparametric MRI: a multicenter study",
+   "first_author": "Zhiheng Li",
+   "year": 2025,
+   "doi": "10.1016/j.ejrad.2025.112173",
+   "arxiv_id": null,
+   "url": "https://www.sciencedirect.com/science/article/pii/S0720048X25002591"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?filter=alternative-id:S0720048X25002591&rows=3",
+  "note": "CrossRef maps the entry's ScienceDirect PII S0720048X25002591 to European Journal of Radiology (2025), first author Zhiheng Li; the entry truncates the title with an ellipsis."
+ },
+ {
+  "aid": "R162",
+  "exists": "yes",
+  "record": {
+   "title": "Benchmarking the performance of Bayesian optimization across multiple experimental materials science domains",
+   "first_author": "Qiaohao Liang",
+   "year": 2021,
+   "doi": "10.1038/s41524-021-00656-9",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s41524-021-00656-9"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41524-021-00656-9",
+  "note": "Title, venue, volume, article 188 and DOI match the npj Comput. Mater. paper by Liang, Gongora, ..., Buonassisi; the entry's author list (Rohr, Stein, Guevarra, ..., Gregoire) belongs to a different paper, Rohr et al. 2020 Chem. Sci. (10.1039/c9sc05999g)."
+ },
+ {
+  "aid": "R169",
+  "exists": "yes",
+  "record": {
+   "title": "Mapping single-cell data to reference atlases by transfer learning",
+   "first_author": "Mohammad Lotfollahi",
+   "year": 2022,
+   "doi": "10.1038/s41587-021-01001-7",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s41587-021-01001-7"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41587-021-01001-7",
+  "note": "CrossRef: Nature Biotechnology 40(1):121-130, online 2021-08-30, first author Mohammad Lotfollahi."
+ },
+ {
+  "aid": "R176",
+  "exists": "yes",
+  "record": {
+   "title": "In-Context Retrieval-Augmented Language Models",
+   "first_author": "Ori Ram",
+   "year": 2023,
+   "doi": "10.1162/tacl_a_00605",
+   "arxiv_id": "2302.00083",
+   "url": "https://doi.org/10.1162/tacl_a_00605"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2302.00083",
+  "note": "DataCite: arXiv:2302.00083 by Ram, Levine, Dalmedigos, Muhlgay, Shashua, Leyton-Brown; CrossRef shows the TACL 2023 version."
+ },
+ {
+  "aid": "R183",
+  "exists": "no",
+  "record": null,
+  "title_ok": "na",
+  "first_author_ok": "na",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?rows=5&query.title=Vision+language+based+common+sense+planning",
+  "note": "No work with this title or by an A. Malik on this topic in CrossRef (title and bibliographic queries), arXiv API, Semantic Scholar, or two web searches; OpenAlex was rate-limited."
+ },
+ {
+  "aid": "R190",
+  "exists": "yes",
+  "record": {
+   "title": "Incentivizing LLM Reasoning via Reinforcement Learning with Functional Monte Carlo Tree Search",
+   "first_author": "Kongcheng Zhang",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": "2502.13389",
+   "url": "https://mlanthology.org/iclr/2026/zhang2026iclr-incentivizing/"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://mlanthology.org/iclr/2026/zhang2026iclr-incentivizing/",
+  "note": "ICLR 2026 paper by Kongcheng Zhang, Qi Yao, Baisheng Lai, Jiaxing Huang et al. (OpenReview lHbhzxiVI9); its 2025 arXiv preprint 2502.13389 carries the title 'Reasoning with Reinforced Functional Token Tuning'."
+ },
+ {
+  "aid": "R197",
+  "exists": "yes",
+  "record": {
+   "title": "Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)",
+   "first_author": "Karthik Valmeekam",
+   "year": 2022,
+   "doi": "10.48550/arXiv.2206.10498",
+   "arxiv_id": "2206.10498",
+   "url": "https://arxiv.org/abs/2206.10498v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2206.10498v1",
+  "note": "arXiv:2206.10498 v1-v3 (June 2022) carry this exact title by Valmeekam, Olmo, Sreedharan, Kambhampati; later versions became PlanBench (NeurIPS 2023); the entry's OpenReview URL returned a bot-challenge page and could not be checked."
+ },
+ {
+  "aid": "R204",
+  "exists": "yes",
+  "record": {
+   "title": "Accelerating the discovery of disordered multi-component solid-state electrolytes using machine learning interatomic potentials",
+   "first_author": "Yanhao Deng",
+   "year": 2025,
+   "doi": "10.1039/d5ta05321h",
+   "arxiv_id": null,
+   "url": "https://pubs.rsc.org/ta/article/13/40/34507-34518/316729"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1039/d5ta05321h",
+  "note": "CrossRef: J. Mater. Chem. A 13(40):34507-34518 (2025), first author Yanhao Deng; the entry's RSC URL carries the same volume, issue, page and article number 316729."
+ },
+ {
+  "aid": "R211",
+  "exists": "yes",
+  "record": {
+   "title": "OWASP Top 10 for Large Language Model Applications",
+   "first_author": "OWASP Foundation",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+  "note": "The fetched OWASP Foundation project page carries this title and states the project started in 2023."
+ }
+]

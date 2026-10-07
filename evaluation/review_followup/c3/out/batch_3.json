@@ -1,0 +1,560 @@
+[
+ {
+  "aid": "R003",
+  "exists": "yes",
+  "record": {
+   "title": "MITRE ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)",
+   "first_author": "MITRE",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://atlas.mitre.org/"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.github.com/repos/mitre-atlas/atlas-data/releases",
+  "note": "Live MITRE knowledge base at atlas.mitre.org; atlas-data releases 4.2.0-4.4.0 dated 2023, so a 2023 version exists."
+ },
+ {
+  "aid": "R010",
+  "exists": "yes",
+  "record": {
+   "title": "The Distributed Discrete Gaussian Mechanism for Federated Learning with Secure Aggregation",
+   "first_author": "Peter Kairouz",
+   "year": 2021,
+   "doi": null,
+   "arxiv_id": "2102.06387",
+   "url": "https://proceedings.mlr.press/v139/kairouz21a.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.mlr.press/v139/kairouz21a.html",
+  "note": "PMLR v139 (ICML 2021) page lists Kairouz, Liu, Steinke; entry URL matches."
+ },
+ {
+  "aid": "R017",
+  "exists": "yes",
+  "record": {
+   "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+   "first_author": "Kelvin Guu",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2002.08909",
+   "arxiv_id": "2002.08909",
+   "url": "https://arxiv.org/abs/2002.08909"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2002.08909",
+  "note": "arXiv v1 2020-02-10 (single version), ICML 2020; no version near 2022, so year 2022 is off by two."
+ },
+ {
+  "aid": "R024",
+  "exists": "yes",
+  "record": {
+   "title": "SECOND: Sparsely Embedded Convolutional Detection",
+   "first_author": "Yan Yan",
+   "year": 2018,
+   "doi": "10.3390/s18103337",
+   "arxiv_id": null,
+   "url": "https://www.mdpi.com/1424-8220/18/10/3337"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=1804.05196",
+  "note": "Sensors 18(10):3337 by Yan, Mao, Li confirmed via CrossRef; arXiv:1804.05196 is 'Reasoning About TSO Programs Using Reduction and Abstraction' (Bouajjani et al.)."
+ },
+ {
+  "aid": "R031",
+  "exists": "yes",
+  "record": {
+   "title": "Membership Inference Attacks Against Machine Learning Models",
+   "first_author": "Reza Shokri",
+   "year": 2017,
+   "doi": "10.1109/SP.2017.41",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1109/SP.2017.41"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1109/SP.2017.41",
+  "note": "CrossRef DOI resolves to IEEE S&P 2017 paper by Shokri, Stronati, Song, Shmatikov."
+ },
+ {
+  "aid": "R038",
+  "exists": "yes",
+  "record": {
+   "title": "Designing an Early-Warning System to Forecast Extreme Climate Conditions Using Data-Driven Approaches with Machine-Learning and Deep-Learning Methods",
+   "first_author": "Afshin Shafei",
+   "year": 2024,
+   "doi": "10.5194/egusphere-egu24-5526",
+   "arxiv_id": null,
+   "url": "https://meetingorganizer.copernicus.org/EGU24/EGU24-5526.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.5194/egusphere-egu24-5526",
+  "note": "Matched EGU24 abstract by Shafei and Cioffi (OpenAlex 2024, CrossRef issued 2025) with same title and Sapienza PhD topic; the IRIS Sapienza record itself sat behind Cloudflare and could not be fetched."
+ },
+ {
+  "aid": "R045",
+  "exists": "yes",
+  "record": {
+   "title": "RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects",
+   "first_author": "Bin Yang",
+   "year": 2020,
+   "doi": "10.1007/978-3-030-58523-5_29",
+   "arxiv_id": "2007.14366",
+   "url": "https://arxiv.org/abs/2007.14366"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2007.14366",
+  "note": "Authors are Yang, Guo, Liang, Casas, Urtasun (ECCV 2020); the entry's author list (Bansal, Rastogi, Gupta, Krishnamurthy) is wrong."
+ },
+ {
+  "aid": "R052",
+  "exists": "yes",
+  "record": {
+   "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
+   "first_author": "Apostol Vassilev",
+   "year": 2024,
+   "doi": "10.6028/NIST.AI.100-2e2023",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.6028/NIST.AI.100-2e2023"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.6028/NIST.AI.100-2e2023",
+  "note": "CrossRef DOI resolves to NIST AI 100-2e2023 by Vassilev, Oprea, Fordyce, Anderson, issued 2024-01-04."
+ },
+ {
+  "aid": "R059",
+  "exists": "yes",
+  "record": {
+   "title": "Always-OnAgents:A Survey of Persistent Memory, State, and Governance in LLMAgents",
+   "first_author": "Tianyu Ding",
+   "year": 2026,
+   "doi": "10.48550/arXiv.2606.30306",
+   "arxiv_id": "2606.30306",
+   "url": "https://arxiv.org/abs/2606.30306"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2606.30306",
+  "note": "arXiv 2606.30306 (June 2026) by Ding, Nannapaneni, Liu, Zhang; entry reproduces the arXiv title spacing."
+ },
+ {
+  "aid": "R066",
+  "exists": "yes",
+  "record": {
+   "title": "System-Level Defense against Indirect Prompt Injection Attacks: An Information Flow Control Perspective",
+   "first_author": "Fangzhou Wu",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2409.19091",
+   "arxiv_id": "2409.19091",
+   "url": "https://arxiv.org/abs/2409.19091"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2409.19091",
+  "note": "DataCite DOI resolves to the arXiv preprint by Wu, Cecchetti, Xiao (2024)."
+ },
+ {
+  "aid": "R073",
+  "exists": "yes",
+  "record": {
+   "title": "Energy-Based Models for Continual Learning",
+   "first_author": "Shuang Li",
+   "year": 2022,
+   "doi": "10.48550/arXiv.2011.12216",
+   "arxiv_id": "2011.12216",
+   "url": "https://proceedings.mlr.press/v199/li22a.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.mlr.press/v199/li22a.html",
+  "note": "PMLR v199 (CoLLAs 2022) pages 1-22 by Li, Du, van de Ven, Mordatch; all fields match."
+ },
+ {
+  "aid": "R080",
+  "exists": "yes",
+  "record": {
+   "title": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models",
+   "first_author": "Shishir G Patil",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://proceedings.mlr.press/v267/patil25a.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.mlr.press/v267/patil25a.html",
+  "note": "ICML 2025 paper in PMLR v267 by Patil, Mao, Yan, Ji, Suresh, Stoica, Gonzalez."
+ },
+ {
+  "aid": "R087",
+  "exists": "yes",
+  "record": {
+   "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+   "first_author": "Zhangyin Feng",
+   "year": 2020,
+   "doi": "10.18653/v1/2020.findings-emnlp.139",
+   "arxiv_id": "2002.08155",
+   "url": "https://aclanthology.org/2020.findings-emnlp.139"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/2020.findings-emnlp.139",
+  "note": "Both the DOI and arXiv:2002.08155 resolve to CodeBERT by Feng, Guo, Tang et al."
+ },
+ {
+  "aid": "R094",
+  "exists": "yes",
+  "record": {
+   "title": "Single-Cell Omics Arena: A Benchmark Study for Large Language Models on Cell Type Annotation Using Single-Cell Data",
+   "first_author": "Junhao Liu",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2412.02915",
+   "arxiv_id": "2412.02915",
+   "url": "https://arxiv.org/abs/2412.02915"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2412.02915",
+  "note": "arXiv 2412.02915 (Dec 2024) by Liu, Xu, Zhang, Zhang; later journal version in Briefings in Bioinformatics 2025 (10.1093/bib/bbaf622) under a revised title."
+ },
+ {
+  "aid": "R101",
+  "exists": "yes",
+  "record": {
+   "title": "Structured Joint Aleatoric and Epistemic Uncertainty for High Dimensional Output Spaces",
+   "first_author": "Leonhard F. Feiner",
+   "year": 2024,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=Ilteh48w7m"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": "https://api2.openreview.net/notes/search?term=joint%20aleatoric%20epistemic%20uncertainty%20high%20dimensional%20output%20spaces&limit=8&source=forum",
+  "note": "ICLR 2025 withdrawn OpenReview submission Ilteh48w7m (Feiner, Nickel, Lux, Menten, ...); later published in TMLR 2026 as 'It depends: Incorporating correlations...' (arXiv 2608.24518)."
+ },
+ {
+  "aid": "R108",
+  "exists": "yes",
+  "record": {
+   "title": "Federated Machine Learning: Concept and Applications",
+   "first_author": "Qiang Yang",
+   "year": 2019,
+   "doi": "10.1145/3298981",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3298981"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3298981",
+  "note": "CrossRef DOI resolves to ACM TIST 10(2):1-19 (2019) by Yang, Liu, Chen, Tong."
+ },
+ {
+  "aid": "R115",
+  "exists": "yes",
+  "record": {
+   "title": "Machine learning aided synthesis and screening of HER catalyst: Present developments and prospects",
+   "first_author": "M. Karthikeyan",
+   "year": 2022,
+   "doi": "10.1080/01614940.2022.2103980",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1080/01614940.2022.2103980"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1080/01614940.2022.2103980",
+  "note": "Catalysis Reviews 66(4):997-1027, online 2022-07-30, print issue 2024; first three authors match."
+ },
+ {
+  "aid": "R122",
+  "exists": "yes",
+  "record": {
+   "title": "PaperRobot: Incremental Draft Generation of Scientific Ideas",
+   "first_author": "Qingyun Wang",
+   "year": 2019,
+   "doi": "10.18653/v1/P19-1191",
+   "arxiv_id": null,
+   "url": "https://aclanthology.org/P19-1191"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.18653/v1/P19-1195",
+  "note": "PaperRobot is ACL 2019 P19-1191; the given DOI P19-1195 resolves to 'Data-to-text Generation with Entity Modeling' (Puduppully et al.)."
+ },
+ {
+  "aid": "R129",
+  "exists": "yes",
+  "record": {
+   "title": "When Memories Collide: Associative Interference Dynamics in Lifelong Agent Memory",
+   "first_author": "Zhaoxiang Feng",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=Y7r5ZODl7l"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api2.openreview.net/notes/search?term=When%20Memories%20Collide%20Associative%20Interference&limit=8&source=forum",
+  "note": "OpenReview note Y7r5ZODl7l (NFAM 2026 poster) by Feng, Yao, Lewis; the entry's OpenReview URL points to it."
+ },
+ {
+  "aid": "R136",
+  "exists": "yes",
+  "record": {
+   "title": "NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Review (Updated Post-Gaussian Splatting)",
+   "first_author": "Kyle Gao",
+   "year": 2022,
+   "doi": "10.26599/CVM.2026.9450535",
+   "arxiv_id": "2210.00379",
+   "url": "https://arxiv.org/abs/2210.00379"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.26599/cvm.2026.9450535",
+  "note": "arXiv 2210.00379 (v1 2022) lists DOI 10.26599/CVM.2026.9450535, the Computational Visual Media 12(4) 2026 version titled 'Neural Radiance Fields in 3D Vision: A Comprehensive Review'."
+ },
+ {
+  "aid": "R143",
+  "exists": "yes",
+  "record": {
+   "title": "Reactive Machine Learning Interatomic Potentials for Chemistry and Materials Science",
+   "first_author": "Jisu Kim",
+   "year": 2026,
+   "doi": "10.1021/acs.chemrev.5c00728",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1021/acs.chemrev.5c00728"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1021/acs.chemrev.5c00728",
+  "note": "Chemical Reviews 126(8):4467-4510 (2026) by Kim, Cho, Jeon, Jung, Han; the entry URL path matches vol 126, issue 8, page 4467."
+ },
+ {
+  "aid": "R150",
+  "exists": "yes",
+  "record": {
+   "title": "Survey of Vector Database Management Systems",
+   "first_author": "James Jie Pan",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2310.14021",
+   "arxiv_id": "2310.14021",
+   "url": "https://arxiv.org/abs/2310.14021"
+  },
+  "title_ok": "no",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2310.11703",
+  "note": "Chimeric entry: Pan, Wang, Li wrote 'Survey of Vector Database Management Systems' (arXiv 2310.14021); the given title resembles Taipalus's 'Vector database management systems: Fundamental concepts, use-cases, and current challenges' (arXiv 2309.11322); arXiv:2310.11703 is Ma et al., 'A Comprehensive Survey on Vector Database'; no work carries the entry's exact title."
+ },
+ {
+  "aid": "R157",
+  "exists": "yes",
+  "record": {
+   "title": "Precipitation nowcasting with generative diffusion models",
+   "first_author": "Andrea Asperti",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2308.06733",
+   "arxiv_id": "2308.06733",
+   "url": "https://arxiv.org/abs/2308.06733"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2308.06733",
+  "note": "arXiv 2308.06733 (2023) by Asperti et al.; journal version Applied Intelligence 55(3), 2025 (10.1007/s10489-024-06048-y); the entry's title carries a stray ': A. Asperti et al.' running-head suffix."
+ },
+ {
+  "aid": "R164",
+  "exists": "yes",
+  "record": {
+   "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+   "first_author": "Guangxuan Xiao",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2410.10819",
+   "arxiv_id": "2410.10819",
+   "url": "https://openreview.net/forum?id=cFu7ze7xUm"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2410.10819",
+  "note": "arXiv 2410.10819 (Oct 2024) by Xiao, Tang, Zuo, Guo et al.; ICLR 2025 poster on OpenReview (cFu7ze7xUm)."
+ },
+ {
+  "aid": "R171",
+  "exists": "yes",
+  "record": {
+   "title": "PaLM-E: An Embodied Multimodal Language Model",
+   "first_author": "Danny Driess",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2303.03378",
+   "arxiv_id": "2303.03378",
+   "url": "https://arxiv.org/abs/2303.03378"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2303.03378",
+  "note": "DataCite DOI resolves to PaLM-E by Driess, Xia, Sajjadi et al. (2023)."
+ },
+ {
+  "aid": "R178",
+  "exists": "yes",
+  "record": {
+   "title": "Benchmarking atlas-level data integration in single-cell genomics",
+   "first_author": "Malte D. Luecken",
+   "year": 2021,
+   "doi": "10.1038/s41592-021-01336-8",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s41592-021-01336-8"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41592-021-01358-2",
+  "note": "Paper is Nature Methods 19(1):41-50, DOI 10.1038/s41592-021-01336-8 (online Dec 2021); the given DOI 10.1038/s41592-021-01358-2 resolves to 'Squidpy: a scalable framework for spatial omics analysis' (Palla et al.)."
+ },
+ {
+  "aid": "R185",
+  "exists": "yes",
+  "record": {
+   "title": "Deep Learning Experiments for Tropical Cyclone Intensity Forecasts",
+   "first_author": "Wenwei Xu",
+   "year": 2021,
+   "doi": "10.1175/WAF-D-20-0104.1",
+   "arxiv_id": null,
+   "url": "https://journals.ametsoc.org/view/journals/wefo/36/4/WAF-D-20-0104.1.xml"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1175/waf-d-20-0104.1",
+  "note": "Weather and Forecasting 36(4), 2021, first author Wenwei Xu (CrossRef swaps given/family fields); entry URL is the AMS page for this DOI."
+ },
+ {
+  "aid": "R192",
+  "exists": "yes",
+  "record": {
+   "title": "OM-Diff: inverse-design of organometallic catalysts with guided equivariant denoising diffusion",
+   "first_author": "François Cornet",
+   "year": 2024,
+   "doi": "10.1039/D4DD00099D",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1039/D4DD00099D"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1039/d4dd00099d",
+  "note": "Digital Discovery 3(9):1793-1811 (2024) by Cornet, Benediktsson, Hastrup, Schmidt, Bhowmik."
+ },
+ {
+  "aid": "R199",
+  "exists": "yes",
+  "record": {
+   "title": "An interpretable machine learning framework for predicting small-molecule adsorption on Ni@g-C3N4 from vibrational spectra",
+   "first_author": "Tong Yan",
+   "year": 2026,
+   "doi": "10.1016/j.surfin.2026.108936",
+   "arxiv_id": null,
+   "url": "https://www.sciencedirect.com/science/article/pii/S2468023026005249"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.surfin.2026.108936",
+  "note": "Surfaces and Interfaces 87:108936 (2026); CrossRef and the author's ORCID give first author as given 'Tong', family 'Yan', so 'Y Tong' may invert a Chinese name order (same person; S2's 'Yanlin Tong' is a mis-merged profile); co-authors Yin, Wang, Ao match."
+ },
+ {
+  "aid": "R206",
+  "exists": "yes",
+  "record": {
+   "title": "4D Gaussian Splatting: Modeling Dynamic Scenes with Native 4D Primitives",
+   "first_author": "Zeyu Yang",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2412.20720",
+   "arxiv_id": "2412.20720",
+   "url": "https://arxiv.org/abs/2412.20720"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2412.20720",
+  "note": "arXiv 2412.20720 (Dec 2024) by Yang, Pan, Zhu, Zhang, Feng, Jiang, Torr."
+ },
+ {
+  "aid": "R213",
+  "exists": "yes",
+  "record": {
+   "title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+   "first_author": "Alex Yu",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2012.02190",
+   "arxiv_id": "2012.02190",
+   "url": "https://arxiv.org/abs/2012.02190"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?id_list=2012.02190",
+  "note": "arXiv 2012.02190 (v1 Dec 2020, v2 May 2021; CVPR 2021) by Yu, Ye, Tancik, Kanazawa."
+ }
+]

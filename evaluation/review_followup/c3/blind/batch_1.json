@@ -1,0 +1,126 @@
+[
+ {
+  "aid": "R001",
+  "entry": "A Kumar, A Zhou, G Tucker. Conservative q-learning for offline reinforcement learning. 2020. https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html"
+ },
+ {
+  "aid": "R008",
+  "entry": "X Zhou, et al. DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs. 2025. https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.426.pdf"
+ },
+ {
+  "aid": "R015",
+  "entry": "Huang, W., Xia, F., Xiao, T., Chan, H., Liang, J., Florence, P., et al. “Inner Monologue: Embodied Reasoning through Planning with Language Models.” CoRL, 2022. arXiv:2207.05608."
+ },
+ {
+  "aid": "R022",
+  "entry": "Y Tian, et al. UBASE: An AI Search Engine for Trillion-Scale Vector Data Management at ByteDance. arXiv preprint, 2026. https://arxiv.org/abs/2608.30607"
+ },
+ {
+  "aid": "R029",
+  "entry": "Subramanya, S. et al. DiskANN: Fast accurate billion-point nearest neighbor search on a single node. NeurIPS, 2019."
+ },
+ {
+  "aid": "R036",
+  "entry": "K Liu, et al. On the efficiency of test suite based program repair: A systematic assessment of 16 automated repair systems for java programs. 2020. https://doi.org/10.1145/3377811.3380338"
+ },
+ {
+  "aid": "R043",
+  "entry": "Y Hou, et al. SAR foundation models: a comprehensive review of data, models, and applications. 2026. https://doi.org/10.1007/s11432-026-5040-3"
+ },
+ {
+  "aid": "R050",
+  "entry": "S. M. Lundberg. Artificial Intelligence for Climate Prediction and Environmental Sustainability: Deep Learning Models for Extreme Weather Forecasting. n/a, n/a."
+ },
+ {
+  "aid": "R057",
+  "entry": "Chunqiu Steven Xia, Yuxiang Wei, Lingming Zhang. Automated Program Repair in the Era of Large Pre-trained Language Models. ICSE, 2023. https://doi.org/10.1109/icse48619.2023.00129"
+ },
+ {
+  "aid": "R064",
+  "entry": "D. Miyake, A. Iohara, Y. Saito. “Negative-prompt inversion: Fast image inversion for editing with text-guided diffusion models.” n/a, 2025. arXiv:2305.16806."
+ },
+ {
+  "aid": "R071",
+  "entry": "Y. Guo, F. Liu, Z. Cai, L. Chen. “FEEL: A federated edge learning system for efficient and privacy-preserving mobile healthcare.” n/a, 2020. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R078",
+  "entry": "Deiseroth, H.-J.; Kong, S.-T.; Eckert, H.; Vannahme, J.; Reiner, C.; Zaiß, T.; Schlosser, M. “Li\\(_6\\)PS\\(_5\\)Cl: a class of crystalline Li-rich solids with an unusually high Li\\(^+\\) mobility.” Angewandte Chemie International Edition 47, 755–758 (2008). DOI: 10.1002/anie.200703900."
+ },
+ {
+  "aid": "R085",
+  "entry": "Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? FAccT. DOI:10.1145/3442188.3445922."
+ },
+ {
+  "aid": "R092",
+  "entry": "Jakob Gawlikowski, Cedrique Rovile Njieutcheu Tassi, Mohsin Ali, Jongseok Lee. A survey of uncertainty in deep neural networks. Artificial Intelligence Review, 2023."
+ },
+ {
+  "aid": "R099",
+  "entry": "Huang, J., Chen, X., Mishra, S., Zheng, H. S., Yu, A. W., Song, X., and Zhou, D. “Large Language Models Cannot Self-Correct Reasoning Yet.” ICLR, 2024. arXiv:2310.01798."
+ },
+ {
+  "aid": "R106",
+  "entry": "OpenAI. GPT-4V(ision) System Card. OpenAI, 2023."
+ },
+ {
+  "aid": "R113",
+  "entry": "J Wang, et al. Milvus: A purpose-built vector data management system. 2021. https://doi.org/10.1145/3448016.3457550"
+ },
+ {
+  "aid": "R120",
+  "entry": "Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M., Mohamed, S., Lerchner, A. beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework. ICLR, 2017."
+ },
+ {
+  "aid": "R127",
+  "entry": "T Wang. Foundation Models for Single-Cell Transcriptomics: A Comparative Analysis of Architectures, Pretraining Strategies, and Empirical Performance. n/a, 2026."
+ },
+ {
+  "aid": "R134",
+  "entry": "Silva, A., Silva, S., Goncalves, M., et al. RepairLLaMA: Efficient Fine-Tuning of LLaMA for Program Repair. arXiv:2309.05575, 2023."
+ },
+ {
+  "aid": "R141",
+  "entry": "Mallya, A., & Lazebnik, S. “PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning.” CVPR, 2018. arXiv:1711.05769."
+ },
+ {
+  "aid": "R148",
+  "entry": "JM Castillo T, et al. A multi-center, multi-vendor study to evaluate the generalizability of a radiomics model for classifying prostate cancer: high grade vs. low grade. 2021. https://www.mdpi.com/2075-4418/11/2/369"
+ },
+ {
+  "aid": "R155",
+  "entry": "Z Li, et al. Comparison of clinical, radiomics, deep learning, and fusion models for predicting early recurrence in locally advanced rectal cancer based on …. 2025. https://www.sciencedirect.com/science/article/pii/S0720048X25002591"
+ },
+ {
+  "aid": "R162",
+  "entry": "Rohr, B.; Stein, H. S.; Guevarra, D.; Wang, Y.; Haber, J. A.; Aykol, M.; Suram, S. K.; Gregoire, J. M. “Benchmarking the performance of Bayesian optimization across multiple experimental materials science domains.” npj Computational Materials 7, 188 (2021). DOI: 10.1038/s41524-021-00656-9."
+ },
+ {
+  "aid": "R169",
+  "entry": "Lotfollahi, M., Naghipourfar, M., Luecken, M. D., Khajavi, M., Büttner, M., Wagenstetter, M., Avsec, Ž., Gayoso, A., Yosef, N., Interlandi, M., Rybakov, S., Misharin, A. V., & Theis, F. J. (2022). Mapping single-cell data to reference atlases by transfer learning. Nature Biotechnology, 40(1), 121–130. DOI: 10.1038/s41587-021-01001-7."
+ },
+ {
+  "aid": "R176",
+  "entry": "Ram, O., Levine, Y., Dalmedigos, I., Muhlgay, D., Shashua, A., Leyton-Brown, K., & Shoham, Y. (2023). In-Context Retrieval-Augmented Language Models. TACL. arXiv:2302.00083."
+ },
+ {
+  "aid": "R183",
+  "entry": "A. Malik. \"Vision language based common sense planning.\" n/a, 2026."
+ },
+ {
+  "aid": "R190",
+  "entry": "K Zhang, Q Yao, B Lai, J Huang. Incentivizing llm reasoning via reinforcement learning with functional monte carlo tree search. n/a, 2026."
+ },
+ {
+  "aid": "R197",
+  "entry": "K Valmeekam, A Olmo, S Sreedharan. Large language models still can't plan (a benchmark for LLMs on planning and reasoning about change). 2022. https://openreview.net/forum?id=wUU-7XTL5XO"
+ },
+ {
+  "aid": "R204",
+  "entry": "Y Deng, et al. Accelerating the discovery of disordered multi-component solid-state electrolytes using machine learning interatomic potentials. 2025. https://pubs.rsc.org/ta/article-abstract/13/40/34507/316729"
+ },
+ {
+  "aid": "R211",
+  "entry": "OWASP Foundation. “OWASP Top 10 for Large Language Model Applications.” 2023. https://owasp.org/www-project-top-10-for-large-language-model-applications/."
+ }
+]

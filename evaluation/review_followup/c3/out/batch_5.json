@@ -1,0 +1,560 @@
+[
+ {
+  "aid": "R005",
+  "exists": "yes",
+  "record": {
+   "title": "LLMs, RAG systems, and agents in crystalline materials discovery and characterization: A systematic review",
+   "first_author": "Agada",
+   "year": 2026,
+   "doi": "10.1557/s43577-026-01057-3",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1557/s43577-026-01057-3"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1557/s43577-026-01057-3",
+  "note": "CrossRef: MRS Bulletin 51(5), 2026, authors Joseph Oche Agada (first, family name Agada) and Arpan Biswas; the entry's first listed author 'AJ Oche' carries surname Oche, a given-name/family-name swap of the same person, while its parenthetical 'JO Agada, A. Biswas' matches the record."
+ },
+ {
+  "aid": "R012",
+  "exists": "yes",
+  "record": {
+   "title": "Computational Radiomics System to Decode the Radiographic Phenotype",
+   "first_author": "van Griethuysen",
+   "year": 2017,
+   "doi": "10.1158/0008-5472.CAN-17-0339",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1158/0008-5472.CAN-17-0339"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1158/0008-5472.CAN-17-0339",
+  "note": "CrossRef: Cancer Research 77(21):e104-e107, 2017, first author van Griethuysen; DOI resolves to this work."
+ },
+ {
+  "aid": "R019",
+  "exists": "yes",
+  "record": {
+   "title": "What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
+   "first_author": "Kendall",
+   "year": 2017,
+   "doi": "10.48550/arXiv.1703.04977",
+   "arxiv_id": "1703.04977",
+   "url": "https://arxiv.org/abs/1703.04977"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1703.04977",
+  "note": "arXiv/DataCite: Kendall & Gal, submitted 2017-03, DataCite publicationYear 2017; the entry's 2022 is the DataCite DOI registration date (2022-03-05), not a version of the work."
+ },
+ {
+  "aid": "R026",
+  "exists": "yes",
+  "record": {
+   "title": "Score-based Causal Representation Learning: Linear and General Transformations",
+   "first_author": "Varici",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://www.jmlr.org/papers/v26/24-0194.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://www.jmlr.org/papers/v26/24-0194.html",
+  "note": "JMLR page meta: Varici, Acarturk, Shanmugam, Kumar, Tajer, JMLR 26(112):1-90, 2025; the entry's JMLR URL resolves to this work."
+ },
+ {
+  "aid": "R033",
+  "exists": "yes",
+  "record": {
+   "title": "Vector Databases and Language Models: Synergies and Challenges",
+   "first_author": "Taipalus",
+   "year": 2025,
+   "doi": "10.1007/978-3-032-05727-3_19",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/978-3-032-05727-3_19"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-3-032-05727-3_19",
+  "note": "CrossRef: book chapter by Toni Taipalus in New Trends in Database and Information Systems (CCIS), 2025-09-22."
+ },
+ {
+  "aid": "R040",
+  "exists": "yes",
+  "record": {
+   "title": "Differentiable Point-Based Radiance Fields for Efficient View Synthesis",
+   "first_author": "Zhang",
+   "year": 2022,
+   "doi": "10.1145/3550469.3555413",
+   "arxiv_id": "2205.14330",
+   "url": "https://arxiv.org/abs/2205.14330"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3550469.3555413",
+  "note": "DOI and arXiv 2205.14330 both resolve to Zhang, Baek, Rusinkiewicz, Heide (SIGGRAPH Asia 2022 Conference Papers); the entry's authors (Kopanas, Philip, Leimkuhler, Drettakis) are not the authors of this work."
+ },
+ {
+  "aid": "R047",
+  "exists": "yes",
+  "record": {
+   "title": "OWASP Top 10 for Large Language Model Applications",
+   "first_author": "OWASP Foundation",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+  "note": "OWASP project page is live and lists a 'Version 2025' release of the Top 10 for LLM Applications; the entry's URL resolves to it (web resource, not a paper)."
+ },
+ {
+  "aid": "R054",
+  "exists": "yes",
+  "record": {
+   "title": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset",
+   "first_author": "Sun",
+   "year": 2019,
+   "doi": null,
+   "arxiv_id": "1912.04838",
+   "url": "https://arxiv.org/abs/1912.04838"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://export.arxiv.org/api/query?id_list=1912.04838",
+  "note": "arXiv 1912.04838: Sun, Kretzschmar, Dotiwalla, Chouard et al., submitted 2019-12; entry cites the CVPR 2020 version."
+ },
+ {
+  "aid": "R061",
+  "exists": "yes",
+  "record": {
+   "title": "A Primer for Assessing Foundation Models for Earth Observation",
+   "first_author": "Ramachandran",
+   "year": 2025,
+   "doi": "10.5281/zenodo.15264751",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.5281/zenodo.15264751"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.5281/zenodo.15264751",
+  "note": "DataCite: Zenodo record, creators Ramachandran, Roy, Maskey, Szwarcman, Fraccaro, publicationYear 2025."
+ },
+ {
+  "aid": "R068",
+  "exists": "yes",
+  "record": {
+   "title": "A Review of Quantitative Methods for Uncertainty in Financial Markets",
+   "first_author": "Yan Qizhen",
+   "year": 2025,
+   "doi": "10.62517/jse.202511507",
+   "arxiv_id": null,
+   "url": "http://www.stemmpress.com/uploadfile/202510/8a9ff1df7ca0c6b.pdf"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.62517/jse.202511507",
+  "note": "PDF byline 'Yan Qizhen' (sole author), Journal of Statistics and Economics 2(5), 2025; CrossRef deposits family name 'Qizhen', matching the entry's 'Y Qizhen' (name-order ambiguity, same person); the entry's PDF URL resolves to this paper."
+ },
+ {
+  "aid": "R075",
+  "exists": "yes",
+  "record": {
+   "title": "AI et al.: Machines Are About to Change Scientific Publishing Forever",
+   "first_author": "Grimaldi",
+   "year": 2023,
+   "doi": "10.1021/acsenergylett.2c02828",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1021/acsenergylett.2c02828"
+  },
+  "title_ok": "no",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1021/acsenergylett.2c02828",
+  "note": "The only Grimaldi & Ehrler 'AI et al.' piece is in ACS Energy Letters 2023 with subtitle 'Machines Are About to Change Scientific Publishing Forever'; CrossRef shows no Grimaldi/Ehrler work in Patterns, the entry's subtitle is substituted (not dropped), and DOI 10.1016/j.patter.2023.100692 resolves to Buehler's protein-design paper in Patterns 4(3)."
+ },
+ {
+  "aid": "R082",
+  "exists": "yes",
+  "record": {
+   "title": "Equivariant Pretrained Transformer for Unified Geometric Learning on Multi-Domain 3D Molecules",
+   "first_author": "Jiao",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2402.12714",
+   "arxiv_id": "2402.12714",
+   "url": "https://arxiv.org/abs/2402.12714v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2402.12714v1",
+  "note": "arXiv 2402.12714v1 (2024-02-20): exact title, authors Jiao, Kong, Yu, Huang, Liu; v2 is retitled 'An Equivariant Pretrained Transformer for Unified 3D Molecular Representation Learning'."
+ },
+ {
+  "aid": "R089",
+  "exists": "yes",
+  "record": {
+   "title": "Artificial intelligence to automate the systematic review of scientific literature",
+   "first_author": "de la Torre-Lopez",
+   "year": 2023,
+   "doi": "10.1007/s00607-023-01181-x",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/s00607-023-01181-x"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s00607-023-01181-x",
+  "note": "CrossRef: Computing (Springer), 2023, de la Torre-Lopez, Ramirez, Romero; the entry's trailing ': J. de la Torre-Lopez et al.' is a running-header artifact appended to an otherwise exact title."
+ },
+ {
+  "aid": "R096",
+  "exists": "yes",
+  "record": {
+   "title": "DAGs with NO TEARS: Continuous Optimization for Structure Learning",
+   "first_author": "Zheng",
+   "year": 2018,
+   "doi": "10.48550/arXiv.1803.01422",
+   "arxiv_id": "1803.01422",
+   "url": "https://arxiv.org/abs/1803.01422"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1803.01422",
+  "note": "arXiv/DataCite: Zheng, Aragam, Ravikumar, Xing, submitted 2018-03, DataCite publicationYear 2018; the entry's 2022 is the DataCite DOI registration date (2022-03-03)."
+ },
+ {
+  "aid": "R103",
+  "exists": "yes",
+  "record": {
+   "title": "SySeVR: A Framework for Using Deep Learning to Detect Software Vulnerabilities",
+   "first_author": "Li",
+   "year": 2021,
+   "doi": "10.1109/TDSC.2021.3051525",
+   "arxiv_id": "1807.06756",
+   "url": "https://arxiv.org/abs/1807.06756"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "does_not_resolve",
+  "evidence_url": "https://api.crossref.org/works/10.1109/tdsc.2021.3051525",
+  "note": "Work is IEEE TDSC 19(4):2244-2258 (issue 2022, DOI 10.1109/TDSC.2021.3051525; arXiv 1807.06756, 2018); entry DOI 10.1109/TDSC.2018.2879442 is not a registered handle (doi.org responseCode 100), and entry arXiv 1806.07338 resolves to a different work (Higgins, 'It Takes a Village')."
+ },
+ {
+  "aid": "R110",
+  "exists": "yes",
+  "record": {
+   "title": "The Image Biomarker Standardization Initiative: Standardized Quantitative Radiomics for High-Throughput Image-based Phenotyping",
+   "first_author": "Zwanenburg",
+   "year": 2020,
+   "doi": "10.1148/radiol.2020191145",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1148/radiol.2020191145"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1148/radiol.2020191145",
+  "note": "CrossRef: Radiology 295(2):328-338, 2020, first author Zwanenburg; entry drops the subtitle."
+ },
+ {
+  "aid": "R117",
+  "exists": "yes",
+  "record": {
+   "title": "Predicting Nepheline Formation in Nuclear Waste Glasses Using Machine Learning With Uncertainty Quantification",
+   "first_author": "Diaz-Acevedo",
+   "year": 2026,
+   "doi": "10.1111/ijag.70062",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1111/ijag.70062"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1111/ijag.70062",
+  "note": "CrossRef: International Journal of Applied Glass Science 17(4) e70062, 2026, authors Diaz-Acevedo, Curry, Lu, Chong, Allec, Vienna."
+ },
+ {
+  "aid": "R124",
+  "exists": "yes",
+  "record": {
+   "title": "Gene Regulatory Networks Inference using Bidirectional Encoder Representations from Transformers: Understanding Alzheimer's Disease Pathways through Foundation Models-Geneformer",
+   "first_author": "Stefanou",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://odr.chalmers.se/bitstreams/120c5b52-25f0-4c96-9f01-a44c83e0508b/download"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://odr.chalmers.se/bitstreams/120c5b52-25f0-4c96-9f01-a44c83e0508b/download",
+  "note": "Master's thesis by Dimitrios Stefanou, Chalmers University of Technology / University of Gothenburg; the title page says 2025 (entry 2024 is within one year); entry drops the subtitle."
+ },
+ {
+  "aid": "R131",
+  "exists": "yes",
+  "record": {
+   "title": "Disentangled Generative Causal Representation Learning",
+   "first_author": "Shen",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2010.02637",
+   "arxiv_id": "2010.02637",
+   "url": "https://arxiv.org/abs/2010.02637v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2010.02637v1",
+  "note": "arXiv 2010.02637v1 (2020-10-06) carries this title with Shen first author; later versions retitled 'Weakly Supervised ...' (JMLR 23(241), 2022); the OpenReview URL could not be checked because OpenReview returned a bot challenge."
+ },
+ {
+  "aid": "R138",
+  "exists": "unsure",
+  "record": {
+   "title": "Deep Learning Frameworks for Accelerating Catalyst Simulations",
+   "first_author": "Kolluru",
+   "year": 2024,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://www.proquest.com/openview/4ac3b4894a6dc3f6999de7e69774f75a/1?pq-origsite=gscholar&cbl=18750&diss=y"
+  },
+  "title_ok": "na",
+  "first_author_ok": "na",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": null,
+  "note": "Candidate only: the WisPaper scholar index lists a 2024 ProQuest dissertation (diss=y) with this title by A. Kolluru and an abstract on GNN surrogates for DFT in catalysis, but the ProQuest page returned 403, and CrossRef, DataCite, the CMU group page and web search did not confirm it at an authoritative source."
+ },
+ {
+  "aid": "R145",
+  "exists": "yes",
+  "record": {
+   "title": "Explainable artificial intelligence (XAI) in finance: a systematic literature review",
+   "first_author": "Cerneviciene",
+   "year": 2024,
+   "doi": "10.1007/s10462-024-10854-8",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/s10462-024-10854-8"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s10462-024-10854-8",
+  "note": "CrossRef: Artificial Intelligence Review, 2024-07, authors Cerneviciene and Kabasinskas."
+ },
+ {
+  "aid": "R152",
+  "exists": "yes",
+  "record": {
+   "title": "Deep Hedging: Hedging Derivatives Under Generic Market Frictions Using Reinforcement Learning",
+   "first_author": "Buehler",
+   "year": 2019,
+   "doi": "10.2139/ssrn.3355706",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.2139/ssrn.3355706"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=Deep+hedging+hedging+derivatives+under+generic+market+frictions+using+reinforcement+learning+Buehler",
+  "note": "CrossRef: SSRN posted content 10.2139/ssrn.3355706, 2019, Buehler, Gonon, Teichmann (SFI Research Paper series version)."
+ },
+ {
+  "aid": "R159",
+  "exists": "yes",
+  "record": {
+   "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+   "first_author": "Huang",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": "2307.05973",
+   "url": "https://arxiv.org/abs/2307.05973"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://export.arxiv.org/api/query?search_query=ti:VoxPoser",
+  "note": "arXiv 2307.05973 (2023-07-12): Wenlong Huang, Chen Wang, Ruohan Zhang, Yunzhu Li et al."
+ },
+ {
+  "aid": "R166",
+  "exists": "yes",
+  "record": {
+   "title": "Long-Context Efficient Transformers: A Comprehensive Survey of Techniques, Applications, and Future Directions",
+   "first_author": "Liu",
+   "year": 2025,
+   "doi": "10.36227/techrxiv.174431756.65547803/v1",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.36227/techrxiv.174431756.65547803/v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.36227/techrxiv.174431756.65547803/v1",
+  "note": "CrossRef: TechRxiv posted content, first author Liu, 2025-04; DOI resolves to this work."
+ },
+ {
+  "aid": "R173",
+  "exists": "yes",
+  "record": {
+   "title": "SSL4EO-L: Datasets and Foundation Models for Landsat Imagery",
+   "first_author": "Stewart",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": "2306.09424",
+   "url": "https://arxiv.org/abs/2306.09424"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://export.arxiv.org/api/query?search_query=ti:SSL4EO-L",
+  "note": "arXiv 2306.09424 lists Adam J. Stewart first, Corley third; entry arXiv 2306.12510 resolves to a different work (Ahmadi et al., SAM vs U-Net for breast tumor detection)."
+ },
+ {
+  "aid": "R180",
+  "exists": "yes",
+  "record": {
+   "title": "PDDL Planning with Pretrained Large Language Models",
+   "first_author": "Silver",
+   "year": 2022,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=1QMMUB4zfl"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://mlanthology.org/neuripsw/2022/silver2022neuripsw-pddl/",
+  "note": "ML Anthology: Silver, Hariprasad, Shuttleworth, Kumar, Lozano-Perez, Kaelbling, NeurIPS 2022 FMDM workshop, linking the same OpenReview forum 1QMMUB4zfl as the entry."
+ },
+ {
+  "aid": "R187",
+  "exists": "yes",
+  "record": {
+   "title": "SEN12MS - A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion",
+   "first_author": "Schmitt",
+   "year": 2019,
+   "doi": "10.5194/isprs-annals-IV-2-W7-153-2019",
+   "arxiv_id": "1906.07789",
+   "url": "https://arxiv.org/abs/1906.07789"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.5194/isprs-annals-iv-2-w7-153-2019",
+  "note": "Work is ISPRS Annals IV-2/W7 (2019), arXiv 1906.07789, first author Schmitt; entry arXiv 1903.11843 resolves to a cosmology paper (Ben-Dayan et al., constraints from N_eff)."
+ },
+ {
+  "aid": "R194",
+  "exists": "yes",
+  "record": {
+   "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+   "first_author": "Peters",
+   "year": 2017,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://library.oapen.org/handle/20.500.12657/26040"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "does_not_resolve",
+  "evidence_url": "https://api.openalex.org/works/W2801890059",
+  "note": "Book exists (MIT Press 2017, ISBN 9780262037310, open access on OAPEN); entry DOI 10.7551/mitpress/11231.001.0001 is not a registered handle (doi.org responseCode 100, CrossRef 404), and no DOI for the book was found in CrossRef or OpenAlex."
+ },
+ {
+  "aid": "R201",
+  "exists": "yes",
+  "record": {
+   "title": "What Matters for Model Merging at Scale?",
+   "first_author": "Yadav",
+   "year": 2024,
+   "doi": "10.48550/arXiv.2410.03617",
+   "arxiv_id": "2410.03617",
+   "url": "https://arxiv.org/abs/2410.03617"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2410.03617",
+  "note": "arXiv/DataCite: Yadav, Vu, Lai, Chronopoulou et al., 2024-10; DOI resolves to this work."
+ },
+ {
+  "aid": "R208",
+  "exists": "yes",
+  "record": {
+   "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+   "first_author": "Khattab",
+   "year": 2020,
+   "doi": null,
+   "arxiv_id": "2004.12832",
+   "url": "https://arxiv.org/abs/2004.12832"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://export.arxiv.org/api/query?id_list=2004.12832",
+  "note": "arXiv 2004.12832: Khattab & Zaharia, 2020-04; entry cites SIGIR 2020."
+ },
+ {
+  "aid": "R215",
+  "exists": "yes",
+  "record": {
+   "title": "Diffusion-Based Protein Structure Design: Geometric Modelling, Validation Strategies, and Thermodynamic Challenges",
+   "first_author": "Li",
+   "year": 2026,
+   "doi": "10.3390/ijms27167151",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.3390/ijms27167151"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.3390/ijms27167151",
+  "note": "CrossRef: International Journal of Molecular Sciences 27(16), 2026, first author Wenran Li; Cedric Damour, the entry's first author, is the 7th of 11 authors."
+ }
+]

@@ -1,0 +1,323 @@
+[
+ {
+  "cid": "N003",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2206.03396",
+  "numbers": [
+   {
+    "value": "0.561",
+    "verdict": "supported",
+    "evidence": "Table 4 (FEMNIST, Cross Entropy loss): noise multiplier 15 -> average accuracy 0.561 ± 0.005."
+   },
+   {
+    "value": "0.692",
+    "verdict": "supported",
+    "evidence": "Table 4 (FEMNIST, Cross Entropy loss): noise multiplier 10 -> 0.692 ± 0.002."
+   },
+   {
+    "value": "0.832",
+    "verdict": "supported",
+    "evidence": "Table 4 (FEMNIST, Cross Entropy loss): noise multiplier 0 -> 0.832 ± 0.012."
+   },
+   {
+    "value": "0.835",
+    "verdict": "supported",
+    "evidence": "Table 4 (FEMNIST, Cross Entropy loss): noise multiplier 3 -> 0.835 ± 0.017."
+   },
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Table 4 row 'Noise Multiplier 10' (CE accuracy 0.692)."
+   },
+   {
+    "value": "15",
+    "verdict": "supported",
+    "evidence": "Table 4 row 'Noise Multiplier 15' (CE accuracy 0.561)."
+   }
+  ],
+  "note": "Figures are the Cross Entropy column of Table 4, Sec. 5.3. Sec. 5.3 also states 'for ν ≥ 1 we see that, experimentally, the DLG attack fails to reconstruct input samples.' The same table lists 0.843 at ν=0.001, so ν=3 is not the column maximum; the sentence does not claim it is."
+ },
+ {
+  "cid": "N009",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/1705.07832",
+  "numbers": [
+   {
+    "value": "0.2",
+    "verdict": "supported",
+    "evidence": "Sec. 4 (computer vision): 'The original model uses a hand-tuned dropout p = 0.2.' Table 1 rows 'Dropout (manually-tuned p = 0.2)'."
+   },
+   {
+    "value": "67.2",
+    "verdict": "supported",
+    "evidence": "Table 1 (DenseNet on CamVid): Dropout (manually-tuned p = 0.2), MC sampling -> IoU 67.2."
+   },
+   {
+    "value": "67.4",
+    "verdict": "supported",
+    "evidence": "Table 1 (DenseNet on CamVid): Concrete Dropout, MC sampling -> IoU 67.4. Text: 'replacing dropout with Concrete dropout marginally improves performance.'"
+   }
+  ],
+  "note": "Both IoU values are the MC-sampling rows of Table 1; Concrete dropout without MC sampling is 67.2."
+ },
+ {
+  "cid": "N015",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2406.12331",
+  "numbers": [
+   {
+    "value": "38.7",
+    "verdict": "supported",
+    "evidence": "Table 1: GPT-3.5-Turbo-16k HotpotQA 51.6, 2Wiki 37.7, MuSiQue 26.9, Avg 38.7."
+   },
+   {
+    "value": "44.5",
+    "verdict": "supported",
+    "evidence": "Table 1: Ours (Algorithm 2) HotpotQA 48.7, 2Wiki 50.3, MuSiQue 34.7, Avg 44.5."
+   },
+   {
+    "value": "48.7",
+    "verdict": "supported",
+    "evidence": "Table 1: Ours (Algorithm 2) HotpotQA 48.7 vs GPT-3.5-Turbo-16k HotpotQA 51.6."
+   }
+  ],
+  "note": "Sentence is truncated after '48.7 vs.'; the paper's GPT-3.5-Turbo-16k HotpotQA score is 51.6."
+ },
+ {
+  "cid": "N021",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s41612-024-00679-1",
+  "numbers": [
+   {
+    "value": "180",
+    "verdict": "supported",
+    "evidence": "Title 'Diffusion model-based probabilistic downscaling for 180-year East Asian climate reconstruction'; abstract: 'we apply the model to generate a 180-year dataset of monthly surface variables in East Asia'."
+   }
+  ],
+  "note": "Paper is in npj Climate and Atmospheric Science 7, 131 (2024); the ref's venue 'SHILAP Revista de lepidopterología' is wrong, but the DOI resolves to the right paper."
+ },
+ {
+  "cid": "N027",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2506.13186",
+  "numbers": [
+   {
+    "value": "600000",
+    "verdict": "supported",
+    "evidence": "Abstract: 'resulting in the generation and analysis of over 600,000 patches across six benchmark datasets.'"
+   }
+  ],
+  "note": ""
+ },
+ {
+  "cid": "N033",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2604.12231",
+  "numbers": [
+   {
+    "value": "16",
+    "verdict": "supported",
+    "evidence": "Abstract: 'achieving an average increase of at least 7.6% in F1 score and 16% in win rate across various tasks.'"
+   },
+   {
+    "value": "25",
+    "verdict": "supported",
+    "evidence": "App. P.1 (Comparison with MemWalker): 'on the Abstract-multi task, MemWalker takes 85.0 seconds per query. In contrast, Thought-Retriever completes the same task in just 3.20 seconds—achieving a speedup of over 25×.'"
+   },
+   {
+    "value": "6.4",
+    "verdict": "supported",
+    "evidence": "Table 15 / App. text: 'on Abstract-multi, the pre-accumulated thoughts yield a 6.4% relative improvement in F1 score compared to the cold-start baseline' (held-out test set)."
+   },
+   {
+    "value": "7.6",
+    "verdict": "supported",
+    "evidence": "Abstract: 'an average increase of at least 7.6% in F1 score'."
+   }
+  ],
+  "note": "The >25x speedup is reported for Abstract-multi; Table 12 shows 25.0s vs 1.85s (about 13.5x) on Abstract-single, so it is not uniform across tasks. Table 13: Thought-Retriever beats the gold-chunk Oracle on the AcademicEval tasks (e.g. F1 0.290 vs 0.278). The 6.4% is a relative F1 gain."
+ },
+ {
+  "cid": "N039",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2407.04877",
+  "numbers": [
+   {
+    "value": "125",
+    "verdict": "supported",
+    "evidence": "Main text (Fig. 4i discussion): 'In practical-level electrolyzer cell tests, MEAs loaded with sample C demonstrated considerable stability ... Over a prolonged testing duration of 125 hours, the average decay rates were only 0.1728 and 0.1964 mV h-1 at 10 and 20 mA cm-2'. Fig. 4i caption: 'V-t curves of sample C loaded on MEA in a PEM electrolyzer single cell'."
+   }
+  ],
+  "note": "The 125 h run is a PEM electrolyzer single-cell stability test of the DASH-selected catalyst (sample C)."
+ },
+ {
+  "cid": "N045",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2306.02552",
+  "numbers": [
+   {
+    "value": "33.3",
+    "verdict": "supported",
+    "evidence": "Sec. on recommender behaviors (Fig. 2b): 'when N = 5, the win rate of RecAgent (45.0%) is significantly better than that of RecSim (33.3%)'."
+   },
+   {
+    "value": "45.0",
+    "verdict": "supported",
+    "evidence": "Same passage: 'the win rate of RecAgent (45.0%)' in the adversarial subjective evaluation against reference behaviors."
+   },
+   {
+    "value": "68",
+    "verdict": "supported",
+    "evidence": "Fig. 2a discussion: 'On average, the performance of our simulator can surpass the best baseline by about 68%, and is only 8% lower than the results of Real Human.' Metric is the overlap of selected items with held-out ground truth, sum |Tu ∩ Su|/|Tu|."
+   },
+   {
+    "value": "8",
+    "verdict": "supported",
+    "evidence": "Same passage: 'is only 8% lower than the results of Real Human.'"
+   }
+  ],
+  "note": "Full text read from arXiv v3 (Feb 2024); the ACM TOIS version (doi 10.1145/3708985) returned HTTP 403, so its text was not checked. The 45.0% vs 33.3% is the N=5 setting. arXiv v3 describes sensory/short-term/long-term memory and six behaviour types (4 recommender + chatting + broadcasting)."
+ },
+ {
+  "cid": "N051",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/d07379f3acf3af51dfc8598862cadfa0-Paper-Datasets_and_Benchmarks.pdf",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "NeurIPS version Sec. 4: 'Geom3D also covers 7 1D models and 10 2D graph neural networks (GNNs) and benchmarks the 14 pretraining algorithms'."
+   },
+   {
+    "value": "14",
+    "verdict": "supported",
+    "evidence": "Abstract: '16 advanced symmetry-informed geometric representation models and 14 geometric pretraining methods over 52 diverse tasks'."
+   },
+   {
+    "value": "16",
+    "verdict": "supported",
+    "evidence": "Sec. 4: 'benchmarking 16 geometric models over 52 tasks'."
+   },
+   {
+    "value": "52",
+    "verdict": "supported",
+    "evidence": "NeurIPS abstract: 'over 52 diverse tasks, including small molecules, proteins, and crystalline materials'; Limitations: '52 diverse tasks'."
+   }
+  ],
+  "note": "The arXiv v1 (2306.09375) says 46 diverse datasets/tasks; the NeurIPS 2023 version, which the ref points to, says 52. Binding tasks (LBA, LEP) are in Sec. 4.4."
+ },
+ {
+  "cid": "N057",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2305.11738",
+  "numbers": [
+   {
+    "value": "7.0",
+    "verdict": "supported",
+    "evidence": "Sec. 1: 'when applied to ChatGPT, CRITIC attains 7.7 F1 enhancements across three QA tasks, 7.0% absolute gains on three mathematical reasoning tasks, and a 79.2% reduction in toxicity probability.'"
+   },
+   {
+    "value": "7.7",
+    "verdict": "supported",
+    "evidence": "Same passage; Sec. 4.1 results: 'CRITIC and CRITIC* improve F1 for 5.6 and 10.3 respectively upon text-davinci-003, and 7.7 and 12.4 upon ChatGPT.'"
+   },
+   {
+    "value": "79.2",
+    "verdict": "supported",
+    "evidence": "Sec. 1: 'a 79.2% reduction in toxicity probability' (ChatGPT)."
+   }
+  ],
+  "note": "Figures are for ChatGPT. Ablation rows 'CRITIC w/o Tool' appear in the QA, math and toxicity tables."
+ },
+ {
+  "cid": "N063",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2409.08022",
+  "numbers": [
+   {
+    "value": "82",
+    "verdict": "supported",
+    "evidence": "Sec. 2.1.2: 'The best KD overall was 82 pM, for the design IL7RA_70 (Table S7, Figure S6).'"
+   },
+   {
+    "value": "88",
+    "verdict": "supported",
+    "evidence": "Experimental highlights: 'For seven of the targets, between 9% and 88% of the designs tested in the wet lab were experimentally verified as successful binders.' Sec. 2.1.1: 'ranging from 9%, on TrkA, to 88%, on BHRF1'."
+   }
+  ],
+  "note": "The paper also states binders were obtained 'without needing high-throughput screening' and that TNFα failed, 'likely due to a flat, highly polar binding site'. Table 1 caption mentions 'Some targets used for method development (Section S2)'; the count of three was not checked as it is not a listed number."
+ },
+ {
+  "cid": "N069",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2107.10098",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "supported",
+    "evidence": "Sec. 4 (Synthetic datasets): 'The dimensionality of Z and X are dz = 10 and dx = 20, respectively.'"
+   },
+   {
+    "value": "20",
+    "verdict": "supported",
+    "evidence": "Same passage; App. B.1: 'For all experiments, the dimensionality of X t is dx = 20 ... All datasets consist of 1 million examples.'"
+   }
+  ],
+  "note": "Sec. 4: 'Most baselines obtain a high R2 but a low MCC, indicating linear identifiability without disentanglement.' The 1M examples figure is also in App. B.1. Paper is CLeaR 2022 (PMLR 177); the ref says 2021."
+ },
+ {
+  "cid": "N075",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://iapress.org/index.php/soic/article/download/3574/1866",
+  "numbers": [
+   {
+    "value": "1.82",
+    "verdict": "supported",
+    "evidence": "Abstract: 'comparing hierarchical to centralized topologies yields Cohen's d = 2.34 (95% CI: 1.82-2.86)'; Sec. results: 'Centralized vs. Hierarchical-3: d = 2.34, 95% CI [1.82, 2.86] (large effect).'"
+   },
+   {
+    "value": "2.34",
+    "verdict": "supported",
+    "evidence": "Same passages: 'Cohen's d = 2.34'."
+   },
+   {
+    "value": "2.86",
+    "verdict": "supported",
+    "evidence": "Same passages: '95% CI: 1.82-2.86'."
+   },
+   {
+    "value": "95",
+    "verdict": "supported",
+    "evidence": "Same passages: '95% CI'."
+   }
+  ],
+  "note": "Published PDF is titled 'Cascading Instruction Influence: A Simulation-Based Analysis of Indirect Prompt Injection in Hierarchical Multi-Agent Systems' (SOIC 15(6), 2026). The effect size comes from discrete-event Monte Carlo simulation (n=10,000 runs per configuration) 'validated against behavioral parameters from ten production LLMs'; the authors state 'We do not execute attacks against live production systems. Consequently, all findings represent model projections'. The sentence's 'validated statistically against behavioural data from ten production LLMs' overstates this; the numbers themselves match. The comparison is Centralized vs Hierarchical-3."
+ },
+ {
+  "cid": "N081",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2409.08022",
+  "numbers": [
+   {
+    "value": "300",
+    "verdict": "supported",
+    "evidence": "Abstract: 'we achieve 3- to 300-fold better binding affinities and higher experimental success rates than the best existing methods on seven target proteins.' Highlights: 'For the seven targets, our designs have 3- to 300-fold better binding affinities than the best previous designed binder.'"
+   }
+  ],
+  "note": "The range applies to seven targets, compared with the best existing method or best previous designed binder."
+ }
+]

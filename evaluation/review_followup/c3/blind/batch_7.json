@@ -1,0 +1,122 @@
+[
+ {
+  "aid": "R007",
+  "entry": "L Zheng, et al. Efficiently programming large language models using SGLang. 2023. https://par.nsf.gov/servlets/purl/10524135"
+ },
+ {
+  "aid": "R014",
+  "entry": "D. Lu, H. Caminal, M. Chatzakis. “An in-depth study of filter-agnostic vector search on a PostgreSQL database system.” Venue not provided, 2026."
+ },
+ {
+  "aid": "R021",
+  "entry": "Y. A. Malkov, D. A. Yashunin. “Efficient and robust approximate nearest neighbor search using hierarchical navigable small world graphs.” Venue not provided, 2018. arXiv:1603.09320."
+ },
+ {
+  "aid": "R028",
+  "entry": "M. Liang, B. Yang, S. Wang, and R. Urtasun, “Deep Continuous Fusion for Multi-Sensor 3D Object Detection,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2018. arXiv:1812.03958."
+ },
+ {
+  "aid": "R035",
+  "entry": "Ben Mildenhall, et al. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.2003.08934"
+ },
+ {
+  "aid": "R042",
+  "entry": "S. Kadhe, N. Rajaraman, O. O. Koyluoglu, K. Ramchandran. “FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning.” arXiv, 2022. DOI/arXiv: n/a."
+ },
+ {
+  "aid": "R049",
+  "entry": "Z Yang, et al. Understanding the sources of uncertainty for large language and multimodal models. 2025. https://openreview.net/forum?id=5By0rus8z7"
+ },
+ {
+  "aid": "R056",
+  "entry": "Murugan, R.; Thangadurai, V.; Weppner, W. “Fast lithium ion conduction in garnet-type Li\\(_7\\)La\\(_3\\)Zr\\(_2\\)O\\(_{12}\\).” Angewandte Chemie International Edition 46, 7778–7781 (2007). DOI: 10.1002/anie.200701144."
+ },
+ {
+  "aid": "R063",
+  "entry": "Jégou, H., Douze, M., Schmid, C. Product quantization for nearest neighbor search. IEEE TPAMI, 2011. DOI 10.1109/TPAMI.2010.57."
+ },
+ {
+  "aid": "R070",
+  "entry": "Muhammad Sohail Danish, et al. TerraFM: A scalable foundation model for unified multisensor earth observation. ICLR, 2026. https://proceedings.iclr.cc/paper_files/paper/2026/hash/159511050630689045bf5593e74b13cc-Abstract-Conference.html"
+ },
+ {
+  "aid": "R077",
+  "entry": "B. Rouet-Leduc, C. Hulbert. Automatic detection of methane emissions in multispectral satellite imagery using a vision transformer. Nature Communications, 2024. DOI: 10.1038/s41467-024-45154-w."
+ },
+ {
+  "aid": "R084",
+  "entry": "CV Theodoris, et al. Transfer learning enables predictions in network biology. 2023. https://www.nature.com/articles/s41586-023-06139-9"
+ },
+ {
+  "aid": "R091",
+  "entry": "Guillaume Couairon, et al. ArchesWeatherGen: Skillful and compute-efficient probabilistic weather forecasting with machine learning. Science Advances, 2026. https://doi.org/10.1126/sciadv.adx2372"
+ },
+ {
+  "aid": "R098",
+  "entry": "M. Liang, B. Yang, Y. Chen, R. Hu, and R. Urtasun, “Multi-Task Multi-Sensor Fusion for 3D Object Detection,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2019. DOI: 10.1109/CVPR.2019.00751."
+ },
+ {
+  "aid": "R105",
+  "entry": "G Chrysos, et al. Quantify uncertainty and hallucination in foundation models: the next frontier in reliable AI. 2025. https://openreview.net/forum?id=yog1djOEOW"
+ },
+ {
+  "aid": "R112",
+  "entry": "B Kerbl, et al. 3d gaussian splatting for real-time radiance field rendering. 2023. https://sgvr.kaist.ac.kr/~sungeui/ICG_F23/Students/[CS482]%203D%20Gaussian%20Splatting%20for%20Real-Time%20Radiance%20Field%20Rendering.pdf"
+ },
+ {
+  "aid": "R119",
+  "entry": "C Han, et al. Lm-infinite: Simple on-the-fly length generalization for large language models. 2023. https://openreview.net/forum?id=pOujzgHIRY"
+ },
+ {
+  "aid": "R126",
+  "entry": "UC Irvine Sungjin Ahn, UC Irvine Anoop Korattikara, UC Irvine Max Welling. Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring. arXiv (Cornell University), 2022. https://doi.org/10.48550/arxiv.1206.6380"
+ },
+ {
+  "aid": "R133",
+  "entry": "Wang, Y., Wu, H., Zhang, J., Gao, Z., Wang, J., Yu, P. S., Long, M. PreDiff: Precipitation nowcasting with latent diffusion models. Advances in Neural Information Processing Systems, 36, 2023. arXiv:2307.10422."
+ },
+ {
+  "aid": "R140",
+  "entry": "Qihang Yang, Yang Zhao, Hong Cheng. Uncertainty-aware evidential fusion for multi-modal object detection in autonomous driving. Drones, 2026. https://doi.org/10.3390/drones10020130"
+ },
+ {
+  "aid": "R147",
+  "entry": "K Valmeekam, A Olmo, S Sreedharan. Large language models still can't plan (a benchmark for LLMs on planning and reasoning about change). n/a, 2022."
+ },
+ {
+  "aid": "R154",
+  "entry": "F Fischer, DS Fischer, R Mukhin, A Isaev. scTab: Scaling cross-tissue single-cell annotation models. n/a, 2024."
+ },
+ {
+  "aid": "R161",
+  "entry": "C Damour, et al. Diffusion-Based Protein Structure Design: Geometric Modelling, Validation Strategies, and Thermodynamic Challenges. 2026. https://www.mdpi.com/1422-0067/27/16/7151"
+ },
+ {
+  "aid": "R168",
+  "entry": "Enisha Sehgal, Yuliya Politanska, Raktim Mitra, Paul T. Kim. Generative design of sequence specific DNA binding proteins. bioRxiv, 2026."
+ },
+ {
+  "aid": "R175",
+  "entry": "Aumüller, M., Bernhardsson, E., Faithfull, A. ANN-Benchmarks: A benchmarking tool for approximate nearest neighbor algorithms. Information Systems, 2020. DOI 10.1016/j.is.2019.02.006."
+ },
+ {
+  "aid": "R182",
+  "entry": "Bolun Wu, et al. SlicedLocator: Code vulnerability locator based on sliced dependence graph. Comput. Secur., 2023. https://doi.org/10.1016/j.cose.2023.103469"
+ },
+ {
+  "aid": "R189",
+  "entry": "Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., Crawford, K. “Datasheets for Datasets.” Communications of the ACM 64(12), 86–92 (2021). DOI: 10.1145/3458723."
+ },
+ {
+  "aid": "R196",
+  "entry": "E Lumer, et al. Tool-to-agent retrieval: Bridging tools and agents for scalable llm multi-agent systems. arXiv preprint, 2025. https://arxiv.org/abs/2511.01854"
+ },
+ {
+  "aid": "R203",
+  "entry": "A Saranya, R Subhashini. A systematic review of Explainable Artificial Intelligence models and applications: Recent developments and future trends. n/a, 2023."
+ },
+ {
+  "aid": "R210",
+  "entry": "Lei Wang, Jingsen Zhang, Hao Yang, Zhi-Yuan Chen, Jiakai Tang, Zeyu Zhang, et al. RecAgent: A Language Model Powered Simulator for Recommender Systems. arXiv preprint, 2023. arXiv:2306.11134."
+ }
+]

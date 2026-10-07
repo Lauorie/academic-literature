@@ -1,0 +1,249 @@
+[
+ {
+  "cid": "N006",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/106800/1/Ding_Recent_Advances_Data-driven.pdf",
+  "numbers": [
+   {
+    "value": "0.063",
+    "verdict": "supported",
+    "evidence": "Data-driven section (p. near Fig. 4): \"Rossmeisl, et al. [56] ... the trained ML models could reach high accuracies with the room-mean-square deviation (RMSD) of 0.063 and 0.076 eV for *OH and *O, respectively\". The review quotes the figure from ref [56], as the sentence says."
+   },
+   {
+    "value": "0.076",
+    "verdict": "supported",
+    "evidence": "Same passage: \"RMSD of 0.063 and 0.076 eV for *OH and *O, respectively\", quoted from Rossmeisl et al. [56] (listed as Batchelor et al.)."
+   },
+   {
+    "value": "114000",
+    "verdict": "supported",
+    "evidence": "\"Li, et al. [*55] ... identify 511 DACs for OER, 855 DACs for ORR and 248 bifunctional DACs ... from 16767 candidates. The screening time was found to be 114000 times less than pure high-throughput computational screening.\" Quoted from ref [55], as the sentence says."
+   }
+  ],
+  "note": "Elsevier page returned 403; read the PolyU accepted manuscript (Pre-Published Version, DOI 10.1016/j.coelec.2023.101404, Current Opinion in Electrochemistry). The sentence says the review 'quotes' these figures, and the review does quote both from other works without caveat. The claim that in-text citations are misaligned with the reference list was not numerically checked; ref 55 is Wu, Guo, Li (double-atom catalysts) and ref 56 is Batchelor et al. (HEAs), which match the in-text descriptions at this spot."
+ },
+ {
+  "cid": "N012",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2601.00675",
+  "numbers": [
+   {
+    "value": "0.83",
+    "verdict": "supported",
+    "evidence": "Sec. 3 (Robomimic study): \"We show policy performance as a function of reward accuracy in Figure 3 ... There is a clear correlation (r = 0.83): more accurate rewards lead to better RL performance across the board.\""
+   }
+  ],
+  "note": "The r = 0.83 comes from a simulated Robomimic study (three tasks, Qwen2.5-VL reward checkpoints, DSRL), which fits the sentence's 'task-specific and short-horizon' caveat."
+ },
+ {
+  "cid": "N018",
+  "paper_found": "yes",
+  "text_accessed": "abstract",
+  "source_url": "https://www.nature.com/articles/s41592-025-02980-0",
+  "numbers": [
+   {
+    "value": "27",
+    "verdict": "supported",
+    "evidence": "Abstract: \"Here, we present a comprehensive benchmark of 27 methods for single-cell perturbation response prediction, evaluated across 29 datasets using 6 complementary performance metrics.\""
+   }
+  ],
+  "note": "Nature Methods 23:451-464 (2026; online 11 Dec 2025). Paywalled; only the abstract was readable. The qualitative claim that performance depends on scenario, cell type and metric was not checked against the full text."
+ },
+ {
+  "cid": "N024",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/159511050630689045bf5593e74b13cc-Paper-Conference.pdf",
+  "numbers": [
+   {
+    "value": "1.53",
+    "verdict": "supported",
+    "evidence": "Sec. 5.1 Pretraining Implementation Details (ICLR 2026 PDF and arXiv 2506.06281): \"The training dataset comprises around 1.53 million multi-modal samples, from which we define a virtual epoch of 300K samples\"."
+   }
+  ],
+  "note": "The paper's headline scale figure is 18.7M modality-specific training tiles (Table 1, 'global-scale training (18.7M samples)'); 1.53M counts multi-modal samples drawn from >1.5M grid cells. The sentence's 'around 1.53 million samples' matches the Sec. 5.1 wording."
+ },
+ {
+  "cid": "N030",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2210.14179",
+  "numbers": [
+   {
+    "value": "234",
+    "verdict": "misattributed",
+    "evidence": "Threats to Validity: \"Out of the 354 individual bug fixes by all models on Defects4J 1.2, 234 fixes (66%) contain a patch that is different than the developer patch.\" The count covers fixes by all PLMs studied, not Codex fixes alone as the sentence says."
+   },
+   {
+    "value": "354",
+    "verdict": "misattributed",
+    "evidence": "Same passage: \"354 individual bug fixes by all models on Defects4J 1.2\" -- all models, not Codex alone."
+   },
+   {
+    "value": "66",
+    "verdict": "misattributed",
+    "evidence": "Same passage: \"234 fixes (66%) contain a patch that is different than the developer patch\", computed over all models' fixes, not Codex's."
+   }
+  ],
+  "note": "Read arXiv 2210.14179v2 (titled 'Practical Program Repair in the Era of Large Pre-trained Language Models'); Semantic Scholar/OpenAlex link it to the ICSE 2023 DOI 10.1109/ICSE48619.2023.00129, whose IEEE text was not reachable. The figures exist but describe all models' fixes. The paper also does not mention HumanEval-Java (grep for 'HumanEval' finds nothing); it evaluates Defects4J 1.2/2.0, QuixBugs and ManyBugs, so the 'introduced HumanEval-Java' part of the sentence does not fit this paper. The retraining concession is present: \"Further reducing the data leakage issue would require retraining the PLMs, which could be extremely costly.\""
+ },
+ {
+  "cid": "N036",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2305.13245",
+  "numbers": [
+   {
+    "value": "0.28",
+    "verdict": "supported",
+    "evidence": "Table 1: \"GQA-8-XXL 0.28 47.1 ...\" (Tinfer s column)."
+   },
+   {
+    "value": "1.51",
+    "verdict": "supported",
+    "evidence": "Table 1: \"MHA-XXL 1.51 47.2 ...\" (Tinfer s column)."
+   },
+   {
+    "value": "47.1",
+    "verdict": "supported",
+    "evidence": "Table 1: GQA-8-XXL Average = 47.1."
+   },
+   {
+    "value": "47.2",
+    "verdict": "supported",
+    "evidence": "Table 1: MHA-XXL Average = 47.2."
+   },
+   {
+    "value": "5",
+    "verdict": "supported",
+    "evidence": "Abstract: \"a recipe for uptraining existing multi-head language model checkpoints into models with MQA using 5% of original pre-training compute\"; Sec. 3.1 (Uptraining): \"The key and value heads are mean-pooled to the appropriate MQA or GQA structure, and then pre-trained for a further alpha proportion ... For alpha = 0.05\"."
+   }
+  ],
+  "note": "arXiv version of the EMNLP 2023 paper. Table 1 labels the time column 'Tinfer s'; Sec. 3.1 (Timing) says \"We report time per sample per TPUv4 chip\", which matches the sentence's 's/sample'."
+ },
+ {
+  "cid": "N042",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2601.11893",
+  "numbers": [
+   {
+    "value": "0",
+    "verdict": "supported",
+    "evidence": "Sec. 7 (RQ1): \"SEAgent demonstrates superior protection compared with baselines, achieving 0% ASR across all attacks in both benchmarks.\" Table 2 (InjecAgent) SEAgent ASR 0% in every row; Table 3 (AgentDojo) SEAgent Overall 0.00%."
+   }
+  ],
+  "note": "The bypass demonstrations against SecAlign, IsolateGPT and CaMeL appear in Sec. 4.2. 'Matching naive-agent correctness' is broadly true but not uniform: Table 4 shows 71.34% vs 79.27% for 2-tool tasks, and Table 5 (API-Bank) 50.00% vs 74.39% for 2-tool tasks."
+ },
+ {
+  "cid": "N048",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2301.06262",
+  "numbers": [
+   {
+    "value": "45.8",
+    "verdict": "supported",
+    "evidence": "Table IV (BEV object detection on V2X-Sim): \"Individual LiDAR FaF No 45.8 40.6\" (AP_BEV@0.5 = 45.8)."
+   },
+   {
+    "value": "55.4",
+    "verdict": "supported",
+    "evidence": "Table IV: \"Late Collab LiDAR FaF Late 55.4 41.8\" (AP_BEV@0.5 = 55.4)."
+   },
+   {
+    "value": "64.2",
+    "verdict": "supported",
+    "evidence": "Table IV: \"Early Collab LiDAR FaF Early 64.2 60.3\" (AP_BEV@0.5 = 64.2). Text: \"In the V2X-Sim BEV detection benchmark (Tab.IV), we usually regard early and late collaboration as the upper-bound and lower-bound respectively.\""
+   }
+  ],
+  "note": "arXiv v4 of the IEEE ITS Magazine survey. The values are AP_BEV@0.5; the survey states \"all results are collected from papers and official websites\". The survey limits the upper/lower-bound framing to V2X-Sim and adds that \"Intermediate collaboration could surpass early collaboration on OPV2V (Tab.V) and V2XSet (Tab.VI)\", so the sentence's general 'early collaboration tends to be the empirical ceiling' overreaches the survey. Who2com (47.2) and When2com (47.9) also fall below late collaboration in Table IV."
+ },
+ {
+  "cid": "N054",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2506.19585",
+  "numbers": [
+   {
+    "value": "1.5",
+    "verdict": "supported",
+    "evidence": "Sec. 4.3 BigEarthNet: \"SMARTIES outperforms previous state-of-the-art model CROMA ... by significant 1.5% mAP (ViT-L) through LP\"; Table 1 BEN-MM (LP): SMARTIES ViT-L 86.7 vs CROMA 85.2."
+   },
+   {
+    "value": "1.7",
+    "verdict": "supported",
+    "evidence": "Table 3 (Top-1 accuracy of finetuning on RESISC-45): \"SatMAE++ (RGB) ViT-L 97.5\" vs \"SMARTIES (Ours) ViT-L 95.8\" -- a 1.7-point gap. The paper does not state the gap in words; it follows from the two table values."
+   }
+  ],
+  "note": "The 1.7 is a difference computed from Table 3, not a figure the paper states. The paper's only written '1.7%' is a different result: the mIoU margin over fully supervised models on unseen-sensor segmentation (Tab. 6). The value the sentence gives for RESISC-45 still matches Table 3."
+ },
+ {
+  "cid": "N060",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2307.16789",
+  "numbers": [
+   {
+    "value": "16000",
+    "verdict": "supported",
+    "evidence": "Title: \"ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs\"; Abstract: \"API collection: we collect 16,464 real-world RESTful APIs spanning 49 categories from RapidAPI Hub\"."
+   }
+  ],
+  "note": "The DFSDT part also matches: \"we develop a novel depth-first search-based decision tree algorithm\", used to annotate solution paths (Sec. 2.3)."
+ },
+ {
+  "cid": "N066",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s41524-025-01538-0",
+  "numbers": [
+   {
+    "value": "10",
+    "verdict": "absent",
+    "evidence": "Property-prediction section: \"This is in part due to the significant delta in available datasets for these two respective modalities—with current foundation models being trained on datasets such as ZINC and ChEMBL which both offer datasets ~10^9 molecules—a size not readily available for 3D data.\" The first 10^9 (2D corpora of ~10^9 molecules) matches. The second ('3D datasets are roughly 10^9 smaller') has no counterpart: the paper gives no size or ratio for 3D datasets, only 'a size not readily available for 3D data'."
+   }
+  ],
+  "note": "Open-access full text (npj Comput. Mater. 2025). The token '10' stands for the two 10^9 figures in the sentence. 2D ~10^9 is supported; the quantified 3D gap of ~10^9 is not in the paper (and would imply 3D sets of ~1 molecule). Verdict 'absent' reflects the second, unsupported use."
+ },
+ {
+  "cid": "N072",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2402.11892",
+  "numbers": [
+   {
+    "value": "20",
+    "verdict": "misattributed",
+    "evidence": "Abstract (arXiv v2 and TOSEM): \"recent work augments the evaluation data by employing semantics-preserving transformations ... Experiments show that NPR techniques are not robust; e.g., NPR cannot repair semantically equivalent counterparts of 20%–35% of bugs that they can repair in the original dataset. However, we found that many of these transformations are unnatural\". The paper quotes the figure from prior work (RobustNPR line of work), not from its own seven selected systems."
+   },
+   {
+    "value": "35",
+    "verdict": "misattributed",
+    "evidence": "Same abstract passage: \"20%–35% of bugs\" is a prior-work finding the paper sets out to question. The paper's own selection is \"7 out of 19 NPR techniques met our requirements\" (Sec. 4.3.1), but the 20–35% range is not reported for those seven."
+   },
+   {
+    "value": "58.8",
+    "verdict": "supported",
+    "evidence": "Sec. 5.1.4 Naturalness Assessment: \"Overall, we can see that only 58.8% of semantic-preserving transformations are deemed natural by human annotators.\" Also Table 1 / Finding 1."
+   }
+  ],
+  "note": "Read arXiv 2402.11892v2; TOSEM abstract (DOI 10.1145/3716167) read via CrossRef. The TOSEM/arXiv abstracts round the naturalness figure to '60%'; the body gives 58.8%. 'Roughly a quarter' matches \"unnatural transformations account for 24.6% of prediction changes across all NPR techniques\" (Sec. 5.2.2). Sec. 4.3.1 names five systems in the text and points to Table 10 for the full list of seven; the conclusion says \"Our experiments on 5 NPR techniques\"."
+ },
+ {
+  "cid": "N078",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2606.30552",
+  "numbers": [
+   {
+    "value": "60",
+    "verdict": "supported",
+    "evidence": "Abstract: \"ZR-0 is pre-trained on ProcCorpus-60M, a large-scale dataset comprising approximately 60 million frames (approximately 1,000 hours) from over 400K trajectories, with dense ECoT annotations covering 96.8% of all frames.\""
+   }
+  ],
+  "note": "The mechanism also matches: ECoT trained via next-token prediction alongside flow matching, and \"an attention mask that restricts the action expert to input prompt features only, enabling ECoT generation to be entirely skipped at inference\". ProcCorpus-60M is an existing corpus (ref [22]) that ZR-0 adopts, not one it builds."
+ }
+]

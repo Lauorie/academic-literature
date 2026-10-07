@@ -1,0 +1,1101 @@
+{
+ "missing_audits": [],
+ "by_condition": {
+  "skill_full_r1": {
+   "claims": 60,
+   "supported": 53,
+   "error": 7,
+   "unverifiable": 0,
+   "no_claim": 0,
+   "full_text": 57,
+   "error_share_of_verifiable": 0.117,
+   "error_ci": [
+    0.058,
+    0.222
+   ],
+   "numbers": {
+    "absent": 1,
+    "misattributed": 10,
+    "supported": 196
+   }
+  },
+  "naiverag_pool": {
+   "claims": 22,
+   "supported": 18,
+   "error": 0,
+   "unverifiable": 2,
+   "no_claim": 2,
+   "full_text": 15,
+   "error_share_of_verifiable": 0.0,
+   "error_ci": [
+    0.0,
+    0.176
+   ],
+   "numbers": {
+    "supported": 19,
+    "unverifiable": 3
+   }
+  }
+ },
+ "skill_minus_pool_error_share": {
+  "diff": 0.117,
+  "ci95": [
+   0.033,
+   0.217
+  ]
+ },
+ "claims": [
+  {
+   "cid": "N001",
+   "cond": "skill_full_r1",
+   "tid": "022",
+   "k": 118,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N002",
+   "cond": "naiverag_pool",
+   "tid": "028",
+   "k": 37,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N003",
+   "cond": "skill_full_r1",
+   "tid": "017",
+   "k": 142,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N004",
+   "cond": "skill_full_r1",
+   "tid": "019",
+   "k": 50,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N005",
+   "cond": "skill_full_r1",
+   "tid": "007",
+   "k": 56,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N006",
+   "cond": "skill_full_r1",
+   "tid": "026",
+   "k": 256,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N007",
+   "cond": "skill_full_r1",
+   "tid": "010",
+   "k": 108,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "misattributed",
+    "supported",
+    "supported",
+    "supported",
+    "misattributed",
+    "supported",
+    "not_a_claim"
+   ]
+  },
+  {
+   "cid": "N008",
+   "cond": "skill_full_r1",
+   "tid": "016",
+   "k": 37,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N009",
+   "cond": "skill_full_r1",
+   "tid": "030",
+   "k": 27,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N010",
+   "cond": "skill_full_r1",
+   "tid": "023",
+   "k": 138,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N011",
+   "cond": "skill_full_r1",
+   "tid": "025",
+   "k": 127,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N012",
+   "cond": "skill_full_r1",
+   "tid": "013",
+   "k": 183,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N013",
+   "cond": "skill_full_r1",
+   "tid": "010",
+   "k": 61,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N014",
+   "cond": "skill_full_r1",
+   "tid": "012",
+   "k": 119,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N015",
+   "cond": "skill_full_r1",
+   "tid": "012",
+   "k": 108,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N016",
+   "cond": "naiverag_pool",
+   "tid": "023",
+   "k": 60,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N017",
+   "cond": "skill_full_r1",
+   "tid": "028",
+   "k": 128,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N018",
+   "cond": "naiverag_pool",
+   "tid": "023",
+   "k": 200,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N019",
+   "cond": "naiverag_pool",
+   "tid": "018",
+   "k": 178,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N020",
+   "cond": "skill_full_r1",
+   "tid": "027",
+   "k": 162,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N021",
+   "cond": "naiverag_pool",
+   "tid": "027",
+   "k": 108,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N022",
+   "cond": "naiverag_pool",
+   "tid": "022",
+   "k": 111,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N023",
+   "cond": "skill_full_r1",
+   "tid": "002",
+   "k": 82,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N024",
+   "cond": "naiverag_pool",
+   "tid": "028",
+   "k": 29,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N025",
+   "cond": "skill_full_r1",
+   "tid": "009",
+   "k": 79,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N026",
+   "cond": "skill_full_r1",
+   "tid": "013",
+   "k": 85,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N027",
+   "cond": "naiverag_pool",
+   "tid": "006",
+   "k": 162,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N028",
+   "cond": "skill_full_r1",
+   "tid": "024",
+   "k": 118,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N029",
+   "cond": "naiverag_pool",
+   "tid": "018",
+   "k": 107,
+   "verdict": "no_claim",
+   "text": "full",
+   "numbers": [
+    "not_a_claim"
+   ]
+  },
+  {
+   "cid": "N030",
+   "cond": "skill_full_r1",
+   "tid": "006",
+   "k": 34,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "misattributed",
+    "misattributed",
+    "misattributed"
+   ]
+  },
+  {
+   "cid": "N031",
+   "cond": "naiverag_pool",
+   "tid": "012",
+   "k": 255,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N032",
+   "cond": "skill_full_r1",
+   "tid": "024",
+   "k": 41,
+   "verdict": "supported",
+   "text": "abstract",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N033",
+   "cond": "skill_full_r1",
+   "tid": "002",
+   "k": 139,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N034",
+   "cond": "skill_full_r1",
+   "tid": "007",
+   "k": 73,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N035",
+   "cond": "skill_full_r1",
+   "tid": "029",
+   "k": 82,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N036",
+   "cond": "skill_full_r1",
+   "tid": "015",
+   "k": 37,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N037",
+   "cond": "skill_full_r1",
+   "tid": "030",
+   "k": 64,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "misattributed",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N038",
+   "cond": "naiverag_pool",
+   "tid": "001",
+   "k": 79,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N039",
+   "cond": "skill_full_r1",
+   "tid": "026",
+   "k": 228,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N040",
+   "cond": "naiverag_pool",
+   "tid": "016",
+   "k": 78,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N041",
+   "cond": "skill_full_r1",
+   "tid": "020",
+   "k": 156,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N042",
+   "cond": "skill_full_r1",
+   "tid": "005",
+   "k": 115,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N043",
+   "cond": "skill_full_r1",
+   "tid": "008",
+   "k": 70,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N044",
+   "cond": "skill_full_r1",
+   "tid": "001",
+   "k": 143,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N045",
+   "cond": "skill_full_r1",
+   "tid": "021",
+   "k": 109,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N046",
+   "cond": "naiverag_pool",
+   "tid": "025",
+   "k": 91,
+   "verdict": "unverifiable",
+   "text": "none",
+   "numbers": [
+    "unverifiable",
+    "unverifiable"
+   ]
+  },
+  {
+   "cid": "N047",
+   "cond": "naiverag_pool",
+   "tid": "010",
+   "k": 180,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N048",
+   "cond": "skill_full_r1",
+   "tid": "011",
+   "k": 25,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N049",
+   "cond": "skill_full_r1",
+   "tid": "011",
+   "k": 188,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N050",
+   "cond": "skill_full_r1",
+   "tid": "009",
+   "k": 147,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N051",
+   "cond": "skill_full_r1",
+   "tid": "014",
+   "k": 37,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N052",
+   "cond": "skill_full_r1",
+   "tid": "017",
+   "k": 40,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N053",
+   "cond": "skill_full_r1",
+   "tid": "021",
+   "k": 90,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N054",
+   "cond": "skill_full_r1",
+   "tid": "028",
+   "k": 108,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N055",
+   "cond": "skill_full_r1",
+   "tid": "018",
+   "k": 113,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N056",
+   "cond": "skill_full_r1",
+   "tid": "023",
+   "k": 146,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "misattributed",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N057",
+   "cond": "skill_full_r1",
+   "tid": "004",
+   "k": 56,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N058",
+   "cond": "naiverag_pool",
+   "tid": "020",
+   "k": 231,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N059",
+   "cond": "skill_full_r1",
+   "tid": "019",
+   "k": 84,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "misattributed"
+   ]
+  },
+  {
+   "cid": "N060",
+   "cond": "naiverag_pool",
+   "tid": "001",
+   "k": 76,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N061",
+   "cond": "skill_full_r1",
+   "tid": "025",
+   "k": 25,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N062",
+   "cond": "skill_full_r1",
+   "tid": "004",
+   "k": 108,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N063",
+   "cond": "skill_full_r1",
+   "tid": "022",
+   "k": 103,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N064",
+   "cond": "skill_full_r1",
+   "tid": "003",
+   "k": 137,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N065",
+   "cond": "skill_full_r1",
+   "tid": "016",
+   "k": 35,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N066",
+   "cond": "skill_full_r1",
+   "tid": "014",
+   "k": 189,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "absent"
+   ]
+  },
+  {
+   "cid": "N067",
+   "cond": "naiverag_pool",
+   "tid": "025",
+   "k": 77,
+   "verdict": "unverifiable",
+   "text": "abstract",
+   "numbers": [
+    "unverifiable"
+   ]
+  },
+  {
+   "cid": "N068",
+   "cond": "skill_full_r1",
+   "tid": "029",
+   "k": 93,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N069",
+   "cond": "skill_full_r1",
+   "tid": "020",
+   "k": 55,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N070",
+   "cond": "skill_full_r1",
+   "tid": "015",
+   "k": 120,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N071",
+   "cond": "naiverag_pool",
+   "tid": "010",
+   "k": 59,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N072",
+   "cond": "skill_full_r1",
+   "tid": "006",
+   "k": 97,
+   "verdict": "error",
+   "text": "full",
+   "numbers": [
+    "misattributed",
+    "misattributed",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N073",
+   "cond": "naiverag_pool",
+   "tid": "029",
+   "k": 110,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N074",
+   "cond": "naiverag_pool",
+   "tid": "024",
+   "k": 136,
+   "verdict": "no_claim",
+   "text": "abstract",
+   "numbers": [
+    "not_a_claim"
+   ]
+  },
+  {
+   "cid": "N075",
+   "cond": "skill_full_r1",
+   "tid": "005",
+   "k": 152,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N076",
+   "cond": "skill_full_r1",
+   "tid": "027",
+   "k": 36,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N077",
+   "cond": "skill_full_r1",
+   "tid": "018",
+   "k": 50,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N078",
+   "cond": "skill_full_r1",
+   "tid": "008",
+   "k": 62,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N079",
+   "cond": "skill_full_r1",
+   "tid": "001",
+   "k": 61,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N080",
+   "cond": "skill_full_r1",
+   "tid": "003",
+   "k": 60,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ]
+  },
+  {
+   "cid": "N081",
+   "cond": "naiverag_pool",
+   "tid": "022",
+   "k": 106,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  },
+  {
+   "cid": "N082",
+   "cond": "naiverag_pool",
+   "tid": "027",
+   "k": 112,
+   "verdict": "supported",
+   "text": "full",
+   "numbers": [
+    "supported"
+   ]
+  }
+ ]
+}

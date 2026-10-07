@@ -1,0 +1,542 @@
+[
+ {
+  "aid": "R007",
+  "exists": "yes",
+  "record": {
+   "title": "Efficiently Programming Large Language Models using SGLang",
+   "first_author": "Lianmin Zheng",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": "2312.07104",
+   "url": "https://arxiv.org/abs/2312.07104v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://par.nsf.gov/biblio/10524135",
+  "note": "arXiv v1 (Dec 2023) and NSF PAR record 10524135 carry this exact title with Zheng first; the given NSF PAR purl serves the PDF; later versions are retitled 'SGLang: Efficient Execution of Structured Language Model Programs'."
+ },
+ {
+  "aid": "R014",
+  "exists": "yes",
+  "record": {
+   "title": "An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System: [Experiments & Analysis]",
+   "first_author": "Duo Lu",
+   "year": 2026,
+   "doi": "10.1145/3802011",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3802011"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3802011",
+  "note": "CrossRef: Proceedings of the ACM on Management of Data 4(3), 2026, authors Lu, Caminal, Chatzakis, Papakonstantinou; entry gives no venue or identifier."
+ },
+ {
+  "aid": "R021",
+  "exists": "yes",
+  "record": {
+   "title": "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs",
+   "first_author": "Yu. A. Malkov",
+   "year": 2018,
+   "doi": "10.1109/TPAMI.2018.2889473",
+   "arxiv_id": "1603.09320",
+   "url": "https://arxiv.org/abs/1603.09320"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1603.09320",
+  "note": "arXiv 1603.09320 (v1 2016, v4 Aug 2018) resolves to this work; journal version IEEE TPAMI 42(4):824-836 (2020), DOI 10.1109/TPAMI.2018.2889473."
+ },
+ {
+  "aid": "R028",
+  "exists": "yes",
+  "record": {
+   "title": "Deep Continuous Fusion for Multi-sensor 3D Object Detection",
+   "first_author": "Ming Liang",
+   "year": 2018,
+   "doi": "10.1007/978-3-030-01270-0_39",
+   "arxiv_id": "2012.10992",
+   "url": "https://doi.org/10.1007/978-3-030-01270-0_39"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://arxiv.org/abs/1812.03958",
+  "note": "Work exists in ECCV 2018 (LNCS, CrossRef) but arXiv:1812.03958 resolves to 'The TT-PET Data Acquisition and Trigger System'; the paper's own arXiv id is 2012.10992."
+ },
+ {
+  "aid": "R035",
+  "exists": "yes",
+  "record": {
+   "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+   "first_author": "Ben Mildenhall",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2003.08934",
+   "arxiv_id": "2003.08934",
+   "url": "https://arxiv.org/abs/2003.08934"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2003.08934",
+  "note": "DataCite DOI resolves to the NeRF arXiv preprint (2020); year 2022 is within one year of the Communications of the ACM version (online Dec 2021, print 65(1) Jan 2022, DOI 10.1145/3503250); ECCV 2020 version also exists."
+ },
+ {
+  "aid": "R042",
+  "exists": "yes",
+  "record": {
+   "title": "FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning",
+   "first_author": "Swanand Kadhe",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2009.11248",
+   "arxiv_id": "2009.11248",
+   "url": "https://arxiv.org/abs/2009.11248"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2009.11248",
+  "note": "Only version found is arXiv 2009.11248 v1 (Sep 2020), confirmed by OpenAlex; no 2022 version located, so year 2022 is two years off."
+ },
+ {
+  "aid": "R049",
+  "exists": "yes",
+  "record": {
+   "title": "Understanding the Sources of Uncertainty for Large Language and Multimodal Models",
+   "first_author": "Ziran Yang",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=5By0rus8z7"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://iclr.cc/virtual/2025/32887",
+  "note": "ICLR 2025 virtual site lists this paper (Ziran Yang first, ICLR 2025 workshop 'Quantify Uncertainty and Hallucination in Foundation Models') with OpenReview forum 5By0rus8z7, the URL given in the entry; OpenReview itself blocked automated access."
+ },
+ {
+  "aid": "R056",
+  "exists": "yes",
+  "record": {
+   "title": "Fast Lithium Ion Conduction in Garnet-Type Li7La3Zr2O12",
+   "first_author": "Ramaswamy Murugan",
+   "year": 2007,
+   "doi": "10.1002/anie.200701144",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1002/anie.200701144"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1002/anie.200701144",
+  "note": "CrossRef matches title, authors, Angew. Chem. Int. Ed. 46(41):7778-7781, 2007."
+ },
+ {
+  "aid": "R063",
+  "exists": "yes",
+  "record": {
+   "title": "Product Quantization for Nearest Neighbor Search",
+   "first_author": "Hervé Jégou",
+   "year": 2011,
+   "doi": "10.1109/TPAMI.2010.57",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1109/TPAMI.2010.57"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1109/TPAMI.2010.57",
+  "note": "CrossRef: IEEE TPAMI 33(1):117-128, Jan 2011, authors Jégou, Douze, Schmid."
+ },
+ {
+  "aid": "R070",
+  "exists": "yes",
+  "record": {
+   "title": "TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation",
+   "first_author": "Muhammad Sohail Danish",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": "2506.06281",
+   "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/159511050630689045bf5593e74b13cc-Abstract-Conference.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/159511050630689045bf5593e74b13cc-Abstract-Conference.html",
+  "note": "The given ICLR 2026 proceedings URL resolves to this paper with Danish first; arXiv preprint 2506.06281 (2025) also exists."
+ },
+ {
+  "aid": "R077",
+  "exists": "yes",
+  "record": {
+   "title": "Automatic detection of methane emissions in multispectral satellite imagery using a vision transformer",
+   "first_author": "Bertrand Rouet-Leduc",
+   "year": 2024,
+   "doi": "10.1038/s41467-024-47754-y",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s41467-024-47754-y"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41467-024-45154-w",
+  "note": "Paper exists (Nature Communications 2024, DOI 10.1038/s41467-024-47754-y), but the entry's DOI 10.1038/s41467-024-45154-w resolves to 'Horizontal gene transfer is predicted to overcome the diversity limit of competing microbial species' (Zhu et al.)."
+ },
+ {
+  "aid": "R084",
+  "exists": "yes",
+  "record": {
+   "title": "Transfer learning enables predictions in network biology",
+   "first_author": "Christina V. Theodoris",
+   "year": 2023,
+   "doi": "10.1038/s41586-023-06139-9",
+   "arxiv_id": null,
+   "url": "https://www.nature.com/articles/s41586-023-06139-9"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41586-023-06139-9",
+  "note": "CrossRef: Nature 618:616-624 (2023); the entry's nature.com URL carries this article's DOI suffix and points to the same work (no full DOI written)."
+ },
+ {
+  "aid": "R091",
+  "exists": "yes",
+  "record": {
+   "title": "ArchesWeatherGen: Skillful and compute-efficient probabilistic weather forecasting with machine learning",
+   "first_author": "Guillaume Couairon",
+   "year": 2026,
+   "doi": "10.1126/sciadv.adx2372",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1126/sciadv.adx2372"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1126/sciadv.adx2372",
+  "note": "CrossRef: Science Advances 12(17), April 2026, Couairon first author."
+ },
+ {
+  "aid": "R098",
+  "exists": "yes",
+  "record": {
+   "title": "Multi-Task Multi-Sensor Fusion for 3D Object Detection",
+   "first_author": "Ming Liang",
+   "year": 2019,
+   "doi": "10.1109/CVPR.2019.00752",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1109/CVPR.2019.00752"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1109/CVPR.2019.00751",
+  "note": "Paper exists at CVPR 2019 with DOI 10.1109/CVPR.2019.00752; the entry's DOI 10.1109/CVPR.2019.00751 resolves to 'Efficient Featurized Image Pyramid Network for Single Shot Detector' (Pang et al.)."
+ },
+ {
+  "aid": "R105",
+  "exists": "yes",
+  "record": {
+   "title": "Quantify Uncertainty and Hallucination in Foundation Models: The Next Frontier in Reliable AI",
+   "first_author": "Grigorios Chrysos",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://iclr.cc/virtual/2025/workshop/23965"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://iclr.cc/virtual/2025/workshop/23965",
+  "note": "This is an ICLR 2025 workshop (organizers Chrysos, Li, Angelopoulos, Bates, Plank, Khan), not a research paper; OpenReview blocked automated access, so forum id yog1djOEOW could not be confirmed as its proposal page."
+ },
+ {
+  "aid": "R112",
+  "exists": "yes",
+  "record": {
+   "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+   "first_author": "Bernhard Kerbl",
+   "year": 2023,
+   "doi": "10.1145/3592433",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3592433"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=3D+Gaussian+Splatting+for+Real-Time+Radiance+Field+Rendering+Kerbl",
+  "note": "CrossRef: ACM TOG 2023 (SIGGRAPH), DOI 10.1145/3592433; the entry's KAIST URL serves a student's course presentation of the paper, not the paper itself."
+ },
+ {
+  "aid": "R119",
+  "exists": "yes",
+  "record": {
+   "title": "LM-Infinite: Simple On-the-Fly Length Generalization for Large Language Models",
+   "first_author": "Chi Han",
+   "year": 2023,
+   "doi": "10.18653/v1/2024.naacl-long.222",
+   "arxiv_id": "2308.16137",
+   "url": "https://arxiv.org/abs/2308.16137v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2308.16137v1",
+  "note": "arXiv v1 (Aug 2023) carries this exact title; later retitled 'LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models' (NAACL 2024); OpenReview forum pOujzgHIRY could not be checked (access blocked)."
+ },
+ {
+  "aid": "R126",
+  "exists": "yes",
+  "record": {
+   "title": "Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring",
+   "first_author": "Sungjin Ahn",
+   "year": 2012,
+   "doi": "10.48550/arXiv.1206.6380",
+   "arxiv_id": "1206.6380",
+   "url": "https://arxiv.org/abs/1206.6380"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1206.6380",
+  "note": "DataCite DOI resolves to this work (arXiv v1 June 2012, ICML 2012, only version); entry year 2022 is ten years off and 'UC Irvine' is an affiliation glued to author names."
+ },
+ {
+  "aid": "R133",
+  "exists": "yes",
+  "record": {
+   "title": "PreDiff: Precipitation Nowcasting with Latent Diffusion Models",
+   "first_author": "Zhihan Gao",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2307.10422",
+   "arxiv_id": "2307.10422",
+   "url": "https://arxiv.org/abs/2307.10422"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2307.10422",
+  "note": "arXiv:2307.10422 resolves to PreDiff (NeurIPS 2023) by Gao, Shi, Han, Wang et al.; the entry's author list (Wang, Wu, Zhang, Gao, Wang, Yu, Long) is not this paper's, and Gao is first author, not Wang."
+ },
+ {
+  "aid": "R140",
+  "exists": "yes",
+  "record": {
+   "title": "Uncertainty-Aware Evidential Fusion for Multi-Modal Object Detection in Autonomous Driving",
+   "first_author": "Qihang Yang",
+   "year": 2026,
+   "doi": "10.3390/drones10020130",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.3390/drones10020130"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.3390/drones10020130",
+  "note": "CrossRef: Drones 10(2):130, Feb 2026, authors Yang, Zhao, Cheng."
+ },
+ {
+  "aid": "R147",
+  "exists": "yes",
+  "record": {
+   "title": "Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change)",
+   "first_author": "Karthik Valmeekam",
+   "year": 2022,
+   "doi": null,
+   "arxiv_id": "2206.10498",
+   "url": "https://arxiv.org/abs/2206.10498v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/2206.10498v1",
+  "note": "arXiv 2206.10498 v1 (June 2022) carries this exact title with Valmeekam, Olmo, Sreedharan, Kambhampati; later retitled 'PlanBench' (NeurIPS 2023 Datasets and Benchmarks)."
+ },
+ {
+  "aid": "R154",
+  "exists": "yes",
+  "record": {
+   "title": "scTab: Scaling cross-tissue single-cell annotation models",
+   "first_author": "Felix Fischer",
+   "year": 2024,
+   "doi": "10.1038/s41467-024-51059-5",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s41467-024-51059-5"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s41467-024-51059-5",
+  "note": "CrossRef: Nature Communications 15 (Aug 2024), authors Fischer F., Fischer D.S., Mukhin, Isaev, ...; bioRxiv preprint 10.1101/2023.10.07.561331 (2023)."
+ },
+ {
+  "aid": "R161",
+  "exists": "yes",
+  "record": {
+   "title": "Diffusion-Based Protein Structure Design: Geometric Modelling, Validation Strategies, and Thermodynamic Challenges",
+   "first_author": "Wenran Li",
+   "year": 2026,
+   "doi": "10.3390/ijms27167151",
+   "arxiv_id": null,
+   "url": "https://www.mdpi.com/1422-0067/27/16/7151"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.3390/ijms27167151",
+  "note": "CrossRef: Int. J. Mol. Sci. 27(16):7151 (2026), the article at the entry's MDPI URL; first author is Wenran Li, while Cedric Damour is seventh of eleven authors."
+ },
+ {
+  "aid": "R168",
+  "exists": "yes",
+  "record": {
+   "title": "Generative design of sequence specific DNA binding proteins",
+   "first_author": "Enisha Sehgal",
+   "year": 2026,
+   "doi": "10.64898/2026.04.27.720408",
+   "arxiv_id": null,
+   "url": "http://biorxiv.org/lookup/doi/10.64898/2026.04.27.720408"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.64898/2026.04.27.720408",
+  "note": "CrossRef lists this bioRxiv preprint (April 2026) with Sehgal, Politanska, Mitra, Kim first among 21 authors; entry gives no identifier."
+ },
+ {
+  "aid": "R175",
+  "exists": "yes",
+  "record": {
+   "title": "ANN-Benchmarks: A benchmarking tool for approximate nearest neighbor algorithms",
+   "first_author": "Martin Aumüller",
+   "year": 2020,
+   "doi": "10.1016/j.is.2019.02.006",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1016/j.is.2019.02.006"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.is.2019.02.006",
+  "note": "CrossRef: Information Systems 87:101374, Jan 2020, authors Aumüller, Bernhardsson, Faithfull."
+ },
+ {
+  "aid": "R182",
+  "exists": "yes",
+  "record": {
+   "title": "SlicedLocator: Code vulnerability locator based on sliced dependence graph",
+   "first_author": "Bolun Wu",
+   "year": 2023,
+   "doi": "10.1016/j.cose.2023.103469",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1016/j.cose.2023.103469"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.cose.2023.103469",
+  "note": "CrossRef: Computers & Security 134:103469, Nov 2023, Wu first author."
+ },
+ {
+  "aid": "R189",
+  "exists": "yes",
+  "record": {
+   "title": "Datasheets for datasets",
+   "first_author": "Timnit Gebru",
+   "year": 2021,
+   "doi": "10.1145/3458723",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3458723"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3458723",
+  "note": "CrossRef: Communications of the ACM 64(12):86-92, 2021, Gebru, Morgenstern, Vecchione, Vaughan, ..."
+ },
+ {
+  "aid": "R196",
+  "exists": "yes",
+  "record": {
+   "title": "Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems",
+   "first_author": "Elias Lumer",
+   "year": 2025,
+   "doi": "10.48550/arXiv.2511.01854",
+   "arxiv_id": "2511.01854",
+   "url": "https://arxiv.org/abs/2511.01854"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2511.01854",
+  "note": "DataCite resolves arXiv 2511.01854 to this title, Lumer first, 2025."
+ },
+ {
+  "aid": "R203",
+  "exists": "yes",
+  "record": {
+   "title": "A systematic review of Explainable Artificial Intelligence models and applications: Recent developments and future trends",
+   "first_author": "A. Saranya",
+   "year": 2023,
+   "doi": "10.1016/j.dajour.2023.100230",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1016/j.dajour.2023.100230"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.dajour.2023.100230",
+  "note": "CrossRef: Decision Analytics Journal 7:100230, June 2023, authors A. Saranya and R. Subhashini; entry gives no venue or identifier."
+ },
+ {
+  "aid": "R210",
+  "exists": "yes",
+  "record": {
+   "title": "RecAgent: A Novel Simulation Paradigm for Recommender Systems",
+   "first_author": "Lei Wang",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2306.02552",
+   "arxiv_id": "2306.02552",
+   "url": "https://arxiv.org/abs/2306.02552"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://arxiv.org/abs/2306.11134",
+  "note": "RecAgent is arXiv 2306.02552 (v1 'RecAgent: A Novel Simulation Paradigm for Recommender Systems', later 'User Behavior Simulation with Large Language Model based Agents'); the entry's subtitle matches no version, and its arXiv:2306.11134 resolves to OpenP5 (Xu, Hua, Zhang)."
+ }
+]

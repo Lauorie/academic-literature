@@ -1,0 +1,147 @@
+[
+ {
+  "cid": "N002",
+  "sentence": "SatViT pretrained a vision transformer on 1.3 million satellite images using masked autoencoding [cited].",
+  "ref": "Anthony Fuller, Koreen Millard, James R. Green. SatViT: Pretraining Transformers for Earth Observation. IEEE Geosci. Remote. Sens. Lett., 2022. https://doi.org/10.1109/lgrs.2022.3201489",
+  "numbers": [
+   "1.3"
+  ]
+ },
+ {
+  "cid": "N008",
+  "sentence": "The claimed criterion is that hierarchy helps only below d < 32 [cited]; note that the headline parity claim rests on overlapping latency–recall curves rather than tabulated numbers, and the memory comparison crosses two different codebases.",
+  "ref": "B Munyampirwa, V Lakshman, B Coleman. Down with the hierarchy: The 'H'in HNSW Stands for “Hubs”. 2026. https://doi.org/10.1007/978-3-032-21324-2_3",
+  "numbers": [
+   "32"
+  ]
+ },
+ {
+  "cid": "N014",
+  "sentence": "EasyEdit's independent reproduction [cited] shows the same structure on LLaMA-2/ZsRE: GRACE holds reliability 99.22 and locality 100.00 but generalization 0.43.",
+  "ref": "P Wang, et al. Easyedit: An easy-to-use knowledge editing framework for large language models. 2024. https://aclanthology.org/2024.acl-demos.9.pdf",
+  "numbers": [
+   "0.43",
+   "100.00",
+   "99.22"
+  ]
+ },
+ {
+  "cid": "N020",
+  "sentence": "**Hybridisation looks under-explored relative to its evidence.** The single strongest hybrid result here — a 400 mm threat score of 0.1 at 8.5 days versus 3 days for a GFS-driven regional model [cited] — is also one of the least-replicated.",
+  "ref": "Hongxiong Xu, et al. Improvement of disastrous extreme precipitation forecasting in North China by Pangu-weather AI-driven regional WRF model. Environmental Research Letters, 2024. https://doi.org/10.1088/1748-9326/ad41f0",
+  "numbers": [
+   "0.1",
+   "400",
+   "8.5"
+  ]
+ },
+ {
+  "cid": "N026",
+  "sentence": "CPL derives a supervised contrastive loss over behavior segments using a regret-based preference model plus maximum-entropy RL, reporting that it is \"1.6× faster and four times as parameter efficient\" than the RL baselines it compares to, and that with denser preference data it surpasses the RL baselines on 5 of 6 MetaWorld tasks [cited].",
+  "ref": "Joey Hejna, et al. Contrastive preference learning: Learning from human feedback without reinforcement learning. ICLR, 2024. https://proceedings.iclr.cc/paper_files/paper/2024/hash/51f547584cd1fcb87114ea022822a60d-Abstract-Conference.html",
+  "numbers": [
+   "1.6"
+  ]
+ },
+ {
+  "cid": "N032",
+  "sentence": "Efficiency followed capacity, with hybrid CNN–transformer designs such as MobileViT reporting Dice 0.87 on BraTS 2021 at 40% less inference time than comparable CNNs [cited].",
+  "ref": "P Shashank, L Anand, R Pitchai. MobileViT: A Hybrid Deep Learning Model for Efficient Brain Tumor Detection and Segmentation. 2024. https://ieeexplore.ieee.org/abstract/document/10974209/",
+  "numbers": [
+   "0.87",
+   "40"
+  ]
+ },
+ {
+  "cid": "N038",
+  "sentence": "Small language models for efficient agentic tool calling show that targeted fine-tuning of a 350M model on ToolBench can outperform larger models on specific tool-calling tasks [cited].",
+  "ref": "P Jhandi, O Kazi, S Subramanian, et al. Small language models for efficient agentic tool calling: Outperforming large models with targeted fine-tuning. 2025. https://arxiv.org/abs/2512.15943",
+  "numbers": [
+   "350"
+  ]
+ },
+ {
+  "cid": "N044",
+  "sentence": "The MCP×A2A study supplies a worked implementation and an architecture, but every efficiency figure it quotes — \"reduce agent development time by up to 60%\", \"reduce code volume by more than 70%\" — is a citation to a blog or specification rather than a measurement [cited].",
+  "ref": "C Jeong. A Study on the MCP x A2A Framework for Enhancing Interoperability of LLM-based Autonomous Agents. arXiv preprint, 2025. https://arxiv.org/abs/2506.01804",
+  "numbers": [
+   "60",
+   "70"
+  ]
+ },
+ {
+  "cid": "N050",
+  "sentence": "Its reconstruction is the strongest in this corpus against GAN-inversion baselines: MAE 0.020, LPIPS 0.073, SSIM 0.914 at t0 = 300 versus the best baseline HFGI w/ e4e at 0.062 / 0.127 / 0.877 [cited].",
+  "ref": "G Kim, T Kwon, JC Ye. Diffusionclip: Text-guided diffusion models for robust image manipulation. 2022. https://ieeexplore.ieee.org/abstract/document/9879284/",
+  "numbers": [
+   "0.020",
+   "0.062",
+   "0.073",
+   "0.127",
+   "0.877",
+   "0.914",
+   "300"
+  ]
+ },
+ {
+  "cid": "N056",
+  "sentence": "**Chromatin.** ChromFound, the first single-cell ATAC foundation model, used a hybrid wavelet-plus-Mamba architecture trained on 1.97 million cells (2.65 million by its own appendix — an internal discrepancy) and reported an average ARI gain of 17.02% across eight datasets, an AvgBIO of 0.6443 against Harmony's 0.6232 (+3.37%), cross-omics prediction Pearson correlation up to 0.9449, enhancer-gene link AUCs of 0.77 (COPZ1) and 0.61 (HNRNPA1), and annotation gains of 4.71% accuracy and 14.69% macro-F1 over Cellcano [cited].",
+  "ref": "Yifeng Jiao, et al. ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data. arXiv (Cornell University), 2025. https://doi.org/10.48550/arxiv.2505.12638",
+  "numbers": [
+   "0.61",
+   "0.6232",
+   "0.6443",
+   "0.77",
+   "0.9449",
+   "1.97",
+   "14.69",
+   "17.02",
+   "2.65",
+   "3.37",
+   "4.71"
+  ]
+ },
+ {
+  "cid": "N062",
+  "sentence": "ReST-MCTS* infers per-step rewards automatically from tree rollouts and self-trains both the policy and the value model over two iterations, taking LLaMA-3-8B-Instruct on MATH from 20.76 to 34.28 and beating self-consistency on the MATH test set (48.5% vs 42.5%) [cited].",
+  "ref": "D Zhang, et al. Rest-mcts: Llm self-training via process reward guided tree search. 2024. https://proceedings.neurips.cc/paper_files/paper/2024/hash/76ec4dc30e9faaf0e4b6093eaa377218-Abstract-Conference.html",
+  "numbers": [
+   "20.76",
+   "34.28",
+   "42.5",
+   "48.5"
+  ]
+ },
+ {
+  "cid": "N068",
+  "sentence": "The 14-model VaR benchmark [cited] — three real USD yield-curve datasets, an 8-series market-risk dataset, four simulated data-generating processes across five paths each, one shared KPI schema combining distribution distance, autocorrelation and backtesting — finds that **plain historical simulation ranks first on every dataset** (USDYC1 composite 1.484, versus 2.068 for GARCH-t on returns and 2.094 for the best deep model, CWGAN).",
+  "ref": "L Ericson, et al. Deep generative modeling for financial time series with application in var: A comparative review. arXiv preprint, 2024. https://arxiv.org/abs/2401.10370",
+  "numbers": [
+   "1.484",
+   "14",
+   "2.068",
+   "2.094"
+  ]
+ },
+ {
+  "cid": "N074",
+  "sentence": "[18F]FDG PET radiomics in cervical cancer has been studied across multiple scanners and centers with external validation [cited].",
+  "ref": "Marta Ferreira, Pierre Lovinfosse, Johanne Hermesse, et al. [18F]FDG PET radiomics to predict disease-free survival in cervical cancer: a multi-scanner/center study with external validation. European Journal of Nuclear Medicine and Molecular Imaging, 2021. https://link.springer.com/article/10.1007/s00259-021-05303-5",
+  "numbers": [
+   "18"
+  ]
+ },
+ {
+  "cid": "N080",
+  "sentence": "The corrective layer is materially better than plain RAG on the same generator (PopQA 52.8 → 59.8, PubHealth 39.0 → 75.6) at a modest overhead, 0.512 s per instance against 0.363 s [cited].",
+  "ref": "Shi-Qi Yan, et al. Corrective retrieval augmented generation. arXiv (Cornell University), 2024. https://doi.org/10.48550/arxiv.2401.15884",
+  "numbers": [
+   "0.363",
+   "0.512",
+   "39.0",
+   "52.8",
+   "59.8",
+   "75.6"
+  ]
+ }
+]

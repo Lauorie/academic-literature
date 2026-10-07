@@ -1,0 +1,412 @@
+{
+ "N001": {
+  "cond": "skill_full_r1",
+  "tid": "022",
+  "k": 118
+ },
+ "N002": {
+  "cond": "naiverag_pool",
+  "tid": "028",
+  "k": 37
+ },
+ "N003": {
+  "cond": "skill_full_r1",
+  "tid": "017",
+  "k": 142
+ },
+ "N004": {
+  "cond": "skill_full_r1",
+  "tid": "019",
+  "k": 50
+ },
+ "N005": {
+  "cond": "skill_full_r1",
+  "tid": "007",
+  "k": 56
+ },
+ "N006": {
+  "cond": "skill_full_r1",
+  "tid": "026",
+  "k": 256
+ },
+ "N007": {
+  "cond": "skill_full_r1",
+  "tid": "010",
+  "k": 108
+ },
+ "N008": {
+  "cond": "skill_full_r1",
+  "tid": "016",
+  "k": 37
+ },
+ "N009": {
+  "cond": "skill_full_r1",
+  "tid": "030",
+  "k": 27
+ },
+ "N010": {
+  "cond": "skill_full_r1",
+  "tid": "023",
+  "k": 138
+ },
+ "N011": {
+  "cond": "skill_full_r1",
+  "tid": "025",
+  "k": 127
+ },
+ "N012": {
+  "cond": "skill_full_r1",
+  "tid": "013",
+  "k": 183
+ },
+ "N013": {
+  "cond": "skill_full_r1",
+  "tid": "010",
+  "k": 61
+ },
+ "N014": {
+  "cond": "skill_full_r1",
+  "tid": "012",
+  "k": 119
+ },
+ "N015": {
+  "cond": "skill_full_r1",
+  "tid": "012",
+  "k": 108
+ },
+ "N016": {
+  "cond": "naiverag_pool",
+  "tid": "023",
+  "k": 60
+ },
+ "N017": {
+  "cond": "skill_full_r1",
+  "tid": "028",
+  "k": 128
+ },
+ "N018": {
+  "cond": "naiverag_pool",
+  "tid": "023",
+  "k": 200
+ },
+ "N019": {
+  "cond": "naiverag_pool",
+  "tid": "018",
+  "k": 178
+ },
+ "N020": {
+  "cond": "skill_full_r1",
+  "tid": "027",
+  "k": 162
+ },
+ "N021": {
+  "cond": "naiverag_pool",
+  "tid": "027",
+  "k": 108
+ },
+ "N022": {
+  "cond": "naiverag_pool",
+  "tid": "022",
+  "k": 111
+ },
+ "N023": {
+  "cond": "skill_full_r1",
+  "tid": "002",
+  "k": 82
+ },
+ "N024": {
+  "cond": "naiverag_pool",
+  "tid": "028",
+  "k": 29
+ },
+ "N025": {
+  "cond": "skill_full_r1",
+  "tid": "009",
+  "k": 79
+ },
+ "N026": {
+  "cond": "skill_full_r1",
+  "tid": "013",
+  "k": 85
+ },
+ "N027": {
+  "cond": "naiverag_pool",
+  "tid": "006",
+  "k": 162
+ },
+ "N028": {
+  "cond": "skill_full_r1",
+  "tid": "024",
+  "k": 118
+ },
+ "N029": {
+  "cond": "naiverag_pool",
+  "tid": "018",
+  "k": 107
+ },
+ "N030": {
+  "cond": "skill_full_r1",
+  "tid": "006",
+  "k": 34
+ },
+ "N031": {
+  "cond": "naiverag_pool",
+  "tid": "012",
+  "k": 255
+ },
+ "N032": {
+  "cond": "skill_full_r1",
+  "tid": "024",
+  "k": 41
+ },
+ "N033": {
+  "cond": "skill_full_r1",
+  "tid": "002",
+  "k": 139
+ },
+ "N034": {
+  "cond": "skill_full_r1",
+  "tid": "007",
+  "k": 73
+ },
+ "N035": {
+  "cond": "skill_full_r1",
+  "tid": "029",
+  "k": 82
+ },
+ "N036": {
+  "cond": "skill_full_r1",
+  "tid": "015",
+  "k": 37
+ },
+ "N037": {
+  "cond": "skill_full_r1",
+  "tid": "030",
+  "k": 64
+ },
+ "N038": {
+  "cond": "naiverag_pool",
+  "tid": "001",
+  "k": 79
+ },
+ "N039": {
+  "cond": "skill_full_r1",
+  "tid": "026",
+  "k": 228
+ },
+ "N040": {
+  "cond": "naiverag_pool",
+  "tid": "016",
+  "k": 78
+ },
+ "N041": {
+  "cond": "skill_full_r1",
+  "tid": "020",
+  "k": 156
+ },
+ "N042": {
+  "cond": "skill_full_r1",
+  "tid": "005",
+  "k": 115
+ },
+ "N043": {
+  "cond": "skill_full_r1",
+  "tid": "008",
+  "k": 70
+ },
+ "N044": {
+  "cond": "skill_full_r1",
+  "tid": "001",
+  "k": 143
+ },
+ "N045": {
+  "cond": "skill_full_r1",
+  "tid": "021",
+  "k": 109
+ },
+ "N046": {
+  "cond": "naiverag_pool",
+  "tid": "025",
+  "k": 91
+ },
+ "N047": {
+  "cond": "naiverag_pool",
+  "tid": "010",
+  "k": 180
+ },
+ "N048": {
+  "cond": "skill_full_r1",
+  "tid": "011",
+  "k": 25
+ },
+ "N049": {
+  "cond": "skill_full_r1",
+  "tid": "011",
+  "k": 188
+ },
+ "N050": {
+  "cond": "skill_full_r1",
+  "tid": "009",
+  "k": 147
+ },
+ "N051": {
+  "cond": "skill_full_r1",
+  "tid": "014",
+  "k": 37
+ },
+ "N052": {
+  "cond": "skill_full_r1",
+  "tid": "017",
+  "k": 40
+ },
+ "N053": {
+  "cond": "skill_full_r1",
+  "tid": "021",
+  "k": 90
+ },
+ "N054": {
+  "cond": "skill_full_r1",
+  "tid": "028",
+  "k": 108
+ },
+ "N055": {
+  "cond": "skill_full_r1",
+  "tid": "018",
+  "k": 113
+ },
+ "N056": {
+  "cond": "skill_full_r1",
+  "tid": "023",
+  "k": 146
+ },
+ "N057": {
+  "cond": "skill_full_r1",
+  "tid": "004",
+  "k": 56
+ },
+ "N058": {
+  "cond": "naiverag_pool",
+  "tid": "020",
+  "k": 231
+ },
+ "N059": {
+  "cond": "skill_full_r1",
+  "tid": "019",
+  "k": 84
+ },
+ "N060": {
+  "cond": "naiverag_pool",
+  "tid": "001",
+  "k": 76
+ },
+ "N061": {
+  "cond": "skill_full_r1",
+  "tid": "025",
+  "k": 25
+ },
+ "N062": {
+  "cond": "skill_full_r1",
+  "tid": "004",
+  "k": 108
+ },
+ "N063": {
+  "cond": "skill_full_r1",
+  "tid": "022",
+  "k": 103
+ },
+ "N064": {
+  "cond": "skill_full_r1",
+  "tid": "003",
+  "k": 137
+ },
+ "N065": {
+  "cond": "skill_full_r1",
+  "tid": "016",
+  "k": 35
+ },
+ "N066": {
+  "cond": "skill_full_r1",
+  "tid": "014",
+  "k": 189
+ },
+ "N067": {
+  "cond": "naiverag_pool",
+  "tid": "025",
+  "k": 77
+ },
+ "N068": {
+  "cond": "skill_full_r1",
+  "tid": "029",
+  "k": 93
+ },
+ "N069": {
+  "cond": "skill_full_r1",
+  "tid": "020",
+  "k": 55
+ },
+ "N070": {
+  "cond": "skill_full_r1",
+  "tid": "015",
+  "k": 120
+ },
+ "N071": {
+  "cond": "naiverag_pool",
+  "tid": "010",
+  "k": 59
+ },
+ "N072": {
+  "cond": "skill_full_r1",
+  "tid": "006",
+  "k": 97
+ },
+ "N073": {
+  "cond": "naiverag_pool",
+  "tid": "029",
+  "k": 110
+ },
+ "N074": {
+  "cond": "naiverag_pool",
+  "tid": "024",
+  "k": 136
+ },
+ "N075": {
+  "cond": "skill_full_r1",
+  "tid": "005",
+  "k": 152
+ },
+ "N076": {
+  "cond": "skill_full_r1",
+  "tid": "027",
+  "k": 36
+ },
+ "N077": {
+  "cond": "skill_full_r1",
+  "tid": "018",
+  "k": 50
+ },
+ "N078": {
+  "cond": "skill_full_r1",
+  "tid": "008",
+  "k": 62
+ },
+ "N079": {
+  "cond": "skill_full_r1",
+  "tid": "001",
+  "k": 61
+ },
+ "N080": {
+  "cond": "skill_full_r1",
+  "tid": "003",
+  "k": 60
+ },
+ "N081": {
+  "cond": "naiverag_pool",
+  "tid": "022",
+  "k": 106
+ },
+ "N082": {
+  "cond": "naiverag_pool",
+  "tid": "027",
+  "k": 112
+ }
+}

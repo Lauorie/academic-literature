@@ -1,0 +1,560 @@
+[
+ {
+  "aid": "R002",
+  "exists": "yes",
+  "record": {
+   "title": "Authorship Statement for Generative Artificial Intelligence: Assuring Trust and Accountability",
+   "first_author": "Joseph Crawford",
+   "year": 2026,
+   "doi": "10.53761/v16abt43",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.53761/v16abt43"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "does_not_resolve",
+  "evidence_url": "https://api.crossref.org/works/10.53761/v16abt43",
+  "note": "CrossRef lists authors Crawford, Purvis, Grieve, Taylor (JUTLP 23(1), 2026), so Taylor is last not first; the Informit DOI returns handle-not-found (responseCode 100) at doi.org."
+ },
+ {
+  "aid": "R009",
+  "exists": "yes",
+  "record": {
+   "title": "Auto-Encoding Variational Bayes",
+   "first_author": "Diederik P. Kingma",
+   "year": 2013,
+   "doi": null,
+   "arxiv_id": "1312.6114",
+   "url": "https://arxiv.org/abs/1312.6114"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1312.6114",
+  "note": "DataCite record for arXiv:1312.6114 matches title and authors Kingma, Welling (2013 preprint, ICLR 2014)."
+ },
+ {
+  "aid": "R016",
+  "exists": "yes",
+  "record": {
+   "title": "Deep Leakage from Gradients",
+   "first_author": "Ligeng Zhu",
+   "year": 2019,
+   "doi": "10.48550/arXiv.1906.08935",
+   "arxiv_id": "1906.08935",
+   "url": "https://arxiv.org/abs/1906.08935"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1906.08935",
+  "note": "arXiv DOI resolves to this paper (2019, NeurIPS 2019; LNCS chapter 2020); entry year 2022 is two or more years off every version."
+ },
+ {
+  "aid": "R023",
+  "exists": "yes",
+  "record": {
+   "title": "Automatic Software Repair: A Bibliography",
+   "first_author": "Martin Monperrus",
+   "year": 2018,
+   "doi": "10.1145/3105906",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3105906"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3105906",
+  "note": "CrossRef: ACM Computing Surveys 51(1):1-24, 2018, sole author Monperrus."
+ },
+ {
+  "aid": "R030",
+  "exists": "yes",
+  "record": {
+   "title": "Combinatorial Optimization and Reasoning with Graph Neural Networks",
+   "first_author": "Quentin Cappart",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": "2102.09544",
+   "url": "https://jmlr.org/papers/v24/21-0449.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://jmlr.org/papers/v24/",
+  "note": "JMLR v24 lists the paper as (130):1-61, 2023 with the same six authors; arXiv 2102.09544 DataCite record matches."
+ },
+ {
+  "aid": "R037",
+  "exists": "yes",
+  "record": {
+   "title": "Bayesian Deep Learning for Morphological Classification of Radio Galaxies",
+   "first_author": "Devina Mohan",
+   "year": 2022,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://research.manchester.ac.uk/en/studentTheses/5ead4f73-5bbc-4c5a-85d6-20f839fed180"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://research.manchester.ac.uk/en/studentTheses/5ead4f73-5bbc-4c5a-85d6-20f839fed180",
+  "note": "MSc by Research thesis, University of Manchester, awarded 14 Feb 2022 (also indexed in OpenAlex W7128130329)."
+ },
+ {
+  "aid": "R044",
+  "exists": "yes",
+  "record": {
+   "title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
+   "first_author": "Karthik Valmeekam",
+   "year": 2023,
+   "doi": "10.52202/075280-1693",
+   "arxiv_id": "2206.10498",
+   "url": "https://papers.nips.cc/paper_files/paper/2023/hash/7a92bcdede88c7afd108072faf5485c8-Abstract-Datasets_and_Benchmarks.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.52202/075280-1693",
+  "note": "Published at NeurIPS 2023 Datasets and Benchmarks (arXiv 2022), so \"NeurIPS, 2022\" mislabels the venue year though 2022 matches the preprint; the given NeurIPS URL opens this paper."
+ },
+ {
+  "aid": "R051",
+  "exists": "yes",
+  "record": {
+   "title": "A Survey on Evaluation of Embodied AI",
+   "first_author": "Liyu Hou",
+   "year": 2026,
+   "doi": "10.20944/preprints202608.2328.v1",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.20944/preprints202608.2328.v1"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.20944/preprints202608.2328.v1",
+  "note": "CrossRef lists 2026 preprints (Preprints.org and Authorea) by Hou, Gao, Wu, Chang with this title."
+ },
+ {
+  "aid": "R058",
+  "exists": "yes",
+  "record": {
+   "title": "Graph neural networks for materials science and chemistry",
+   "first_author": "Patrick Reiser",
+   "year": 2022,
+   "doi": "10.1038/s43246-022-00315-6",
+   "arxiv_id": null,
+   "url": "https://www.nature.com/articles/s43246-022-00315-6"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s43246-022-00315-6",
+  "note": "Communications Materials 3, 2022, first author Patrick Reiser; the entry URL is the publisher page for this DOI."
+ },
+ {
+  "aid": "R065",
+  "exists": "yes",
+  "record": {
+   "title": "The Graph Neural Network Model",
+   "first_author": "Franco Scarselli",
+   "year": 2009,
+   "doi": "10.1109/TNN.2008.2005605",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1109/TNN.2008.2005605"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1109/TNN.2008.2005605",
+  "note": "CrossRef: IEEE TNN 20(1):61-80, Jan 2009, authors Scarselli, Gori, Tsoi, Hagenbuchner, Monfardini."
+ },
+ {
+  "aid": "R072",
+  "exists": "yes",
+  "record": {
+   "title": "The Privacy Blanket of the Shuffle Model",
+   "first_author": "Borja Balle",
+   "year": 2019,
+   "doi": "10.1007/978-3-030-26951-7_22",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/978-3-030-26951-7_22"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-3-030-26951-7_19",
+  "note": "The given DOI (_19) resolves to Chen and Tessaro, \"Memory-Hard Functions from Cryptographic Primitives\"; the paper is CRYPTO 2019, LNCS, pp. 638-667, DOI 10.1007/978-3-030-26951-7_22."
+ },
+ {
+  "aid": "R079",
+  "exists": "yes",
+  "record": {
+   "title": "A multidimensional study of large language models: recommendation behavior, internal representations, and post-training enhancements",
+   "first_author": "Dario Di Palma",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://hdl.handle.net/11589/300300"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://iris.poliba.it/oai/request?verb=GetRecord&identifier=oai:iris.poliba.it:11589/300300&metadataPrefix=oai_dc",
+  "note": "IRIS OAI-PMH record: doctoral thesis, Politecnico di Bari, 2026, creator Di Palma, Dario."
+ },
+ {
+  "aid": "R086",
+  "exists": "yes",
+  "record": {
+   "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+   "first_author": "Nandan Thakur",
+   "year": 2021,
+   "doi": "10.48550/arXiv.2104.08663",
+   "arxiv_id": "2104.08663",
+   "url": "https://arxiv.org/abs/2104.08663"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2104.08663",
+  "note": "arXiv id in the URL resolves to BEIR by Thakur, Reimers, Rueckle, Srivastava, Gurevych (2021)."
+ },
+ {
+  "aid": "R093",
+  "exists": "yes",
+  "record": {
+   "title": "A compact review of molecular property prediction with graph neural networks",
+   "first_author": "Oliver Wieder",
+   "year": 2020,
+   "doi": "10.1016/j.ddtec.2020.11.009",
+   "arxiv_id": null,
+   "url": "https://www.sciencedirect.com/science/article/pii/S1740674920300305"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1016/j.ddtec.2020.11.009",
+  "note": "Drug Discovery Today: Technologies 37:1-12, Dec 2020; the ScienceDirect PII in the entry URL matches the CrossRef alternative-id."
+ },
+ {
+  "aid": "R100",
+  "exists": "yes",
+  "record": {
+   "title": "Bayesian Deep Learning and a Probabilistic Perspective of Generalization",
+   "first_author": "Andrew Gordon Wilson",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2002.08791",
+   "arxiv_id": "2002.08791",
+   "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/322f62469c5e3c7dc3e58f5a4d1ea399-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://arxiv.org/abs/2002.08791",
+  "note": "Published at NeurIPS 2020 (proceedings page under paper/2020) with arXiv v1 Feb 2020; entry year 2022 matches only arXiv v4 (30 Mar 2022), so \"NeurIPS, 2022\" misstates the venue year."
+ },
+ {
+  "aid": "R107",
+  "exists": "yes",
+  "record": {
+   "title": "Practical automated detection of malicious npm packages",
+   "first_author": "Adriana Sejfia",
+   "year": 2022,
+   "doi": "10.1145/3510003.3510104",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3510003.3510104"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3510003.3510104",
+  "note": "CrossRef: ICSE 2022 (44th), pp. 1681-1692, authors Sejfia and Schaefer."
+ },
+ {
+  "aid": "R114",
+  "exists": "yes",
+  "record": {
+   "title": "Gaussian Based Adaptive Multi-Modal 3D Semantic Occupancy Prediction",
+   "first_author": "A. Enes Doruk",
+   "year": 2026,
+   "doi": "10.48550/arXiv.2601.14448",
+   "arxiv_id": "2601.14448",
+   "url": "https://arxiv.org/abs/2601.14448"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2601.14448",
+  "note": "arXiv preprint 2601.14448 (2026) by Doruk with this exact title; the entry gives no venue or identifier."
+ },
+ {
+  "aid": "R121",
+  "exists": "yes",
+  "record": {
+   "title": "Knowledge-guided Causal Discovery with Uncertainty Quantification",
+   "first_author": "Uzma Hasan",
+   "year": 2026,
+   "doi": "10.13016/m2ctgh-xcy8",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.13016/m2ctgh-xcy8"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.datacite.org/dois/10.13016/m2ctgh-xcy8",
+  "note": "DataCite: 2026 text record by Hasan, Uzma in the University of Maryland repository (MD-SOAR)."
+ },
+ {
+  "aid": "R128",
+  "exists": "yes",
+  "record": {
+   "title": "Manu: A Cloud Native Vector Database Management System",
+   "first_author": "Rentong Guo",
+   "year": 2022,
+   "doi": "10.14778/3554821.3554843",
+   "arxiv_id": "2206.13843",
+   "url": "https://doi.org/10.14778/3554821.3554843"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.14778/3554821.3554890",
+  "note": "The given DOI resolves to Badaro and Papotti, \"Transformers for tabular data representation\"; Manu is PVLDB 15(12):3548-3561, 2022, DOI 10.14778/3554821.3554843."
+ },
+ {
+  "aid": "R135",
+  "exists": "yes",
+  "record": {
+   "title": "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs",
+   "first_author": "Yury A. Malkov",
+   "year": 2020,
+   "doi": "10.1109/TPAMI.2018.2889473",
+   "arxiv_id": "1603.09320",
+   "url": "https://ieeexplore.ieee.org/document/8594636"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1109/tpami.2018.2889473",
+  "note": "IEEE TPAMI 42(4):824-836 (issue 2020, arnumber 8594636 matches the entry URL); 2018 fits arXiv v4 (Aug 2018) and the 2018 early-access DOI."
+ },
+ {
+  "aid": "R142",
+  "exists": "yes",
+  "record": {
+   "title": "MCP-Zero: Active Tool Discovery for Autonomous LLM Agents",
+   "first_author": "Xiang Fei",
+   "year": 2025,
+   "doi": "10.48550/arXiv.2506.01056",
+   "arxiv_id": "2506.01056",
+   "url": "https://arxiv.org/abs/2506.01056"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "http://export.arxiv.org/api/query?search_query=ti:%22MCP-Zero%22",
+  "note": "arXiv 2506.01056 (June 2025) by Fei, Zheng, Feng et al. matches; the entry gives no identifier."
+ },
+ {
+  "aid": "R149",
+  "exists": "yes",
+  "record": {
+   "title": "Evaluating Bayesian Deep Learning Methods for Semantic Segmentation",
+   "first_author": "Jishnu Mukhoti",
+   "year": 2018,
+   "doi": "10.48550/arXiv.1811.12709",
+   "arxiv_id": "1811.12709",
+   "url": "https://arxiv.org/abs/1811.12709"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://arxiv.org/abs/1811.12709",
+  "note": "arXiv DOI resolves to this paper (v1 Nov 2018, v2 Mar 2019); dblp via OpenReview lists only CoRR 2018 and CrossRef shows no later published version, so 2022 is off by three years."
+ },
+ {
+  "aid": "R156",
+  "exists": "yes",
+  "record": {
+   "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+   "first_author": "Yang Song",
+   "year": 2021,
+   "doi": null,
+   "arxiv_id": "2011.13456",
+   "url": "https://openreview.net/forum?id=PxTIG12RRHS"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.openreview.net/notes/search?term=Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations&source=forum",
+  "note": "OpenReview: ICLR 2021 Oral; arXiv 2011.13456 DataCite record matches title and author order."
+ },
+ {
+  "aid": "R163",
+  "exists": "yes",
+  "record": {
+   "title": "InjectBench: An Indirect Prompt Injection Benchmarking Framework",
+   "first_author": "Nicholas Ka-Shing Kong",
+   "year": 2024,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://hdl.handle.net/10919/120973"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://vtechworks.lib.vt.edu/server/api/core/items/c8a6b2f2-9b51-4e02-9778-aa4840fa30d8",
+  "note": "Master of Science thesis, Virginia Tech, issued 2024-08-20, author Kong, Nicholas Ka-Shing."
+ },
+ {
+  "aid": "R170",
+  "exists": "yes",
+  "record": {
+   "title": "Roadmap for the development of machine learning-based interatomic potentials",
+   "first_author": "Yong-Wei Zhang",
+   "year": 2025,
+   "doi": "10.1088/1361-651X/ad9d63",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1088/1361-651X/ad9d63"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=Roadmap+for+the+development+of+machine+learning-based+interatomic+potentials",
+  "note": "CrossRef: Modelling and Simulation in Materials Science and Engineering, Jan 2025, authors Zhang, Sorkin, Aitken et al."
+ },
+ {
+  "aid": "R177",
+  "exists": "yes",
+  "record": {
+   "title": "AI hallucinations in academic writing: implications for research integrity",
+   "first_author": "Louie Giray",
+   "year": 2026,
+   "doi": "10.1007/s00210-026-05494-4",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/s00210-026-05494-4"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s00210-026-05494-4",
+  "note": "CrossRef: Naunyn-Schmiedeberg's Archives of Pharmacology, May 2026, authors Giray, Islam, Glo; the entry gives no venue or identifier."
+ },
+ {
+  "aid": "R184",
+  "exists": "yes",
+  "record": {
+   "title": "Integrating Image Data Extraction and Table Parsing Methods for Chart Question Answering",
+   "first_author": "Ahmed Masry",
+   "year": 2021,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://www.yorku.ca/enamulh/papers/cqaw.pdf"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://sites.google.com/view/ahmedmasry/",
+  "note": "Author PDF (fetched, created Jul 2021) and author homepage show Masry and Hoque Prince, ChartQA workshop at CVPR 2021; no DOI found."
+ },
+ {
+  "aid": "R191",
+  "exists": "yes",
+  "record": {
+   "title": "Privacy-Preserving Machine Learning for Financial Data: Federated Learning and Differential Privacy",
+   "first_author": "Samy El Amali",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://www.researchgate.net/publication/408132448_Privacy-Preserving_Machine_Learning_for_Financial_Data_Federated_Learning_and_Differential_Privacy"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "none",
+  "evidence_url": "https://www.researchgate.net/profile/Samy-El-Amali-3/publication/408132448_Privacy-Preserving_Machine_Learning_for_Financial_Data_Federated_Learning_and_Differential_Privacy/links/6a3ea1ebd551e312d721db08/Privacy-Preserving-Machine-Learning-for-Financial-Data-Federated-Learning-and-Differential-Privacy.pdf",
+  "note": "A scholarly index (wis-scholar-search) lists this ResearchGate upload by S El Amali with an abstract and an unsourced year 2021, but the RG link ObjectId 6a3ea1eb decodes to 2026-06-26 (method checked on R198: 5bc8740b decodes to 2018-10-18, matching its Oct 2018 arXiv v1), the author's only CrossRef record is June 2026, and CrossRef, web search and the 403-blocked RG page show no 2021 version."
+ },
+ {
+  "aid": "R198",
+  "exists": "yes",
+  "record": {
+   "title": "Uncertainty in Neural Networks: Bayesian Ensembling",
+   "first_author": "Tim Pearce",
+   "year": 2018,
+   "doi": "10.48550/arXiv.1810.05546",
+   "arxiv_id": "1810.05546",
+   "url": "https://arxiv.org/abs/1810.05546"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://arxiv.org/abs/1810.05546v1",
+  "note": "arXiv v1 (Oct 2018) carries this exact title by Pearce, Leibfried, Brintrup, Zaki; later retitled \"Approximately Bayesian Ensembling\" and published at AISTATS 2020; the entry URL is a ResearchGate PDF."
+ },
+ {
+  "aid": "R205",
+  "exists": "yes",
+  "record": {
+   "title": "Nowcasting thunderstorm hazards using machine learning: the impact of data sources on performance",
+   "first_author": "Jussi Leinonen",
+   "year": 2022,
+   "doi": "10.5194/nhess-22-577-2022",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.5194/nhess-22-577-2022"
+  },
+  "title_ok": "no",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "does_not_resolve",
+  "evidence_url": "https://api.crossref.org/works/10.5194/nhess-22-577-2022",
+  "note": "Same four authors and journal, but the real subtitle is \"the impact of data sources on performance\" (not \"a review\") and it is NHESS 22:577-597, 2022; the given DOI nhess-23-3439-2023 is not registered (doi.org responseCode 100) and CrossRef shows no 2023 review by these authors."
+ },
+ {
+  "aid": "R212",
+  "exists": "yes",
+  "record": {
+   "title": "Inverse Reward Design",
+   "first_author": "Dylan Hadfield-Menell",
+   "year": 2017,
+   "doi": "10.48550/arXiv.1711.02827",
+   "arxiv_id": "1711.02827",
+   "url": "https://arxiv.org/abs/1711.02827"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1711.02827",
+  "note": "arXiv 1711.02827 and dblp (NIPS 2017) list Hadfield-Menell, Milli, Abbeel, Russell, Dragan; the entry omits Milli and moves Dragan to second."
+ }
+]

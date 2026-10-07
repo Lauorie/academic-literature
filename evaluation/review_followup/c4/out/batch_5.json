@@ -1,0 +1,344 @@
+[
+ {
+  "cid": "N005",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://aclanthology.org/2025.naacl-long.566.pdf",
+  "numbers": [
+   {
+    "value": "500",
+    "verdict": "supported",
+    "evidence": "Sec. 3: \"Overall, 500 multi-chart sets are collected, each containing 2-3 semantically related charts.\" Table 1: \"Multi-chart sets 500\"; \"Total Questions 2,000\"."
+   },
+   {
+    "value": "77.72",
+    "verdict": "supported",
+    "evidence": "Table 2: \"Claude-3.5-Sonnet 77.72\" (Overall); text: \"The best closed-source model, Claude-3.5-Sonnet, achieves an overall accuracy of 77.72%.\""
+   },
+   {
+    "value": "90.11",
+    "verdict": "supported",
+    "evidence": "Table 2: \"Human 90.11\" (Overall)."
+   }
+  ],
+  "note": "Sequential reasoning weakest: \"Models perform poorly on sequential reasoning among four categories... Claude-3.5-Sonnet reaches only 62.55% accuracy on this task\". Human annotation: \"We manually annotate every question and answer\"."
+ },
+ {
+  "cid": "N011",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://www.nature.com/articles/s44160-024-00502-y",
+  "numbers": [
+   {
+    "value": "15",
+    "verdict": "supported",
+    "evidence": "Results: \"In 15 targets, the predicted precursors achieved at least 20% higher phase purity than the traditional precursors (green), and 6 of these 15 target materials could 'only' be synthesized by the predicted precursors\"."
+   },
+   {
+    "value": "20",
+    "verdict": "supported",
+    "evidence": "Results: \"In 15 targets, the predicted precursors achieved at least 20% higher phase purity than the traditional precursors\"."
+   },
+   {
+    "value": "224",
+    "verdict": "supported",
+    "evidence": "Abstract: \"For a set of 35 target quaternary oxides ... our robot performs 224 reactions spanning 27 elements with 28 unique precursors, operated by 1 human experimentalist.\""
+   },
+   {
+    "value": "27",
+    "verdict": "supported",
+    "evidence": "Abstract: \"224 reactions spanning 27 elements with 28 unique precursors\"."
+   },
+   {
+    "value": "32",
+    "verdict": "supported",
+    "evidence": "Results: \"For 32 out of 35 compounds (91%), the predicted precursors successfully produced the target phase.\""
+   },
+   {
+    "value": "35",
+    "verdict": "supported",
+    "evidence": "Abstract: \"For a set of 35 target quaternary oxides\"; Results: \"For 32 out of 35 compounds (91%)\"."
+   },
+   {
+    "value": "91",
+    "verdict": "supported",
+    "evidence": "Results: \"For 32 out of 35 compounds (91%), the predicted precursors successfully produced the target phase.\""
+   }
+  ],
+  "note": "Robotic platform named ASTRAL in the text (\"ASTRAL automates inorganic materials synthesis from powder precursors\"); precursors chosen from \"DFT-calculated convex hulls\". Full text read from open-access Nature page."
+ },
+ {
+  "cid": "N017",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2312.03606",
+  "numbers": [
+   {
+    "value": "2.1",
+    "verdict": "supported",
+    "evidence": "Sec. 3: \"we initialize the encoder E, the decoder D, the CLIP text encoder T_theta, and the denoising UNet eps_theta with SD 2.1's weights.\""
+   }
+  ],
+  "note": "3D ControlNet for temporal generation is in the paper (\"Ours + 3D ControlNet\", Table 4). Non-numeric caveat: the paper conditions on metadata in addition to CLIP-embedded text captions (\"the CLIP-embedded text caption ... are passed through a DM\"), not instead of captions."
+ },
+ {
+  "cid": "N023",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://aclanthology.org/2024.findings-emnlp.582.pdf",
+  "numbers": [
+   {
+    "value": "21.21",
+    "verdict": "supported",
+    "evidence": "App. A.1, Table 2 (LongBench-E): \"MultiFieldQA-en ... 8K+ 21.21\" in the Llama2-7B-Chat (4K) column."
+   },
+   {
+    "value": "34.29",
+    "verdict": "supported",
+    "evidence": "App. A.1, Table 2 (LongBench-E): \"MultiFieldQA-en 4-8K 34.29\" in the Llama2-7B-Chat (4K) column."
+   },
+   {
+    "value": "41.42",
+    "verdict": "supported",
+    "evidence": "App. A.1, Table 2 (LongBench-E): \"0-4K 41.42\" for MultiFieldQA-en, Llama2-7B-Chat (4K) column. The survey runs this itself: \"we leverage LongBench-E (Bai et al., 2023b) as our testbed and choose three trending LLMs\"."
+   }
+  ],
+  "note": "Framing caveat (non-numeric): Table 2 lists Llama2-7B-Chat's window as 4K, so only the 0-4K bucket (41.42) is within its nominal window; 34.29 (4-8K) and 21.21 (8K+) are beyond it. The survey's conclusion 3 (\"Even evaluating on sequences within the context window, the increase in sequence length still leads to degraded performance\") is a general statement, not shown by this row. App. A.2 supports the perplexity/MMLU point: \"bias methods (T5 bias and ALiBi) lead to lower perplexity\" while \"models with ALiBi have worse performance than RoPE-based models on ... MMLU ... and LMSys arena\"."
+ },
+ {
+  "cid": "N029",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2507.21817",
+  "numbers": [
+   {
+    "value": "25",
+    "verdict": "not_a_claim",
+    "evidence": "\"25\" names MITRE's list, not a result of the paper: \"Top 25 Most Dangerous CWEs [27] (hereafter, 'Top 25 CWEs')\"; BenchVul is \"a manually curated and balanced test dataset covering the MITRE Top 25 Most Dangerous CWEs\"."
+   }
+  ],
+  "note": "Read the arXiv preprint (v-latest) of the ICSE 2026 paper. The paper does test models trained on existing vulnerability datasets out of distribution on Top 25 CWEs (BenchVul), so the sentence's gist matches."
+ },
+ {
+  "cid": "N035",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://dergipark.org.tr/en/download/article-file/5572597",
+  "numbers": [
+   {
+    "value": "0.038235",
+    "verdict": "supported",
+    "evidence": "Table 7 (alpha-stable, alpha = 1.5), n = 5000: \"Neural Hill -0.038235 0.066173 0.92\" (Bias, RMSE, CI coverage)."
+   },
+   {
+    "value": "0.066173",
+    "verdict": "supported",
+    "evidence": "Table 7, n = 5000: \"Neural Hill -0.038235 0.066173 0.92\"."
+   },
+   {
+    "value": "0.135190",
+    "verdict": "supported",
+    "evidence": "Table 7, n = 5000: \"Classical Hill -0.135190 0.188713 0.54\"."
+   },
+   {
+    "value": "0.188713",
+    "verdict": "supported",
+    "evidence": "Table 7, n = 5000: \"Classical Hill -0.135190 0.188713 0.54\"."
+   },
+   {
+    "value": "0.54",
+    "verdict": "supported",
+    "evidence": "Table 7, n = 5000 Classical Hill CI coverage 0.54; Sec. 4.1.3: \"the classical estimator shows limitations, with poor coverage (54% at 5,000 samples)\"."
+   },
+   {
+    "value": "0.92",
+    "verdict": "supported",
+    "evidence": "Table 7, n = 5000 Neural Hill CI coverage 0.92."
+   },
+   {
+    "value": "1.5",
+    "verdict": "supported",
+    "evidence": "Table 7 title: \"Performance of tail index estimators for alpha-stable distribution (alpha = 1.5)\"."
+   },
+   {
+    "value": "5000",
+    "verdict": "supported",
+    "evidence": "Sec. 4.1.3: \"results for different sample sizes (300, 500, 1000, and 5000)\"; Table 7 row n = 5000."
+   },
+   {
+    "value": "95",
+    "verdict": "supported",
+    "evidence": "Sec. 4 metrics: \"bias ..., root mean squared error (RMSE) ..., 95% confidence interval coverage (empirical coverage probability)\"."
+   }
+  ],
+  "note": "Non-numeric caveat: the network is f: R^7 -> R with \"W1 transforms the 7 input features into 32 hidden units\" (eq. 2.2), so \"a seven-unit network\" misdescribes it (7 inputs, 32 hidden units)."
+ },
+ {
+  "cid": "N041",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2211.03553",
+  "numbers": [
+   {
+    "value": "0.04",
+    "verdict": "supported",
+    "evidence": "Table 1 (simulations, d = 15): \"sVAE+ 0.88 ± 0.04\" (Pearson MCC)."
+   },
+   {
+    "value": "0.17",
+    "verdict": "supported",
+    "evidence": "Table 1: \"iVAE ... 0.16 ± 0.02 0.18 ± 0.03 0.17 ± 0.08\" (Precision, Recall, F1)."
+   },
+   {
+    "value": "0.46",
+    "verdict": "supported",
+    "evidence": "Table 1: \"VAE 0.46 ± 0.02\" (Pearson MCC)."
+   },
+   {
+    "value": "0.47",
+    "verdict": "supported",
+    "evidence": "Table 1: \"iVAE 0.47 ± 0.01\" (Pearson MCC)."
+   },
+   {
+    "value": "0.51",
+    "verdict": "supported",
+    "evidence": "Table 1: \"sVAE+ ... 0.54 ± 0.10 0.47 ± 0.09 0.51 ± 0.09\" (Precision, Recall, F1)."
+   },
+   {
+    "value": "0.88",
+    "verdict": "supported",
+    "evidence": "Table 1: \"sVAE+ 0.88 ± 0.04\" (Pearson MCC, d = 15)."
+   },
+   {
+    "value": "116641",
+    "verdict": "supported",
+    "evidence": "Sec. 5.2: \"We focused on a subset of interventions with large effect on gene expression (K = 683), resulting in N = 116, 641 cells profiled.\""
+   },
+   {
+    "value": "683",
+    "verdict": "supported",
+    "evidence": "Sec. 5.2: \"(K = 683), resulting in N = 116, 641 cells profiled\"."
+   },
+   {
+    "value": "96221",
+    "verdict": "supported",
+    "evidence": "Sec. 5.1: \"After quality control and data filtering, we retained 96, 221 cells of undergoing 212 different genetic interventions\"."
+   }
+  ],
+  "note": "Table 2 (Norman) backs the iVAE remark: best val. nELBO (715.69) but worst I-NLL (777.87); text: \"while the iVAE provides the best fit to the validation set, with a thin margin, it fits the test set poorly compared to sVAE and sVAE+\". Simulation held out 20 of 100 interventions for transfer evaluation."
+ },
+ {
+  "cid": "N047",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2503.16422",
+  "numbers": [
+   {
+    "value": "1000",
+    "verdict": "supported",
+    "evidence": "Abstract: \"we present 4DGS-1K, which runs at over 1000 FPS on modern GPUs\"; Fig. 1 caption: \"we can achieve rasterization at 1000+ FPS\"."
+   }
+  ],
+  "note": "The sentence uses \"1000+ FPS 4DGS\" as the method's name (paper title); the paper also reports the figure as its own result. Abstract frames the work as temporal redundancy: \"identify two key sources of temporal redundancy. (Q1) Short-Lifespan Gaussians ... (Q2) Inactive Gaussians\"."
+ },
+ {
+  "cid": "N053",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2305.07001v1",
+  "numbers": [
+   {
+    "value": "0.6663",
+    "verdict": "supported",
+    "evidence": "Table 6 (sequential recommendation, <P1, I0, T3>): \"SASRec 0.6663\" (HR@1)."
+   },
+   {
+    "value": "0.6947",
+    "verdict": "supported",
+    "evidence": "Table 6: \"InstructRec 0.6947\" (HR@1), \"Improv. +4.26%\"."
+   },
+   {
+    "value": "252",
+    "verdict": "supported",
+    "evidence": "Abstract: \"we manually design 39 instruction templates and automatically generate a large amount of user-personalized instruction data (252K instructions)\"; data table: \"# of fine-grained instructions 252,730\"."
+   },
+   {
+    "value": "39",
+    "verdict": "supported",
+    "evidence": "Sec. 1: \"we manually design 39 coarse-grained instruction templates\"."
+   }
+  ],
+  "note": "ACM TOIS version (10.1145/3708882) returned HTTP 403; read the arXiv v1 preprint (only version listed), same title and authors. Numbers could differ in the TOIS version. Other claims match the preprint: backbone \"3B Flan-T5-XL\"; GPT-3.5 HR@1 0.3640 in Table 6; Table 8 product search DSSM HR@3/HR@5 0.9484/0.9899 vs InstructRec 0.9411/0.9728."
+ },
+ {
+  "cid": "N059",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://synapse.koreamed.org/articles/1516090615",
+  "numbers": [
+   {
+    "value": "34",
+    "verdict": "misattributed",
+    "evidence": "Section 'Factors affecting LLM performance': \"This trend is supported by the analysis of Thelwall [21] of 34 academic disciplines, which revealed that clinical medicine was the only field where the quality scores of GPT-4o mini displayed a negative correlation with the actual paper quality.\" Ref. 21 = Thelwall M., J Data Inf Sci 2025."
+   }
+  ],
+  "note": "Cited paper is a review (JEEHP 2025;22:4, doi 10.3352/jeehp.2025.22.4). The 34-discipline result is Thelwall's, quoted by Lee et al.; the sentence calls it \"Its domain-specific finding\"."
+ },
+ {
+  "cid": "N065",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2412.01940v3",
+  "numbers": [
+   {
+    "value": "18",
+    "verdict": "supported",
+    "evidence": "App., Table 6 discussion: \"For BigANN, we observe a 38% reduction in peak memory, a 39% reduction for Yandex DEEP, and an 18% reduction for the Microsoft SpaceV benchmark.\""
+   },
+   {
+    "value": "38",
+    "verdict": "supported",
+    "evidence": "\"For BigANN, we observe a 38% reduction in peak memory\" (peak index construction memory, flatnav vs hnswlib, Table 6)."
+   },
+   {
+    "value": "39",
+    "verdict": "supported",
+    "evidence": "\"a 39% reduction for Yandex DEEP\" (peak index construction memory, Table 6)."
+   }
+  ],
+  "note": "Springer chapter (10.1007/978-3-032-21324-2_3) was behind a bot challenge; read the arXiv v3 preprint with the same title and authors. Paper caveat: \"differences in code may account for a significant part of the peak memory usage differences\" (flatnav vs hnswlib). p50/p99 parity: Figures 2-5, \"FlatNav performs nearly identically\"."
+ },
+ {
+  "cid": "N071",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2503.16422",
+  "numbers": [
+   {
+    "value": "1000",
+    "verdict": "supported",
+    "evidence": "Abstract: \"we present 4DGS-1K, which runs at over 1000 FPS on modern GPUs\"; Fig. 1 caption: \"we can achieve rasterization at 1000+ FPS\"."
+   }
+  ],
+  "note": "The sentence uses \"1000+ FPS 4DGS\" as the method's name (paper title); the paper also reports the figure as its own result. Abstract frames the work as temporal redundancy: \"identify two key sources of temporal redundancy. (Q1) Short-Lifespan Gaussians ... (Q2) Inactive Gaussians\"."
+ },
+ {
+  "cid": "N077",
+  "paper_found": "yes",
+  "text_accessed": "full",
+  "source_url": "https://arxiv.org/pdf/2407.03093",
+  "numbers": [
+   {
+    "value": "91",
+    "verdict": "supported",
+    "evidence": "Abstract: \"precision declining by up to 95 percentage points and F1 scores dropping by up to 91 percentage points\"; RQ1 (DeepWukong): \"a decrease of 7, 86, 11, and 91 percentage points in accuracy, precision, recall, and F1-score\"."
+   },
+   {
+    "value": "95",
+    "verdict": "supported",
+    "evidence": "Abstract: \"precision declining by up to 95 percentage points\"; RQ1 (LineVul): \"a decrease of 7, 95, 88, and 27 percentage points in accuracy, precision, F1-score, and AUC\"."
+   }
+  ],
+  "note": "arXiv copy is the IEEE TSE author pre-print (\"The final publication is available online at: https://doi.org/10.1109/TSE.2024.3423712\"). Four models: DeepWukong, LineVul, ReVeal, IVDetect. False positives: \"439,494 ... 114,629, 320,128, and 512,284\". RQ2 imbalanced training: \"This imbalance leads models to often predict samples as uncertain\" (DeepWukong/LineVul precision, recall, F1 0%)."
+ }
+]

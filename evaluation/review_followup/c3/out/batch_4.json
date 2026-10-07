@@ -1,0 +1,560 @@
+[
+ {
+  "aid": "R004",
+  "exists": "yes",
+  "record": {
+   "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+   "first_author": "Alexey Dosovitskiy",
+   "year": 2020,
+   "doi": "10.48550/arXiv.2010.11929",
+   "arxiv_id": "2010.11929",
+   "url": "https://arxiv.org/abs/2010.11929"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2010.11929",
+  "note": "arXiv 2010.11929 (Oct 2020) matches title and author list; entry gives the venue as ICLR 2021, within one year of the arXiv date."
+ },
+ {
+  "aid": "R011",
+  "exists": "yes",
+  "record": {
+   "title": "DiffCast: A Unified Framework via Residual Diffusion for Precipitation Nowcasting",
+   "first_author": "Demin Yu",
+   "year": 2024,
+   "doi": "10.1109/cvpr52733.2024.02622",
+   "arxiv_id": "2312.06734",
+   "url": "https://arxiv.org/abs/2312.06734"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1109/cvpr52733.2024.02622",
+  "note": "Title, CVPR 2024 and arXiv id match, but the real authors are Demin Yu, Xutao Li, Yunming Ye et al.; the entry's author list (Gao, Shi, Han, Wang, Yeung, Woo, Wong) belongs to other work."
+ },
+ {
+  "aid": "R018",
+  "exists": "yes",
+  "record": {
+   "title": "Machine-learning-aided screening of inorganic lithium solid-state electrolytes with a wide electrochemical window",
+   "first_author": "Jiajing Chen",
+   "year": 2025,
+   "doi": "10.1039/d5ta04197j",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1039/d5ta04197j"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1039/d5ta04197j",
+  "note": "CrossRef and OpenAlex list this J. Mater. Chem. A 2025 article by Jiajing Chen, Lu Jiang, Shendong Tan, Jun Yang."
+ },
+ {
+  "aid": "R025",
+  "exists": "yes",
+  "record": {
+   "title": "XGBoost: A Scalable Tree Boosting System",
+   "first_author": "Tianqi Chen",
+   "year": 2016,
+   "doi": "10.1145/2939672.2939785",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/2939672.2939785"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/2939672.2939785",
+  "note": "DOI resolves to Chen and Guestrin, KDD 2016, pp. 785-794."
+ },
+ {
+  "aid": "R032",
+  "exists": "yes",
+  "record": {
+   "title": "MASpi: A Unified Environment for Evaluating Prompt Injection Robustness in LLM-Based Multi-Agent Systems",
+   "first_author": "Hengyu An",
+   "year": 2025,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=1khmNRuIf9"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api2.openreview.net/notes/search?term=MASpi&limit=1",
+  "note": "Found as an ICLR 2026 withdrawn OpenReview submission (created 2025-09-02) by Hengyu An, Minxi Li, Jinghuai Zhang, Naen Xu et al.; the same authors later published ACIArena."
+ },
+ {
+  "aid": "R039",
+  "exists": "yes",
+  "record": {
+   "title": "LLM-Based Agents for Tool Learning: A Survey",
+   "first_author": "Xu",
+   "year": 2025,
+   "doi": "10.1007/s41019-025-00296-9",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/s41019-025-00296-9"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1007/s41019-025-00296-9",
+  "note": "DOI resolves to this survey in Data Science and Engineering 10(4):533-563, 2025, first author Xu."
+ },
+ {
+  "aid": "R046",
+  "exists": "yes",
+  "record": {
+   "title": "Machine Learning with Adversaries: Byzantine Tolerant Gradient Descent",
+   "first_author": "Peva Blanchard",
+   "year": 2017,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://papers.nips.cc/paper_files/paper/2017/hash/f4b9ec30ad9f68f89b29639786cb62ef-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://papers.nips.cc/paper_files/paper/2017/hash/f4b9ec30ad9f68f89b29639786cb62ef-Abstract.html",
+  "note": "NeurIPS 2017 proceedings page lists Blanchard, El Mhamdi, Guerraoui, Stainer; OpenAlex agrees."
+ },
+ {
+  "aid": "R053",
+  "exists": "yes",
+  "record": {
+   "title": "Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring",
+   "first_author": "Sungjin Ahn",
+   "year": 2012,
+   "doi": "10.48550/arXiv.1206.6380",
+   "arxiv_id": "1206.6380",
+   "url": "https://arxiv.org/abs/1206.6380"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "none",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1206.6380",
+  "note": "Work by Ahn, Korattikara, Welling (arXiv 1206.6380 posted 2012-06-27; OpenAlex also dates it 2012); entry gives 2022 and prefixes author names with the affiliation 'UC Irvine'."
+ },
+ {
+  "aid": "R060",
+  "exists": "yes",
+  "record": {
+   "title": "Time-series Generative Adversarial Networks",
+   "first_author": "Jinsung Yoon",
+   "year": 2019,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://papers.nips.cc/paper_files/paper/2019/hash/c9efe5f26cd17ba6216bbe2a7d26d490-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://papers.nips.cc/paper_files/paper/2019/hash/c9efe5f26cd17ba6216bbe2a7d26d490-Abstract.html",
+  "note": "NeurIPS 2019 proceedings page lists Yoon, Jarrett, van der Schaar."
+ },
+ {
+  "aid": "R067",
+  "exists": "yes",
+  "record": {
+   "title": "Federated Learning for Privacy-Preserving Next-Word Prediction on Mobile Devices",
+   "first_author": "Sandesh Buchkul",
+   "year": 2026,
+   "doi": "10.1007/978-981-95-7134-5_10",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1007/978-981-95-7134-5_10"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1007/978-981-95-7134-5_10",
+  "note": "Springer book chapter (Mathematics for Sustainable Developments, 2026, pp. 127-141) by Buchkul, Sonawane, Khandelwal et al.; entry truncates the title after 'Next-Word' and gives no year or venue."
+ },
+ {
+  "aid": "R074",
+  "exists": "yes",
+  "record": {
+   "title": "Deep view synthesis from sparse photometric images",
+   "first_author": "Zexiang Xu",
+   "year": 2019,
+   "doi": "10.1145/3306346.3323007",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3306346.3323007"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "no",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3306346.3323028",
+  "note": "The near-identical title ('Photometric', not 'Photographic') is Xu, Bi, Sunkavalli, Hadap, Ramamoorthi, ACM TOG 38(4) 2019 (DOI 10.1145/3306346.3323007); the entry's authors are those of Stereo Magnification (TOG 2018), and its DOI resolves to 'Text-based editing of talking-head video' (Fried et al.)."
+ },
+ {
+  "aid": "R081",
+  "exists": "yes",
+  "record": {
+   "title": "Machine learning pipelines for the design of solid-state electrolytes",
+   "first_author": "Vinamr Jain",
+   "year": 2026,
+   "doi": "10.1039/d5mh01525a",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1039/d5mh01525a"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works/10.1039/d5mh01525a",
+  "note": "Materials Horizons 13(1):15-44, 2026 (online 2025) by Jain, Wang, You; the entry's pubs.rsc.org URL is not a standard RSC path and was not checked."
+ },
+ {
+  "aid": "R088",
+  "exists": "unsure",
+  "record": {
+   "title": "A Survey of Vector Quantization for Approximate Nearest Neighbor Search",
+   "first_author": null,
+   "year": null,
+   "doi": null,
+   "arxiv_id": null,
+   "url": null
+  },
+  "title_ok": "na",
+  "first_author_ok": "na",
+  "year_ok": "na",
+  "identifier": "none",
+  "evidence_url": "https://api.openalex.org/works?search=A%20Survey%20of%20Vector%20Quantization%20for%20Approximate%20Nearest%20Neighbor%20Search",
+  "note": "No match in CrossRef, OpenAlex, arXiv, a scholar search engine or web search; the cited ResearchGate PDF URL (Mingyu Yang profile) returns HTTP 403, so it could not be checked; Liuchang Jing and Mingyu Yang co-wrote the related MRQ quantization paper (arXiv 2411.06158), so a survey hosted only on ResearchGate is plausible."
+ },
+ {
+  "aid": "R095",
+  "exists": "yes",
+  "record": {
+   "title": "Graph neural networks for materials science and chemistry",
+   "first_author": "Patrick Reiser",
+   "year": 2022,
+   "doi": "10.1038/s43246-022-00315-6",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1038/s43246-022-00315-6"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "another_work",
+  "evidence_url": "https://api.crossref.org/works/10.1038/s43246-022-00294-8",
+  "note": "The work is Communications Materials 2022, DOI 10.1038/s43246-022-00315-6; the entry's DOI 10.1038/s43246-022-00294-8 resolves to a graphene droplet paper by Wang et al."
+ },
+ {
+  "aid": "R102",
+  "exists": "yes",
+  "record": {
+   "title": "Neither Private Nor Fair: Impact of Data Imbalance on Utility and Fairness in Differential Privacy",
+   "first_author": "Tom Farrand",
+   "year": 2020,
+   "doi": "10.1145/3411501.3419419",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1145/3411501.3419419"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1145/3411501.3419419",
+  "note": "DOI resolves to Farrand, Mireshghallah, Singh, Trask, PPMLP 2020 workshop, pp. 15-19."
+ },
+ {
+  "aid": "R109",
+  "exists": "yes",
+  "record": {
+   "title": "3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods",
+   "first_author": "Milena T. Bagdasarian",
+   "year": 2025,
+   "doi": "10.1111/cgf.70078",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1111/cgf.70078"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1111/cgf.70078",
+  "note": "DOI resolves to Bagdasarian, Knoll, Li, Barthel, Hilsmann, Eisert, Computer Graphics Forum 44(2), 2025."
+ },
+ {
+  "aid": "R116",
+  "exists": "yes",
+  "record": {
+   "title": "DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node",
+   "first_author": "Suhas Jayaram Subramanya",
+   "year": 2019,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html",
+  "note": "The cited NeurIPS 2019 proceedings URL resolves to this paper, first author Suhas Jayaram Subramanya, second Fnu Devvrit."
+ },
+ {
+  "aid": "R123",
+  "exists": "yes",
+  "record": {
+   "title": "Variational Autoencoders and Nonlinear ICA: A Unifying Framework",
+   "first_author": "Ilyes Khemakhem",
+   "year": 2019,
+   "doi": "10.48550/arXiv.1907.04809",
+   "arxiv_id": "1907.04809",
+   "url": "https://arxiv.org/abs/1907.04809"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "no",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.1907.04809",
+  "note": "The arXiv DOI resolves to Khemakhem, Kingma, Monti, Hyvarinen; arXiv v1 is July 2019 and v4 Dec 2020, and OpenAlex dates it 2019, so the entry's 2022 is off by two or more years."
+ },
+ {
+  "aid": "R130",
+  "exists": "yes",
+  "record": {
+   "title": "ChatDev: Communicative Agents for Software Development",
+   "first_author": "Chen Qian",
+   "year": 2024,
+   "doi": "10.18653/v1/2024.acl-long.810",
+   "arxiv_id": "2307.07924",
+   "url": "https://arxiv.org/abs/2307.07924"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=ChatDev%3A%20Communicative%20Agents%20for%20Software%20Development%20Qian",
+  "note": "ACL 2024 long paper (DOI 10.18653/v1/2024.acl-long.810); arXiv 2307.07924 resolves to the same title by Qian, Liu, Liu, Chen, Dang, Li."
+ },
+ {
+  "aid": "R137",
+  "exists": "yes",
+  "record": {
+   "title": "Low-Bit Power-of-Two Quantization for Large Language Models",
+   "first_author": "Xinyu Wang",
+   "year": 2025,
+   "doi": "10.82308/6507",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.82308/6507"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.datacite.org/dois/10.82308/6507",
+  "note": "McGill University dissertation by Xinyu Wang, issued 2025 per DataCite (entry says 2024, within one year)."
+ },
+ {
+  "aid": "R144",
+  "exists": "yes",
+  "record": {
+   "title": "DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection",
+   "first_author": "Yingwei Li",
+   "year": 2022,
+   "doi": "10.1109/cvpr52688.2022.01667",
+   "arxiv_id": "2203.08195",
+   "url": "https://arxiv.org/abs/2203.08195"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2203.08195",
+  "note": "arXiv 2203.08195 resolves to this paper (Li, Yu, Meng, Caine, Ngiam, Peng, ...); CVPR 2022 version DOI 10.1109/cvpr52688.2022.01667."
+ },
+ {
+  "aid": "R151",
+  "exists": "yes",
+  "record": {
+   "title": "Tables as Semi-structured Knowledge for Question Answering",
+   "first_author": "Sujay Kumar Jauhar",
+   "year": 2016,
+   "doi": "10.18653/v1/p16-1045",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.18653/v1/p16-1045"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=Tables%20as%20semi-structured%20knowledge%20for%20question%20answering%20Jauhar%20Turney%20Hovy",
+  "note": "ACL 2016 long paper by Jauhar, Turney, Hovy; entry gives no venue."
+ },
+ {
+  "aid": "R158",
+  "exists": "yes",
+  "record": {
+   "title": "Multimodal artificial intelligence in medical biotechnology: Integrating genomics, imaging, and clinical data for precision therapeutics",
+   "first_author": "Gedion Mengistu Dejen",
+   "year": 2026,
+   "doi": "10.1002/prm2.70047",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1002/prm2.70047"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=Multimodal%20artificial%20intelligence%20in%20medical%20biotechnology%20Dejen",
+  "note": "Precision Medical Sciences 2026 article by Gedion Mengistu Dejen; entry gives no venue."
+ },
+ {
+  "aid": "R165",
+  "exists": "yes",
+  "record": {
+   "title": "VBASE: Unifying Online Vector Similarity Search and Relational Queries via Relaxed Monotonicity",
+   "first_author": "Qianxi Zhang",
+   "year": 2023,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://www.usenix.org/conference/osdi23/presentation/zhang-qianxi"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://www.microsoft.com/en-us/research/?p=954759",
+  "note": "OSDI '23 paper by Qianxi Zhang, Shuotao Xu, Qi Chen et al. per the Microsoft Research publication page; the cited USENIX URL is the paper's presentation page (blocked by a bot check here, but listed in web search under this title)."
+ },
+ {
+  "aid": "R172",
+  "exists": "yes",
+  "record": {
+   "title": "Contrastive Preference Learning: Learning from Human Feedback without Reinforcement Learning",
+   "first_author": "Joey Hejna",
+   "year": 2024,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/51f547584cd1fcb87114ea022822a60d-Abstract-Conference.html"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/51f547584cd1fcb87114ea022822a60d-Abstract-Conference.html",
+  "note": "The cited ICLR 2024 proceedings URL resolves to this paper by Hejna, Rafailov, Sikchi, Finn, Niekum, Knox, Sadigh."
+ },
+ {
+  "aid": "R179",
+  "exists": "no",
+  "record": {
+   "title": null,
+   "first_author": null,
+   "year": null,
+   "doi": null,
+   "arxiv_id": null,
+   "url": null
+  },
+  "title_ok": "na",
+  "first_author_ok": "na",
+  "year_ok": "na",
+  "identifier": "another_work",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2304.02198",
+  "note": "No work with this title found in CrossRef, Europe PMC, the arXiv author listing for AlQuraishi, a scholar search engine or web search; the arXiv id resolves to 'EigenFold' (Jing et al., 2023); the nearest Lin & AlQuraishi paper is Genie ('Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds', arXiv 2301.12485, Jan 2023), which has a different title; Europe PMC also returns no hit for the entry's title."
+ },
+ {
+  "aid": "R186",
+  "exists": "yes",
+  "record": {
+   "title": "MobileMem: Evaluating Long-Horizon Memory for Language Agents in Real-World Mobile Environments",
+   "first_author": "Xinle Deng",
+   "year": 2026,
+   "doi": null,
+   "arxiv_id": null,
+   "url": "https://openreview.net/forum?id=w5I11HrMgJ"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api2.openreview.net/notes/search?term=MobileMem&limit=10",
+  "note": "OpenReview lists this title with venue 'LLA 2026 Poster' by Xinle Deng, Yida Xue, Yijun Chen, Mingjun Mao, Ruobin Zhong; a later arXiv version (2608.13606) is titled 'MobileMem: Learning from a Year of Mobile Experiences'."
+ },
+ {
+  "aid": "R193",
+  "exists": "yes",
+  "record": {
+   "title": "Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time",
+   "first_author": "Zichang Liu",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2305.17118",
+   "arxiv_id": "2305.17118",
+   "url": "https://arxiv.org/abs/2305.17118"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2305.17118",
+  "note": "arXiv 2305.17118 resolves to this paper, first author Liu (2023)."
+ },
+ {
+  "aid": "R200",
+  "exists": "yes",
+  "record": {
+   "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+   "first_author": "Lianmin Zheng",
+   "year": 2023,
+   "doi": "10.48550/arXiv.2312.07104",
+   "arxiv_id": "2312.07104",
+   "url": "https://arxiv.org/abs/2312.07104"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.datacite.org/dois/10.48550/arXiv.2312.07104",
+  "note": "arXiv 2312.07104 (Dec 2023) resolves to this paper, first author Zheng; entry gives the venue as NeurIPS 2024, within one year of the arXiv date."
+ },
+ {
+  "aid": "R207",
+  "exists": "yes",
+  "record": {
+   "title": "Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey",
+   "first_author": "Zhang",
+   "year": 2026,
+   "doi": "10.1111/cgf.70494",
+   "arxiv_id": null,
+   "url": "https://doi.org/10.1111/cgf.70494"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "correct",
+  "evidence_url": "https://api.crossref.org/works/10.1111/cgf.70494",
+  "note": "DOI resolves to this Computer Graphics Forum survey (issued 2026-05-06), first author Zhang; entry year 2025 is within one year."
+ },
+ {
+  "aid": "R214",
+  "exists": "yes",
+  "record": {
+   "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+   "first_author": "Jinghao Luo",
+   "year": 2026,
+   "doi": "10.18653/v1/2026.findings-acl.2069",
+   "arxiv_id": "2605.06716",
+   "url": "https://doi.org/10.18653/v1/2026.findings-acl.2069"
+  },
+  "title_ok": "yes",
+  "first_author_ok": "yes",
+  "year_ok": "yes",
+  "identifier": "none",
+  "evidence_url": "https://api.crossref.org/works?query.bibliographic=From%20storage%20to%20experience%3A%20A%20survey%20on%20the%20evolution%20of%20LLM%20agent%20memory%20mechanisms%20Luo",
+  "note": "Preprints.org 2026 preprint, arXiv 2605.06716 and Findings of ACL 2026 version, all by Jinghao Luo, Yuchen Tian, Chuxue Cao, Ziyang Luo et al."
+ }
+]
