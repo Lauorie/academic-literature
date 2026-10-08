@@ -1,0 +1,342 @@
+{
+ "conditions": {
+  "Skill-Full r1": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   },
+   "generated": [
+    "2026-09-29"
+   ]
+  },
+  "Skill-Full r2": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   },
+   "generated": [
+    "2026-09-30"
+   ]
+  },
+  "Skill-Full r3": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   },
+   "generated": [
+    "2026-09-30"
+   ]
+  },
+  "Skill-Abs": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   },
+   "generated": [
+    "2026-09-30"
+   ]
+  },
+  "Opus pilot": {
+   "judged": {
+    "main": {
+     "n": 6,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 6,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   },
+   "generated": [
+    "2026-09-29"
+   ]
+  },
+  "NaiveRAG-Own": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   }
+  },
+  "NaiveRAG-Pool": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-09-30"
+     ]
+    }
+   }
+  },
+  "NaiveRAG-Pool-Long": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-10-02"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-10-02"
+     ]
+    }
+   }
+  },
+  "NoSkill-Agent": {
+   "judged": {
+    "main": {
+     "n": 90,
+     "dates": [
+      "2026-10-07"
+     ]
+    },
+    "cross": {
+     "n": 90,
+     "dates": [
+      "2026-10-07"
+     ]
+    }
+   },
+   "generated": [
+    "2026-10-07"
+   ]
+  }
+ },
+ "claude_code_versions": {
+  "Skill-Full r1": [
+   "2.1.284"
+  ],
+  "Skill-Full r2": [
+   "2.1.284"
+  ],
+  "Skill-Full r3": [
+   "2.1.284"
+  ],
+  "NoSkill-Agent": [
+   "2.1.284"
+  ]
+ },
+ "tools": {
+  "Skill-Full r1": [
+   [
+    "Bash",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "Edit",
+    "EnterWorktree",
+    "ExitWorktree",
+    "ListAgents",
+    "NotebookEdit",
+    "Read",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "SendMessage",
+    "Skill",
+    "Task",
+    "TaskStop",
+    "WebFetch",
+    "WebSearch",
+    "Workflow",
+    "Write"
+   ]
+  ],
+  "Skill-Full r2": [
+   [
+    "Bash",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "Edit",
+    "EnterWorktree",
+    "ExitWorktree",
+    "ListAgents",
+    "NotebookEdit",
+    "Read",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "SendMessage",
+    "Skill",
+    "Task",
+    "TaskStop",
+    "WebFetch",
+    "WebSearch",
+    "Workflow",
+    "Write"
+   ]
+  ],
+  "Skill-Full r3": [
+   [
+    "Bash",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "Edit",
+    "EnterWorktree",
+    "ExitWorktree",
+    "ListAgents",
+    "NotebookEdit",
+    "Read",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "SendMessage",
+    "Skill",
+    "Task",
+    "TaskStop",
+    "WebFetch",
+    "WebSearch",
+    "Workflow",
+    "Write"
+   ]
+  ],
+  "NoSkill-Agent": [
+   [
+    "Bash",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "Edit",
+    "EnterWorktree",
+    "ExitWorktree",
+    "ListAgents",
+    "NotebookEdit",
+    "Read",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "SendMessage",
+    "Skill",
+    "Task",
+    "TaskStop",
+    "WaitForMcpServers",
+    "WebFetch",
+    "WebSearch",
+    "Workflow",
+    "Write"
+   ]
+  ]
+ },
+ "noskill_fulltext": {
+  "sessions": 30,
+  "sessions_with_any": 4,
+  "papers": 33,
+  "papers_web": 30,
+  "papers_pdf": 3,
+  "max_in_one_session": 27,
+  "per_session": {
+   "002": {
+    "web": [
+     "2503.17407",
+     "2512.13564"
+    ],
+    "pdf": []
+   },
+   "004": {
+    "web": [
+     "2203.11171",
+     "2210.03629",
+     "2212.09561",
+     "2303.11366",
+     "2303.17651",
+     "2305.04091",
+     "2305.10601",
+     "2305.11738",
+     "2305.14992",
+     "2307.13702",
+     "2309.02427",
+     "2309.11495",
+     "2310.01798",
+     "2310.04406",
+     "2401.10020",
+     "2402.02716",
+     "2402.03620",
+     "2402.08115",
+     "2406.01297",
+     "2408.03314",
+     "2409.13373",
+     "2501.12948",
+     "2501.13545",
+     "2503.09516",
+     "2505.03335",
+     "2505.19683",
+     "2506.06941"
+    ],
+    "pdf": []
+   },
+   "012": {
+    "web": [
+     "2401.01286"
+    ],
+    "pdf": []
+   },
+   "020": {
+    "web": [],
+    "pdf": [
+     "2102.11107",
+     "2206.15475",
+     "2406.13371"
+    ]
+   }
+  }
+ }
+}

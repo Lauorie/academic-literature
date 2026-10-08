@@ -4,7 +4,7 @@
 R1-10: DAS-Bench scores of the two-topic Opus pilot, next to the deepseek Skill-Full runs on the same topics.
 R3-8: session-level test of the account in Sec. 5.5 (full-text reading -> fewer cited papers -> lower citation
 distribution balance): Pearson r between papers cited and the balance criterion over all skill sessions, per judge,
-and the longest session against the 3-hour limit.
+and within each condition (Skill-Full's three runs; Skill-Abs), and the longest session against the 3-hour limit.
 Usage: r1_10_r3_8.py <das_eval dir> <out.json>
 """
 
@@ -43,7 +43,7 @@ def main() -> int:
         for r in json.loads((root / "final" / f"process_stats_{name}.json").read_text())["runs"]:
             stats[r["run"]] = r
     for b in BENCHES:
-        xs, ys = [], []
+        xs, ys, cond = [], [], []
         for meth, name in RUNSTATS.items():
             run_dir = meth.removeprefix("skill_")
             for t in tids:
@@ -52,7 +52,12 @@ def main() -> int:
                 if s and r and r["cited"]:
                     xs.append(r["cited"])
                     ys.append(s[BAL])
+                    cond.append("abs" if name == "abs_r1" else "full")
         res["balance"][b] = {"n_sessions": len(xs), "pearson_cited_vs_balance": round(pearson(xs, ys), 3)}
+        for c in ("full", "abs"):
+            cx = [x for x, k in zip(xs, cond) if k == c]
+            cy = [y for y, k in zip(ys, cond) if k == c]
+            res["balance"][b][f"within_{c}"] = {"n": len(cx), "pearson": round(pearson(cx, cy), 3)}
     walls = [r["wall_min"] for r in stats.values() if r.get("wall_min") is not None]
     res["wall_min_max"] = round(max(walls), 1)
     res["sessions_over_150_min"] = sum(w > 150 for w in walls)

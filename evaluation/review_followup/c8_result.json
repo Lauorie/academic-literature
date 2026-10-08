@@ -159,6 +159,29 @@
   "corrected_ci95": [
    -7.17,
    -1.54
-  ]
+  ],
+  "not_exist_interval": {
+   "skill": {
+    "audited_gone": 0,
+    "audited_n": 24,
+    "nf_share_pct": 4.7,
+    "rate_pct": 0.0,
+    "wilson95_pct": [
+     0.0,
+     0.65
+    ]
+   },
+   "noskill": {
+    "audited_gone": 2,
+    "audited_n": 25,
+    "nf_share_pct": 8.0,
+    "rate_pct": 0.64,
+    "wilson95_pct": [
+     0.18,
+     2.0
+    ]
+   }
+  },
+  "not_exist_fisher_p": 0.49
  }
 }

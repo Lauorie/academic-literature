@@ -4,7 +4,9 @@
 DAS-Bench: Skill-Full (mean of three runs) minus NoSkill-Agent per judge, total and families, paired over topics
 scored in both, bootstrap 95% CI; the total without the figure/table criterion; body words.
 Reference integrity: verifier defective rate per survey, Skill-Full run 1 (results_v3) minus NoSkill-Agent
-(results_c8), paired; and, when the label audit exists (c8audit/), the corrected rates as in C3.
+(results_c8), paired; and, when the label audit exists (c8audit/), the corrected rates as in C3, and (exploratory,
+after the second re-review) Wilson intervals for the share of entries naming a work that does not exist, with a
+two-sided Fisher exact test on the audited not-found counts.
 Usage: c8_analyze.py <das_eval dir> <out.json>
 """
 
@@ -27,6 +29,7 @@ sys.path.insert(0, str(HERE))
 from aggregate import FAMILIES  # noqa: E402
 from analyze_paper import BENCHES, CONDITIONS, bootstrap_ci, load, topic_total  # noqa: E402
 from c3_analyze import CLASSES, truth  # noqa: E402
+from math import comb, sqrt  # noqa: E402
 
 logger = logging.getLogger(__name__)
 FIG = "Figure/Table Quality and Textual Integration"
@@ -51,6 +54,19 @@ def das(root: Path) -> Dict:
                   "families": {f: diff(cs) for f, cs in FAMILIES.items()},
                   "noskill_total_mean": round(st.mean(topic_total(base[t]) for t in common), 4)}
     return out
+
+
+def wilson(k: int, n: int, z: float = 1.96) -> List[float]:
+    p = k / n
+    mid, half = p + z * z / (2 * n), z * sqrt(p * (1 - p) / n + z * z / (4 * n * n))
+    return [(mid - half) / (1 + z * z / n), (mid + half) / (1 + z * z / n)]
+
+
+def fisher_two_sided(a: int, b: int, c: int, d: int) -> float:
+    r1, c1, n = a + b, a + c, a + b + c + d
+    pr = lambda x: comb(c1, x) * comb(n - c1, r1 - x) / comb(n, r1)  # noqa: E731
+    p0 = pr(a)
+    return sum(pr(x) for x in range(max(0, r1 + c1 - n), min(r1, c1) + 1) if pr(x) <= p0 * (1 + 1e-9))
 
 
 def words(md: Path) -> int:
@@ -108,6 +124,17 @@ def integrity(root: Path) -> Dict:
     boots.sort()
     res["corrected_diff"] = round(res["corrected_skill"] - res["corrected_noskill"], 2)
     res["corrected_ci95"] = [round(boots[250], 2), round(boots[9749], 2)]
+    nf = lambda c: c["not_found"] / sum(c.values())  # noqa: E731
+    gone = {"skill": (sum(not t[0] for t in cells_sk["not_found"]), len(cells_sk["not_found"]),
+                      st.mean(nf(sk[t]) for t in common)),
+            "noskill": (sum(not t[0] for t in cells_ns["not_found"]), len(cells_ns["not_found"]),
+                        st.mean(nf(ns[t]) for t in common))}
+    res["not_exist_interval"] = {k: {"audited_gone": g, "audited_n": n, "nf_share_pct": round(100 * s, 2),
+                                     "rate_pct": round(100 * s * g / n, 2),
+                                     "wilson95_pct": [round(100 * s * w, 2) for w in wilson(g, n)]}
+                                 for k, (g, n, s) in gone.items()}
+    (gs, ns_, _), (gn, nn, _) = gone["skill"], gone["noskill"]
+    res["not_exist_fisher_p"] = round(fisher_two_sided(gs, ns_ - gs, gn, nn - gn), 3)
     return res
 
 

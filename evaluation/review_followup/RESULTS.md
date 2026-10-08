@@ -109,3 +109,39 @@ Reference integrity (verifier v3 rules on all 30 NoSkill surveys; audit of 75 No
 verifier 8.0% (skill) vs 12.3% (NoSkill), -4.3 [-9.9, 0.9]; corrected 1.4% vs 5.4%, -4.1 [-7.2, -1.5].
 2 of 25 audited NoSkill not-found entries do not exist and are absent from the WisPaper results the agent received
 (S003, topic 020; S013, topic 023): invented references, about 0.6% of NoSkill entries.
+
+## Exploratory additions after the second re-review (2026-10-07, no written plan)
+
+Computed on existing outputs to make the text match the data; each is labeled exploratory in the paper.
+
+- C8 reading per judge: the plan's rule reads each judge alone. Main judge: no measurable difference (CI excludes a
+  lead above 0.10). Cross judge: the skill leads (+0.07 [0.01, 0.15]). The rule needs both judges for "adds", so it
+  does not hold. The earlier line above ("does not separate from what the agent does by itself") overstated this.
+- Invented references (c8_analyze.py, `not_exist_interval`): NoSkill 2/25 audited not-found entries, x mean
+  not-found share 8.0% -> 0.64% [0.18, 2.0] (Wilson); skill 0/24 x 4.7% -> 0 [0, 0.65]. Fisher exact two-sided on
+  0/24 vs 2/25: p = 0.49. The samples do not separate the rates.
+- NoSkill audit cells: verified 25/25 right; metadata error right 15/25; not found: 23/25 exist.
+- Papers cited vs citation balance within condition (r1_10_r3_8.py): Skill-Full 90 sessions r = 0.34 (main),
+  0.31 (cross); Skill-Abs 30 sessions 0.21, -0.04.
+- arXiv coverage vs BSC over the 90 Skill-Full surveys of Fig. 4 (fig4_corr.py): r = 0.18 (main), 0.33 (cross).
+- NoSkill judge attempts (watchdog event log): 6 of 60 items needed more than one attempt, at most 5.
+
+## Facts on the agent comparison (N11, second re-review; descriptive, 2026-10-08)
+
+From n11_facts.py (stream init events, started_at files, evaluated_at in every judge result; dates in UTC+8):
+
+- Claude Code 2.1.284 in all 90 Skill-Full sessions and all 30 NoSkill sessions; the same built-in tools. NoSkill
+  adds the WisPaper MCP server (quick_search, deep_search). The skill calls the same search service through its own
+  script.
+- NoSkill has no document parser: WisDoc is called by the skill's scripts, and gen_noskill.sh does not pass
+  WISDOCRS_BASE_URL. Full text reached it for 33 papers in 4 of 30 sessions, 27 of them in session 004: 30 as ar5iv
+  or arXiv HTML pages through WebFetch, which returns a model-written digest of the page, and 3 as PDFs it downloaded
+  and converted with pypdf (session 020; it converted two more without printing them). Skill-Full: 66-72% of
+  evidence files from full text. In 020 the agent's pypdf loop also listed page counts of PDFs other sessions had
+  left in /tmp/pdfs (absolute path, outside the per-session TMPDIR); it printed none of their text.
+- Generation: Skill-Full r1 2026-09-29, r2 and r3 2026-09-30; NoSkill 2026-10-07.
+- Judging, both judges: Skill-Full r1-r3, Skill-Abs, NaiveRAG-Own, NaiveRAG-Pool and the Opus pilot on 2026-09-30;
+  NaiveRAG-Pool-Long on 2026-10-02; NoSkill on 2026-10-07. Same model ids in every result. The session logs show the
+  last write to the judge configs (config.json, judge.env) at 2026-09-30 14:18, before the first of these
+  judgments (the GPU host refused SSH on 2026-10-08, so the files were not re-read). Skill-Full was not re-judged
+  alongside NoSkill.

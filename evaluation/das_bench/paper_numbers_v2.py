@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Macros and tables for the paper's version-2 sections, from the pre-registered analysis outputs.
 
-Writes <paper>/generated/numbers_v2.tex and tab_lm.tex, tab_sl.tex, tab_ci.tex, tab_refine.tex, tab_submode.tex.
+Writes <paper>/generated/numbers_v2.tex and tab_lm.tex, tab_sl.tex, tab_ci.tex, tab_c6.tex, tab_refine.tex,
+tab_submode.tex.
 Sources (all under das_eval/): length_matched/analysis_lm.json, surveylens/analysis_sl.json, surveybench/results,
 citation_integrity/{analysis_ci_v3.json, audit_key.json, audit_result_*.json}, skillrefine/{compare_v2.json,
 compare_v3.json, paper_analysis_a.json, paper_analysis_b.json, run_stats_v3.json, corpus/labels_detail.json,
@@ -396,7 +397,15 @@ for b, tag in (("DAS-Bench", "M"), ("DAS-Bench-xjudge", "X")):
         mac(f"opus{tt}{tag}", f2(row["opus_total"]))
         mac(f"opusDs{tt}{tag}", f2(row["deepseek_total_mean_runs"]))
     mac(f"balR{tag}", f2(r38["balance"][b]["pearson_cited_vs_balance"]))
+    for c, ct in (("full", "Full"), ("abs", "Abs")):
+        mac(f"bal{ct}R{tag}", f2(r38["balance"][b][f"within_{c}"]["pearson"]))
 mac("balN", r38["balance"]["DAS-Bench"]["n_sessions"])
+mac("balFullN", r38["balance"]["DAS-Bench"]["within_full"]["n"])
+mac("balAbsN", r38["balance"]["DAS-Bench"]["within_abs"]["n"])
+f4 = load("review_followup/fig4_corr.json")  # exploratory, after the second re-review
+for b, tag in (("DAS-Bench", "M"), ("DAS-Bench-xjudge", "X")):
+    mac(f"covBscR{tag}", f2(f4[b]["pearson"]))
+mac("covBscN", f4["DAS-Bench"]["n"])
 mac("wallMaxAll", f"{r38['wall_min_max']:.0f}")
 
 # C6 (review_followup/PLAN_C6_C8.md): mechanical heading edits, held-out SurveyLens topics.
@@ -411,6 +420,28 @@ for conf, ct in (("primary", "Bj"), ("cross", "Cj"), ("discipline", "Dr")):
     mac(f"cSixShare{ct}", f"{100 * c6[f'{conf}|outline|share_of_v3_gain']:.0f}")
 mac("cSixHthreeSplit", f"{c6['h3_per_survey']['v1split_h3']:.0f}")
 mac("cSixHthreeVThree", f"{c6['h3_per_survey']['v3_h3']:.0f}")
+
+c6t = r"""\begin{table}[t]
+  \centering
+  \caption{\textbf{Heading-depth control on the \hoSl{} held-out SurveyLens topics:} outline score differences, paired
+  over topics, with 95\% bootstrap CIs. v1-split adds a heading made of its first ten words to every paragraph of v1's
+  undivided sections; v3-flat turns v3's third-level headings into bold lead-ins; the body text is unchanged in both.
+  Qwen3-30B with the generic rubric is the benchmark's judge, Qwen3.5-397B the cross judge, and Qwen3-30B with the
+  discipline rubric the discipline rubric of the text. The primary comparison, fixed in advance, is v1-split $-$ v1
+  under the benchmark's judge.}
+  \label{tab:c6}
+  \small
+  \begin{tabular}{@{}lccc@{}}
+    \toprule
+    Judge, rubric & v3 $-$ v1 & v1-split $-$ v1 & v3-flat $-$ v3 \\
+    \midrule
+    Qwen3-30B, generic & \cSixVThreeBj{} [\cSixVThreeBjLo, \cSixVThreeBjHi] & \cSixSplitBj{} [\cSixSplitBjLo, \cSixSplitBjHi] & \cSixFlatBj{} [\cSixFlatBjLo, \cSixFlatBjHi] \\
+    Qwen3.5-397B, generic & \cSixVThreeCj{} [\cSixVThreeCjLo, \cSixVThreeCjHi] & \cSixSplitCj{} [\cSixSplitCjLo, \cSixSplitCjHi] & \cSixFlatCj{} [\cSixFlatCjLo, \cSixFlatCjHi] \\
+    Qwen3-30B, discipline & \cSixVThreeDr{} [\cSixVThreeDrLo, \cSixVThreeDrHi] & \cSixSplitDr{} [\cSixSplitDrLo, \cSixSplitDrHi] & \cSixFlatDr{} [\cSixFlatDrLo, \cSixFlatDrHi] \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+"""
 
 # C8 (review_followup/PLAN_C6_C8.md): the same agent without the skill, DAS-Bench.
 c8 = load("review_followup/c8_result.json")
@@ -444,30 +475,80 @@ mac("cEightCorrHi", f2(ig["corrected_ci95"][1], 1))
 mac("cEightGoneNoSkill", _r(ig["not_exist_noskill"], 1))
 mac("cEightAuditNFGone", ig["audit_cells"]["not_found"]["not_exist"])
 mac("cEightAuditNFN", ig["audit_cells"]["not_found"]["n"])
+ac = ig["audit_cells"]
+mac("cEightAuditVerOK", ac["verified"]["n"] - ac["verified"]["defective"])
+mac("cEightAuditVerN", ac["verified"]["n"])
+mac("cEightAuditMetaTrue", ac["metadata_error"]["defective"])
+mac("cEightAuditMetaN", ac["metadata_error"]["n"])
+mac("cEightAuditNFExist", ac["not_found"]["n"] - ac["not_found"]["not_exist"])
+cc = ig["noskill_class_counts"]
+mac("ciNoSkillChecked", sum(cc.values()))
+for k, kt in (("verified", "Ver"), ("metadata_error", "Meta"), ("not_found", "NF")):
+    mac(f"ciNoSkill{kt}", _r(100 * cc[k] / sum(cc.values()), 1))
+ni = ig["not_exist_interval"]
+mac("cEightGoneLo", _r(ni["noskill"]["wilson95_pct"][0], 1))
+mac("cEightGoneHi", _r(ni["noskill"]["wilson95_pct"][1], 1))
+mac("cEightGoneSkillHi", _r(ni["skill"]["wilson95_pct"][1], 1))
+mac("cEightGoneSkillN", ni["skill"]["audited_n"])
+mac("cEightFisherP", f2(ig["not_exist_fisher_p"]))
+# NoSkill-Agent judgments that needed more than one attempt (watchdog event log)
+_ev = (H / "watchdog_events.log").read_text(errors="replace")
+mac("cEightRetried", len(set(re.findall(r"eval (\w+:noskill_deepseek-v4.1-flash_r1/\d+): \w+ -> retrying", _ev))))
+mac("cEightMaxAttempt", max(int(a) for a in re.findall(r"eval \w+:noskill_deepseek-v4.1-flash_r1/\d+: retrying attempt (\d+)", _ev)))
+# N11 (second re-review): generation and judging dates (UTC+8), Claude Code version, NoSkill-Agent full texts
+n11 = load("review_followup/n11_facts.json")
+_c = n11["conditions"]
+
+
+def _one(dates: set) -> str:
+    assert len(dates) == 1, dates
+    return next(iter(dates))
+
+
+_full = [f"Skill-Full r{i}" for i in (1, 2, 3)]
+_dasb = ["Skill-Abs", "Opus pilot", "NaiveRAG-Own", "NaiveRAG-Pool"] + _full
+mac("nElevenSkillGenFirst", min(d for r in _full for d in _c[r]["generated"]))
+mac("nElevenSkillGenLast", max(d for r in _full for d in _c[r]["generated"]))
+mac("nElevenSkillJudged", _one({d for r in _dasb for j in ("main", "cross") for d in _c[r]["judged"][j]["dates"]}))
+mac("nElevenPoolLongJudged", _one({d for j in ("main", "cross") for d in _c["NaiveRAG-Pool-Long"]["judged"][j]["dates"]}))
+mac("nElevenNoSkillDate", _one(set(_c["NoSkill-Agent"]["generated"])
+                               | {d for j in ("main", "cross") for d in _c["NoSkill-Agent"]["judged"][j]["dates"]}))
+mac("nElevenCCVersion", _one({v for vs in n11["claude_code_versions"].values() for v in vs}))
+_ft = n11["noskill_fulltext"]
+mac("nElevenFTSessions", _ft["sessions_with_any"])
+mac("nElevenFTPapers", _ft["papers"])
+mac("nElevenFTMax", _ft["max_in_one_session"])
+mac("nElevenFTWeb", _ft["papers_web"])
+mac("nElevenFTPdf", _ft["papers_pdf"])
 
 cit = r"""\begin{table}[t]
   \centering
   \caption{\textbf{Reference integrity on DAS-Bench} (30 topics, up to 40 entries checked per survey against CrossRef
   and arXiv). \textsc{NoRAG} writes from memory; \textsc{Pool-Free} receives the skill's candidate papers but writes its
-  own reference list. Rows 2--4 are shares of all checked entries; the defective row is the mean of the per-survey
-  rates (metadata error + not found), the pre-registered primary metric, so it need not equal the sum of rows 3 and 4.}
+  own reference list; \textsc{NoSkill-Agent} is the same agent without the skill (\cref{sec:noskill}), which searches
+  and writes its own list. Rows 2--4 are shares of all checked entries; the defective row is the mean of the per-survey
+  rates (metadata error + not found), the pre-registered primary metric, so it need not equal the sum of rows 3 and 4.
+  The label audit is exploratory for the first three columns and a secondary outcome fixed in advance for
+  \textsc{NoSkill-Agent}.}
   \label{tab:ci}
   \small
-  \begin{tabular}{@{}lccc@{}}
+  \begin{tabular}{@{}lcccc@{}}
     \toprule
-    & \textsc{Skill-Full} & \textsc{NoRAG} & \textsc{Pool-Free} \\
+    & \textsc{Skill-Full} & \textsc{NoRAG} & \textsc{Pool-Free} & \textsc{NoSkill-Agent} \\
     \midrule
-    entries checked & \ciSkillChecked & \ciNoRagChecked & \ciPoolFreeChecked \\
-    verified (\%) & \ciSkillVer & \ciNoRagVer & \ciPoolFreeVer \\
-    metadata error (\%) & \ciSkillMeta & \ciNoRagMeta & \ciPoolFreeMeta \\
-    not found (\%) & \ciSkillNF & \ciNoRagNF & \ciPoolFreeNF \\
-    defective, mean per survey (\%) & \ciSkillDef & \ciNoRagDef & \ciPoolFreeDef \\
-    \textsc{Skill-Full} $-$ baseline (pp) & --- & \ciDNoRag{} [\ciDNoRagLo, \ciDNoRagHi] & \ciDPoolFree{} [\ciDPoolFreeLo, \ciDPoolFreeHi] \\
+    entries checked & \ciSkillChecked & \ciNoRagChecked & \ciPoolFreeChecked & \ciNoSkillChecked \\
+    verified (\%) & \ciSkillVer & \ciNoRagVer & \ciPoolFreeVer & \ciNoSkillVer \\
+    metadata error (\%) & \ciSkillMeta & \ciNoRagMeta & \ciPoolFreeMeta & \ciNoSkillMeta \\
+    not found (\%) & \ciSkillNF & \ciNoRagNF & \ciPoolFreeNF & \ciNoSkillNF \\
+    defective, mean per survey (\%) & \ciSkillDef & \ciNoRagDef & \ciPoolFreeDef & \cEightVerNoSkill \\
+    \textsc{Skill-Full} $-$ baseline (pp) & --- & \ciDNoRag{} & \ciDPoolFree{} & \cEightVerD{} \\
+    \quad 95\% CI & & [\ciDNoRagLo, \ciDNoRagHi] & [\ciDPoolFreeLo, \ciDPoolFreeHi] & [\cEightVerLo, \cEightVerHi] \\
     \midrule
-    \multicolumn{4}{@{}l}{\textit{Exploratory: labels audited by search agents, blind to condition}} \\
-    defective, corrected (\%) & \cThreeCorrSkill & \cThreeCorrNoRag & \cThreeCorrPoolFree \\
-    \quad work does not exist (\%) & \cThreeGoneSkill & \cThreeGoneNoRag & \cThreeGonePoolFree \\
-    \textsc{Skill-Full} $-$ baseline (pp) & --- & \cThreeDNoRag{} [\cThreeDNoRagLo, \cThreeDNoRagHi] & \cThreeDPoolFree{} [\cThreeDPoolFreeLo, \cThreeDPoolFreeHi] \\
+    \multicolumn{5}{@{}l}{\textit{Labels audited by search agents, blind to condition and label}} \\
+    defective, corrected (\%) & \cThreeCorrSkill & \cThreeCorrNoRag & \cThreeCorrPoolFree & \cEightCorrNoSkill \\
+    \quad work does not exist (\%) & \cThreeGoneSkill & \cThreeGoneNoRag & \cThreeGonePoolFree & \cEightGoneNoSkill \\
+    \textsc{Skill-Full} $-$ baseline (pp) & --- & \cThreeDNoRag{} & \cThreeDPoolFree{} & \cEightCorrD{} \\
+    \quad 95\% CI & & [\cThreeDNoRagLo, \cThreeDNoRagHi] & [\cThreeDPoolFreeLo, \cThreeDPoolFreeHi] & [\cEightCorrLo, \cEightCorrHi] \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -600,7 +681,9 @@ rft = r"""\begin{table}[t]
   \caption{\textbf{Held-out topics: first version (v1) and refined version (v3) against the same-model baselines}
   (\hoSl{} SurveyLens topics whose traces stayed out of the refinement corpus; paired differences with 95\% bootstrap CIs).
   We wrote v3's \texttt{fill} step after seeing v2's results on these topics, so the reference rows are not a clean held-out
-  test (\cref{sec:refine-results}). The \textsc{Pool} baseline here received v1's candidate papers.}
+  test (\cref{sec:refine-results}). The \textsc{Pool} baseline here received v1's candidate papers. Qwen3-30B with the
+  generic rubric is the benchmark's judge of the text, Qwen3.5-397B the cross judge, and Qwen3-30B with the discipline
+  rubric the discipline rubric.}
   \label{tab:refine}
   \small
   \setlength{\tabcolsep}{4pt}
@@ -697,9 +780,10 @@ smt = r"""\begin{table}[t]
 gen = PAPER / "generated"
 gen.mkdir(exist_ok=True)
 (gen / "numbers_v2.tex").write_text("% generated by tools/paper_numbers_v2.py; do not edit\n" + "\n".join(M) + "\n")
-for name, body in (("tab_lm", lt), ("tab_sl", slt), ("tab_ci", cit), ("tab_refine", rft), ("tab_submode", smt)):
+for name, body in (("tab_lm", lt), ("tab_sl", slt), ("tab_ci", cit), ("tab_c6", c6t), ("tab_refine", rft),
+                   ("tab_submode", smt)):
     (gen / f"{name}.tex").write_text("% generated by tools/paper_numbers_v2.py; do not edit\n" + body)
 names = [re.match(r"\\newcommand\{\\(\w+)\}", m).group(1) for m in M]
 dup = {n for n in names if names.count(n) > 1}
 assert not dup, f"duplicate macros: {dup}"
-print(f"wrote {gen}/numbers_v2.tex ({len(M)} macros) and 5 tables")
+print(f"wrote {gen}/numbers_v2.tex ({len(M)} macros) and 6 tables")

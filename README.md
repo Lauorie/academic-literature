@@ -31,6 +31,10 @@ evaluation/
                               Two pre-registered experiments (PLAN_C6_C8.md): mechanical heading edits re-judged on
                               SurveyLens (c6_prepare.py, c6_analyze.py), and the same agent without the skill on
                               DAS-Bench (harness/gen_noskill.sh, c8_sync.sh, c8_analyze.py, prepare_c8audit.py, c8audit/).
+                              Additions after the second re-review, without a written plan (RESULTS.md, last two
+                              sections): within-condition correlations (r1_10_r3_8.py), arXiv coverage against BSC
+                              (fig4_corr.py), intervals on invented references (c8_analyze.py), and the dates,
+                              Claude Code version and full-text reads behind the agent comparison (n11_facts.py).
                               Blind samples, answer keys, auditor outputs and results are included
 refinement/                   SkillRefiner corpus conversion and runner, label rules (LABELS.md), the edits
                               applied (CHANGES.md, make_v2.py), held-out tests (EVAL.md, compare_ver.py)

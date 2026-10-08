@@ -1,0 +1,10 @@
+{
+ "DAS-Bench": {
+  "n": 90,
+  "pearson": 0.179
+ },
+ "DAS-Bench-xjudge": {
+  "n": 90,
+  "pearson": 0.333
+ }
+}

@@ -24,11 +24,27 @@
  "balance": {
   "DAS-Bench": {
    "n_sessions": 120,
-   "pearson_cited_vs_balance": 0.344
+   "pearson_cited_vs_balance": 0.344,
+   "within_full": {
+    "n": 90,
+    "pearson": 0.344
+   },
+   "within_abs": {
+    "n": 30,
+    "pearson": 0.206
+   }
   },
   "DAS-Bench-xjudge": {
    "n_sessions": 120,
-   "pearson_cited_vs_balance": 0.243
+   "pearson_cited_vs_balance": 0.243,
+   "within_full": {
+    "n": 90,
+    "pearson": 0.306
+   },
+   "within_abs": {
+    "n": 30,
+    "pearson": -0.04
+   }
   }
  },
  "wall_min_max": 63.7,
